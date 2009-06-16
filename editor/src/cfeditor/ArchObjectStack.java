@@ -3,7 +3,7 @@
  * Copyright (C) 2000  Michael Toennies
  * Copyright (C) 2001  Andreas Vogl
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -178,7 +178,7 @@ public class ArchObjectStack
         else
             loadArchFromFiles(f,0);     // collect arches & images from individual files
 
-        // at this time only use Daimonin artifacts file in this way
+        // at this time only use atrinik artifacts file in this way
         if (IGUIConstants.isoView)
             loadArchesFromArtifacts(m_control.getArchDefaultFolder()+File.separator+IGUIConstants.ARTIFACTS_FILE);
 
@@ -310,7 +310,7 @@ public class ArchObjectStack
             stream.close();
 
             if (IGUIConstants.isoView)
-                loadAllDaimoninPNGFromCollect();
+                loadAllAtrinikPNGFromCollect();
             else
                 loadAllCrossfirePNGFromCollect();
         }
@@ -613,7 +613,7 @@ public class ArchObjectStack
     /**
      * Loading all pngs from the big collected png file, ISO
      */
-    private void loadAllDaimoninPNGFromCollect() {
+    private void loadAllAtrinikPNGFromCollect() {
         String face;  // face name of png
 
         ByteArrayInputStream pngdata; // byte input stream to read pngdata from the buffer
@@ -872,12 +872,12 @@ public class ArchObjectStack
     }
 
     /**
-     * Wrapper method for arch collecting. Either CF or Daimonin method for
+     * Wrapper method for arch collecting. Either CF or Atrinik method for
      * collecting arches is chosen here.
      */
     public void collectArches() {
         if (IGUIConstants.isoView)
-            collectDaimoninArches();
+            collectAtrinikArches();
         else
             collectCFArches();
     }
@@ -1213,12 +1213,12 @@ public class ArchObjectStack
 
     /**
      * Collect the existing arches and create archive-files for editor use
-     * as well as theDaimonin server. The arches also get a special path variable
+     * as well as the Atrinik server. The arches also get a special path variable
      * included which is used in the editor to cathegorize the arches.
      *
      * Output is: "archetypes", "atrinik.0"
      */
-    private void collectDaimoninArches() {
+    private void collectAtrinikArches() {
         ArchObject arch;
         String def ="00000", numstring, num;
         byte b[] = new byte[1024*50];            // hm, 50 kb should be enough

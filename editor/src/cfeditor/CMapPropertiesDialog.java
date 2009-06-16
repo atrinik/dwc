@@ -3,7 +3,7 @@
  * Copyright (C) 2000  Michael Toennies
  * Copyright (C) 2001  Andreas Vogl
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -45,6 +45,7 @@ public class CMapPropertiesDialog extends CDialogBase {
     private JTextArea m_textArea;                             // the msg text/arch text
     private JTextArea m_loreArea;                             // the lore text
     private JTextField m_nameField        = new JTextField(); // name of arch
+	private JTextField m_bgmusicField     = new JTextField(); // background music
     private JTextField m_levelWidthField  = new JTextField(); // len x
     private JTextField m_levelHeightField = new JTextField(); // len y
     private JCheckBox  m_unique           = new JCheckBox();  // map unique
@@ -125,6 +126,7 @@ public class CMapPropertiesDialog extends CDialogBase {
                     IGUIConstants.DIALOG_INSETS ) ) );
 
             createPanelLine(mapPanel, m_nameField, 16, m_level.getMapName(), "Name:   ");
+			createPanelLine(mapPanel, m_bgmusicField, 16, m_level.getBackgroundMusic(), "Background Music:   ");
             createPanelLine(mapPanel, m_levelWidthField, 10,
                             String.valueOf(m_level.getMapWidth()), "Width:   ");
             createPanelLine(mapPanel, m_levelHeightField, 10,
@@ -745,7 +747,7 @@ public class CMapPropertiesDialog extends CDialogBase {
             MapArchObject maparch = new MapArchObject();
             if (!maparch.parseMapArch(myInput, file.getName()))
                 throw new CGridderException("The file '"+file.getName()+"' does not\n"+
-                                            "contain a valid Daimonin map format!\n");
+                                            "contain a valid Atrinik map format!\n");
 
             maphead = new TileMapHeader(maparch);
             // now we store the map arches as tail
@@ -896,6 +898,7 @@ public class CMapPropertiesDialog extends CDialogBase {
         m_control.setLevelProperties (m_level, m_textArea.getText(), m_loreArea.getText(),
                                       m_nameField.getText(), t_width, t_height);
 
+		map.setBackgroundMusic(m_bgmusicField.getText());
         map.setEnterX(t_enter_x);
         map.setEnterY(t_enter_y);
         map.setResetTimeout(t_reset_timeout);
@@ -914,7 +917,7 @@ public class CMapPropertiesDialog extends CDialogBase {
         map.setSky(t_sky);
 
         if (IGUIConstants.isoView) {
-            // these flags are for daimonin only
+            // these flags are for atrinik only
             map.setNoSave(m_no_save.isSelected());
             map.setNoMagic(m_no_magic.isSelected());
             map.setNoPriest(m_no_priest.isSelected());
@@ -985,6 +988,7 @@ public class CMapPropertiesDialog extends CDialogBase {
         m_textArea.setText(m_level.getMapText());
         m_loreArea.setText(m_level.getMapLore());
         m_nameField.setText(m_level.getMapName());
+		m_bgmusicField.setText(m_level.getBackgroundMusic());
         m_levelWidthField.setText(""+map.getWidth());
         m_levelHeightField.setText(""+map.getHeight());
         m_enterX.setText(""+map.getEnterX());

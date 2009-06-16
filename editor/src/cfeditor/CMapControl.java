@@ -3,7 +3,7 @@
  * Copyright (C) 2000  Michael Toennies
  * Copyright (C) 2001  Andreas Vogl
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -406,11 +406,8 @@ class CMapControl {
         return m_model.getMapName();
     }
 
-    /**
-     * @return The level name without attached music string
-     */
-    public String getMapNameWithoutMusic() {
-        return m_model.getMapNameWithoutMusic();
+	public String getBackgroundMusic() {
+        return m_model.getBackgroundMusic();
     }
 
     /**
@@ -426,7 +423,7 @@ class CMapControl {
     }
 
     public void setMapFileName(String fname) {
-        m_view.setTitle(fname+" [ "+m_control.m_currentMap.getMapNameWithoutMusic()+" ]");
+        m_view.setTitle(fname+" [ "+m_control.m_currentMap.getMapName()+" ]");
         m_model.setFileName(fname);
     }
 

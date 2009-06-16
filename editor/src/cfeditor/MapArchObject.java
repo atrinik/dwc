@@ -3,7 +3,7 @@
  * Copyright (C) 2000  Michael Toennies
  * Copyright (C) 2001  Andreas Vogl
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -79,6 +79,7 @@ public class MapArchObject {
     private boolean pvp;             // PVP combat allowed
 
     private String name;             // map name (this is the name that appears in the game)
+	private String background_music; // Music of the map
     private String filename;         // name of the map file
     private String[] tile_path = new String[8];  // Used with map tiling.  0=north, 1=east, 2=south, 3=west
 
@@ -90,6 +91,7 @@ public class MapArchObject {
         reset_timeout=0; swap_time=0; difficulty=0; darkness=-1;
         for (int i=0; i<8; i++) tile_path[i]="";
         name = "<untitled>"; // map creation enforces setting a real map name
+		background_music = "";
         filename = IGUIConstants.DEF_MAPFNAME;  // default map file name
 
         fixed_resettime = false;
@@ -104,24 +106,15 @@ public class MapArchObject {
         ultimate_death = false; pvp = false;
     }
 
-    /**
-     * This is for Daimonin: The background music is attached to the map name
-     * @return map name without attached music string
-     */
-    public String getMapNameWithoutMusic() {
-        int t;
-        if (IGUIConstants.isoView && (t = name.indexOf("§")) > 0)
-            return name.substring(0, t);
-        return name;
-    }
-
     // get/set attributes
     public int getWidth() {return width;}
     public void setWidth(int x) {width=x;}
     public int getHeight() {return height;}
     public void setHeight(int y) {height=y;}
     public String getMapName() {return name;}
+	public String getBackgroundMusic() {return background_music;}
     public void setMapName(String new_name) {name=new_name;}
+	public void setBackgroundMusic(String new_background_music) {background_music = new_background_music;}
     public String getFileName() {return filename;}
     public void setFileName(String new_name) {filename=new_name;}
     public int getEnterX() {return enter_x;}
@@ -297,6 +290,8 @@ public class MapArchObject {
                         }
                         else if (line.startsWith("name"))
                             name = line.substring(line.indexOf(" ")+1).trim();
+						else if (line.startsWith("bg_music"))
+                            background_music = line.substring(line.indexOf(" ")+1).trim();
                         else if (line.startsWith("width") || line.startsWith("x "))
                             width = getLineValue(line);
                         else if (line.startsWith("height") || line.startsWith("y "))
@@ -434,6 +429,9 @@ public class MapArchObject {
         if (name.length() > 0)
             stream.write("name "+name+"\n");
 
+		if (background_music.length() > 0)
+            stream.write("bg_music "+background_music+"\n");
+
         // maptext
         stream.write(TAG_START_TEXT+"\n");
         stream.write(msgText.toString().trim()+"\n");
@@ -450,6 +448,7 @@ public class MapArchObject {
             stream.write("width "+width+"\n");
         if (height > 0)
             stream.write("height "+height+"\n");
+
         if (enter_x > 0)
             stream.write("enter_x "+enter_x+"\n");
         if (enter_y > 0)

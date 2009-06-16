@@ -313,13 +313,12 @@ public class JFontChooser extends JPanel {
         String new_msg="";  // return value: new message with html tags
         while (msg.indexOf("\n") >= 0) {
             new_msg = new_msg + "<html><font color=black size=\""+getHtmlSize(f.getSize())+
-                      "\" face=\""+f.getFontName()+"\"><B>"+msg.substring(0, msg.indexOf("\n"))+"</B></font></html>§";
+                      "\" face=\""+f.getFontName()+"\"><B>"+msg.substring(0, msg.indexOf("\n"))+"</B></font></html>";
             msg = msg.substring(msg.indexOf("\n")+1);
         }
         new_msg = new_msg + "<html><font color=black size=\""+getHtmlSize(f.getSize())+
                   "\" face=\""+f.getFontName()+"\"><B>"+msg+"</B></font></html>";
 
-        new_msg = new_msg.replace('§', '\n');
         return new_msg;
     }
 

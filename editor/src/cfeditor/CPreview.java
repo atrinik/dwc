@@ -4,7 +4,7 @@
  * Copyright (C) 2001  Andreas Vogl
  * Copyright (C) 2004  Peter Plischewsky
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -36,7 +36,7 @@ import com.visualtek.png.*; // visualtek PNGEncoder
  */
 public class CPreview{
   //The Frame for the zoom program
-  private static JFrame p_frame = new JFrame ("Daimonin Map Previewer");
+  private static JFrame p_frame = new JFrame ("Atrinik Map Previewer");
 //The container for the frame
   private Container content;
   //toolkit just saves time when coding
@@ -269,7 +269,7 @@ public class CPreview{
 
 }
 /**
- * The mouse listener for the daimonin map zoom previewer
+ * The mouse listener for the atrinik map zoom previewer
  */
 class PListener implements MouseListener{
   private int X,Y;

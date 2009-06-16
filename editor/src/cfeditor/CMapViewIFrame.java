@@ -3,7 +3,7 @@
  * Copyright (C) 2000  Michael Toennies
  * Copyright (C) 2001  Andreas Vogl
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -52,7 +52,7 @@ class CMapViewIFrame extends JInternalFrame implements CMapViewInterface {
      */
     CMapViewIFrame (CMainControl mc, CMapControl control) {
         // set title
-        super(control.getMapFileName()+" [ "+control.getMapNameWithoutMusic()+" ]", true, true, true, true );
+        super(control.getMapFileName()+" [ "+control.getMapName()+" ]", true, true, true, true );
         m_control = control;
         main_control = mc;
 
@@ -82,7 +82,7 @@ class CMapViewIFrame extends JInternalFrame implements CMapViewInterface {
       if(view == null || m_control == null)
         return;
 
-        String strTitle = m_control.getMapFileName()+" [ "+m_control.getMapNameWithoutMusic()+" ]";
+        String strTitle = m_control.getMapFileName()+" [ "+m_control.getMapName()+" ]";
 
         if (view != null && view.getChangedFlag())
             strTitle += "*";   // * map has changed

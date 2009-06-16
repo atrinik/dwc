@@ -2,7 +2,7 @@
  * Crossfire Java Editor.
  * Copyright (C) 2000  Michael Toennies
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -35,7 +35,7 @@ import java.io.File;
 public interface IGUIConstants {
     /** Version number of the CFJavaEditor <br>
      *  should be increased when a certain amount of changes happened */
-    public static final String VERSION = "BETA3 v0.966"; //Changed as of December 17th, 2004
+    public static final String VERSION = "0.1"; //Changed as of December 17th, 2004
 
     /** Internal version number of the included online-documentation <br>
      *  increasing the number causes an automated popup of the docu
@@ -74,8 +74,8 @@ public interface IGUIConstants {
      */
     public static final boolean isoView = true;
 
-    public static final String APP_NAME = "DaimoninEditor BETA3 v0.966"; // application name
-    public static final String APP_WINDOW_TITLE = "Daimonin Map & Arch Editor"; // application main window title
+    public static final String APP_NAME = "Atrinik Editor 0.1"; // application name
+    public static final String APP_WINDOW_TITLE = "Atrinik Map & Arch Editor"; // application main window title
     public static final String APP_SETTINGS_DIR = ".cfeditor"; // name of directory with settings file
 
     /**
@@ -140,7 +140,7 @@ public interface IGUIConstants {
 
     // name of the arch resource files (these get read and written in the arch dir)
     public static final String ARCH_FILE = "archetypes";        // file with all arches
-    public static final String PNG_FILE = "daimonin.0";         // file with all pngs
+    public static final String PNG_FILE = "atrinik.0";         // file with all pngs
     public static final String BMAPS_FILE = "bmaps";            // file with list of face names
     public static final String TREASURES_FILE = "treasures";    // treasurelists file
     public static final String PYTHONMENU_FILE = "cfpython_menu.def"; // python menu definitions

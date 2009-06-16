@@ -6298,6 +6298,7 @@ mpart_id 3
 editor_folder mobs/dragon
 face dragon_fire.151
 race dragon
+randomitems mob_dragon_fire
 is_female 1
 corpse 1
 will_apply 8
@@ -6371,6 +6372,7 @@ mpart_id 3
 editor_folder mobs/dragon
 face dragon_black.151
 race dragon
+randomitems mob_dragon_black
 is_female 1
 corpse 1
 will_apply 8
@@ -6445,6 +6447,7 @@ mpart_id 3
 editor_folder mobs/dragon
 face dragon_green.151
 race dragon
+randomitems mob_dragon_green
 is_female 1
 corpse 1
 will_apply 8
@@ -6605,6 +6608,7 @@ mpart_id 3
 editor_folder mobs/dragon
 face dragon_blue.231
 race dragon
+randomitems mob_dragon_blue
 is_female 1
 corpse 1
 will_apply 8
@@ -7556,7 +7560,7 @@ name ettin
 type 80
 editor_folder mobs/giants
 face ettin.131
-race giants
+race giant
 is_male 1
 wc_range 20
 will_apply 8
@@ -7592,7 +7596,7 @@ Object giant_stone
 name stone giant
 type 80
 editor_folder mobs/giants
-race giants
+race giant
 randomitems mob_giant_stone
 will_apply 8
 is_evil 1
@@ -7631,6 +7635,7 @@ type 80
 editor_folder mobs/giants
 face giant_ice.151
 race giant
+randomitems mob_ice
 is_male 1
 corpse 1
 will_apply 8
@@ -7664,7 +7669,7 @@ Object ogre
 name ogre
 type 80
 editor_folder mobs/giants
-race giants
+race giant
 randomitems mob_ogre
 is_evil 1
 is_male 1
@@ -7704,6 +7709,7 @@ type 80
 editor_folder mobs/giants
 face giant_fire.151
 race giant
+randomitems mob_fire
 is_male 1
 corpse 1
 will_apply 8
@@ -7737,7 +7743,7 @@ Object giant_hill
 name hill giant
 type 80
 editor_folder mobs/giants
-race giants
+race giant
 randomitems mob_giant_hill
 will_apply 8
 is_evil 1
@@ -8980,7 +8986,7 @@ type 80
 editor_folder mobs/demon
 face raas.131
 race demon
-randomitems mob_mage_l9
+randomitems mob_raas
 layer 6
 direction 5
 item_race 255
@@ -9024,7 +9030,7 @@ type 80
 editor_folder mobs/demon
 face lom_lobon.131
 race demon
-randomitems mob_mage_l9
+randomitems mob_lom_lobon
 layer 6
 direction 5
 item_race 255
@@ -9068,6 +9074,7 @@ type 80
 editor_folder mobs/demon
 face demon_fire.151
 race demon
+randomitems mob_demon_fire
 is_female 1
 corpse 1
 will_apply 8
@@ -9190,6 +9197,7 @@ type 80
 editor_folder mobs/animals
 face horse_white.151
 race horse
+randomitems mob_horse_white
 is_female 1
 corpse 1
 will_apply 8
@@ -9224,6 +9232,7 @@ type 80
 editor_folder mobs/animals
 face snake.151
 race reptile
+randomitems mob_snake
 is_female 1
 corpse 1
 will_apply 8
@@ -9259,6 +9268,7 @@ type 80
 editor_folder mobs/animals
 face rooster.121
 race chicken
+randomitems mob_rooster
 is_male 1
 corpse 1
 will_apply 8
@@ -9293,6 +9303,7 @@ type 80
 editor_folder mobs/animals
 face cat_black.151
 race cat
+randomitems mob_cat_black
 is_female 1
 corpse 1
 will_apply 8
@@ -9328,6 +9339,7 @@ type 80
 editor_folder mobs/animals
 face deer.121
 race deer
+randomitems mob_deer
 is_female 1
 corpse 1
 will_apply 8
@@ -9362,6 +9374,7 @@ type 80
 editor_folder mobs/animals
 face chicken_large.151
 race chicken
+randomitems mob_chicken_large
 is_female 1
 corpse 1
 will_apply 8
@@ -9431,6 +9444,7 @@ type 80
 editor_folder mobs/animals
 face crocodile.151
 race reptile
+randomitems mob_crocodile
 is_female 1
 corpse 1
 will_apply 8
@@ -9466,6 +9480,7 @@ type 80
 editor_folder mobs/animals
 face wolf.151
 race dog
+randomitems mob_wolf
 is_male 1
 corpse 1
 will_apply 8
@@ -9500,6 +9515,7 @@ type 80
 editor_folder mobs/animals
 face tiger.131
 race cat
+randomitems mob_tiger
 is_female 1
 corpse 1
 will_apply 8
@@ -9535,6 +9551,7 @@ type 80
 editor_folder mobs/undead
 face lich_lord.151
 race undead
+randomitems mob_lich_lord
 is_female 1
 corpse 1
 will_apply 8
@@ -9570,6 +9587,7 @@ type 80
 editor_folder mobs/undead
 face vampire.151
 race undead
+randomitems mob_vampire
 is_female 1
 corpse 1
 will_apply 8
@@ -9913,6 +9931,7 @@ type 80
 editor_folder mobs/undead
 face vampire_lord.151
 race undead
+randomitems mob_vampire_lord
 is_female 1
 corpse 1
 will_apply 8
@@ -29143,7 +29162,7 @@ name drumstick
 type 6
 editor_folder items/organic
 face drumstick.101
-food 200
+food 280
 item_quality 100
 item_condition 100
 nrof 1
@@ -29169,11 +29188,11 @@ value 10
 weight 400
 end
 Object chicken_leg
-name chicken_leg
+name chicken leg
 type 6
 editor_folder items/organic
 face chicken_leg.101
-food 200
+food 400
 item_quality 100
 item_condition 100
 nrof 1
@@ -29188,7 +29207,7 @@ name steak
 type 6
 editor_folder items/organic
 face steak.101
-food 200
+food 400
 item_quality 100
 item_condition 100
 nrof 1
@@ -29203,7 +29222,7 @@ name steak
 type 6
 editor_folder items/organic
 face steak2.101
-food 200
+food 300
 item_quality 100
 item_condition 100
 nrof 1
@@ -29218,7 +29237,7 @@ name bacon
 type 6
 editor_folder items/organic
 face bacon.101
-food 200
+food 300
 item_quality 100
 item_condition 100
 nrof 1
@@ -29260,7 +29279,7 @@ name cookie
 type 6
 editor_folder items/organic
 face cookie.101
-food 200
+food 50
 item_quality 100
 item_condition 100
 nrof 1
@@ -29275,7 +29294,7 @@ name bread
 type 6
 editor_folder items/organic
 face bread.101
-food 200
+food 100
 item_quality 100
 item_condition 100
 nrof 1
@@ -29290,7 +29309,7 @@ name cake
 type 6
 editor_folder items/organic
 face cake.101
-food 200
+food 80
 item_quality 100
 item_condition 100
 nrof 1
@@ -29301,11 +29320,11 @@ value 10
 weight 400
 end
 Object cake_chocolate
-name cake_chocolate
+name chocolate cake
 type 6
 editor_folder items/organic
 face cake_chocolate.101
-food 200
+food 60
 item_quality 100
 item_condition 100
 nrof 1
@@ -29316,11 +29335,11 @@ value 10
 weight 400
 end
 Object icecake
-name icecake
+name ice cake
 type 6
 editor_folder items/organic
 face icecake.101
-food 200
+food 80
 item_quality 100
 item_condition 100
 nrof 1
@@ -29331,11 +29350,11 @@ value 10
 weight 400
 end
 Object bread2
-name bread2
+name bread
 type 6
 editor_folder items/organic
 face bread2.101
-food 200
+food 110
 item_quality 100
 item_condition 100
 nrof 1
@@ -29379,7 +29398,7 @@ name egg
 type 6
 editor_folder items/organic
 face egg.101
-food 200
+food 80
 item_quality 100
 item_condition 100
 nrof 1
@@ -29394,7 +29413,7 @@ name honeycomb
 type 6
 editor_folder items/organic
 face honeycomb.101
-food 200
+food 95
 item_quality 100
 item_condition 100
 nrof 1
@@ -29409,7 +29428,7 @@ name cheese
 type 6
 editor_folder items/organic
 face cheese.101
-food 200
+food 150
 item_quality 100
 item_condition 100
 nrof 1
@@ -29424,7 +29443,7 @@ name bonbons
 type 6
 editor_folder items/organic
 face bonbons.101
-food 200
+food 10
 item_quality 100
 item_condition 100
 nrof 1
@@ -29439,7 +29458,7 @@ name olive oil
 type 6
 editor_folder items/organic
 face olive_oil.101
-food 200
+food 20
 item_quality 100
 item_condition 100
 nrof 1
@@ -29451,10 +29470,10 @@ weight 400
 end
 Object choko
 name choko
-type 54
+type 6
 editor_folder items/organic
 face choko.101
-food 175
+food 25
 item_quality 100
 item_condition 100
 nrof 1
@@ -29466,10 +29485,10 @@ weight 300
 end
 Object tomato
 name tomato
-type 54
+type 6
 editor_folder items/organic
 face tomato.101
-food 175
+food 35
 item_quality 100
 item_condition 100
 nrof 1
@@ -29481,10 +29500,10 @@ weight 300
 end
 Object melon
 name melon
-type 54
+type 6
 editor_folder items/organic
 face melon.101
-food 175
+food 125
 item_quality 100
 item_condition 100
 nrof 1
@@ -29496,10 +29515,10 @@ weight 300
 end
 Object salad
 name salad
-type 54
+type 6
 editor_folder items/organic
 face salad.101
-food 175
+food 80
 item_quality 100
 item_condition 100
 nrof 1
@@ -29511,10 +29530,10 @@ weight 300
 end
 Object carrot
 name carrot
-type 54
+type 6
 editor_folder items/organic
 face carrot.101
-food 175
+food 50
 item_quality 100
 item_condition 100
 nrof 1
@@ -29526,10 +29545,10 @@ weight 300
 end
 Object snozzcumber
 name snozzcumber
-type 54
+type 6
 editor_folder items/organic
 face snozzcumber.101
-food 175
+food 50
 item_quality 100
 item_condition 100
 nrof 1
@@ -29541,10 +29560,10 @@ weight 300
 end
 Object whitewine
 name white wine
-type 6
+type 54
 editor_folder items/organic
 face whitewine.101
-food 200
+food 100
 item_quality 100
 item_condition 100
 nrof 1
@@ -29570,7 +29589,7 @@ weight 400
 end
 Object cup_coffee
 name cup of coffee
-type 6
+type 54
 editor_folder items/organic
 face cup_coffee.101
 food 200
@@ -29597,10 +29616,10 @@ weight 250
 end
 Object champagne
 name champagne
-type 6
+type 54
 editor_folder items/organic
 face champagne.101
-food 200
+food 150
 item_quality 100
 item_condition 100
 nrof 1
@@ -29612,10 +29631,10 @@ weight 400
 end
 Object beer
 name beer
-type 6
+type 54
 editor_folder items/organic
 face beer.101
-food 200
+food 100
 item_quality 100
 item_condition 100
 nrof 1
@@ -29630,7 +29649,7 @@ name teabag
 type 6
 editor_folder items/organic
 face teabag.101
-food 200
+food 10
 item_quality 100
 item_condition 100
 nrof 1
@@ -29642,10 +29661,10 @@ weight 400
 end
 Object redwine
 name red wine
-type 6
+type 54
 editor_folder items/organic
 face redwine.101
-food 200
+food 100
 item_quality 100
 item_condition 100
 nrof 1
@@ -29680,7 +29699,7 @@ weight 400
 end
 Object cup_tea
 name cup of tea
-type 6
+type 54
 editor_folder items/organic
 face cup_tea.101
 food 200
@@ -29713,7 +29732,7 @@ name cherries
 type 6
 editor_folder items/organic
 face cherries.101
-food 200
+food 70
 item_quality 100
 item_condition 100
 nrof 1
@@ -29728,7 +29747,7 @@ name apple
 type 6
 editor_folder items/organic
 face apple.101
-food 200
+food 100
 item_quality 100
 item_condition 100
 nrof 1
@@ -29743,7 +29762,7 @@ name lemon
 type 6
 editor_folder items/organic
 face lemon.101
-food 200
+food 50
 item_quality 100
 item_condition 100
 nrof 1
@@ -29758,7 +29777,7 @@ name strawberry
 type 6
 editor_folder items/organic
 face strawberry.101
-food 200
+food 40
 item_quality 100
 item_condition 100
 nrof 1
@@ -29773,7 +29792,7 @@ name orange
 type 6
 editor_folder items/organic
 face orange.101
-food 200
+food 140
 item_quality 100
 item_condition 100
 nrof 1
@@ -29787,8 +29806,7 @@ Object peach
 name peach
 type 6
 editor_folder items/organic
-face peach.101
-food 200
+face peach.120200
 item_quality 100
 item_condition 100
 nrof 1
@@ -29803,7 +29821,7 @@ name grapes
 type 6
 editor_folder items/organic
 face grapes.101
-food 200
+food 80
 item_quality 100
 item_condition 100
 nrof 1
@@ -29818,7 +29836,7 @@ name banana
 type 6
 editor_folder items/organic
 face banana.101
-food 200
+food 120
 item_quality 100
 item_condition 100
 nrof 1
@@ -29833,7 +29851,7 @@ name apricot
 type 6
 editor_folder items/organic
 face apricot.101
-food 200
+food 80
 item_quality 100
 item_condition 100
 nrof 1
@@ -29848,7 +29866,7 @@ name rambutan
 type 6
 editor_folder items/organic
 face rambutan.101
-food 200
+food 60
 item_quality 100
 item_condition 100
 nrof 1
@@ -29863,7 +29881,7 @@ name pineapple
 type 6
 editor_folder items/organic
 face pineapple.101
-food 200
+food 275
 item_quality 100
 item_condition 100
 nrof 1
@@ -29878,7 +29896,7 @@ name lychee
 type 6
 editor_folder items/organic
 face lychee.101
-food 200
+food 75
 item_quality 100
 item_condition 100
 nrof 1
@@ -29893,7 +29911,7 @@ name grapes
 type 6
 editor_folder items/organic
 face grapes2.101
-food 200
+food 80
 item_quality 100
 item_condition 100
 nrof 1
@@ -29950,6 +29968,63 @@ value 50
 weight 1250
 level 1
 exp 10
+no_pick 0
+end
+Object tome_black
+name tome
+type 8
+editor_folder items/readable
+layer 3
+face tome_black.101
+identified 1
+material 1
+value 50
+weight 1250
+level 1
+exp 10
+no_pick 0
+end
+Object tome_blue
+name tome
+type 8
+editor_folder items/readable
+layer 3
+face tome_blue.101
+identified 1
+material 1
+value 50
+weight 1250
+level 1
+exp 10
+no_pick 0
+end
+Object tome_indigo
+name tome
+type 8
+editor_folder items/readable
+layer 3
+face tome_indigo.101
+identified 1
+material 1
+value 50
+weight 1250
+level 1
+exp 10
+no_pick 0
+end
+Object tome_cyan
+name tome
+type 8
+editor_folder items/readable
+layer 3
+face tome_cyan.101
+identified 1
+material 1
+value 50
+weight 1250
+level 1
+exp 10
+no_pick 0
 end
 Object letter
 type 8
@@ -29987,6 +30062,63 @@ value 45
 weight 1200
 level 1
 exp 10
+no_pick 0
+end
+Object book_green
+name book
+type 8
+editor_folder items/readable
+identified 1
+layer 3
+face book_green.101
+material 1
+value 45
+weight 1200
+level 1
+exp 10
+no_pick 0
+end
+Object book_red
+name book
+type 8
+editor_folder items/readable
+identified 1
+layer 3
+face book_red.101
+material 1
+value 45
+weight 1200
+level 1
+exp 10
+no_pick 0
+end
+Object book_blue
+name book
+type 8
+editor_folder items/readable
+identified 1
+layer 3
+face book_blue.101
+material 1
+value 45
+weight 1200
+level 1
+exp 10
+no_pick 0
+end
+Object book_pink
+name book
+type 8
+editor_folder items/readable
+identified 1
+layer 3
+face book_pink.101
+material 1
+value 45
+weight 1200
+level 1
+exp 10
+no_pick 0
 end
 Object diploma
 type 8

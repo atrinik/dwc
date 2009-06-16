@@ -3,7 +3,7 @@
  * Copyright (C) 2000  Michael Toennies
  * Copyright (C) 2001  Andreas Vogl
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -253,7 +253,7 @@ public class CNewMapDialog extends CDialogBase {
             if (!IGUIConstants.isoView)
                 maparch.addText("Creator: CF Java Map Editor\n");
             else
-                maparch.addText("Creator: Daimonin Map Editor\n");
+                maparch.addText("Creator: Atrinik Map Editor\n");
             maparch.addText("Date:    "+(today.get(Calendar.MONTH)+1)+"/"+
                             today.get(Calendar.DAY_OF_MONTH)+"/"+today.get(Calendar.YEAR));
 

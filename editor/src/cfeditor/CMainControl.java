@@ -3,7 +3,7 @@
  * Copyright (C) 2000  Michael Toennies
  * Copyright (C) 2001  Andreas Vogl
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -827,7 +827,7 @@ public class CMainControl extends JFrame {
         if (level != null && !forced && level.isLevelChanged()) {
             if (askConfirm("Do You Want To Save Changes?",
                            "Do you want to save changes to map "+
-                           level.getMapNameWithoutMusic()+"?" )) {
+                           level.getMapName()+"?" )) {
 
                 if (level.isPlainSaveEnabled()) {
                     level.save();

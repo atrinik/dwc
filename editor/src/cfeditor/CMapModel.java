@@ -3,7 +3,7 @@
  * Copyright (C) 2000  Michael Toennies
  * Copyright (C) 2001  Andreas Vogl
  *
- * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keränen)
+ * (code based on: Gridder. 2D grid based level editor. (C) 2000  Pasi Keranen)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -394,7 +394,7 @@ class CMapModel {
                 startarch = newarch;
             oldarch = newarch;
 
-            // insert ít in map or add to arch in map
+            // insert it in map or add to arch in map
             node = m_mapGrid[mapx][mapy];
             if(node == null) {
                 m_mapGrid[mapx][mapy] = newarch;
@@ -558,7 +558,7 @@ class CMapModel {
                 startarch = newarch;
             oldarch = newarch;
 
-            // insert ít in map or add to arch in map
+            // insert it in map or add to arch in map
             node = m_mapGrid[mapx][mapy];
             if(node == null) {
                 m_mapGrid[mapx][mapy] = newarch;
@@ -833,8 +833,8 @@ class CMapModel {
         return m_mapArch.getMapName();
     }
 
-    public String getMapNameWithoutMusic() {
-        return m_mapArch.getMapNameWithoutMusic();
+	public String getBackgroundMusic() {
+        return m_mapArch.getBackgroundMusic();
     }
 
     public MapArchObject getMapArchObject() {
