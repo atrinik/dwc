@@ -79,7 +79,7 @@ ARCHIVE = /tmp/$(VERSION)
 
 SUBDIRS = ../../src/common ../../src/random_maps ../../src/socket \
 	../../src/server ../../src/include ../../src/utils \
-	../../src/plugin_python
+	../../src/plugins
 
 FILES = configure configure.in
 

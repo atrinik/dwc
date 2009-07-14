@@ -570,10 +570,13 @@ public class ScriptArchData {
 			String pluginName = getPluginName();
 			int eventType = getEventType();
 
+			/* Events don't necessarily need to have a file path */
+/*
             if (filePath == null || filePath.length() <= 0) {
                 System.out.println("Map Error: Found "+typeName(eventType)+" event without file name!");
                 return false;
             }
+*/
 
             if (pluginName == null || pluginName.length() <= 0) {
 				pluginName = "Python";
