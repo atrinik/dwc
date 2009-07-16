@@ -11515,6 +11515,19 @@ attack_impact 100
 speed 0.35
 value 1
 end
+Object switch_wall
+name switch
+type 93
+editor_folder connect/connect
+layer 3
+no_pick 1
+face switch_wall.111
+animation switch_wall
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 1
+end
 Object pedestal
 name pedestal
 type 17
@@ -11530,320 +11543,6 @@ direction 1
 no_pick 1
 walk_on 1
 walk_off 1
-end
-Object exit
-name exit
-type 66
-editor_folder connect/exists
-face exit.101
-player_only 1
-speed 0.1
-hp -1
-sp -1
-no_teleport 1
-layer 5
-sub_type 1
-no_pick 1
-animation exit
-is_animated 1
-anim_speed 5
-walk_on 1
-fly_on 1
-end
-Object exit_green
-name exit
-type 66
-editor_folder connect/exists
-face exit_green.101
-player_only 1
-speed 0.1
-hp -1
-sp -1
-no_teleport 1
-layer 5
-sub_type 1
-no_pick 1
-animation exit_green
-is_animated 1
-anim_speed 5
-walk_on 1
-fly_on 1
-end
-Object switch_wall
-name switch
-type 93
-editor_folder connect/exists
-layer 3
-no_pick 1
-face switch_wall.111
-animation switch_wall
-is_animated 0
-anim_speed 1
-is_turnable 1
-direction 1
-end
-Object well_stone
-name stone well
-type 66
-editor_folder connect/exists
-no_teleport 1
-hp -1
-sp -1
-face well_stone.101
-layer 5
-no_pick 1
-end
-Object stair_down
-name stairs going down
-type 66
-editor_folder connect/exists
-face stairs_down.101
-animation stair_down
-is_animated 0
-anim_speed 1
-is_turnable 1
-direction 1
-no_teleport 1
-layer 5
-hp -1
-sp -1
-no_pick 1
-end
-Object stair_up
-name stairs going up
-type 66
-editor_folder connect/exists
-face stairs_up.101
-animation stair_up
-is_animated 0
-anim_speed 1
-is_turnable 1
-direction 1
-no_teleport 1
-layer 5
-hp -1
-sp -1
-no_pick 1
-end
-Object teleporter
-type 41
-editor_folder connect/exists
-face exit.101
-player_only 1
-layer 5
-hp -1
-sp -1
-no_teleport 1
-no_pick 1
-animation teleporter
-is_animated 1
-anim_speed 3
-end
-Object portal_yellow
-name yellow portal
-type 41
-editor_folder connect/exists
-face portal_yellow.101
-no_teleport 1
-speed 0.50
-hp -1
-sp -1
-layer 5
-no_pick 1
-animation portal_yellow
-is_animated 1
-anim_speed 2
-end
-Object ladder_down
-name ladder going down
-type 66
-editor_folder connect/exists
-face ladder_down.101
-no_teleport 1
-hp -1
-sp -1
-layer 5
-no_pick 1
-end
-Object ladder_down2
-name ladder going down
-type 66
-editor_folder connect/exists
-face ladder_down_01.101
-animation ladder_down2
-is_animated 0
-anim_speed 1
-is_turnable 1
-direction 1
-no_teleport 1
-hp -1
-sp -1
-layer 5
-no_pick 1
-end
-Object ladder_down3
-name ladder going down
-type 66
-editor_folder connect/exists
-face ladder_round_down_01.101
-animation ladder_down3
-is_animated 0
-anim_speed 1
-is_turnable 1
-direction 1
-no_teleport 1
-hp -1
-sp -1
-layer 5
-no_pick 1
-end
-Object ladder_up
-name ladder going up
-type 66
-editor_folder connect/exists
-layer 4
-hp -1
-sp -1
-face ladder_up.101
-no_pick 1
-end
-Object portal_azure
-name azure portal
-type 41
-editor_folder connect/exists
-face portal_azure.101
-no_teleport 1
-speed 0.50
-hp -1
-sp -1
-layer 5
-no_pick 1
-animation portal_azure
-is_animated 1
-anim_speed 2
-end
-Object portal_green
-name green portal
-type 41
-editor_folder connect/exists
-face portal_green.211
-no_teleport 1
-speed 0.50
-hp -1
-sp -1
-layer 5
-no_pick 1
-animation portal_green
-is_animated 1
-anim_speed 2
-end
-Object hole
-type 66
-editor_folder connect/exists
-face hole1.101
-layer 5
-hp -1
-sp -1
-no_teleport 1
-no_pick 1
-end
-Object portal_big
-name big portal
-type 41
-editor_folder connect/exists
-face portal_big.101
-no_teleport 1
-speed 0.50
-hp -1
-sp -1
-layer 5
-no_pick 1
-animation portal_big
-is_animated 1
-anim_speed 2
-end
-Object sewer_hole1
-name sewer hole
-type 66
-editor_folder connect/exists
-face sewer_hole1.101
-layer 5
-hp -1
-sp -1
-no_teleport 1
-no_pick 1
-end
-Object sewer_hole2
-name sewer hole
-type 66
-editor_folder connect/exists
-face sewer_hole2.101
-layer 3
-hp -1
-sp -1
-no_teleport 1
-no_pick 1
-end
-Object invis_exit
-type 66
-editor_folder connect/exists
-face inv_exit.101
-player_only 1
-layer 0
-hp -1
-sp -1
-no_teleport 1
-sys_object 1
-no_pick 1
-walk_on 1
-fly_on 1
-end
-Object stair_red_up_1
-name stairs going up
-type 66
-editor_folder connect/exists
-face stairs_red_up.131
-no_teleport 1
-layer 5
-hp -1
-sp -1
-no_pick 1
-animation stair_red_up_1
-is_animated 0
-anim_speed 1
-is_turnable 1
-direction 1
-end
-Object portal_red
-name red portal
-type 41
-editor_folder connect/exists
-face portal_red.101
-no_teleport 1
-speed 0.50
-hp -1
-sp -1
-layer 5
-no_pick 1
-animation portal_red
-is_animated 1
-anim_speed 2
-end
-Object stairw_up_1
-name stairs going up
-type 66
-editor_folder connect/exists
-face stairs_wood.151
-animation stairw_up_1
-is_animated 0
-anim_speed 1
-is_turnable 1
-direction 1
-no_teleport 1
-layer 5
-hp -1
-sp -1
-no_pick 1
 end
 Object altar
 type 18
@@ -11935,6 +11634,102 @@ direction 1
 no_pick 1
 walk_on 1
 end
+Object stairs_stone_up
+name stairs going up
+type 66
+editor_folder connect/stairs
+face stairs_stone_up.131
+animation stairs_stone_up
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 3
+no_teleport 1
+layer 5
+hp -1
+sp -1
+no_pick 1
+end
+Object stairs_stone_down
+name stairs going down
+type 66
+editor_folder connect/stairs
+face stairs_stone_down.131
+animation stairs_stone_down
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 3
+no_teleport 1
+layer 5
+hp -1
+sp -1
+no_pick 1
+end
+Object stairs_red_up
+name stairs going up
+type 66
+editor_folder connect/stairs
+face stairs_red_up.131
+animation stairs_red_up
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 3
+no_teleport 1
+layer 5
+hp -1
+sp -1
+no_pick 1
+end
+Object stairs_red_down
+name stairs going down
+type 66
+editor_folder connect/stairs
+face stairs_red_down.131
+animation stairs_red_down
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 3
+no_teleport 1
+layer 5
+hp -1
+sp -1
+no_pick 1
+end
+Object stairs_wood_up
+name stairs going up
+type 66
+editor_folder connect/stairs
+face stairs_wood_up.131
+animation stairs_wood_up
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 3
+no_teleport 1
+layer 5
+hp -1
+sp -1
+no_pick 1
+end
+Object stairs_wood_down
+name stairs going down
+type 66
+editor_folder connect/stairs
+face stairs_wood_down.131
+animation stairs_wood_down
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 3
+no_teleport 1
+layer 5
+hp -1
+sp -1
+no_pick 1
+end
 Object button_trigger
 name button
 type 30
@@ -12011,6 +11806,243 @@ exp 30
 no_pick 1
 walk_on 1
 walk_off 1
+end
+Object exit
+name exit
+type 66
+editor_folder connect/exits
+face exit.101
+player_only 1
+speed 0.1
+hp -1
+sp -1
+no_teleport 1
+layer 5
+sub_type 1
+no_pick 1
+animation exit
+is_animated 1
+anim_speed 5
+walk_on 1
+fly_on 1
+end
+Object exit_green
+name exit
+type 66
+editor_folder connect/exits
+face exit_green.101
+player_only 1
+speed 0.1
+hp -1
+sp -1
+no_teleport 1
+layer 5
+sub_type 1
+no_pick 1
+animation exit_green
+is_animated 1
+anim_speed 5
+walk_on 1
+fly_on 1
+end
+Object well_stone
+name stone well
+type 66
+editor_folder connect/exits
+no_teleport 1
+hp -1
+sp -1
+face well_stone.101
+layer 5
+no_pick 1
+end
+Object teleporter
+type 41
+editor_folder connect/exits
+face exit.101
+player_only 1
+layer 5
+hp -1
+sp -1
+no_teleport 1
+no_pick 1
+animation teleporter
+is_animated 1
+anim_speed 3
+end
+Object portal_yellow
+name yellow portal
+type 41
+editor_folder connect/exits
+face portal_yellow.101
+no_teleport 1
+speed 0.50
+hp -1
+sp -1
+layer 5
+no_pick 1
+animation portal_yellow
+is_animated 1
+anim_speed 2
+end
+Object ladder_down
+name ladder going down
+type 66
+editor_folder connect/exits
+face ladder_down.101
+no_teleport 1
+hp -1
+sp -1
+layer 5
+no_pick 1
+end
+Object ladder_down2
+name ladder going down
+type 66
+editor_folder connect/exits
+face ladder_down_01.101
+animation ladder_down2
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 1
+no_teleport 1
+hp -1
+sp -1
+layer 5
+no_pick 1
+end
+Object ladder_down3
+name ladder going down
+type 66
+editor_folder connect/exits
+face ladder_round_down_01.101
+animation ladder_down3
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 1
+no_teleport 1
+hp -1
+sp -1
+layer 5
+no_pick 1
+end
+Object ladder_up
+name ladder going up
+type 66
+editor_folder connect/exits
+layer 4
+hp -1
+sp -1
+face ladder_up.101
+no_pick 1
+end
+Object portal_azure
+name azure portal
+type 41
+editor_folder connect/exits
+face portal_azure.101
+no_teleport 1
+speed 0.50
+hp -1
+sp -1
+layer 5
+no_pick 1
+animation portal_azure
+is_animated 1
+anim_speed 2
+end
+Object portal_green
+name green portal
+type 41
+editor_folder connect/exits
+face portal_green.211
+no_teleport 1
+speed 0.50
+hp -1
+sp -1
+layer 5
+no_pick 1
+animation portal_green
+is_animated 1
+anim_speed 2
+end
+Object hole
+type 66
+editor_folder connect/exits
+face hole1.101
+layer 5
+hp -1
+sp -1
+no_teleport 1
+no_pick 1
+end
+Object portal_big
+name big portal
+type 41
+editor_folder connect/exits
+face portal_big.101
+no_teleport 1
+speed 0.50
+hp -1
+sp -1
+layer 5
+no_pick 1
+animation portal_big
+is_animated 1
+anim_speed 2
+end
+Object sewer_hole1
+name sewer hole
+type 66
+editor_folder connect/exits
+face sewer_hole1.101
+layer 5
+hp -1
+sp -1
+no_teleport 1
+no_pick 1
+end
+Object sewer_hole2
+name sewer hole
+type 66
+editor_folder connect/exits
+face sewer_hole2.101
+layer 3
+hp -1
+sp -1
+no_teleport 1
+no_pick 1
+end
+Object invis_exit
+type 66
+editor_folder connect/exits
+face inv_exit.101
+player_only 1
+layer 0
+hp -1
+sp -1
+no_teleport 1
+sys_object 1
+no_pick 1
+walk_on 1
+fly_on 1
+end
+Object portal_red
+name red portal
+type 41
+editor_folder connect/exits
+face portal_red.101
+no_teleport 1
+speed 0.50
+hp -1
+sp -1
+layer 5
+no_pick 1
+animation portal_red
+is_animated 1
+anim_speed 2
 end
 Object shop_mat
 name shop teleporter
