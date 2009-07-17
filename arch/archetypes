@@ -13925,6 +13925,19 @@ direction 1
 no_pick 1
 layer 4
 end
+Object chair3
+name chair
+type 79
+editor_folder indoor/chairs
+face chair3.111
+animation chair3
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 1
+no_pick 1
+layer 4
+end
 Object chair1_drop_111
 name chair
 type 79
@@ -29121,20 +29134,20 @@ layer 5
 no_pick 1
 no_pass 1
 end
-Object gem_generic
-name gem
-type 60
+Object nugget_generic
+name nugget
+type 117
 editor_folder items/jewel
 race gold and jewels
 layer 3
-face gem_clear.101
+face nugget_gold_s.101
 nrof 1
-value 3
+material 1024
+material_real 641
 item_quality 100
 item_condition 100
-material_real 129
-weight 10
-material 4
+value 5
+weight 125
 end
 Object coppercoin
 name coin
@@ -29200,20 +29213,20 @@ material_real 645
 value 100
 weight 8
 end
-Object nugget_generic
-name nugget
-type 117
+Object gem_generic
+name gem
+type 60
 editor_folder items/jewel
 race gold and jewels
 layer 3
-face nugget_gold_s.101
+face gem_clear.101
 nrof 1
-material 1024
-material_real 641
+value 3
 item_quality 100
 item_condition 100
-value 5
-weight 125
+material_real 129
+weight 10
+material 4
 end
 Object jewel_generic
 name jewel
@@ -30367,7 +30380,6 @@ nrof 1
 layer 3
 sp -1
 face potion_blue.101
-inv_face potion_blue.101
 last_grace 13
 last_sp 7
 sub_type 128
