@@ -3714,6 +3714,39 @@ no_pass 1
 blocksview 1
 is_wooded 1
 end
+Object tree_huge
+name tree
+type 79
+editor_folder landscape/plants
+layer 5
+face tree_huge.101
+no_pick 1
+no_pass 1
+blocksview 1
+is_wooded 1
+end
+Object tree_huge2
+name tree
+type 79
+editor_folder landscape/plants
+layer 5
+face tree_huge2.101
+no_pick 1
+no_pass 1
+blocksview 1
+is_wooded 1
+end
+Object tree_huge3
+name tree
+type 79
+editor_folder landscape/plants
+layer 5
+face tree_huge3.101
+no_pick 1
+no_pass 1
+blocksview 1
+is_wooded 1
+end
 Object tree_small
 name small tree
 type 79
