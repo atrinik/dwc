@@ -77,6 +77,7 @@ public class MapArchObject {
     private boolean ultra_death;     // permanent death with corpses temporarily available
     private boolean ultimate_death;  // permanent death with instant character deletion
     private boolean pvp;             // PVP combat allowed
+	private boolean plugins;		 // Global map plugins are allowed
 
     private String name;             // map name (this is the name that appears in the game)
 	private String background_music; // Music of the map
@@ -104,6 +105,7 @@ public class MapArchObject {
         no_summon = false; fixed_login = false;
         perm_death = false; ultra_death = false;
         ultimate_death = false; pvp = false;
+		plugins = false;
     }
 
     // get/set attributes
@@ -171,6 +173,8 @@ public class MapArchObject {
     public void setUltimateDeath(boolean b) {ultimate_death = b;}
     public boolean isPvp() {return pvp;}
     public void setPvp(boolean b) {pvp = b;}
+	public boolean isPlugins() {return plugins;}
+    public void setPlugins(boolean b) {plugins = b;}
 
     /**
      * append 'text' to the map text
@@ -371,7 +375,9 @@ public class MapArchObject {
                         else if (IGUIConstants.isoView && line.startsWith("pvp")) {
                             if (getLineValue(line) != 0) pvp = true;
                         }
-
+						else if (IGUIConstants.isoView && line.startsWith("plugins")) {
+                            if (getLineValue(line) != 0) plugins = true;
+                        }
                     }
                 }
                 else {
@@ -501,6 +507,8 @@ public class MapArchObject {
             stream.write("ultimate_death 1\n");
         if (pvp)
             stream.write("pvp 1\n");
+		if (plugins)
+			stream.write("plugins 1\n");
 
         // tile_path
         for (i=0; i<8; i++) {

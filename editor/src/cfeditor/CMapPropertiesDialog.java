@@ -80,6 +80,7 @@ public class CMapPropertiesDialog extends CDialogBase {
     private JCheckBox m_ultra_death       = new JCheckBox();
     private JCheckBox m_ultimate_death    = new JCheckBox();
     private JCheckBox m_pvp               = new JCheckBox();
+    private JCheckBox m_plugins           = new JCheckBox();
 
     private String[] tile_link_name       = new String[8];
     private int[] rev_link       = new int[8];
@@ -200,6 +201,7 @@ public class CMapPropertiesDialog extends CDialogBase {
                 createPanelCBox(optionPanel2, m_ultra_death, map.isUltraDeath(), " Ultra Death");
                 createPanelCBox(optionPanel2, m_ultimate_death, map.isUltimateDeath(), " Instant Death");
                 createPanelCBox(optionPanel2, m_pvp, map.isPvp(), " PvP Enabled");
+				createPanelCBox(optionPanel2, m_plugins, map.isPlugins(), " Plugins");
             }
 
             optionPanel.add(scrollPane2);
@@ -928,6 +930,7 @@ public class CMapPropertiesDialog extends CDialogBase {
             map.setUltraDeath(m_ultra_death.isSelected());
             map.setUltimateDeath(m_ultimate_death.isSelected());
             map.setPvp(m_pvp.isSelected());
+			map.setPlugins(m_plugins.isSelected());
         }
 
         // update tilepaths
@@ -1021,6 +1024,7 @@ public class CMapPropertiesDialog extends CDialogBase {
             m_ultra_death.setSelected(map.isUltraDeath());
             m_ultimate_death.setSelected(map.isUltimateDeath());
             m_pvp.setSelected(map.isPvp());
+            m_plugins.setSelected(map.isPlugins());
         }
 
         for (int i=0; i<8; i++)
