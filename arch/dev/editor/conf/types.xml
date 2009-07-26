@@ -2,20 +2,20 @@
 <!--
 ######################################################################
 # types.xml - This is the defintitions-file for all the different    #
-# Daimonin object types and their attributes.                        #
+# Atrinik object types and their attributes.                         #
 #                                                                    #
-# The server code of the Daimonin game is always changing and        #
+# The server code of the Atrinik game is always changing and         #
 # evlolving. From time to time, object-attributes change in purpose, #
 # or new ones are created.                                           #
 # Therefore, it is important that an Editor is flexible and          #
 # easy to "upgrade" to handle such new features. That's why the      #
-# DaimoninEditor reads the type-definitions from this xml file.      #
+# AtrinikEditor reads the type-definitions from this xml file.       #
 #                                                                    #
 # If you encounter bugs, typos or missing entrys in the LATEST       #
-# VERSION of this file - Don't hesitate to improve it, contact me    #
-# and eventually send the improved file to me: <red.blaze@gmx.net>.  #
-# I will put it into the "official version" of the DaimoninEditor    #
-# and all fellow Daimonin-Map-Makers can benefit from your work!     #
+# VERSION of this file - Don't hesitate to improve it, contact us    #
+# and eventually send the improved file to us: <admin@atrinik.org>.  #
+# We will put it into the "official version" of the AtrinikEditor    #
+# and all fellow Atrinik-Map-Makers can benefit from your work!      #
 #                                                                    #
 # IMPORTANT: Make a backup copy of this file before you start        #
 # to modify it!                                                      #
@@ -57,7 +57,7 @@
 #                spell-value zero is always interpreted as <none>,   #
 #                never as "magic bullet"                             #
 # bool_special - Like bool, but with customized true/false values    #
-# treasurelist - CF treasure list (see "treasures" file)             #
+# treasurelist - Atrinik treasure list (see "treasures" file)        #
 # list_LISTNAME       - list, must be defined as a <list> element    #
 # bitmask_BITMASKNAME - bitmask, must be defined as a <bitmask>      #
 #                       element                                      #
@@ -751,7 +751,7 @@
     <ignore_list name="default_setting" />
   </ignore>
   <description><![CDATA[
-	WARNING: Type 0 is a invalid type setting in Daimonin and 
+	WARNING: Type 0 is a invalid type setting in Atrinik and 
       will cause a warning for the server. ]]>
   </description>
   <attribute arch="no_pass" editor="blocking passage" type="bool">
@@ -1294,7 +1294,7 @@
     The bearer of this item can move in every terrain that
     is set by &lt;support terrain&gt;. Such abilities like
     "water walking", "fire walking" etc are almost priceless
-    as they open access to an entire new plane of the daimonin
+    as they open access to an entire new plane of the Atrinik
     world.
 
     Artifacts with &lt;support terrain&gt; attributes are VERY
@@ -1808,7 +1808,7 @@
     <ignore_list name="default_setting" />
   </ignore>
   <description><![CDATA[
-    Diseases are an intersting form of spellcraft in Daimonin.
+    Diseases are an intersting form of spellcraft in Atrinik.
     Once casted, they can spread out and infect creatures in a large
     area. Being infected can have various effects, from amusing farts
     to horrible damage - almost everything is possible. ]]>
@@ -2104,7 +2104,7 @@
     This flag defines the destined map as "personal unique map". If set,
     there will be a seperate version of that map for every player out there.
     This feature is used for the permanent apartments.
-    It should not be used for anything else than apartments, since Daimonin is a 
+    It should not be used for anything else than apartments, since Atrinik is a 
     *multi*player game. In such a permanent apartment don't forget to set the 
     unique-flag for all floor tiles too (see floors).
     An exit pointing outside of a personal unique map must have the
@@ -2591,7 +2591,7 @@
     <ignore_list name="default_setting" />
   </ignore>
   <description><![CDATA[
-    Gates play an important role in Daimonin. Gates can be opened
+    Gates play an important role in Atrinik. Gates can be opened
     by activating a button/trigger, by speaking passwords (-&gt; magic_ear)
     or carrying special key-objects (-&gt; inventory checker).
     Unlike locked doors, gates can get shut again after a player has
@@ -3269,7 +3269,7 @@
   </description>
   <use><![CDATA[
     If you want to create a locked door that cannot be opened (no key),
-    set a &lt;key string&gt; like "no_key_available". This will clearify things
+    set a &lt;key string&gt; like "no_key_available". This will clarify things
     and only a fool would create a key matching that string. 
 
     Door-objects can not only be used for "doors". In many maps these
@@ -3289,9 +3289,9 @@
     The &lt;key string&gt; in the door must be identical with the
     &lt;key string&gt; in the special key, then the door is unlocked.
     It is VERY important to set the &lt;key string&gt; to something that
-    is unique among the CF mapset.  
+    is unique among the Atrinik maps.
 
-    DONT EVER USE the default string "set_individual_value".
+    DON'T EVER USE the default string "set_individual_value".
   </attribute>
   <attribute arch="other_arch" editor="change to object" type="string">
     If set, the door will when opened changed permantly to this object.
@@ -3299,8 +3299,8 @@
     open counter value.
   </attribute>
   <attribute arch="sp" editor="open counter" type="int">
-    A opened door will auto-close after some time. As higher
-    this value as longer the door stay open.
+    An opened door will auto-close after some time. The higher
+    this value the longer the door will stay open.
   </attribute>
   <attribute arch="no_magic" editor="restrict spells" type="bool">
     Restricting the use of spells to pass this door.
@@ -3311,6 +3311,10 @@
   <attribute arch="damned" editor="restrict prayers" type="bool">
     Restricting the use of prayers to pass this door.
     This should be set in most cases.
+  </attribute>
+  <attribute arch="cursed" editor="open nearby doors" type="bool">
+    Once this door is opened, all nearby doors with this flag on
+    will open at once as well.
   </attribute>
   <attribute arch_begin="msg" arch_end="endmsg" editor="lock message" type="text">
     When a player is trying to open the door without carrying the
@@ -6904,7 +6908,7 @@
     The bearer of this item can move in every terrain that
     is set by &lt;support terrain&gt;. Such abilities like
     "water walking", "fire walking" etc are almost priceless
-    as they open access to an entire new plane of the daimonin
+    as they open access to an entire new plane of the Atrinik
     world.
 
     Artifacts with &lt;support terrain&gt; attributes are VERY
