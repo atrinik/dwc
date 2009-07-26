@@ -6204,6 +6204,11 @@
     Note that &lt;quality level&gt; mainly affects chance of magic bonus
     and appearance of artifact-items.
   </attribute>
+  <attribute arch="is_magical" editor="unique shop" type="bool">
+    If enabled, this shop floor will be marked as &lt;unique shop&gt;, which means
+    any item sold on it will remain there until a map reset, or until somebody
+    buys it.
+  </attribute>
 </type>
 
 <!--####################################################################-->
