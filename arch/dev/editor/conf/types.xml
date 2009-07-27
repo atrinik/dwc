@@ -6188,7 +6188,12 @@
   <attribute arch="auto_apply" editor="generate goods" type="bool">
     If enabled, items will appear on this square when the map is loaded.
     You need to specify a &lt;treasurelist&gt; to define what kinds of items
-    are generated. The items will be unpaid.
+    are generated. The items will be unpaid and marked as "clone items", unless
+    &lt;don't clone randomitems&gt; is set.
+  </attribute>
+  <attribute arch="cursed" editor="don't clone randomitems" type="bool">
+    Only has meaning if &lt;generate goods&gt; is enabled. If this is enabled,
+    random generated items will not be clone items.
   </attribute>
   <attribute arch="randomitems" editor="treasurelist" type="treasurelist">
     This entry determines what kind of treasure will appear, when
