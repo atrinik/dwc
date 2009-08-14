@@ -84,7 +84,7 @@
   </attribute>
   <attribute arch="title" editor="title" type="string">
     This is the object's title. Once an object is identified the title is
-    attached to the name. Typical titels are "of mostrai", "of xray vision" etc.
+    attached to the name. Typical titles are "of mostrai", "of xray vision" etc.
   </attribute>
   <attribute arch="sub_type" editor="sub type" type="int">
     This important value is used to define "sub types" for objects of the same object
@@ -92,13 +92,14 @@
     like slash type, cleave type, 1hand, polearms and so on. This value goes to the client
     too. WARNING: not all objects have a sub_type and changing it without care can corrupt
     server AND/OR the clients. Normally this is not a subject to change outside arch definition.
+    Containers with non-zero sub type will behave as apartment container upgrades.
   </attribute>
   <attribute arch="layer" editor="layer" type="int">
     This is the map layer, the object will put in. The selected layer will effect where and
     how this object is shown on client side. Layer 0 is reserved for sys_object type objects
-    and will NEVER be shown on client side. Layer 1 is for floor objects and Layer 2 for
+    and will NEVER be shown on client side. Layer 1 is for floor objects and layer 2 for
     floor masks. Layer 3 and 4 are for items on the ground. Layer 5 is for walls, layer 
-    6 is reversed for players and layer 7 is for spell effects and high flying/visible
+    6 is reserved for players and layer 7 is for spell effects and high flying/visible
     objects like arrows.
   </attribute>
   <attribute arch="face" editor="image" type="string">
@@ -113,38 +114,38 @@
     dialog.
   </attribute>
   <attribute arch="anim_speed" editor="anim speed" type="int">
-  How fast to play this animation.
+    How fast to play this animation.
   </attribute>
   <attribute arch="is_animated" editor="is animated" type="bool">
-  If set, the object is animated and animation is used.
-  Note: Some special objects will use a animation NOT as animation but
-  as frame list. Examples are buttons (which frames are changed by the
-  object status of the button). IS_TURNABLE will enable direction turning
-  for some object types. These flags are all "system" related. Be VERY
-  careful to change them.
+    If set, the object is animated and animation is used.
+    Note: Some special objects will use an animation NOT as animation but
+    as frame list. Examples are buttons (which frames are changed by the
+    object status of the button). IS_TURNABLE will enable direction turning
+    for some object types. These flags are all "system" related. Be VERY
+    careful when changing them.
   </attribute>
   <attribute arch="speed_left" editor="start speed" type="float">
-    NOTE: without speed != 0, this value is not used. Only use
+    NOTE: Without speed being non-zero, this value is not used. Only use
     for objects with speed (active objects)!
-    When a active object (with 'speed' != 0) is put on a map, this 
+    When an active object (with 'speed' being non-zero) is put on a map, this 
     value is used as counter. Every 'tick', 'speed' (if negative,
     value is turned positive before) is added to this value - 
     if it is bigger 0 the object 'will do something' and this counter is 
-    decreased with -1.0 .
-    As default a normal object will put on the map with start speed 0. 
+    decreased with -1.0.
+    By default a normal object will be put on the map with start speed 0. 
     It 'will do something' with the next coming 'tick'.
     Setting this value to -1.0 will put it on map but wait one full 
     'lifetime' round until it does something. 
     A 'fire object' should be put on map with start speed 0 - it should
     try to burn something in the moment it comes in the game. A bomb for
     example should be put with speed -1.0 on the map - it will stay then
-    on map until the bomb becomes active - it explode.
+    on map until the bomb becomes active - it explodes.
     The 'lifetime' round is determinated by speed. A speed of 1.0 will
     give a 'lifetime' round of 1 tick - a speed of 0.01 100 ticks.
     Special case: A negative speed value will add to start speed a random
     value between 0.0 to 0.9 . So, a speed of -0.1 with a start speed of
     -1.0 will result in speed 0.1 and start speed between -1.0 and -0.1. 
-    This is useful to lets a row of same objects act in different tick ranges.
+    This is useful to let a row of same objects act in different tick ranges.
   </attribute>
   <attribute arch="nrof" editor="number" type="int">
     This value determines the number of objects in one stack (for example:
@@ -152,7 +153,7 @@
     any pickable object - otherwise it won't be mergeable into a stack.
   </attribute>
   <attribute arch="weight" editor="weight" type="int">
-    This value defines the object's weight in gramm (1000g is 1kg). Objects with
+    This value defines the object's weight in gram (1000g is 1kg). Objects with
     zero weight are not pickable for players. Still, set the "non-pickable"-flag
     for explicitly non-pickable objects (hey, this is opensource.. you
     never know ;) ).
@@ -204,11 +205,11 @@
   </attribute>
   <attribute arch="blocksview" editor="block view" type="bool">
     If an item is set to block view, players (and monsters) cannot
-    see byond it unless they cross it or manage to stand ontop.
+    see beyond it unless they cross it or manage to stand on top of it.
   </attribute>
   <attribute arch="one_drop" editor="one drop" type="bool">
-   In the moment a player gets or apply this items, it will
-   flaged as godgiven and vanish when droped to the ground.
+    In the moment a player gets or applies this item, it will be
+    flagged as godgiven and vanish when dropped to the ground.
   </attribute>
   <attribute arch="quest_item" editor="quest item" type="bool">
     Item is a quest item. This item will be inserted in the 
@@ -216,28 +217,27 @@
     this item will never drop again.
   </attribute>
   <attribute arch="identified" editor="identified" type="bool">
-    If an item is identified, the player has
-    full knowledge about it.
+    If an item is identified, the player has full knowledge about it.
   </attribute>
   <attribute arch="can_reflect_spell" editor="can reflect spells" type="bool">
-  object CAN reflect spells. See reflect spells.
+    Object CAN reflect spells. See reflect spells.
   </attribute>
   <attribute arch="can_reflect_missile" editor="can reflect missiles" type="bool">
-   object CAN reflect missiles. See reflect missiles.
+    Object CAN reflect missiles. See reflect missiles.
   </attribute>
   <attribute arch="is_magical" editor="magical" type="bool">
-    If set, this object count as "magical". Detect magic or
+    If set, this object counts as "magical". Detect magic or
     identify will show this flag and the player will see a small
     M in the client inventory part.
   </attribute>
   <attribute arch="cursed" editor="cursed" type="bool">
     The item is cursed. This object can't be removed when
-    wielded or worn (without uncurse it). Remove curse will
+    wielded or worn (without uncursing it). Remove curse will
     remove this flag.
   </attribute>
   <attribute arch="cursed_perm" editor="permanent cursed" type="bool">
-    The item is permanent cursed. If this flag set, applying 
-    or unapplying will set "cursed 1" again. This flag can't be
+    The item is permanently cursed. If this flag is set, applying 
+    or unapplying it will set "cursed 1" again. This flag can't be
     removed by remove curse.
   </attribute>
   <attribute arch="damned" editor="damned" type="bool">
@@ -245,8 +245,8 @@
     wielded or worn. Remove damnation will remove this flag.
   </attribute>
   <attribute arch="damned_perm" editor="permanent damned" type="bool">
-    The item is permanent damned. If this flag set, applying 
-    or unapplying will set "damned 1" again. This flag can't be
+    The item is permanently damned. If this flag is set, applying 
+    or unapplying it will set "damned 1" again. This flag can't be
     removed by remove damnation.
   </attribute>
   <attribute arch="no_magic" editor="no spells" type="bool">
@@ -263,7 +263,7 @@
     only for pickable items inside shops.
   </attribute>
   <attribute arch="is_turnable" editor="is turnable" type="bool">
-  System flag. Object can be turned to the directions.
+    System flag. Object can be turned to the directions.
   </attribute>
 </default_type>
 
@@ -303,11 +303,11 @@
   <attribute arch="pass_thru" editor="ethereal can pass" type="bool">
     If no_pass (blocking passage) is set, no one can pass. If this
     flag is set too, ethereal objects with the CAN_PASS_THRU flag can
-    pass. This is used for example from ghosts who moves through doors.
+    pass. This is used for example for ghosts who move through doors.
   </attribute>
   <attribute arch="can_roll" editor="moveable" type="bool">
-    If set, the object is able to "roll", so it can be pushed around.
-    This setting is used for boulders and barrels.
+    If set, the object is able to "roll", so it can be pushed around with the
+    /push command. This setting is used for boulders and barrels.
   </attribute>
   <attribute arch="unique" editor="unique item" type="bool">
     Unique items exist only one time on a server. If the item
@@ -329,7 +329,7 @@
     <ignore_list name="default_setting" />
   </ignore>
   <description><![CDATA[
-	Light Sources are system objects which used as a light/darkness set point. ]]>
+	Light Sources are system objects which are used as a light/darkness set point. ]]>
   </description>
 </type>
 
@@ -341,44 +341,44 @@
     <ignore_list name="default_setting" />
   </ignore>
   <description><![CDATA[
-	A applyable light source for a player or monster. It has a 3 way apply chain:
-      First time light the object, second time put it in the hand, 3rd time unapply
-      and unlighten it. This will allow to drop a light enlighted or not to the 
-      ground.]]>
+    An applyable light source for a player or monster. It has a 3 way apply chain:
+    First time light the object, second time put it in the hand, third time unapply
+    and unlit it. This will allow to drop a light enlightened or not to the 
+    ground.]]>
   </description>
   <attribute arch="last_sp" editor="glow radius" type="int">
     If &lt;glow radius&gt; is set to a value not zero, the object
-    appears lit up on dark maps. &lt;glow radius&gt; As higher as 
-    more light does the object emmit. The current senseful max value is 9.
-    If the value is 0, the light can't be lighten and can't be applied.
+    appears lit up on dark maps. The higher the value, the more light
+    does the object emit. The current reasonable max value is 9.
+    If the value is 0, the light can't be lit and can't be applied.
     If the value is negative, this object will invoke darkness!
-    A value of 0 means, that this light can't be lighten. This will
+    A value of 0 means that this light can't be lit. This will
     be true for permanent burned out lights like torches.
   </attribute>
   <attribute arch="glow_radius" editor="light on" type="int">
-   Applyable light can be turned on or off. The value above will 
-   determinate how and then its copied to this value. If this 
-   value is 0 (default) the light is off - every other value
-   means on! This value is normally autoset when applied but can
-   be set by map makers to simulate light on.
+    Applyable light can be turned on or off. The value above will 
+    determinate how and then it's copied to this value. If this 
+    value is 0 (default) the light is off - every other value
+    means on! This value is normally autoset when applied but can
+    be set by map makers to simulate light on.
   </attribute>
   <attribute arch="maxhp" editor="max. ticks of light" type="int">
-  'Max. Ticks of Light' defines the maximal value of 'Ticks of Light'.
-  This is normally used from refilling light sources.
+    &lt;Max. Ticks of Light&gt; defines the maximal value of &lt;Ticks of Light&gt;.
+    This is normally used from refilling light sources.
   </attribute>
   <attribute arch="food" editor="ticks of light" type="int">
-  'Ticks of Light' defines how long the object will give light
-  before it wear out. Some lights can be refilled, some not.
+    &lt;Ticks of Light&gt; defines how long the object will give light
+    before it wears out. Some lights can be refilled, some not.
   </attribute>
   <attribute arch="other_arch" editor="wear out change" type="string">
-  If a light source wear out, it checks this value. If it set, the
-  object change to this new object. This happens with torches - after
-  they wear out, they change to burned out torches which can't be
-  relight or refilled.
+    If a light source wears out, it checks this value. If it set, the
+    object changes to this new object. This happens with torches - after
+    they wear out, they change to burned out torches which can't be
+    re-lit or refilled.
   </attribute>
   <attribute arch="last_eat" editor="wear out flag" type="bool">
-  If set this light will wear out. If not set, it is permanent light and
-  'Ticks of Light' counter is ignored.
+    If set this light will wear out. If not set, it is a permanent light and
+    &lt;Ticks of Light&gt; counter is ignored.
   </attribute>
 </type>
 
@@ -389,17 +389,18 @@
     <ignore_list name="default_setting" />
   </ignore>
   <description><![CDATA[
-	Light Sources are system objects which u]]>
+	Light Refill Object is an object that can be used to refill applyable
+    light object. ]]>
   </description>
   <attribute arch="race" editor="light type" type="string">
-  Defines the light type which can we refill with this refill
-  object. 
+    Defines the light type which we can refill with this refill
+    object. 
   </attribute>
   <attribute arch="food" editor="refill value" type="int">
-  How much ticks can be refilled to a light source of the
-  defined light type. If we can refill all in the light, this
-  object is deleted. If we can't put all in the light, the
-  value is decreased by the number we filled in.
+    How many ticks can be refilled to a light source of the
+    defined light type. If we can refill all in the light, this
+    object is deleted. If we can't put all in the light, the
+    value is decreased by the number we filled in.
   </attribute>
 </type>
 
@@ -416,8 +417,8 @@
     <ignore_list name="default_setting" />
   </ignore>
   <description><![CDATA[
-	WARNING: Type 0 is a invalid type setting in Atrinik and 
-      will cause a warning for the server. ]]>
+    WARNING: Type 0 is an invalid type setting in Atrinik and 
+    will cause a warning by the server. ]]>
   </description>
   <attribute arch="no_pass" editor="blocking passage" type="bool">
     If set, the object cannot be passed by players nor monsters.
@@ -425,15 +426,14 @@
   <attribute arch="pass_thru" editor="ethereal can pass" type="bool">
     If no_pass (blocking passage) is set, no one can pass. If this
     flag is set too, ethereal objects with the CAN_PASS_THRU flag can
-    pass. This is used for example from ghosts who moves through doors.
+    pass. This is used for example for ghosts who move through doors.
   </attribute>
   <attribute arch="unique" editor="unique item" type="bool">
     Unique items exist only one time on a server. If the item
     is taken, lost or destroyed - it's gone for good.
   </attribute>
   <attribute arch="startequip" editor="godgiven item" type="bool">
-    A godgiven item vanishes as soon as the player
-    drops it to the ground.
+    A godgiven item vanishes as soon as the player drops it to the ground.
   </attribute>
   <attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
     This text may describe the object.
@@ -458,21 +458,21 @@
     blocked by dispel magic.
     <br><br>
     A particularly nice feature of abilities is that they can hold two
-    spells: One for short range- and one for long range use.
+    spells: One for short range and one for long range use.
     <br><br>
-    You should know that spellcasting monsters receive abilities via
+    You should know that spell casting monsters receive abilities via
     &lt;treasurelist&gt;.  ]]>
   </description>
   <use><![CDATA[
-    If you want to create "customized" spellcasting monsters, you
-    should use abilities (rather than spellbooks/wands or something).
+    If you want to create "customized" spell casting monsters, you
+    should use abilities (rather than spell books/wands or something).
     The long/short-range spell feature can make boss-monsters more
     interesting and challenging.
     <br><br>
     You should keep in mind that magic abilities allow players
     to get better resistance. You can turn off the magic part to
-    make the spells more dangerous. However, this really shouldn't
-    be neccessary unless you work on very high level maps.
+    make the spells more dangerous. However, this really should not
+    be necessary unless you work on very high level maps.
     And what fun is a magic resistance cloak when it has no effect? ]]>
   </use>
   <attribute arch="no_drop" value="1" type="fixed" />
@@ -500,11 +500,11 @@
     times the "small fireball".
   </attribute>
   <attribute arch="last_grace" editor="casting delay" type="int">
-  The casting delay this spell/ability invoke to a monster using it.
-  This is cumulative added to the monster default casting delay.
+    The casting delay this spell/ability invokes to a monster using it.
+    This is cumulative added to the monster default casting delay.
   </attribute>
   <attribute arch="is_magical" editor="is magical" type="bool">
-    This flag specifies wether the ability &lt;is magical&gt; in nature.
+    This flag specifies whether the ability &lt;is magical&gt; in nature.
     If enabled, all spells produced by this ability will have magic
     attacktype added to the usual attacktypes.
 
@@ -523,9 +523,9 @@
   </ignore>
   <description><![CDATA[
     When a player puts a defined number of certain items on the altar,
-    then either a spell is casted (on the player) or a connector is
+    then either a spell is cast (on the player) or a connection is
     triggered. If the latter is the case, the altar works only once.
-    Either way, the sacrificed item dissapears. ]]>
+    Either way, the sacrificed item disappears. ]]>
   </description>
   <attribute arch="no_pick" value="1" type="fixed" />
   <attribute arch="slaying" editor="match item name" type="string">
@@ -548,7 +548,7 @@
   </attribute>
   <attribute arch="connected" editor="connection" type="int">
     If a connection value is set, the altar will trigger all objects
-    with the same value, when activated. This will only work once.
+    with the same value when activated. This will only work once.
   </attribute>
   <attribute arch="last_eat" editor="connection flag1" type="bool">
     Depending on the target object, setting this flag or not
@@ -556,24 +556,24 @@
     to this.
   </attribute>
   <attribute arch="sp" editor="spell" type="spell">
-    When activated, the selected &lt;spell&gt; will be casted (once, on the
+    When activated, the selected &lt;spell&gt; will be cast (once, on the
     player). This should work for any given spell. The altar will work
-    infinitly in this way. Don't set both &lt;spell&gt; and &lt;connection&gt; for
+    infinitely in this way. Don't set both &lt;spell&gt; and &lt;connection&gt; for
     one altar.
   </attribute>
   <attribute arch="level" editor="spell level" type="int">
     Set the power level of the spell. This can be from 1 to 110.
   </attribute>
   <attribute arch="last_sp" editor="cast to direction" type="list_direction">
-    The spell will be casted in this direction. Note, that if the altar
+    The spell will be cast in this direction. Note, that if the altar
     should cast a heal spell on the player, this must be 
     direction 0 &lt;none&gt;. For other spells like fireball,
     it should be set a valid point of the compass direction.
   </attribute>
   <attribute arch="walk_on" value="1" type="fixed" />
   <attribute arch_begin="msg" arch_end="endmsg" editor="message" type="text">
-    This text will be displayed to the player
-    in the exact moment when the altar is activated.
+    This text will be displayed to the player in the exact moment when the altar
+    is activated.
   </attribute>
 </type>
 
@@ -586,18 +586,18 @@
   <description><![CDATA[
     Altar_triggers work pretty much like normal altars
     (drop sacrifice -&gt; connection activated), except for the fact that
-    they reset after usage. Hence, altar_triggers can be used infinitly. ]]>
+    they reset after usage. Hence, altar_triggers can be used infinitely. ]]>
   </description>
   <use><![CDATA[
     Altar_triggers are very useful if you want to charge a price for...
     <UL>
-    <LI> ...an item. -&gt; Connect the altar_trigger (set "last_sp 1") to a creator.
-    <LI> ...opening a gate. -&gt; Connect the altar_trigger (set "last_sp 0") to the gate. 
-    <LI> ...information. -&gt; Connect the altar_trigger (set "last_sp 1") to a magic_mouth.
+    <LI> ... an item. -&gt; Connect the altar_trigger (set "last_sp 1") to a creator.
+    <LI> ... opening a gate. -&gt; Connect the altar_trigger (set "last_sp 0") to the gate. 
+    <LI> ... information. -&gt; Connect the altar_trigger (set "last_sp 1") to a magic_mouth.
     </UL>
     The big advantage over normal altars is the infinite usability
     of altar_triggers! If there are ten players on one server, they're
-    quite grateful if things work more than once. =) ]]>
+    quite grateful if things work more than once. ]]>
   </use>
   <attribute arch="no_pick" value="1" type="fixed" />
   <attribute arch="slaying" editor="match item name" type="string">
@@ -625,7 +625,8 @@
   </attribute>
   <attribute arch="connected" editor="connection" type="int">
     If a connection value is set, the altar will trigger all objects
-    with the same value, when activated. This will only work once.
+    with the same value when activated. This can be used infinitely.
+    The altar will reset itself after some time, specified by &lt;reset time&gt;.
   </attribute>
   <attribute arch="last_eat" editor="connection flag1" type="bool">
     Depending on the target object, setting this flag or not
@@ -646,8 +647,8 @@
   </attribute>
   <attribute arch="walk_on" value="1" type="fixed" />
   <attribute arch_begin="msg" arch_end="endmsg" editor="message" type="text">
-    This text will be displayed to the player
-    in the exact moment when the altar is activated.
+    This text will be displayed to the player in the exact moment when
+    the altar is activated.
   </attribute>
 </type>
 
@@ -677,26 +678,26 @@
   </attribute>
   <attribute arch="item_level" editor="required level" type="int">
     If &lt;required level&gt; is set to a value greater zero, players cannot
-    wear this item unless they meet this level in the skill cathegory
+    wear this item unless they meet this level in the skill category
     specified by &lt;level required in&gt;.
 
     For example: &lt;required level&gt; = 15, &lt;level required in&gt; = physical
     means the player cannot wear the item unless he is equal or greater
-    level 15 in the physical skill cathegory.
+    level 15 in the physical skill category.
   </attribute>
   <attribute arch="item_skill" editor="level required in" type="list_item_skill">
-    This attribute specifies in which skill cathegory the player
+    This attribute specifies in which skill category the player
     must meet the &lt;required level&gt; in order to wear the item.
     It is meaningless when &lt;required level&gt; is zero/unset.
 
     For example: &lt;required level&gt; = 15, &lt;level required in&gt; = physical
     means the player cannot wear the item unless he is equal or greater
-    level 15 in the physical skill cathegory.
+    level 15 in the physical skill category.
   </attribute>
   <attribute arch="lifesave" editor="save life" type="bool">
     An item with this flag enabled will save the players life
     for one time: When the player is wearing this item and his
-    healthpoints reach zero, the item dissapears, replenishing
+    health points reach zero, the item disappears, replenishing
     half of the player's health.
 
     An item with &lt;save life&gt; should not have
@@ -775,7 +776,7 @@
 
 <section name="stats">
   <attribute arch="Str" editor="strength" type="int">
-    The player's strentgh will rise/fall by the given value
+    The player's strength will rise/fall by the given value
     while wearing this piece of equipment.
   </attribute>
   <attribute arch="Dex" editor="dexterity" type="int">
@@ -2018,7 +2019,7 @@
   </attribute>
 <section name="Force Effects">
   <attribute arch="Str" editor="strength" type="int">
-    The player's strentgh will rise/fall by the given value
+    The player's strength will rise/fall by the given value
     while wearing this piece of equipment.
   </attribute>
   <attribute arch="Dex" editor="dexterity" type="int">
@@ -2157,7 +2158,7 @@
   </attribute>
 <section name="Force Effects">
   <attribute arch="Str" editor="strength" type="int">
-    The player's strentgh will rise/fall by the given value
+    The player's strength will rise/fall by the given value
     while wearing this piece of equipment.
   </attribute>
   <attribute arch="Dex" editor="dexterity" type="int">
@@ -3336,7 +3337,7 @@
   <attribute arch="exp" editor="experience" type="int">
     When a player kills this monster, he will get exactly this
     amount of &lt;experience&gt;. The experience will flow into
-    the skill-cathegory the player used for the kill.
+    the skill-category the player used for the kill.
 
     If you create special monsters of tweaked strenght/abilities,
     always make sure that the &lt;experience&gt; is set to a
@@ -3977,7 +3978,7 @@
   <attribute arch="exp" editor="experience" type="int">
     When a player kills this monster, he will get exactly this
     amount of &lt;experience&gt;. The experience will flow into
-    the skill-cathegory the player used for the kill.
+    the skill-category the player used for the kill.
 
     If you create special monsters of tweaked strenght/abilities,
     always make sure that the &lt;experience&gt; is set to a
@@ -4842,7 +4843,7 @@
   </attribute>
   <section name="Force Effects">
   <attribute arch="Str" editor="strength" type="int">
-    The player's strentgh will rise/fall by the given value
+    The player's strength will rise/fall by the given value
     while wearing this piece of equipment.
   </attribute>
   <attribute arch="Dex" editor="dexterity" type="int">
@@ -4983,7 +4984,7 @@
   </attribute>
 <section name="stats">
   <attribute arch="Str" editor="strength" type="int">
-    The player's strentgh will rise/fall by the given value for permanent
+    The player's strength will rise/fall by the given value for permanent
     (of course there is an upper limit). Generally there shouldn't be stat
     potions granting more than one stat. Cursed potions will subtract the
     stats if positive.
@@ -5680,24 +5681,24 @@
   </attribute>
   <attribute arch="item_level" editor="required level" type="int">
     If &lt;required level&gt; is set to a value greater zero, players cannot
-    use the weapon unless they meet this level in the skill cathegory
+    use the weapon unless they meet this level in the skill category
     specified by &lt;level required in&gt;.
 
     For example: &lt;required level&gt; = 15, &lt;level required in&gt; = physical
     means the player cannot use the weapon unless he is equal or greater
-    level 15 in the physical skill cathegory.
+    level 15 in the physical skill category.
   </attribute>
   <attribute arch="item_skill" editor="level required in" type="list_item_skill">
-    This attribute specifies in which skill cathegory the player
+    This attribute specifies in which skill category the player
     must meet the &lt;required level&gt; in order to use the weapon.
     It is meaningless when &lt;required level&gt; is zero/unset.
 
     For example: &lt;required level&gt; = 15, &lt;level required in&gt; = physical
     means the player cannot use the weapon unless he is equal or greater
-    level 15 in the physical skill cathegory.
+    level 15 in the physical skill category.
   </attribute>
   <attribute arch="no_strength" editor="ignore strength" type="bool">
-    Usually the player's strentgh takes effect on the damage
+    Usually the player's strength takes effect on the damage
     done by the shooting weapon. If &lt;ignore strength&gt; is set,
     the player's strength is ignored.
   </attribute>
@@ -5720,7 +5721,7 @@
   </attribute>
 <section name="stats">
   <attribute arch="Str" editor="strength" type="int">
-    The player's strentgh will rise/fall by the given value
+    The player's strength will rise/fall by the given value
     while wearing this shooting weapon.
   </attribute>
   <attribute arch="Dex" editor="dexterity" type="int">
@@ -6365,26 +6366,26 @@
   </attribute>
   <attribute arch="item_level" editor="required level" type="int">
     If &lt;required level&gt; is set to a value greater zero, players cannot
-    use the weapon unless they meet this level in the skill cathegory
+    use the weapon unless they meet this level in the skill category
     specified by &lt;level required in&gt;.
 
     For example: &lt;required level&gt; = 15, &lt;level required in&gt; = physical
     means the player cannot use the weapon unless he is equal or greater
-    level 15 in the physical skill cathegory.
+    level 15 in the physical skill category.
   </attribute>
   <attribute arch="item_skill" editor="level required in" type="list_item_skill">
-    This attribute specifies in which skill cathegory the player
+    This attribute specifies in which skill category the player
     must meet the &lt;required level&gt; in order to use the weapon.
     It is meaningless when &lt;required level&gt; is zero/unset.
 
     For example: &lt;required level&gt; = 15, &lt;level required in&gt; = physical
     means the player cannot use the weapon unless he is equal or greater
-    level 15 in the physical skill cathegory.
+    level 15 in the physical skill category.
   </attribute>
   <attribute arch="lifesave" editor="save life" type="bool">
     An item with this flag enabled will save the players life
     for one time: When the player is wearing this item and his
-    healthpoints reach zero, the item dissapears, replenishing
+    healthpoints reach zero, the item disappears, replenishing
     half of the player's health.
 
     An item with &lt;save life&gt; should not have
@@ -6488,7 +6489,7 @@
 </section>
 <section name="stats">
   <attribute arch="Str" editor="strength" type="int">
-    The player's strentgh will rise/fall by the given value
+    The player's strength will rise/fall by the given value
     while wearing this weapon.
   </attribute>
   <attribute arch="Dex" editor="dexterity" type="int">
