@@ -9534,7 +9534,7 @@ _ACEOF
 datadir=${ndatadir}
 localstatedir=${nlocaldir}
 
-ac_config_files="$ac_config_files Makefile ../../src/random_maps/Makefile ../../src/socket/Makefile ../../src/server/Makefile ../../src/include/Makefile ../../src/utils/Makefile ../../src/common/Makefile ../../src/zlib/Makefile ../../src/utils/atrinikloop ../../src/plugins/Makefile ../../src/plugins/common/Makefile ../../src/plugins/plugin_python/Makefile ../../src/plugins/plugin_arena/Makefile"
+ac_config_files="$ac_config_files Makefile ../../src/random_maps/Makefile ../../src/socket/Makefile ../../src/server/Makefile ../../src/include/Makefile ../../src/utils/Makefile ../../src/common/Makefile ../../src/zlib/Makefile ../../src/utils/atrinikloop ../../src/types/Makefile ../../src/plugins/Makefile ../../src/plugins/common/Makefile ../../src/plugins/plugin_python/Makefile ../../src/plugins/plugin_arena/Makefile"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -10141,6 +10141,7 @@ do
     "../../src/common/Makefile") CONFIG_FILES="$CONFIG_FILES ../../src/common/Makefile" ;;
     "../../src/zlib/Makefile") CONFIG_FILES="$CONFIG_FILES ../../src/zlib/Makefile" ;;
     "../../src/utils/atrinikloop") CONFIG_FILES="$CONFIG_FILES ../../src/utils/atrinikloop" ;;
+    "../../src/types/Makefile") CONFIG_FILES="$CONFIG_FILES ../../src/types/Makefile" ;;
     "../../src/plugins/Makefile") CONFIG_FILES="$CONFIG_FILES ../../src/plugins/Makefile" ;;
     "../../src/plugins/common/Makefile") CONFIG_FILES="$CONFIG_FILES ../../src/plugins/common/Makefile" ;;
     "../../src/plugins/plugin_python/Makefile") CONFIG_FILES="$CONFIG_FILES ../../src/plugins/plugin_python/Makefile" ;;
