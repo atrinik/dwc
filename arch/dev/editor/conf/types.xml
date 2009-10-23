@@ -92,13 +92,13 @@
     like slash type, cleave type, 1hand, polearms and so on. This value goes to the client
     too. WARNING: not all objects have a sub_type and changing it without care can corrupt
     server AND/OR the clients. Normally this is not a subject to change outside arch definition.
-    Containers with non-zero sub type will behave as apartment container upgrades.
+    Containers with non-zero sub type will behave as apartment containers.
   </attribute>
   <attribute arch="layer" editor="layer" type="int">
-    This is the map layer, the object will put in. The selected layer will effect where and
+    This is the map layer, the object will put in. The selected layer will affect where and
     how this object is shown on client side. Layer 0 is reserved for sys_object type objects
     and will NEVER be shown on client side. Layer 1 is for floor objects and layer 2 for
-    floor masks. Layer 3 and 4 are for items on the ground. Layer 5 is for walls, layer 
+    floor masks. Layer 3 and 4 are for items on the ground. Layer 5 is for walls, layer
     6 is reserved for players and layer 7 is for spell effects and high flying/visible
     objects like arrows.
   </attribute>
@@ -109,7 +109,7 @@
   <attribute arch="animation" editor="animation" type="string">
     The animation-name defines what animation is displayed for this object
     in-game. Note that a set animation will overrule the face.
-    Changing animation is easy - adding or deleting a animation is more
+    Changing animation is easy - adding or deleting an animation is more
     difficult and should be done in the text parse window and not in this
     dialog.
   </attribute>
@@ -127,15 +127,15 @@
   <attribute arch="speed_left" editor="start speed" type="float">
     NOTE: Without speed being non-zero, this value is not used. Only use
     for objects with speed (active objects)!
-    When an active object (with 'speed' being non-zero) is put on a map, this 
+    When an active object (with 'speed' being non-zero) is put on a map, this
     value is used as counter. Every 'tick', 'speed' (if negative,
-    value is turned positive before) is added to this value - 
-    if it is bigger 0 the object 'will do something' and this counter is 
+    value is turned positive before) is added to this value -
+    if it is bigger 0 the object 'will do something' and this counter is
     decreased with -1.0.
-    By default a normal object will be put on the map with start speed 0. 
+    By default a normal object will be put on the map with start speed 0.
     It 'will do something' with the next coming 'tick'.
-    Setting this value to -1.0 will put it on map but wait one full 
-    'lifetime' round until it does something. 
+    Setting this value to -1.0 will put it on map but wait one full
+    'lifetime' round until it does something.
     A 'fire object' should be put on map with start speed 0 - it should
     try to burn something in the moment it comes in the game. A bomb for
     example should be put with speed -1.0 on the map - it will stay then
@@ -144,7 +144,7 @@
     give a 'lifetime' round of 1 tick - a speed of 0.01 100 ticks.
     Special case: A negative speed value will add to start speed a random
     value between 0.0 to 0.9 . So, a speed of -0.1 with a start speed of
-    -1.0 will result in speed 0.1 and start speed between -1.0 and -0.1. 
+    -1.0 will result in speed 0.1 and start speed between -1.0 and -0.1.
     This is useful to let a row of same objects act in different tick ranges.
   </attribute>
   <attribute arch="nrof" editor="number" type="int">
@@ -159,16 +159,12 @@
     never know ;) ).
   </attribute>
   <attribute arch="value" editor="value" type="int">
-    Adds a certain value to the object: It will be worth that many times the
-    default value from it's archetype (E.g. "value = 3" means three times
-    worth the default value). Value for buying/selling will be
-    further modified by various factors. Hence, testing values in-game is
-    usually inevitable.
+    Change an object's value.
   </attribute>
   <attribute arch="glow_radius" editor="glow radius" type="int">
-    If &lt;glow radius&gt; is set to a value greater zero, the object
+    If &lt;glow radius&gt; is set to a value greater than zero, the object
     appears lit up on dark maps. &lt;glow radius&gt; can be a value
-    between 0 and 4, the higher, the more light does the object emmit.
+    between 0 and 4, the higher, the more light does the object emit.
   </attribute>
   <attribute arch="material_real" editor="material" type="list_material_real">
     The material defines the exact material of which the object
@@ -195,12 +191,12 @@
   <attribute arch="sys_object" editor="inv. system object" type="bool">
     Marks an object as system object. System objects are ALWAYS invisible and
     hidden from the players. They can't be seen or detected and never will send
-    any information about them to the players client. System objects are put
+    any information about them to the player's client. System objects are put
     in layer 0 under the floor tiles.
   </attribute>
   <attribute arch="no_teleport" editor="no teleport" type="bool">
     Marks an object as no teleport object. A no teleport object can't be
-    teleported by teleporter except the object is inside the inventory of 
+    teleported by teleporter except if the object is inside the inventory of
     another object which can be teleported.
   </attribute>
   <attribute arch="blocksview" editor="block view" type="bool">
@@ -212,7 +208,7 @@
     flagged as godgiven and vanish when dropped to the ground.
   </attribute>
   <attribute arch="quest_item" editor="quest item" type="bool">
-    Item is a quest item. This item will be inserted in the 
+    Item is a quest item. This item will be inserted in the
     quest container when a quest is finished and for that player
     this item will never drop again.
   </attribute>
@@ -228,7 +224,7 @@
   <attribute arch="is_magical" editor="magical" type="bool">
     If set, this object counts as "magical". Detect magic or
     identify will show this flag and the player will see a small
-    M in the client inventory part.
+    blue M in the client's inventory part.
   </attribute>
   <attribute arch="cursed" editor="cursed" type="bool">
     The item is cursed. This object can't be removed when
@@ -236,7 +232,7 @@
     remove this flag.
   </attribute>
   <attribute arch="cursed_perm" editor="permanent cursed" type="bool">
-    The item is permanently cursed. If this flag is set, applying 
+    The item is permanently cursed. If this flag is set, applying
     or unapplying it will set "cursed 1" again. This flag can't be
     removed by remove curse.
   </attribute>
@@ -245,7 +241,7 @@
     wielded or worn. Remove damnation will remove this flag.
   </attribute>
   <attribute arch="damned_perm" editor="permanent damned" type="bool">
-    The item is permanently damned. If this flag is set, applying 
+    The item is permanently damned. If this flag is set, applying
     or unapplying it will set "damned 1" again. This flag can't be
     removed by remove damnation.
   </attribute>
@@ -266,27 +262,6 @@
     System flag. Object can be turned to the directions.
   </attribute>
 </default_type>
-
-<!--####################################################################-->
-<type number="126" name="AI Object">
-  <ignore>
-    <ignore_list name="default_setting" />
-  </ignore>
-  <description><![CDATA[
-    AI objects define how a mob behaves in the game. By select and fine-tuning low-level 
-    behaviours many different kinds of high-level behaviours can be achieved.
-    For now it may be a good idea to start out with a predefined AI and change some
-    of the parameters.
-    <br> 
-    We aim to create a better behaviour editor in the future. Contact the devteam if
-    you are interested in implementing it.
-    ]]>
-  </description>
-  <attribute arch_begin="msg" arch_end="endmsg" editor="Behaviour list" type="text">
-    This is where behaviours are defined. A behaviour belongs to one of the predefined classes,
-    and may take parameters. 
-  </attribute>
-</type>
 
 <!--####################################################################-->
 <type number="79" name="Misc Object">
@@ -343,7 +318,7 @@
   <description><![CDATA[
     An applyable light source for a player or monster. It has a 3 way apply chain:
     First time light the object, second time put it in the hand, third time unapply
-    and unlit it. This will allow to drop a light enlightened or not to the 
+    and unlit it. This will allow to drop a light enlightened or not to the
     ground.]]>
   </description>
   <attribute arch="last_sp" editor="glow radius" type="int">
@@ -356,8 +331,8 @@
     be true for permanent burned out lights like torches.
   </attribute>
   <attribute arch="glow_radius" editor="light on" type="int">
-    Applyable light can be turned on or off. The value above will 
-    determinate how and then it's copied to this value. If this 
+    Applyable light can be turned on or off. The value above will
+    determinate how and then it's copied to this value. If this
     value is 0 (default) the light is off - every other value
     means on! This value is normally autoset when applied but can
     be set by map makers to simulate light on.
@@ -394,7 +369,7 @@
   </description>
   <attribute arch="race" editor="light type" type="string">
     Defines the light type which we can refill with this refill
-    object. 
+    object.
   </attribute>
   <attribute arch="food" editor="refill value" type="int">
     How many ticks can be refilled to a light source of the
@@ -417,7 +392,7 @@
     <ignore_list name="default_setting" />
   </ignore>
   <description><![CDATA[
-    WARNING: Type 0 is an invalid type setting in Atrinik and 
+    WARNING: Type 0 is an invalid type setting in Atrinik and
     will cause a warning by the server. ]]>
   </description>
   <attribute arch="no_pass" editor="blocking passage" type="bool">
@@ -454,7 +429,7 @@
     Abilities are to be put in a monster's inventory. They grant monsters the
     knowledge to cast spells. Spells from abilities are usually magical in
     nature, thus adding magic to the spell-damage they produce. If not marked
-    as magical, the ability as natural effect can't be disenchanted or 
+    as magical, the ability as natural effect can't be disenchanted or
     blocked by dispel magic.
     <br><br>
     A particularly nice feature of abilities is that they can hold two
@@ -538,11 +513,11 @@
   </attribute>
   <attribute arch="food" editor="drop amount" type="int">
     The drop amount specifies the amount of items (specified
-    in &lt;match item name&gt;) that must be dropped to activate the altar. 
+    in &lt;match item name&gt;) that must be dropped to activate the altar.
 
     If &lt;match item name&gt; is set to "money", then the value of the
     sacrificed money must be equal to &lt;drop amount&gt; (ie, if food=200, then
-    200 silver, 20 gold, or 4 platinum will all work.) 
+    200 silver, 20 gold, or 4 platinum will all work.)
 
     Note that the maximum possible for &lt;drop amount&gt; is 32767.
   </attribute>
@@ -566,7 +541,7 @@
   </attribute>
   <attribute arch="last_sp" editor="cast to direction" type="list_direction">
     The spell will be cast in this direction. Note, that if the altar
-    should cast a heal spell on the player, this must be 
+    should cast a heal spell on the player, this must be
     direction 0 &lt;none&gt;. For other spells like fireball,
     it should be set a valid point of the compass direction.
   </attribute>
@@ -592,7 +567,7 @@
     Altar_triggers are very useful if you want to charge a price for...
     <UL>
     <LI> ... an item. -&gt; Connect the altar_trigger (set "last_sp 1") to a creator.
-    <LI> ... opening a gate. -&gt; Connect the altar_trigger (set "last_sp 0") to the gate. 
+    <LI> ... opening a gate. -&gt; Connect the altar_trigger (set "last_sp 0") to the gate.
     <LI> ... information. -&gt; Connect the altar_trigger (set "last_sp 1") to a magic_mouth.
     </UL>
     The big advantage over normal altars is the infinite usability
@@ -610,11 +585,11 @@
   </attribute>
   <attribute arch="food" editor="drop amount" type="int">
     The drop amount specifies the amount of items (specified
-    in &lt;match item name&gt;) that must be dropped to activate the altar. 
+    in &lt;match item name&gt;) that must be dropped to activate the altar.
 
     If &lt;match item name&gt; is set to "money", then the value of the
     sacrificed money must be equal to &lt;drop amount&gt; (ie, if food=200, then
-    200 silver, 20 gold, or 4 platinum will all work.) 
+    200 silver, 20 gold, or 4 platinum will all work.)
 
     Note that the maximum possible for &lt;drop amount&gt; is 32767.
   </attribute>
@@ -637,7 +612,7 @@
     If this attribute is enabled, the altar_trigger won't push the
     connected value by altar reset. Only ONCE by dropping the sacrifice.
     This is typically used when the altar is connected to a creator,
-    e.g. for selling tickets. 
+    e.g. for selling tickets.
 
     If this attribute is disabled (default), the altar_trigger
     will push the connected value TWICE per sacrifice: First by
@@ -771,7 +746,7 @@
   <attribute arch="protect_holy" editor="shield holy %" length="15" type="int">
   </attribute>
   <attribute arch="protect_corruption" editor="shield corruption %" length="15" type="int">
-  </attribute>         	
+  </attribute>
 </section>
 
 <section name="stats">
@@ -818,7 +793,7 @@
   <attribute arch="item_condition" editor="actual quality" type="int">
     This is the REAL quality status of item - showing how much it is
     used up. Every time the item is overused or damaged, the
-    &lt;actual quality&gt; is lowered. The value can range from 0 (destroyed) to 
+    &lt;actual quality&gt; is lowered. The value can range from 0 (destroyed) to
     the maximum of &lt;max. quality&gt; (It can never get higher than that).
     The quality value represents a % value affecting the item's stats:
     Lower quality than 100% means effects like protection/damage etc.
@@ -900,7 +875,7 @@
     during a fight a player can run out of food quickly.
   </attribute>
   <attribute arch="make_invisible" editor="make invisible" type="bool">
-   When applied the user gets invisible. He can't be seen from player 
+   When applied the user gets invisible. He can't be seen from player
    or monster except they have "see invisible" power.
   </attribute>
   <attribute arch="see_invisible" editor="see invisible" type="bool">
@@ -922,7 +897,7 @@
     shown red.
     For mobs, this flag is a "should-have" for high-level monsters.
     When a monster is unable to see in darkness, in the night they will
-    not be able to move or players can cast darkness and sneak around 
+    not be able to move or players can cast darkness and sneak around
     it safely.
   </attribute>
   <attribute arch="stealth" editor="stealth" type="bool">
@@ -1155,7 +1130,7 @@
     TRIGGERS - after they get triggered, they will reset automatically
     and send  another trigger signal to the connected objects. This
     will happen even the player/object which triggered the button
-    is still on it. In the time between trigger and reset, the 
+    is still on it. In the time between trigger and reset, the
     TRIGGER_BUTTON can't be triggered. ]]>
   </description>
   <attribute arch="walk_on" value="1" type="fixed" />
@@ -1245,7 +1220,7 @@
   <attribute arch="race" editor="container class" type="string">
     If set, the container will hold only certain types of objects.
     Possible choices for &lt;container class&gt; are: "gold and jewels",
-    "arrows" and "keys". 
+    "arrows" and "keys".
 
     Unfortunately it is not easy to create new container
     classes, because items need a matching counterpiece-attribute
@@ -1360,7 +1335,7 @@
   </attribute>
   <attribute arch="connected" editor="connection" type="int">
     Whenever the connection value is activated,
-    the creator gets triggered.  
+    the creator gets triggered.
   </attribute>
   <attribute arch="lifesave" editor="infinit uses" type="bool">
     If &lt;infinit uses&gt; is set, the creator will work
@@ -1373,7 +1348,7 @@
   </attribute>
   <attribute arch="slaying" editor="name of creation" type="string">
     The created object will bear the name specified in &lt;name creation&gt;.
-    If nothing is set, the standard name of the archetype is used. 
+    If nothing is set, the standard name of the archetype is used.
   </attribute>
   <attribute arch="level" editor="level of creation" type="int">
     The created object will be of that level. If zero/unset,
@@ -1516,7 +1491,7 @@
     If positive, the &lt;infection range&gt; is level dependant - If negative,
     it is not:
     E.g. "&lt;infection range&gt; -6" means creatures can be infected in
-    six square range, and &lt;plaque level&gt; doesn't modify that. 
+    six square range, and &lt;plaque level&gt; doesn't modify that.
   </attribute>
   <attribute arch="maxhp" editor="persistence" type="int">
     &lt;persistence&gt; defines how long the disease can persist OUTSIDE a host.
@@ -1714,7 +1689,7 @@
     the exit.  ]]>
   </description>
   <use><![CDATA[
-    If you want to have an invisible exit, set &lt;invisible&gt; (, of course 
+    If you want to have an invisible exit, set &lt;invisible&gt; (, of course
     &lt;apply by walking&gt;), and put it *under* the floor. Otherwise it could be
     detected with the show_invisible spell.
     <br><br>
@@ -1728,7 +1703,7 @@
     with '/' (On the map "/peterm/FireTemple/Fire2" for example I could use the
     relative path "Fire1"). Use relative paths whenever possible! Note that
     upper/lower case must always be set correctly. However, please use lower
-    case only. 
+    case only.
     It is well possible to have an exit pointing to the same map that the exit
     is on. If slaying is not set in an exit, the player will see a message like
     "the exit is closed".
@@ -1768,8 +1743,8 @@
     This flag defines the destined map as "personal unique map". If set,
     there will be a seperate version of that map for every player out there.
     This feature is used for the permanent apartments.
-    It should not be used for anything else than apartments, since Atrinik is a 
-    *multi*player game. In such a permanent apartment don't forget to set the 
+    It should not be used for anything else than apartments, since Atrinik is a
+    *multi*player game. In such a permanent apartment don't forget to set the
     unique-flag for all floor tiles too (see floors).
     An exit pointing outside of a personal unique map must have the
     "unique destination"-flag unset.
@@ -1878,7 +1853,7 @@
   </ignore>
   <description><![CDATA[
     Floors are the base ground objects, which "defines" the tile.
-    All settings for ground type and moving issues are done in the 
+    All settings for ground type and moving issues are done in the
     floor tile.
     For floor tiles, we have 2 rules:
     a.) There must be a floor tile for every map position of a map.
@@ -1926,8 +1901,7 @@
 </section>
   <attribute arch="unique" editor="unique map" type="bool">
     Unique floor means that any items dropped on that spot
-    will be saved byond map reset. For permanent apartments,
-    all floor tiles must be set &lt;unique map&gt;.
+    will be saved beyond map reset.
   </attribute>
   <attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
     This text may describe the object.
@@ -1989,15 +1963,15 @@
     The player's health will increase by &lt;foodpoints&gt;/50 hp.
   </attribute>
   <attribute arch="hp" editor="health bonus" type="int">
-    Positive &lt;health&gt; bonus added to player's 
+    Positive &lt;health&gt; bonus added to player's
     hp when food eaten. Negative values will reduce hp.
-    Curse will double amd damned will triple it. In both 
+    Curse will double amd damned will triple it. In both
     cases are positive values negated.
   </attribute>
   <attribute arch="sp" editor="mana bonus" type="int">
     Positive &lt;mana&gt; bonus added to player's mana
     when food eaten. Negative values will reduce mana.
-    Curse will double amd damned will triple it. In both 
+    Curse will double amd damned will triple it. In both
     cases are positive values negated.
   </attribute>
   <attribute arch="cursed" editor="cursed food" type="bool">
@@ -2128,15 +2102,15 @@
     The player's health will increase by &lt;foodpoints&gt;/50 hp.
   </attribute>
   <attribute arch="hp" editor="health bonus" type="int">
-    Positive &lt;health&gt; bonus added to player's 
+    Positive &lt;health&gt; bonus added to player's
     hp when consumed. Negative values will reduce hp.
-    Curse will double amd damned will triple it. In both 
+    Curse will double amd damned will triple it. In both
     cases are positive values negated.
   </attribute>
   <attribute arch="sp" editor="mana bonus" type="int">
     Positive &lt;mana&gt; bonus added to player's mana
     when consumed. Negative values will reduce mana.
-    Curse will double amd damned will triple it. In both 
+    Curse will double amd damned will triple it. In both
     cases are positive values negated.
   </attribute>
   <attribute arch="cursed" editor="cursed food" type="bool">
@@ -2149,7 +2123,7 @@
   </attribute>
   <attribute arch="speed_left" editor="force time" type="float">
     The &lt;speed&gt; determines how long a force will stay when
-    it gets created from food/drink effects. Only used when drink 
+    it gets created from food/drink effects. Only used when drink
     has effects which gets copied to a force.
   </attribute>
   <attribute arch="startequip" editor="godgiven item" type="bool">
@@ -2303,7 +2277,7 @@
   <description><![CDATA[
     Timed Gates are like normal gates except they close automatically after
     a set time. Timed Gates can be opened by activating a button/trigger,
-    by speaking passwords (-&gt; magic_ear) or carrying special key-objects 
+    by speaking passwords (-&gt; magic_ear) or carrying special key-objects
     (-&gt; inventory checker). Except the auto closing they are like normal
     gates. ]]>
   </description>
@@ -2637,7 +2611,7 @@
   <attribute arch="other_arch" editor="god name" type="string">
     The altar belongs to the god of the given name. Possible options for
     &lt;god name&gt; are: Devourers, Lythander, Mostrai, Gaea, Ruggilli, Gnarg,
-    Gorokh, Valriel and Sorig. 
+    Gorokh, Valriel and Sorig.
 
     If you want to have an unconsecrated altar, set
     &lt;god name&gt; 0 and eventually &lt;reconsecrate level&gt; 0.
@@ -2645,7 +2619,7 @@
   <attribute arch="level" editor="reconsecrate level" type="int">
     To re-consecrate an altar, the player's wisdom level must be as
     high or higher than this value. In that way, some altars can not
-    be re-consecrated, while other altars, like those in dungeons, could be. 
+    be re-consecrated, while other altars, like those in dungeons, could be.
 
     Altars located in temples should have at least &lt;reconsecrate level&gt; 100.
     Some characters might need those altars, they would be very unhappy to
@@ -2698,7 +2672,7 @@
     too effective.
   </attribute>
   <attribute arch="make_invisible" editor="make invisible" type="bool">
-   When applied the user gets invisible. He can't be seen from player 
+   When applied the user gets invisible. He can't be seen from player
    or monster except they have "see invisible" power.
   </attribute>
   <attribute arch="make_ethereal" editor="make ethereal" type="bool">
@@ -2836,7 +2810,7 @@
   </attribute>
   <attribute arch="hp" editor="match type" type="int">
     This value specifies the object we are looking for: We have a match
-    if the player does/don't carry an object that is of type &lt;match type&gt;. 
+    if the player does/don't carry an object that is of type &lt;match type&gt;.
 
     Example: Set &lt;match type&gt; 15 (type 15 =&gt; weapon) and &lt;blocking passage&gt;
     enabled. Now you have an inv. checker blocking all players that carry any
@@ -2866,7 +2840,7 @@
     &lt;remove match&gt; means remove object if found. Setting this is usually not
     recommended because inv. checkers are in general invisible. So, unlike
     for altars/ locked doors, the player won't expect to lose an object when
-    walking over that square. And he doesn't even get a message either. 
+    walking over that square. And he doesn't even get a message either.
 
     So, *if* you enable &lt;remove match&gt;, make sure
     to inform the player what's going on!
@@ -2934,7 +2908,7 @@
   <use><![CDATA[
     If you want to create a locked door that cannot be opened (no key),
     set a &lt;key string&gt; like "no_key_available". This will clarify things
-    and only a fool would create a key matching that string. 
+    and only a fool would create a key matching that string.
 
     Door-objects can not only be used for "doors". In many maps these
     are used with all kinds of faces/names, especially often as
@@ -3074,7 +3048,7 @@
   </attribute>
   <attribute arch="speed" editor="casting speed" type="float">
     The &lt;casting speed&gt; defines the spellcasting speed of the wall.
-    You can fine-tune how long the duration between two casts shall be. 
+    You can fine-tune how long the duration between two casts shall be.
   </attribute>
   <attribute arch="connected" editor="connection" type="int">
     Every time the &lt;connection&gt; value is triggered, the wall will cast
@@ -3227,7 +3201,7 @@
     When the player steps onto the marker, all existing forces in
     the players inventory with a &lt;key string&gt; matching &lt;delete mark&gt;
     will be removed. If you don't want to remove any marks, leave
-    this textfield empty. 
+    this textfield empty.
 
     Note that the string &lt;delete mark&gt; is set as the name of
     this marker. So don't be confused, and remember changing the
@@ -3289,10 +3263,10 @@
          after passing a room of dragons.<br>
          This rule applies only for linear maps (one room after the other),
          with treasure at the end. You can sprinkle the treasure around,
-         or make non-linear maps - That is often more entertaining. 
+         or make non-linear maps - That is often more entertaining.
     <LI> Places with high level monsters must not be easy to reach.
          Balrogs, Dragonmen and the likes should be at the end of a quest,
-         not at the beginning. 
+         not at the beginning.
     <LI> Don't stick monsters together that tend to kill each other.
          Fire- and cold dragons in one room for example is a bad idea.
          By weakening and killing each other they are easy prey for players,
@@ -3353,9 +3327,9 @@
     for generated objects of same type thats they act totally synchron.
   </attribute>
   <attribute arch="other_arch" editor="breed monster" type="string">
-    This only takes effect if &lt;multiply&gt; or &lt;splits&gt; is enabled. 
-	The monster will create a &lt;breed monster&gt; every once in a while. 
-	&lt;breed monster&gt; can be set to any valid arch-name of a monster. 
+    This only takes effect if &lt;multiply&gt; or &lt;splits&gt; is enabled.
+	The monster will create a &lt;breed monster&gt; every once in a while.
+	&lt;breed monster&gt; can be set to any valid arch-name of a monster.
 	Multipart monster should not be used.
   </attribute>
   <attribute arch="generator" editor="multiply" type="bool">
@@ -3369,9 +3343,9 @@
 	is set.
   </attribute>
   <attribute arch="splitting" editor="split" type="bool">
-    Monsters with &lt;split&gt; enabled will split into one or more 
+    Monsters with &lt;split&gt; enabled will split into one or more
 	&lt;breed monster&gt; whenever they're hit. The number of new monsters
-	is controlled by &lt;split number&gt;. 
+	is controlled by &lt;split number&gt;.
 	If enabled, you must also set &lt;breed monster&gt; and &lt;split number&gt;.
   </attribute>
   <attribute arch="invulnerable" editor="invulnerable" type="bool">
@@ -3627,7 +3601,7 @@
     If no_pass (blocking passage) is set for a object, no one can pass
     the tile is it in (true for walls or closed doors). But if this
     flag is set, the monster can pass through all no_pass objects
-    which has pass_thru set. 
+    which has pass_thru set.
     This is used for example from ghosts who moves through doors.
     Be careful! This is a extrem powerful ability! Use it in context!
     Orcs who moves without reason through walls are not senseful.
@@ -3719,8 +3693,8 @@
     11x11 square of the monster will wake the monster up. If the player
     has stealth, the size of this square is reduced in half plus 1.
   </attribute>
-  <attribute arch="movement_type" editor="movement type" type="list_move_type"> 
-	FIXME: copy documentation from define.h 
+  <attribute arch="movement_type" editor="movement type" type="list_move_type">
+	FIXME: copy documentation from define.h
   </attribute>
   <attribute arch="attack_move_type" editor="attack movement type" type="list_attack_type">
     FIXME: copy documentation from define.h
@@ -3845,7 +3819,7 @@
   <attribute arch="protect_holy" editor="shield holy %" length="15" type="int">
   </attribute>
   <attribute arch="protect_corruption" editor="shield corruption %" length="15" type="int">
-  </attribute>         	
+  </attribute>
 </section>
   <attribute arch_begin="msg" arch_end="endmsg" editor="npc message" type="text">
   </attribute>
@@ -3865,7 +3839,7 @@
   <description><![CDATA[
     Spawn points are used to spawn monsters.
     After the spawn point is set, one or more
-    mobs can be added to the spawn points inventory. 
+    mobs can be added to the spawn points inventory.
     By changing the monster type from MONSTER to
     SPAWN POINT MOB, the mob will used as prototyp
     for a spawn. The map maker can set some options,
@@ -3891,12 +3865,12 @@
     See SPAWN POINT MOB objects for more information.
   </attribute>
   <attribute arch="last_heal" editor="spawn range" type="int">
-    Size of an area around the spawn point where the mob should 
+    Size of an area around the spawn point where the mob should
     be placed randomly. If this value is set to 0, spawn point
     will find no free place. If set to 1, it test the space where
     the spawn point itself is. Increasing the value will start a search
     around the spot, starting in the south. value 2 search spot 0,-1,
-    value 3 spot 1,-1, 4 = 0,-1 ... 
+    value 3 spot 1,-1, 4 = 0,-1 ...
     Warning: The Test will ONLY be done for the head - so careful when
     inserting big monsters on the map. Depending on the "free" area,
     the spawn point will drop the mob somewhere in the free area.
@@ -3930,10 +3904,10 @@
          after passing a room of dragons.<br>
          This rule applies only for linear maps (one room after the other),
          with treasure at the end. You can sprinkle the treasure around,
-         or make non-linear maps - That is often more entertaining. 
+         or make non-linear maps - That is often more entertaining.
     <LI> Places with high level monsters must not be easy to reach.
          Balrogs, Dragonmen and the likes should be at the end of a quest,
-         not at the beginning. 
+         not at the beginning.
     <LI> Don't stick monsters together that tend to kill each other.
          Fire- and cold dragons in one room for example is a bad idea.
          By weakening and killing each other they are easy prey for players,
@@ -3989,8 +3963,8 @@
   <attribute arch="speed" editor="speed" type="float">
     The &lt;speed&gt; determines how fast a monster will both move
     and fight. High &lt;speed&gt; makes a monster considerably stronger.
-    If the start value is negative but the speed counter becomes a 
-    random start value. This will avoid for generated objects of same 
+    If the start value is negative but the speed counter becomes a
+    random start value. This will avoid for generated objects of same
     type thats they act totally synchron.
   </attribute>
   <attribute arch="other_arch" editor="breed monster" type="string">
@@ -4028,7 +4002,7 @@
     The spawn point will use a random number between 0-9999 to
     find a usable mob to spawn. If this value is nearest but
     not higher, this mob is selected. A number of 0 and only one
-    mob in the spawn point means this mob is spawned always. A 
+    mob in the spawn point means this mob is spawned always. A
     number of 5000 means a 50% chance to spawn.
   </attribute>
   <attribute arch="last_eat" editor="darkness to spawn" type="int">
@@ -4265,7 +4239,7 @@
     If no_pass (blocking passage) is set for a object, no one can pass
     the tile is it in (true for walls or closed doors). But if this
     flag is set, the monster can pass through all no_pass objects
-    which has pass_thru set. 
+    which has pass_thru set.
     This is used for example from ghosts who moves through doors.
     Be careful! This is a extrem powerful ability! Use it in context!
     Orcs who moves without reason through walls are not senseful.
@@ -4355,8 +4329,8 @@
     11x11 square of the monster will wake the monster up. If the player
     has stealth, the size of this square is reduced in half plus 1.
   </attribute>
-  <attribute arch="movement_type" editor="movement type" type="list_move_type"> 
-	FIXME: copy documentation from define.h 
+  <attribute arch="movement_type" editor="movement type" type="list_move_type">
+	FIXME: copy documentation from define.h
   </attribute>
   <attribute arch="attack_move_type" editor="attack movement type" type="list_attack_type">
     FIXME: copy documentation from define.h
@@ -4481,7 +4455,7 @@
   <attribute arch="protect_holy" editor="shield holy %" length="15" type="int">
   </attribute>
   <attribute arch="protect_corruption" editor="shield corruption %" length="15" type="int">
-  </attribute>         	
+  </attribute>
 </section>
   <attribute arch_begin="msg" arch_end="endmsg" editor="npc message" type="text">
   </attribute>
@@ -4522,11 +4496,11 @@
     &lt;mood&gt; 'furious': Makes all monsters aggressive
 
     &lt;mood&gt; 'angry': As above but pets are unaffected
- 
+
     &lt;mood&gt; 'calm': Makes all monsters unaggressive
- 
+
     &lt;mood&gt; 'sleep': Puts all monsters to sleep
- 
+
     &lt;mood&gt; 'charm': Turns monster into a pet of person
                     who triggers the square. This setting is not
                     enabled for continous operation, you need to
@@ -4536,7 +4510,7 @@
     This should only be set in combination with 'charm' mood.
     Normally, monsters are affected by the mood floor as soon as they
     step on it. But charming (monster -&gt; pet) is too powerful,
-    so it needs to be activated. 
+    so it needs to be activated.
 
     Typically it is connected to an altar, for buying a "hireling".
     But a powerful pet could as well be the reward for solving a
@@ -4602,7 +4576,7 @@
     This value has only a meaning if &lt;gets used up&gt; is set:
     &lt;number of uses&gt; is the number of times minus one, that it
     will move a creature before disappearing. (It will move
-    someone &lt;number of uses&gt;+1 times, then vanish). 
+    someone &lt;number of uses&gt;+1 times, then vanish).
   </attribute>
 <section name="targets">
   <attribute arch="level" editor="move players" type="bool">
@@ -4657,7 +4631,7 @@
     the &lt;match race&gt; defines the object we're looking for. If &lt;match race&gt;
     matches the monster's or the player's race, we have a match.
     Yes, pedestals can detect a player's race! E.g. you could create a
-    place where only fireborns can enter, by setting "slaying unnatural". 
+    place where only fireborns can enter, by setting "slaying unnatural".
 
     If it is set to "player", any player stepping on the pedestal
     is a match. Very useful if you want to open a gate for players
@@ -4705,7 +4679,7 @@
     the &lt;match race&gt; defines the object we're looking for. If &lt;match race&gt;
     matches the monster's or the player's race, we have a match.
     Yes, pedestals can detect a player's race! E.g. you could create a
-    place where only fireborns can enter, by setting "slaying unnatural". 
+    place where only fireborns can enter, by setting "slaying unnatural".
 
     If it is set to "player", any player stepping on the pedestal
     is a match. Very useful if you want to open a gate for players
@@ -4757,7 +4731,7 @@
     with '/' (On the map "/peterm/FireTemple/Fire2" for example I could use the
     relative path "Fire1"). Use relative paths whenever possible! Note that
     upper/lower case must always be set correctly. However, please use lower
-    case only. 
+    case only.
     It is well possible to have an exit pointing to the same map that the exit
     is on. If slaying is not set in an exit, the player will see a message like
     "the exit is closed".
@@ -4811,8 +4785,8 @@
   <description><![CDATA[
     When eating, the player's stomache is drained by 1/4 of food
     and the player is poisoned (a DOT poisoned force is inserted
-    in the player). Until the DOT (DOT = Damage Over Time) force 
-    wears out, the player gets damage all x ticks. 
+    in the player). Until the DOT (DOT = Damage Over Time) force
+    wears out, the player gets damage all x ticks.
     Also stats and resists can be effected.]]>
   </description>
   <attribute arch="dam" editor="damage" type="int">
@@ -4825,7 +4799,7 @@
   <attribute arch="last_heal" editor="# of DOT ticks" type="int">
    When a poison force is created after someone is effected
    by this poison food this value sets how often the DOT force
-   applies damage before it wear out. 
+   applies damage before it wear out.
    (DOT = Damage Over Time)
   </attribute>
   <attribute arch="speed_left" editor="speed of DOT ticks" type="float">
@@ -5409,7 +5383,7 @@
     too effective.
   </attribute>
   <attribute arch="make_invisible" editor="make invisible" type="bool">
-   When applied the user gets invisible. He can't be seen from player 
+   When applied the user gets invisible. He can't be seen from player
    or monster except they have "see invisible" power.
   </attribute>
   <attribute arch="make_ethereal" editor="make ethereal" type="bool">
@@ -5453,7 +5427,7 @@
   <attribute arch="level" editor="rune level" type="int">
     This value sets the level the rune will cast the spell it contains at,
     if applicable. A level 99 rune casts a very, very mean spell of whatever.
-    (&lt;rune level&gt; 0 runes won't detonate at all!) 
+    (&lt;rune level&gt; 0 runes won't detonate at all!)
 
     Level Also effects how easily a trap may be found and disarmed, and
     how much experience the player gets for doing so. Beware: High level
@@ -5471,7 +5445,7 @@
   <attribute arch="dam" editor="direct damage" type="int">
     &lt;direct damage&gt; specifies how much damage is done by the rune,
     if it doesn't contain a spell. This should be set in reasonable
-    relation to the rune's level. 
+    relation to the rune's level.
   </attribute>
 <section name="attack">
   <attribute arch="attack_impact" editor="impact attack %" length="15" type="int">
@@ -5662,7 +5636,7 @@
   </attribute>
   <attribute arch="last_sp" editor="shooting range" type="int">
     This value is supposed to be the base &lt;shooting range&gt;.
-    It is added to the base range of the used ammunition (arrow, bolt,...)    
+    It is added to the base range of the used ammunition (arrow, bolt,...)
   </attribute>
   <attribute arch="dam" editor="base damage" type="int">
     The &lt;base damage&gt; significantly affects the damage done
@@ -5711,7 +5685,7 @@
     drops it to the ground.
   </attribute>
   <attribute arch="make_invisible" editor="make invisible" type="bool">
-   When applied the user gets invisible. He can't be seen from player 
+   When applied the user gets invisible. He can't be seen from player
    or monster except they have "see invisible" power.
   </attribute>
   <attribute arch="make_ethereal" editor="make ethereal" type="bool">
@@ -6138,7 +6112,7 @@
   </description>
   <use><![CDATA[
     When creating maps, I guess sooner or later you'll want to have
-    an invisible teleporter. And in some cases you can't place it 
+    an invisible teleporter. And in some cases you can't place it
     under the floor to prevent this.
     <br><br>
     Fortunately, there is a cool trick to make a perfectly invisible
@@ -6200,7 +6174,7 @@
     automatically be activated in regular time-intervals. Hence, the
     player can just step on it and gets teleported sooner or later.
     The duration between two activates depends on the given value.
-    Default in the teleporter arch is &lt;activation speed&gt; 0.1. 
+    Default in the teleporter arch is &lt;activation speed&gt; 0.1.
 
     VERY IMPORTANT: If you want to have your teleporter activated via
     button/handle/magic_ear/etc, you must set &lt;activation speed&gt; to zero!
@@ -6241,7 +6215,7 @@
     with '/' (On the map "/peterm/FireTemple/Fire2" for example I could use the
     relative path "Fire1"). Use relative paths whenever possible! Note that
     upper/lower case must always be set correctly. However, please use lower
-    case only. 
+    case only.
     It is well possible to have an exit pointing to the same map that the exit
     is on. If slaying is not set in an exit, the player will see a message like
     "the exit is closed".
@@ -6392,7 +6366,7 @@
     any decent additional bonuses!
   </attribute>
   <attribute arch="make_invisible" editor="make invisible" type="bool">
-   When applied the user gets invisible. He can't be seen from player 
+   When applied the user gets invisible. He can't be seen from player
    or monster except they have "see invisible" power.
   </attribute>
   <attribute arch="make_ethereal" editor="make ethereal" type="bool">
@@ -6677,7 +6651,7 @@
     drops it to the ground.
   </attribute>
   <attribute arch="make_invisible" editor="make invisible" type="bool">
-   When applied the user gets invisible. He can't be seen from player 
+   When applied the user gets invisible. He can't be seen from player
    or monster except they have "see invisible" power.
   </attribute>
   <attribute arch="make_ethereal" editor="make ethereal" type="bool">
@@ -6728,13 +6702,13 @@
   </ignore>
   <description><![CDATA[
     The waypoint object can hold a position that a mob is to reach.
-	
+
 	Mobs will only use waypoints if their attack_movement attribute is between 176 and
 	191.
-	
+
 	When the mob reaches the destination, it will either continue to
-	the next waypoint, or stop. Waypoints can be used to set up patrol 
-	routes or make more dynamic script behaviours.  
+	the next waypoint, or stop. Waypoints can be used to set up patrol
+	routes or make more dynamic script behaviours.
 	When a waypoint is reached, a TRIGGER event will be executed.
 	]]>
   </description>
@@ -6749,7 +6723,7 @@
     with '/' (On the map "/peterm/FireTemple/Fire2" for example I could use the
     relative path "Fire1"). Use relative paths whenever possible! Note that
     upper/lower case must always be set correctly. However, please use lower
-    case only. 
+    case only.
   </attribute>
   <attribute arch="hp" editor="destination X" type="int">
     The destinations define the (x, y)-coordinates where the mob should go.
