@@ -102,11 +102,11 @@
     6 is reserved for players and layer 7 is for spell effects and high flying/visible
     objects like arrows.
   </attribute>
-  <attribute arch="face" editor="image" type="string">
+  <attribute arch="face" editor="image" type="facename">
     The image-name defines what image is displayed for this object
     in-game.
   </attribute>
-  <attribute arch="animation" editor="animation" type="string">
+  <attribute arch="animation" editor="animation" type="animname">
     The animation-name defines what animation is displayed for this object
     in-game. Note that a set animation will overrule the face.
     Changing animation is easy - adding or deleting an animation is more
