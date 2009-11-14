@@ -1,97 +1,3 @@
-Object ai_generic
-name Generic AI
-type 126
-msg
-# This is a generic AI that can be used for most mobs
-processes:
-look_for_other_mobs
-friendship
-choose_enemy
-
-moves:
-# stand_still
-sleep
-# run_away_from_enemy hp_threshold=6
-move_towards_enemy
-move_towards_enemy_last_known_pos
-search_for_lost_enemy
-move_towards_waypoint
-# move_randomly xlimit=5 ylimit=5
-move_towards_home
-
-reaction_moves:
-
-actions:
-melee_attack_enemy
-bow_attack_enemy
-spell_attack_enemy
-endmsg
-editor_folder ai/ai
-face ai.101
-sys_object 1
-end
-Object guard_arch_ai
-name Guard arch AI
-type 126
-msg
-# A typical guard never leaves his favourite spot
-processes:
-look_for_other_mobs
-friendship
-choose_enemy
-
-moves:
-stand_still
-
-reaction_moves:
-
-actions:
-melee_attack_enemy
-bow_attack_enemy
-spell_attack_enemy
-endmsg
-editor_folder ai/arch_defaults
-face ai.101
-sys_object 1
-end
-Object empty_ai
-name Empty AI
-type 126
-msg
-# A braindead but efficient AI declaration
-processes:
-moves:
-reaction_moves:
-actions:
-endmsg
-editor_folder ai/ai
-face ai.101
-sys_object 1
-end
-Object slime_race_ai
-name Slime race AI
-type 126
-msg
-# Slimes aren't supposed to be very smart
-processes:
-look_for_other_mobs
-friendship
-choose_enemy
-
-moves:
-sleep
-move_towards_enemy
-move_towards_home
-
-reaction_moves:
-
-actions:
-melee_attack_enemy
-endmsg
-editor_folder ai/race_defaults
-face ai.101
-sys_object 1
-end
 Object altar
 type 18
 editor_folder connect/connect
@@ -6951,7 +6857,7 @@ end
 Object bench1a.111
 name bench
 type 79
-editor_folder indoor/benchs
+editor_folder indoor/benches
 face bench1a.111
 animation _bench1a.111
 is_animated 0
@@ -6965,7 +6871,7 @@ end
 Object bench1b.111
 name bench
 type 79
-editor_folder indoor/benchs
+editor_folder indoor/benches
 face bench1b.111
 animation _bench1b.111
 is_animated 0
@@ -6979,7 +6885,7 @@ end
 Object bench2.111
 name bench
 type 79
-editor_folder indoor/benchs
+editor_folder indoor/benches
 face bench2.111
 animation _bench2.111
 is_animated 0
@@ -7138,18 +7044,6 @@ face chair_small.101
 no_pick 1
 layer 4
 end
-Object stone_throne
-name stone throne
-type 79
-editor_folder indoor/chairs
-face char_throne.111
-animation _stone_throne
-is_animated 0
-anim_speed 1
-is_turnable 1
-direction 1
-layer 3
-end
 Object throne.111
 name throne
 type 79
@@ -7162,6 +7056,18 @@ is_turnable 1
 direction 1
 no_pick 1
 layer 4
+end
+Object stone_throne
+name stone throne
+type 79
+editor_folder indoor/chairs
+face throne_stone.111
+animation _stone_throne
+is_animated 0
+anim_speed 1
+is_turnable 1
+direction 1
+layer 3
 end
 Object amphora1.101
 name amphora
@@ -8536,7 +8442,7 @@ Object wmask_fire_on_1
 name fire place
 type 77
 editor_folder indoor/masks_wall
-face wmask_fire_on.151
+face wmask_fire_on.u.151
 animation _wmask_fire_on_1
 is_animated 0
 anim_speed 1
@@ -8549,7 +8455,7 @@ Object wmask_fire_off_1
 name fire place
 type 77
 editor_folder indoor/masks_wall
-face wmask_fire_off.151
+face wmask_fire_off.u.151
 animation _wmask_fire_off_1
 is_animated 0
 anim_speed 1
@@ -10089,15 +9995,6 @@ can_use_weapon 1
 is_player 1
 weight 70000
 food 750
-end
-Object quest_container
-type 120
-editor_folder intern
-sys_object 1
-applied 0
-no_drop 1
-layer 0
-face info.101
 end
 Object skill_alchemy
 name alchemy
@@ -28860,6 +28757,15 @@ maxsp 1
 walk_on 1
 fly_on 1
 end
+Object quest_container
+type 120
+editor_folder special/special
+sys_object 1
+applied 0
+no_drop 1
+layer 0
+face info.101
+end
 Object rand_drop
 type 102
 editor_folder special/special
@@ -34252,6 +34158,15 @@ name stone wall
 type 77
 editor_folder walls/marble
 face wall_marble1_w2.111
+layer 5
+no_pick 1
+no_pass 1
+end
+Object wall_marble1w.111-01
+name stone wall
+type 77
+editor_folder walls/marble
+face wall_marble1_w.111-01
 layer 5
 no_pick 1
 no_pass 1
