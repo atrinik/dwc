@@ -6758,7 +6758,7 @@
 		Quest containers are containers to be inserted to monsters and can be used in
 		different ways depending on type of the quest.
 
-		<h1>One drop quest</h1>
+		<h2>One drop quest</h2>
 		One drop quest is a quest which doesn't have a quest giver, but is only located
 		inside a monster. This is used to create quest items that will only drop once for
 		each player, like King Rhun's Cloak. Item to be dropped for the player is inserted
@@ -6767,17 +6767,29 @@
 		item. Such behavior is typical for dungeon monsters that drop keys, so player can
 		get the key again should he lose it.
 
-		<h1>Kill quest</h1>
+		<h2>Kill quest</h2>
 		This kind of quest requires the player to kill X monsters before the quest is
 		completed. Nothing is inserted inside the quest container.
 
-		<h1>Kill item quest</h1>
+		<h2>Kill item quest</h2>
 		This is similar to a one drop quest, but the quest has a quest giver, which requires
 		the player to find the item that is being looked for. Typically, a monster will drop
 		the object to be found. The object that is being looked for is inserted inside the
 		quest container.
 	]]>
 	</description>
+	<use>
+	<![CDATA[
+		A useful trick with quest containers is that you can put the containers into the
+		inventory of a random creator. Since random creators are parsed when the monster
+		spawns and not when the inventory drops, this is useful to create a quest where
+		the player needs to kill 5 ghosts, but the ghosts have only 50% chance to get
+		counted to the killed total, with the help of random creators. Another example
+		is a quest where an item is being looked for that drops from a specific monster
+		(or a bunch of monsters) but using random creators it has only 10% chance of
+		being dropped.
+	]]>
+	</use>
 	<attribute arch="name" editor="quest name" type="string">
 		Name of this quest.
 	</attribute>
