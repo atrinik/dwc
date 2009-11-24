@@ -10004,7 +10004,7 @@ face skill.101
 sub_type 2
 sys_object 1
 no_drop 1
-sp 6
+sp 0
 last_eat 1
 level 1
 exp 0
@@ -10019,47 +10019,7 @@ sys_object 1
 no_drop 1
 level 1
 exp 0
-sp 9
-end
-Object skill_bowyer
-name bowyer lore
-type 43
-editor_folder intern
-face skill.101
-sub_type 2
-sys_object 1
-no_drop 1
-sp 4
-level 1
-exp 0
-end
-Object skill_clawing
-name clawing
-type 43
-editor_folder intern
-sub_type 0
-face skill.101
-sys_object 1
-dam 2
-last_sp 3
-no_drop 1
-last_eat 1
-level 1
-exp 0
-sp 31
-end
-Object skill_disarm_trap
-name disarm traps
-type 43
-editor_folder intern
-sub_type 1
-face skill.101
-sys_object 1
-last_eat 2
-no_drop 1
-sp 33
-level 1
-exp 0
+sp 2
 end
 Object experience_agility
 name agility
@@ -10143,49 +10103,7 @@ face skill.101
 sys_object 1
 last_eat 1
 no_drop 1
-sp 15
-level 1
-exp 0
-end
-Object skill_flame_touch
-name flame touch
-type 43
-editor_folder intern
-sub_type 0
-face skill.101
-sys_object 1
-dam 2
-last_sp 4
-attacktype 4
-no_drop 1
-sp 18
-last_eat 1
-level 1
-exp 0
-end
-Object skill_hide
-name hide in shadows
-type 43
-editor_folder intern
-sub_type 1
-face skill.101
-sys_object 1
-no_drop 1
-sp 2
-last_eat 1
-level 1
-exp 0
-end
-Object skill_identify
-name identify items
-type 43
-editor_folder intern
-sub_type 1
-face skill.101
-sys_object 1
-no_drop 1
-sp 36
-last_eat 1
+sp 10
 level 1
 exp 0
 end
@@ -10197,35 +10115,10 @@ sub_type 2
 face skill.101
 sys_object 1
 no_drop 1
-sp 22
+sp 3
 last_eat 1
 level 1
 exp 0
-end
-Object skill_jeweler
-name jeweler lore
-type 43
-editor_folder intern
-face skill.101
-sub_type 2
-sys_object 1
-no_drop 1
-sp 5
-level 1
-exp 0
-end
-Object skill_jumping
-name jumping
-type 43
-editor_folder intern
-sub_type 1
-face skill.101
-sys_object 1
-no_drop 1
-dam 5
-last_sp 1
-exp 0
-sp 10
 end
 Object skill_karate
 name karate
@@ -10240,22 +10133,8 @@ sub_type 0
 sys_object 1
 last_sp 2
 no_drop 1
-sp 19
+sp 5
 last_eat 1
-level 1
-exp 0
-end
-Object skill_levitate
-name levitation
-type 43
-editor_folder intern
-face skill.101
-sub_type 1
-sys_object 1
-last_sp 2
-flying 1
-no_drop 1
-sp 32
 level 1
 exp 0
 end
@@ -10267,69 +10146,7 @@ sub_type 2
 face skill.101
 sys_object 1
 no_drop 1
-sp 8
-last_eat 1
-level 1
-exp 0
-end
-Object skill_lockpick
-name pick locks
-type 43
-editor_folder intern
-face skill.101
-sub_type 1
-sys_object 1
-no_drop 1
 sp 1
-last_eat 1
-level 1
-exp 0
-end
-Object skill_thaumaturgy
-name magic lore
-type 43
-editor_folder intern
-sub_type 2
-face skill.101
-no_drop 1
-sp 7
-sys_object 1
-level 1
-exp 0
-end
-Object skill_meditation
-name meditation
-type 43
-editor_folder intern
-sub_type 1
-face skill.101
-sys_object 1
-no_drop 1
-sp 16
-level 1
-exp 0
-end
-Object skill_climbing
-name mountaineer
-type 43
-editor_folder intern
-sub_type 2
-sys_object 1
-face skill.101
-no_drop 1
-sp 20
-level 1
-exp 0
-end
-Object skill_oratory
-name oratory
-type 43
-editor_folder intern
-sub_type 1
-no_drop 1
-face skill.101
-sp 12
-sys_object 1
 last_eat 1
 level 1
 exp 0
@@ -10343,7 +10160,7 @@ magic 6
 face skill.101
 sys_object 1
 no_drop 1
-sp 30
+sp 9
 last_eat 1
 level 1
 exp 0
@@ -10360,7 +10177,7 @@ wc 5
 sub_type 0
 sys_object 1
 no_drop 1
-sp 17
+sp 4
 last_eat 1
 level 1
 exp 0
@@ -10373,7 +10190,7 @@ face skill.101
 sub_type 0
 sys_object 1
 no_drop 1
-sp 24
+sp 12
 last_heal 25
 last_sp 0
 last_eat 1
@@ -10388,7 +10205,7 @@ face skill.101
 sub_type 0
 sys_object 1
 no_drop 1
-sp 35
+sp 14
 last_heal 25
 last_sp 0
 last_eat 1
@@ -10403,7 +10220,7 @@ sub_type 0
 face skill.101
 sys_object 1
 no_drop 1
-sp 34
+sp 13
 last_heal 25
 last_sp 0
 last_eat 1
@@ -10418,72 +10235,7 @@ sub_type 1
 face skill.101
 sys_object 1
 no_drop 1
-sp 27
-last_eat 1
-level 1
-exp 0
-end
-Object skill_sense_curse
-name sense curse
-type 43
-editor_folder intern
-sub_type 1
-face skill.101
-sys_object 1
-no_drop 1
-sp 14
-last_eat 1
-level 1
-exp 0
-end
-Object skill_sense_magic
-name sense magic
-type 43
-editor_folder intern
-sub_type 1
-face skill.101
-sys_object 1
-no_drop 1
 sp 11
-last_eat 1
-level 1
-exp 0
-end
-Object skill_set_trap
-name set traps
-type 43
-editor_folder intern
-sub_type 1
-face skill.101
-sys_object 1
-no_drop 1
-sp 28
-last_eat 1
-level 1
-exp 0
-end
-Object skill_singing
-name singing
-type 43
-editor_folder intern
-sub_type 1
-face skill.101
-sys_object 1
-no_drop 1
-sp 13
-last_eat 1
-level 1
-exp 0
-end
-Object skill_smithery
-name smithery lore
-type 43
-editor_folder intern
-sub_type 2
-face skill.101
-sys_object 1
-no_drop 1
-sp 3
 last_eat 1
 level 1
 exp 0
@@ -10496,20 +10248,7 @@ sub_type 0
 face skill.101
 sys_object 1
 no_drop 1
-sp 26
-last_eat 1
-level 1
-exp 0
-end
-Object skill_stealing
-name stealing
-type 43
-editor_folder intern
-face skill.101
-sub_type 1
-sys_object 1
-no_drop 1
-sp 0
+sp 7
 last_eat 1
 level 1
 exp 0
@@ -10523,7 +10262,7 @@ sub_type 0
 face skill.101
 sys_object 1
 no_drop 1
-sp 25
+sp 6
 last_heal 25
 last_eat 1
 level 1
@@ -10537,7 +10276,7 @@ sub_type 0
 face skill.101
 sys_object 1
 no_drop 1
-sp 29
+sp 8
 last_eat 1
 level 1
 exp 0
@@ -10550,7 +10289,7 @@ sub_type 2
 face skill.101
 sys_object 1
 no_drop 1
-sp 40
+sp 19
 level 1
 exp 0
 end
@@ -10562,7 +10301,7 @@ sub_type 2
 sys_object 1
 no_drop 1
 face skill.101
-sp 41
+sp 20
 level 1
 exp 0
 end
@@ -10574,7 +10313,7 @@ sub_type 0
 face skill.101
 sys_object 1
 no_drop 1
-sp 38
+sp 16
 last_eat 1
 level 1
 exp 0
@@ -10587,7 +10326,7 @@ sub_type 0
 face skill.101
 sys_object 1
 no_drop 1
-sp 23
+sp 18
 last_eat 1
 level 1
 exp 0
@@ -10600,7 +10339,7 @@ sub_type 0
 sys_object 1
 face skill.101
 no_drop 1
-sp 39
+sp 17
 last_eat 1
 level 1
 exp 0
@@ -10613,20 +10352,8 @@ sub_type 0
 face skill.101
 sys_object 1
 no_drop 1
-sp 37
+sp 15
 last_eat 1
-level 1
-exp 0
-end
-Object skill_woodsman
-name ranger lore
-type 43
-editor_folder intern
-sub_type 2
-face skill.101
-sys_object 1
-no_drop 1
-sp 21
 level 1
 exp 0
 end
