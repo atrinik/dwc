@@ -20645,10 +20645,11 @@ end
 Object swarm_spell
 type 153
 editor_folder magic/magic
-invisible 1
 face burnout.101
 no_pick 1
 speed 1
+layer 0
+sys_object 1
 end
 Object perm_magic_portal
 name magic portal
