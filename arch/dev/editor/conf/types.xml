@@ -5841,61 +5841,71 @@
   </attribute>
 </type>
 
-<!--####################################################################-->
 <type number="68" name="Shop Floor">
-  <ignore>
-    <ignore_list name="non_pickable" />
-    <ignore_list name="default_setting" />
-  </ignore>
-  <description><![CDATA[
-    Shop floor is used for shops. It acts like a combination of the
-    common floor- and the treasure type: When the map is loaded,
-    randomitems (depending on the setings) are generated on it.
-    These items are all flagged as unpaid.
-    When a player drops an item onto shop floor, the item becomes
-    unpaid and the player receives payment according to the item's
-    selling-value.
-    Shopfloor always prevents magic (To hinder players from burning
-    or freezing the goods). ]]>
-  </description>
-  <use><![CDATA[
-    Tile your whole shop-interior space which shop floor.
-    (That assures players receive payment for dropping items).
-    Place shop mats to enter/leave the shop, and make sure
-    there is no other exit than the shop mat. ]]>
-  </use>
-  <attribute arch="is_floor" value="1" type="fixed" />
-  <attribute arch="no_pick" value="1" type="fixed" />
-  <attribute arch="no_magic" value="1" type="fixed" />
-  <attribute arch="auto_apply" editor="generate goods" type="bool">
-    If enabled, items will appear on this square when the map is loaded.
-    You need to specify a &lt;treasurelist&gt; to define what kinds of items
-    are generated. The items will be unpaid and marked as "clone items", unless
-    &lt;don't clone randomitems&gt; is set.
-  </attribute>
-  <attribute arch="cursed" editor="don't clone randomitems" type="bool">
-    Only has meaning if &lt;generate goods&gt; is enabled. If this is enabled,
-    random generated items will not be clone items.
-  </attribute>
-  <attribute arch="randomitems" editor="treasurelist" type="treasurelist">
-    This entry determines what kind of treasure will appear, when
-    &lt;generate goods&gt; is enabled. Look into /crossfire/share/crossfire/treasures
-    for details about existing treasurelists.
-  </attribute>
-  <attribute arch="exp" editor="quality level" type="int">
-    The &lt;quality level&gt; will be used for the quality of the generated
-    goods. If zero/unset, &lt;quality level&gt; 5 is used. Usually this value
-    doesn't need to be set, unless you want extraordinarily good/bad
-    quality. If you want to make a shop with very high quality, meaybe
-    charge an entrance fee, or make the shop hard-to-come-by.
-    Note that &lt;quality level&gt; mainly affects chance of magic bonus
-    and appearance of artifact-items.
-  </attribute>
-  <attribute arch="is_magical" editor="unique shop" type="bool">
-    If enabled, this shop floor will be marked as &lt;unique shop&gt;, which means
-    any item sold on it will remain there until a map reset, or until somebody
-    buys it.
-  </attribute>
+	<ignore>
+		<ignore_list name="non_pickable" />
+		<ignore_list name="default_setting" />
+	</ignore>
+	<description>
+	<![CDATA[
+		Shop floor is used for shops. It acts like a combination of the
+		common floor and the treasure type: When the map is loaded,
+		randomitems (depending on the setings) are generated on it.
+
+		When a player drops an item onto shop floor, the item becomes
+		unpaid and the player receives payment according to the item's
+		value, calculated by various factors, like the player's charisma.
+		Usually the value is 20% of the item's real value.
+
+		Shop floor always prevents magic (to hinder players from burning
+		or freezing the goods).
+	]]>
+	</description>
+	<use>
+	<![CDATA[
+		Tile your whole shop interior space which shop floor, which
+		assures players receive payment for dropping items.
+		Place shop mats to enter/leave the shop, and make sure
+		there is no other exit than the shop mat.
+	]]>
+	</use>
+	<attribute arch="is_floor" value="1" type="fixed" />
+	<attribute arch="no_pick" value="1" type="fixed" />
+	<attribute arch="no_magic" value="1" type="fixed" />
+	<attribute arch="auto_apply" editor="generate goods" type="bool">
+		If enabled, items will appear on this square when the map is
+		loaded. You need to specify a &lt;treasurelist&gt; to define what
+		kinds of items are generated. The items will be unpaid and marked
+		as "clone items", unless &lt;don't clone randomitems&gt; is set.
+	</attribute>
+	<attribute arch="cursed" editor="don't clone randomitems" type="bool">
+		Only has meaning if &lt;generate goods&gt; is enabled. If this is
+		enabled, random generated items will not be clone items.
+	</attribute>
+	<attribute arch="damned" editor="no artifacts" type="bool">
+		Only has meaning if &lt;generate goods&gt; is enabled. If this is
+		enabled, random generated items will never be artifacts.
+ 	 </attribute>
+	<attribute arch="randomitems" editor="treasurelist" type="treasurelist">
+		This entry determines what kind of treasure will appear, when
+		&lt;generate goods&gt; is enabled.
+	</attribute>
+	<attribute arch="exp" editor="quality level" type="int">
+		The &lt;quality level&gt; will be used for the quality of the
+		generated goods. If zero/unset, map difficulty's level is used.
+		Usually this value doesn't need to be set, unless you want
+		extraordinarily good/bad quality. If you want to make a shop with
+		very high quality, maybe charge an entrance fee, or make the shop
+		hard-to-come-by.
+
+		Note that &lt;quality level&gt; mainly affects chance of magic
+		bonus and appearance of artifacts.
+	</attribute>
+	<attribute arch="is_magical" editor="unique shop" type="bool">
+		If enabled, this shop floor will be marked as
+		&lt;unique shop&gt;, which means any item sold on it will remain
+		there until a map reset, or until somebody buys it.
+	</attribute>
 </type>
 
 <!--####################################################################-->
