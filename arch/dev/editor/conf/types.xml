@@ -134,7 +134,6 @@
     like slash type, cleave type, 1hand, polearms and so on. This value goes to the client
     too. WARNING: not all objects have a sub_type and changing it without care can corrupt
     server AND/OR the clients. Normally this is not a subject to change outside arch definition.
-    Containers with non-zero sub type will behave as apartment containers.
   </attribute>
   <attribute arch="layer" editor="layer" type="int">
     This is the map layer, the object will put in. The selected layer will affect where and
