@@ -223,6 +223,12 @@
 		the object can be destroyed by hazardous spell-effects, like
 		firestorm.
 	</attribute>
+	<attribute arch="can_stack" editor="stackable" type="bool">
+		If set, the item can be stacked. Careful, don't use on rings or
+		other applyable items, it will lead to side effects.
+
+		Missiles are designed to be used as stacks for example.
+	</attribute>
 	<attribute arch="no_pick" editor="non-pickable" type="bool">
 		If set, the object cannot be picked up (neither by players nor
 		monsters).

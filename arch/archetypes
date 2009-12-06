@@ -10402,6 +10402,7 @@ material 64
 is_dust 1
 weight 100
 value 300
+can_stack 1
 end
 Object combat_boots
 name combat boots
@@ -13335,6 +13336,7 @@ material 1024
 material_real 643
 value 1
 weight 10
+can_stack 1
 end
 Object goldcoin
 name coin
@@ -13351,6 +13353,7 @@ material 1024
 material_real 646
 value 10000
 weight 10
+can_stack 1
 end
 Object mitcoin
 name coin
@@ -13367,6 +13370,7 @@ material 256
 material_real 514
 value 10000000
 weight 3
+can_stack 1
 end
 Object silvercoin
 name coin
@@ -13383,6 +13387,7 @@ material 1024
 material_real 645
 value 100
 weight 8
+can_stack 1
 end
 Object gem_generic
 name gem
@@ -13398,6 +13403,7 @@ item_condition 100
 material_real 129
 weight 10
 material 4
+can_stack 1
 end
 Object jewel_generic
 name jewel
@@ -13413,6 +13419,7 @@ nrof 1
 value 5
 weight 50
 material 4
+can_stack 1
 end
 Object nugget_generic
 name nugget
@@ -13428,6 +13435,7 @@ item_quality 100
 item_condition 100
 value 5
 weight 125
+can_stack 1
 end
 Object key2
 name strange key
@@ -13573,6 +13581,7 @@ value 22
 weight 400
 food 800
 nrof 1
+can_stack 1
 end
 Object torch
 name torch
@@ -13592,6 +13601,7 @@ food 500
 speed 0.15
 last_eat 1
 last_sp 3
+can_stack 1
 end
 Object torch_burnt
 name burnt out torch
@@ -13607,6 +13617,7 @@ glow_radius 0
 weight 425
 food 0
 nrof 1
+can_stack 1
 end
 Object torch_wall_1
 name attached torch
@@ -13725,6 +13736,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object bread2
 name bread
@@ -13740,6 +13752,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object cake
 name cake
@@ -13755,6 +13768,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object cake_chocolate
 name chocolate cake
@@ -13770,6 +13784,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object cookie
 name cookie
@@ -13785,6 +13800,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object icecake
 name ice cake
@@ -13800,6 +13816,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object head_ant_queen
 name ant queen head
@@ -13813,6 +13830,7 @@ item_condition 100
 material 32
 weight 450
 value 120
+can_stack 1
 end
 Object tooth
 name tooth
@@ -13827,6 +13845,7 @@ nrof 1
 material 32
 weight 1
 value 10
+can_stack 1
 end
 Object beer
 name beer
@@ -13842,6 +13861,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object booze_generic
 name booze
@@ -13857,6 +13877,7 @@ speed_left 0.002
 material 32
 value 8
 weight 300
+can_stack 1
 end
 Object champagne
 name champagne
@@ -13872,6 +13893,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object cup_coffee
 name cup of coffee
@@ -13887,6 +13909,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object cup_empty
 name empty cup
@@ -13901,6 +13924,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object cup_tea
 name cup of tea
@@ -13916,6 +13940,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object drink_generic
 name water
@@ -13928,6 +13953,7 @@ nrof 1
 material 32
 value 5
 weight 250
+can_stack 1
 end
 Object poison_food
 name booze
@@ -13951,6 +13977,7 @@ nrof 1
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object redwine
 name red wine
@@ -13966,6 +13993,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object teabag
 name teabag
@@ -13981,6 +14009,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object whitewine
 name white wine
@@ -13996,6 +14025,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object finger
 name finger
@@ -14011,6 +14041,7 @@ food 1
 weight 2
 value 2
 identified 1
+can_stack 1
 end
 Object flesh_generic
 name piece of flesh
@@ -14025,6 +14056,7 @@ layer 3
 food 75
 weight 75
 value 10
+can_stack 1
 end
 Object apple
 name apple
@@ -14040,6 +14072,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object apricot
 name apricot
@@ -14055,6 +14088,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object banana
 name banana
@@ -14070,6 +14104,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object cherries
 name cherries
@@ -14085,6 +14120,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object grapes
 name grapes
@@ -14100,6 +14136,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object grapes2
 name grapes
@@ -14115,6 +14152,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object lemon
 name lemon
@@ -14130,6 +14168,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object lychee
 name lychee
@@ -14145,6 +14184,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object orange
 name orange
@@ -14160,6 +14200,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object peach
 name peach
@@ -14174,6 +14215,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object pineapple
 name pineapple
@@ -14189,6 +14231,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object rambutan
 name rambutan
@@ -14204,6 +14247,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object strawberry
 name strawberry
@@ -14219,6 +14263,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object bacon
 name bacon
@@ -14234,6 +14279,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object chicken_leg
 name chicken leg
@@ -14249,6 +14295,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object drumstick
 name drumstick
@@ -14264,6 +14311,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object food_generic
 name food
@@ -14279,6 +14327,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object steak
 name steak
@@ -14294,6 +14343,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object steak2
 name steak
@@ -14309,6 +14359,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object bonbons
 name bonbons
@@ -14324,6 +14375,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object cheese
 name cheese
@@ -14339,6 +14391,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object egg
 name egg
@@ -14354,6 +14407,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object honeycomb
 name honeycomb
@@ -14369,6 +14423,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object olive_oil
 name olive oil
@@ -14384,6 +14439,7 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
 end
 Object carrot
 name carrot
@@ -14399,6 +14455,7 @@ speed_left 0.002
 material 32
 value 8
 weight 300
+can_stack 1
 end
 Object choko
 name choko
@@ -14414,6 +14471,7 @@ speed_left 0.002
 material 32
 value 8
 weight 300
+can_stack 1
 end
 Object melon
 name melon
@@ -14429,6 +14487,7 @@ speed_left 0.002
 material 32
 value 8
 weight 300
+can_stack 1
 end
 Object salad
 name salad
@@ -14444,6 +14503,7 @@ speed_left 0.002
 material 32
 value 8
 weight 300
+can_stack 1
 end
 Object snozzcumber
 name snozzcumber
@@ -14459,6 +14519,7 @@ speed_left 0.002
 material 32
 value 8
 weight 300
+can_stack 1
 end
 Object tomato
 name tomato
@@ -14474,6 +14535,7 @@ speed_left 0.002
 material 32
 value 8
 weight 300
+can_stack 1
 end
 Object random_chest_wood
 name treasure chest
@@ -14748,6 +14810,7 @@ face balm_gen.101
 material 512
 weight 250
 value 5
+can_stack 1
 end
 Object cleric_book
 name prayerbook
@@ -14791,6 +14854,7 @@ material 4
 is_dust 1
 weight 15
 value 3
+can_stack 1
 end
 Object potion_generic
 name potion
@@ -14808,6 +14872,7 @@ wc_range 20
 material 512
 weight 200
 value 28
+can_stack 1
 end
 Object scroll_generic
 name scroll
@@ -14821,6 +14886,7 @@ nrof 1
 material 1
 weight 20
 value 3
+can_stack 1
 end
 Object amulet_generic
 name amulet
@@ -16724,6 +16790,7 @@ weight 75
 value 20
 material 16
 material_real 257
+can_stack 1
 end
 Object arrow_elven
 name elven arrow
@@ -16748,6 +16815,7 @@ weight 75
 value 20
 material 16
 material_real 257
+can_stack 1
 end
 Object arrow_fey
 name fey arrow
@@ -16772,6 +16840,7 @@ weight 75
 value 20
 material 16
 material_real 257
+can_stack 1
 end
 Object arrow_woodlanders
 name woodlander arrow
@@ -16796,6 +16865,7 @@ weight 75
 value 20
 material 16
 material_real 257
+can_stack 1
 end
 Object bolt
 name bolt
@@ -16820,6 +16890,7 @@ weight 95
 value 20
 material 2
 material_real 65
+can_stack 1
 end
 Object bolt_dwarven
 name dwarven bolt
@@ -16844,6 +16915,7 @@ weight 95
 value 20
 material 2
 material_real 65
+can_stack 1
 end
 Object bolt_fey
 name fey bolt
@@ -16868,6 +16940,7 @@ weight 95
 value 20
 material 2
 material_real 65
+can_stack 1
 end
 Object bolt_woodlanders
 name woodlander bolt
@@ -16892,6 +16965,7 @@ weight 95
 value 20
 material 2
 material_real 65
+can_stack 1
 end
 Object sstone
 name sling stone
@@ -16916,6 +16990,7 @@ weight 85
 value 15
 material 64
 material_real 385
+can_stack 1
 end
 Object bow
 name bow
@@ -17105,6 +17180,7 @@ material 2
 material_real 65
 weight 220
 value 35
+can_stack 1
 end
 Object ball_winter
 name winter ball
@@ -17129,6 +17205,7 @@ material_real 193
 material 8
 weight 15
 value 3
+can_stack 1
 end
 Object snowball
 name snowball
@@ -17153,6 +17230,7 @@ material_real 193
 material 8
 weight 15
 value 3
+can_stack 1
 end
 Object snowball2
 name big snowball
@@ -17177,6 +17255,7 @@ material_real 193
 material 8
 weight 15
 value 3
+can_stack 1
 end
 Object t_boulder
 name boulder
@@ -17201,6 +17280,7 @@ is_animated 0
 is_turnable 1
 is_thrown 1
 material 64
+can_stack 1
 end
 Object t_hammer
 name throwing hammer
@@ -17225,6 +17305,7 @@ material 80
 material_real 65
 weight 250
 value 35
+can_stack 1
 end
 Object t_lboulder
 name large boulder
@@ -17248,6 +17329,7 @@ is_animated 0
 is_thrown 1
 value 2
 material 64
+can_stack 1
 end
 Object t_rock
 name rock
@@ -17271,6 +17353,7 @@ is_thrown 1
 weight 500
 value 1
 material 64
+can_stack 1
 end
 Object t_dagger
 name throwing dagger
@@ -17295,6 +17378,7 @@ material 2
 material_real 65
 weight 200
 value 35
+can_stack 1
 end
 Object starsdavid2
 name throwing goldstar
@@ -17319,6 +17403,7 @@ material 2
 material_real 65
 weight 20
 value 75
+can_stack 1
 end
 Object starsdavid
 name throwing star of david
@@ -17343,6 +17428,7 @@ material 2
 material_real 65
 weight 20
 value 35
+can_stack 1
 end
 Object t_star
 name throwing star
@@ -17367,6 +17453,7 @@ material 2
 material_real 65
 weight 200
 value 35
+can_stack 1
 end
 Object crystal_purple
 name crystal
