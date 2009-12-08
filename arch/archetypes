@@ -10683,7 +10683,7 @@ Object robe
 editor_folder items/armour
 name robe
 type 87
-face robe_lgrey.101
+face robe_grey.101
 layer 3
 weight 350
 value 40
@@ -14953,6 +14953,42 @@ material_real 65
 weight 1750
 value 350
 end
+Object axe_battle2
+editor_folder items/weapon
+name battle axe
+layer 3
+face axe_battle2.101
+attack_cleave 100
+weapon_speed 0.0225
+item_level 7
+item_skill 4
+dam 6
+wc 5
+type 15
+sub_type 3
+material 18
+material_real 65
+weight 1750
+value 350
+end
+Object axe_battle3
+editor_folder items/weapon
+name battle axe
+layer 3
+face axe_battle3.101
+attack_cleave 100
+weapon_speed 0.0225
+item_level 7
+item_skill 4
+dam 6
+wc 5
+type 15
+sub_type 3
+material 18
+material_real 65
+weight 1750
+value 350
+end
 Object axe_broad
 editor_folder items/weapon
 name broad axe
@@ -15012,6 +15048,24 @@ editor_folder items/weapon
 name hand axe
 layer 3
 face axe_hand.101
+attack_cleave 100
+weapon_speed 0.0225
+item_level 3
+item_skill 4
+dam 5
+wc 4
+type 15
+sub_type 3
+material 18
+material_real 65
+weight 1250
+value 35
+end
+Object axe_hand2
+editor_folder items/weapon
+name hand axe
+layer 3
+face axe_hand2.101
 attack_cleave 100
 weapon_speed 0.0225
 item_level 3
@@ -15179,42 +15233,6 @@ material_real 258
 weight 3000
 value 50
 end
-Object club_big
-editor_folder items/weapon
-name club
-face club_big.101
-layer 3
-weapon_speed 0.02
-attack_impact 100
-item_level 3
-item_skill 4
-dam 5
-wc 4
-type 15
-sub_type 0
-material 16
-material_real 258
-weight 3000
-value 50
-end
-Object club_rough
-editor_folder items/weapon
-name rough club
-face club_rough.101
-layer 3
-weapon_speed 0.02
-attack_impact 100
-item_level 3
-item_skill 4
-dam 4
-wc 3
-type 15
-sub_type 0
-material 16
-material_real 258
-weight 3000
-value 50
-end
 Object club_spiked
 editor_folder items/weapon
 name spiked club
@@ -15339,42 +15357,6 @@ material_real 65
 weight 1900
 value 350
 end
-Object mace
-editor_folder items/weapon
-name mace
-face mace.101
-layer 3
-weapon_speed 0.0225
-attack_impact 100
-item_level 3
-item_skill 4
-dam 5
-wc 5
-type 15
-sub_type 0
-material 18
-material_real 65
-weight 1900
-value 350
-end
-Object mace_battle
-editor_folder items/weapon
-name battle mace
-face mace_battle.101
-layer 3
-weapon_speed 0.0225
-attack_impact 100
-item_level 7
-item_skill 4
-dam 6
-wc 5
-type 15
-sub_type 0
-material 18
-material_real 65
-weight 1900
-value 350
-end
 Object mace_spiked
 editor_folder items/weapon
 name spiked mace
@@ -15481,40 +15463,6 @@ material_real 65
 weight 1900
 value 350
 end
-Object nunchacu
-editor_folder items/weapon
-name nunchacu
-face nunchacu.101
-layer 3
-weapon_speed 0.025
-attack_impact 100
-dam 4
-wc 5
-type 15
-sub_type 0
-material 18
-material_real 258
-weight 1900
-value 350
-end
-Object nunchacu_war
-editor_folder items/weapon
-name war nunchacu
-face nunchacu_war.101
-layer 3
-weapon_speed 0.025
-attack_impact 100
-item_level 3
-item_skill 4
-dam 5
-wc 5
-type 15
-sub_type 0
-material 18
-material_real 258
-weight 1900
-value 350
-end
 Object shootingstar
 editor_folder items/weapon
 name shootingstar
@@ -15577,6 +15525,24 @@ face dagger.101
 weapon_speed 0.0225
 attack_pierce 100
 dam 4
+wc 4
+type 15
+sub_type 2
+material 2
+material_real 65
+weight 520
+value 150
+end
+Object dagger2
+editor_folder items/weapon
+name dagger
+layer 3
+face dagger2.101
+weapon_speed 0.02
+attack_pierce 100
+item_level 3
+item_skill 4
+dam 5
 wc 4
 type 15
 sub_type 2
@@ -15689,11 +15655,65 @@ material_real 65
 weight 1075
 value 350
 end
+Object rapier2
+editor_folder items/weapon
+name rapier
+layer 3
+face rapier2.101
+weapon_speed 0.0225
+attack_pierce 100
+item_level 3
+item_skill 4
+dam 6
+wc 6
+type 15
+sub_type 2
+material 2
+material_real 65
+weight 1075
+value 350
+end
 Object saber
 editor_folder items/weapon
 name saber
 layer 3
 face saber.101
+weapon_speed 0.025
+attack_pierce 100
+item_level 7
+item_skill 4
+dam 6
+wc 5
+type 15
+sub_type 2
+material 2
+material_real 65
+weight 1075
+value 350
+end
+Object saber2
+editor_folder items/weapon
+name saber
+layer 3
+face saber2.101
+weapon_speed 0.025
+attack_pierce 100
+item_level 7
+item_skill 4
+dam 6
+wc 5
+type 15
+sub_type 2
+material 2
+material_real 65
+weight 1075
+value 350
+end
+Object saber3
+editor_folder items/weapon
+name saber
+layer 3
+face saber3.101
 weapon_speed 0.025
 attack_pierce 100
 item_level 7
@@ -16097,6 +16117,42 @@ material_real 65
 weight 2500
 value 750
 end
+Object axe_2h_war2
+editor_folder items/weapon
+name 2h war axe
+layer 3
+face axe_2h_war2.101
+attack_cleave 100
+weapon_speed 0.02
+item_level 10
+item_skill 4
+dam 8
+wc 7
+type 15
+sub_type 7
+material 18
+material_real 65
+weight 2500
+value 750
+end
+Object axe_broad2
+editor_folder items/weapon
+name broad axe
+layer 3
+face axe_broad2.101
+attack_cleave 100
+weapon_speed 0.02
+dam 9
+item_level 10
+item_skill 4
+wc 7
+type 15
+sub_type 7
+material 18
+material_real 65
+weight 2500
+value 750
+end
 Object mattock
 editor_folder items/weapon
 name mattock
@@ -16113,24 +16169,6 @@ sub_type 7
 material 18
 material_real 65
 weight 2500
-value 750
-end
-Object bo
-editor_folder items/weapon
-layer 3
-name bo
-face bo.101
-weapon_speed 0.02
-attack_impact 100
-dam 8
-item_level 10
-item_skill 4
-wc 7
-type 15
-sub_type 4
-material 16
-material_real 258
-weight 1750
 value 750
 end
 Object club_giant
@@ -16295,6 +16333,42 @@ wc 7
 weight 2250
 value 750
 end
+Object lance
+editor_folder items/weapon
+name lance
+layer 3
+weapon_speed 0.02
+attack_pierce 100
+type 15
+item_level 10
+item_skill 4
+sub_type 6
+face lance.101
+material 18
+material_real 65
+dam 8
+wc 7
+weight 2250
+value 750
+end
+Object pike
+editor_folder items/weapon
+name pike
+layer 3
+weapon_speed 0.02
+attack_pierce 100
+type 15
+item_level 10
+item_skill 4
+sub_type 6
+face pike.101
+material 18
+material_real 65
+dam 8
+wc 7
+weight 2500
+value 875
+end
 Object spear
 editor_folder items/weapon
 name spear
@@ -16306,6 +16380,24 @@ item_level 10
 item_skill 4
 sub_type 6
 face spear.101
+material 18
+material_real 65
+dam 8
+wc 7
+weight 2250
+value 750
+end
+Object spear_black
+editor_folder items/weapon
+name spear
+layer 3
+weapon_speed 0.02
+attack_pierce 100
+type 15
+item_level 10
+item_skill 4
+sub_type 6
+face spear_black.101
 material 18
 material_real 65
 dam 8
@@ -16414,46 +16506,6 @@ item_level 10
 item_skill 4
 sub_type 5
 face sword2h.101
-material 2
-material_real 65
-dam 8
-wc 7
-weight 2150
-value 750
-end
-Object sword2h_fire
-editor_folder items/weapon
-name two-handed sword
-title of fire
-layer 3
-weapon_speed 0.02
-attack_slash 75
-attack_fire 25
-type 15
-item_level 10
-item_skill 4
-sub_type 5
-face sword2h_fire.101
-material 2
-material_real 65
-dam 8
-wc 7
-weight 2150
-value 750
-end
-Object sword2h_ice
-editor_folder items/weapon
-name two-handed sword
-title of ice
-layer 3
-weapon_speed 0.02
-attack_slash 75
-attack_cold 25
-type 15
-item_level 10
-item_skill 4
-sub_type 5
-face sword2h_ice.101
 material 2
 material_real 65
 dam 8
@@ -16660,25 +16712,6 @@ item_level 11
 item_skill 4
 sub_type 10
 face partisan.101
-material 18
-material_real 65
-dam 8
-wc 5
-ac 2
-weight 4500
-value 875
-end
-Object pike
-editor_folder items/weapon
-name pike
-layer 3
-weapon_speed 0.0175
-attack_pierce 100
-item_level 11
-item_skill 4
-type 15
-sub_type 10
-face pike.101
 material 18
 material_real 65
 dam 8
