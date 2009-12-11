@@ -314,6 +314,9 @@
 	<attribute arch="is_turnable" editor="is turnable" type="bool">
 		System flag. Object can be turned into directions.
 	</attribute>
+	<attribute arch="direction" editor="direction" type="int">
+		The object's direction.
+	</attribute>
 </default_type>
 
 <type number="79" name="Misc Object">
