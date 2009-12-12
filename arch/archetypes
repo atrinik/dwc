@@ -28404,6 +28404,13 @@ terrain_type 1
 type 77
 no_pick 1
 end
+Object beacon
+editor_folder special/special
+no_pick 1
+type 126
+face beacon.101
+sys_object 1
+end
 Object bed_save
 editor_folder special/special
 name save bed
@@ -28649,7 +28656,7 @@ applied 0
 no_drop 1
 type 120
 layer 0
-face info.101
+face quest.101
 end
 Object rand_drop
 editor_folder special/special

@@ -5553,4 +5553,39 @@
 	</attribute>
 </type>
 
+<type number="126" name="Beacon">
+	<ignore>
+		<attribute arch="ac" />
+		<attribute arch="sub_type" />
+		<attribute arch="damned" />
+		<attribute arch="name" />
+		<ignore_list name="non_pickable" />
+		<ignore_list name="default_setting" />
+	</ignore>
+	<description>
+	<![CDATA[
+		Beacons are objects which can be located by scripts using their
+		ID, wherever in the game they might be. This behavior is useful,
+		for example, for gates and switches on different maps, as
+		connections normally work only on a single map (you can't open a
+		gate that is on map2 with lever that is on map1, for example).
+		<br><br>
+		With beacons, however, you can. Make a lever that triggers a
+		script on use, with the script looking for a specific beacon ID
+		in the game (if you know the map path the beacon is on you should
+		use ReadyMap() first to ensure the beacon's map is loaded in
+		memory). The beacon would be inside an invisible lever on the map
+		with the gate you want to trigger sharing the same connection
+		values, and the script would just then trigger the invisible
+		lever using something like:
+		<br><br>
+		me.Apply(beacon.environment, APPLY_TOGGLE)
+	]]>
+	</description>
+	<attribute arch="name" editor="beacon ID" type="string">
+		ID of the beacon. This should be unique string and no other
+		beacon should have the same ID.
+	</attribute>
+</type>
+
 </types>
