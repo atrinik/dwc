@@ -4382,9 +4382,9 @@ PYTHON_VERSION=`$PYTHON -c 'import sys ; print (int(sys.version[0]) * 10 + int(s
 $as_echo "$PYTHON_VER" >&6; }
 
 
-if test $PYTHON_VERSION -lt 24; then
-	echo "Sorry, you need to have Python 2.4 or higher installed."
-    as_fn_error "Python 2.4 or higher required" "$LINENO" 5
+if test $PYTHON_VERSION -lt 25; then
+	echo "Sorry, you need to have Python 2.5 or higher installed."
+    as_fn_error "Python 2.5 or higher required" "$LINENO" 5
 fi
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for Python.h" >&5
