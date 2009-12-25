@@ -20851,15 +20851,6 @@ hp 14
 flying 1
 no_pick 1
 end
-Object spell_destruction
-editor_folder magic/magic
-name destruction
-type 79
-no_pick 1
-layer 0
-sys_object 1
-attack_magic 100
-end
 Object meffect_blue
 editor_folder magic/spell_effect
 name magic glow
@@ -20934,6 +20925,24 @@ speed 1
 is_used_up 1
 no_pick 1
 food 5
+end
+Object spellobject_destruction
+editor_folder magic/magic
+name destruction
+type 79
+no_pick 1
+layer 0
+sys_object 1
+attack_magic 100
+end
+Object spellobject_finger_of_death
+editor_folder magic/magic
+name finger of death
+type 79
+no_pick 1
+layer 0
+sys_object 1
+attack_godpower 100
 end
 Object swarm_spell
 editor_folder magic/magic
