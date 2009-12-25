@@ -6428,6 +6428,70 @@ speed 0.01
 is_used_up 1
 weight 20
 end
+Object disease_cold
+msg
+You develop a sniffle.
+endmsg
+editor_folder forces/disease
+name cold
+type 158
+sys_object 1
+face force.101
+attack_internal 100
+wc 20
+magic 3
+Con -1
+Cha -1
+maxhp 10
+dam 1
+maxgrace 6
+last_grace 1
+food -1
+speed 0.05
+last_sp 50
+maxsp 0
+ac 0
+last_eat 0
+exp 100
+hp 1
+sp 1
+race *
+level 2
+end
+Object flu
+msg
+You have aches and fever, and you feel nauseous.
+endmsg
+editor_folder forces/disease
+name flu
+type 158
+sys_object 1
+face force.101
+attack_internal 100
+wc 20
+last_grace 1
+magic 3
+Str -1
+Con -1
+Dex -1
+Wis -1
+Int -1
+Cha -1
+maxhp 10
+dam 2
+maxgrace 6
+food -1
+speed 0.05
+last_sp 50
+maxsp 0
+ac 0
+last_eat 0
+exp 100
+hp 1
+sp 1
+race *
+level 2
+end
 Object immunity
 editor_folder forces/disease
 title immunity
@@ -6435,6 +6499,113 @@ type 98
 face force.101
 identified 1
 sys_object 1
+end
+Object leprosy
+msg
+Splotches are spreading around your body.
+You feel disgusted with yourself. A piece
+of skin flakes off and falls to the ground.
+endmsg
+editor_folder forces/disease
+name leprosy
+type 158
+sys_object 1
+face force.101
+attack_internal 100
+other_arch leprous_skin
+wc 10
+magic 0
+Str -1
+Con -1
+Dex -1
+Cha -2
+maxhp 1
+dam 1
+maxgrace -1
+food -1
+speed 0.005
+last_sp 0
+maxsp 0
+ac 5
+last_eat 0
+exp 1000
+hp 1
+sp 1
+race *
+level 5
+end
+Object leprous_skin
+editor_folder forces/disease
+name leprous flake of skin
+face skin.101
+type 72
+food 5
+weight 7
+nrof 1
+end
+Object pneumonic_plague
+msg
+You cough up some nasty green phlegm.
+endmsg
+editor_folder forces/disease
+name pneumonic plague
+type 158
+sys_object 1
+face force.101
+attack_internal 100
+wc 20
+last_grace 1
+magic 4
+Str -3
+Con -4
+Dex -3
+Cha -4
+maxhp 7
+dam -11
+maxgrace 15
+food -1
+speed 0.05
+last_sp 50
+maxsp 0
+ac 0
+last_eat 0
+exp 10000
+hp 1
+sp 1
+race *
+level 15
+end
+Object smallpox
+msg
+You have a nasty rash all over you. Are those
+pustules?
+endmsg
+editor_folder forces/disease
+name smallpox
+type 158
+sys_object 1
+face force.101
+attack_internal 100
+wc 20
+last_grace 1
+magic -3
+Str -1
+Con -4
+Dex -1
+maxhp 5
+dam -10
+maxgrace 12
+food -1
+speed 0.08
+last_sp 0
+maxsp 0
+ac 0
+last_eat 0
+exp 10000
+hp 1
+sp 1
+race goblin,human,troll,giant,dwarf
+level 20
 end
 Object symptom
 editor_folder forces/disease
