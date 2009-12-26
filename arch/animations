@@ -1269,6 +1269,15 @@ bolt_woodlanders.161
 bolt_woodlanders.171
 bolt_woodlanders.181
 mina
+anim _bomb
+bomb.101
+bomb.101
+bomb.102
+bomb.102
+bomb.103
+bomb.103
+bomb.104
+mina
 anim _broom.111
 facings 9
 dummy.111
@@ -3482,6 +3491,11 @@ mina
 anim _exit_green
 exit_green.101
 exit_green.102
+mina
+anim _explosion
+explosion.101
+explosion.102
+explosion.103
 mina
 anim _female1
 facings 25

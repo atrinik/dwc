@@ -6542,6 +6542,7 @@ type 72
 food 5
 weight 7
 nrof 1
+layer 4
 end
 Object pneumonic_plague
 msg
@@ -20867,6 +20868,65 @@ layer 5
 type 79
 x 2
 y 2
+end
+Object bomb
+editor_folder magic/bomb
+name bomb
+type 47
+other_arch explosion
+face bomb.101
+animation _bomb
+speed 0.2
+weight 4000
+no_pick 1
+layer 4
+sp 40
+no_save 1
+end
+Object explosion
+editor_folder magic/bomb
+name explosion
+type 88
+face explosion.101
+animation _explosion
+wc -30
+speed 0.2
+speed_left -0.21
+no_pick 1
+layer 7
+terrain_flag 32767
+flying 1
+walk_on 1
+fly_on 1
+attack_internal 100
+dam 3
+no_save 1
+end
+Object spell_create_bomb
+editor_folder magic/bomb
+spell_archname bomb
+spell_bdam 10
+end
+Object splint
+editor_folder magic/bomb
+name splint
+type 2
+no_save 1
+layer 7
+face splint.101
+speed 0.5
+attack_impact 100
+last_sp 7
+is_missile 1
+anim_speed 4
+is_turnable 0
+no_pick 1
+wc 8
+dam 2
+terrain_flag 32767
+flying 1
+walk_on 1
+fly_on 1
 end
 Object bullet
 editor_folder magic/bullet
