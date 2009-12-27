@@ -20910,6 +20910,8 @@ no_pick 1
 layer 4
 sp 40
 no_save 1
+anim_speed 1
+is_animated 0
 end
 Object explosion
 editor_folder magic/bomb
@@ -20929,11 +20931,8 @@ fly_on 1
 attack_internal 100
 dam 3
 no_save 1
-end
-Object spell_create_bomb
-editor_folder magic/bomb
-spell_archname bomb
-spell_bdam 10
+anim_speed 1
+is_animated 1
 end
 Object splint
 editor_folder magic/bomb
