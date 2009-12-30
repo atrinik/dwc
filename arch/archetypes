@@ -31050,47 +31050,47 @@ no_pick 1
 type 77
 layer 7
 end
-Object wall_dungeon1.111
+Object wall_dungeon_1
 editor_folder walls/dungeon
 name dungeon wall
-face wall_dungeon1.d.111
+face wall_dungeon.d.111
 blocksview 1
 type 77
 layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon1.131
+Object wall_dungeon_3
 editor_folder walls/dungeon
 name dungeon wall
-face wall_dungeon1.d.131
+face wall_dungeon.d.131
 blocksview 1
 type 77
 layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon1.141
+Object wall_dungeon_4
 editor_folder walls/dungeon
 name dungeon wall
-face wall_dungeon1.d.141
+face wall_dungeon.d.141
 blocksview 1
 type 77
 layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon1.181
+Object wall_dungeon_8
 editor_folder walls/dungeon
 name dungeon wall
-face wall_dungeon1.d.181
+face wall_dungeon.d.181
 blocksview 1
 type 77
 layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon2.111
+Object wall_dungeon2_1
 editor_folder walls/dungeon
 name dungeon wall
 face wall_dungeon2.d.111
@@ -31100,7 +31100,7 @@ layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon2.131
+Object wall_dungeon2_3
 editor_folder walls/dungeon
 name dungeon wall
 face wall_dungeon2.d.131
@@ -31110,7 +31110,7 @@ layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon2.141
+Object wall_dungeon2_4
 editor_folder walls/dungeon
 name dungeon wall
 face wall_dungeon2.d.141
@@ -31120,7 +31120,7 @@ layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon2.181
+Object wall_dungeon2_8
 editor_folder walls/dungeon
 name dungeon wall
 face wall_dungeon2.d.181
@@ -31130,7 +31130,7 @@ layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon2b.111
+Object wall_dungeon2b_1
 editor_folder walls/dungeon
 name dungeon wall
 face wall_dungeon2b.d.111
@@ -31140,7 +31140,7 @@ layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon2b.131
+Object wall_dungeon2b_3
 editor_folder walls/dungeon
 name dungeon wall
 face wall_dungeon2b.d.131
@@ -31150,7 +31150,7 @@ layer 5
 no_pick 1
 no_pass 1
 end
-Object wall_dungeon2b.141
+Object wall_dungeon2b_4
 editor_folder walls/dungeon
 name dungeon wall
 face wall_dungeon2b.d.141
