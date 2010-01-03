@@ -14082,7 +14082,7 @@ Object bread
 editor_folder items/organic
 name bread
 face bread.101
-food 100
+food 200
 item_quality 100
 item_condition 100
 nrof 1
@@ -14098,7 +14098,7 @@ Object bread2
 editor_folder items/organic
 name bread
 face bread2.101
-food 110
+food 210
 item_quality 100
 item_condition 100
 nrof 1
@@ -14114,7 +14114,7 @@ Object cake
 editor_folder items/organic
 name cake
 face cake.101
-food 80
+food 300
 item_quality 100
 item_condition 100
 nrof 1
@@ -14130,7 +14130,7 @@ Object cake_chocolate
 editor_folder items/organic
 name chocolate cake
 face cake_chocolate.101
-food 60
+food 100
 item_quality 100
 item_condition 100
 nrof 1
@@ -14146,7 +14146,7 @@ Object cookie
 editor_folder items/organic
 name cookie
 face cookie.101
-food 50
+food 90
 item_quality 100
 item_condition 100
 nrof 1
@@ -14162,7 +14162,7 @@ Object icecake
 editor_folder items/organic
 name ice cake
 face icecake.101
-food 80
+food 180
 item_quality 100
 item_condition 100
 nrof 1
@@ -14207,7 +14207,7 @@ Object beer
 editor_folder items/organic
 name beer
 face beer.101
-food 100
+food 200
 item_quality 100
 item_condition 100
 nrof 1
@@ -14223,7 +14223,7 @@ Object booze_generic
 editor_folder items/organic
 name booze
 face booze.101
-food 175
+food 275
 item_quality 100
 item_condition 100
 nrof 1
@@ -14239,7 +14239,7 @@ Object champagne
 editor_folder items/organic
 name champagne
 face champagne.101
-food 150
+food 200
 item_quality 100
 item_condition 100
 nrof 1
@@ -14255,7 +14255,7 @@ Object cup_coffee
 editor_folder items/organic
 name cup of coffee
 face cup_coffee.101
-food 200
+food 180
 item_quality 100
 item_condition 100
 nrof 1
@@ -14286,7 +14286,7 @@ Object cup_tea
 editor_folder items/organic
 name cup of tea
 face cup_tea.101
-food 200
+food 170
 item_quality 100
 item_condition 100
 nrof 1
@@ -14302,7 +14302,7 @@ Object drink_generic
 editor_folder items/organic
 name water
 face water.101
-food 25
+food 50
 layer 3
 nrof 1
 type 54
@@ -14339,7 +14339,7 @@ Object redwine
 editor_folder items/organic
 name red wine
 face redwine.101
-food 100
+food 130
 item_quality 100
 item_condition 100
 nrof 1
@@ -14355,7 +14355,7 @@ Object teabag
 editor_folder items/organic
 name teabag
 face teabag.101
-food 10
+food 30
 item_quality 100
 item_condition 100
 nrof 1
@@ -14371,7 +14371,7 @@ Object whitewine
 editor_folder items/organic
 name white wine
 face whitewine.101
-food 100
+food 190
 item_quality 100
 item_condition 100
 nrof 1
@@ -14418,7 +14418,7 @@ Object apple
 editor_folder items/organic
 name apple
 face apple.101
-food 100
+food 170
 item_quality 100
 item_condition 100
 nrof 1
@@ -14434,7 +14434,7 @@ Object apricot
 editor_folder items/organic
 name apricot
 face apricot.101
-food 80
+food 200
 item_quality 100
 item_condition 100
 nrof 1
@@ -14450,7 +14450,7 @@ Object banana
 editor_folder items/organic
 name banana
 face banana.101
-food 120
+food 210
 item_quality 100
 item_condition 100
 nrof 1
@@ -14466,7 +14466,7 @@ Object cherries
 editor_folder items/organic
 name cherries
 face cherries.101
-food 70
+food 110
 item_quality 100
 item_condition 100
 nrof 1
@@ -14482,7 +14482,7 @@ Object grapes
 editor_folder items/organic
 name grapes
 face grapes.101
-food 80
+food 210
 item_quality 100
 item_condition 100
 nrof 1
@@ -14498,7 +14498,7 @@ Object grapes2
 editor_folder items/organic
 name grapes
 face grapes2.101
-food 80
+food 210
 item_quality 100
 item_condition 100
 nrof 1
@@ -14514,7 +14514,7 @@ Object lemon
 editor_folder items/organic
 name lemon
 face lemon.101
-food 50
+food 130
 item_quality 100
 item_condition 100
 nrof 1
@@ -14530,7 +14530,7 @@ Object lychee
 editor_folder items/organic
 name lychee
 face lychee.101
-food 75
+food 180
 item_quality 100
 item_condition 100
 nrof 1
@@ -14546,7 +14546,7 @@ Object orange
 editor_folder items/organic
 name orange
 face orange.101
-food 140
+food 190
 item_quality 100
 item_condition 100
 nrof 1
@@ -14562,6 +14562,7 @@ Object peach
 editor_folder items/organic
 name peach
 face peach.101
+food 180
 item_quality 100
 item_condition 100
 nrof 1
@@ -14593,7 +14594,7 @@ Object rambutan
 editor_folder items/organic
 name rambutan
 face rambutan.101
-food 60
+food 160
 item_quality 100
 item_condition 100
 nrof 1
@@ -14609,7 +14610,7 @@ Object strawberry
 editor_folder items/organic
 name strawberry
 face strawberry.101
-food 40
+food 110
 item_quality 100
 item_condition 100
 nrof 1
@@ -14673,7 +14674,7 @@ Object food_generic
 editor_folder items/organic
 name food
 face food.101
-food 200
+food 230
 item_quality 100
 item_condition 100
 nrof 1
@@ -14705,7 +14706,7 @@ Object steak2
 editor_folder items/organic
 name steak
 face steak2.101
-food 300
+food 350
 item_quality 100
 item_condition 100
 nrof 1
@@ -14721,7 +14722,7 @@ Object bonbons
 editor_folder items/organic
 name bonbons
 face bonbons.101
-food 10
+food 90
 item_quality 100
 item_condition 100
 nrof 1
@@ -14737,7 +14738,7 @@ Object cheese
 editor_folder items/organic
 name cheese
 face cheese.101
-food 150
+food 190
 item_quality 100
 item_condition 100
 nrof 1
@@ -14753,7 +14754,7 @@ Object egg
 editor_folder items/organic
 name egg
 face egg.101
-food 80
+food 140
 item_quality 100
 item_condition 100
 nrof 1
@@ -14769,7 +14770,7 @@ Object honeycomb
 editor_folder items/organic
 name honeycomb
 face honeycomb.101
-food 95
+food 130
 item_quality 100
 item_condition 100
 nrof 1
@@ -14785,7 +14786,7 @@ Object olive_oil
 editor_folder items/organic
 name olive oil
 face olive_oil.101
-food 20
+food 70
 item_quality 100
 item_condition 100
 nrof 1
@@ -14801,7 +14802,7 @@ Object carrot
 editor_folder items/organic
 name carrot
 face carrot.101
-food 50
+food 110
 item_quality 100
 item_condition 100
 nrof 1
@@ -14817,7 +14818,7 @@ Object choko
 editor_folder items/organic
 name choko
 face choko.101
-food 25
+food 120
 item_quality 100
 item_condition 100
 nrof 1
@@ -14833,7 +14834,7 @@ Object melon
 editor_folder items/organic
 name melon
 face melon.101
-food 125
+food 320
 item_quality 100
 item_condition 100
 nrof 1
@@ -14849,7 +14850,7 @@ Object salad
 editor_folder items/organic
 name salad
 face salad.101
-food 80
+food 150
 item_quality 100
 item_condition 100
 nrof 1
@@ -14865,7 +14866,7 @@ Object snozzcumber
 editor_folder items/organic
 name snozzcumber
 face snozzcumber.101
-food 50
+food 120
 item_quality 100
 item_condition 100
 nrof 1
@@ -14881,7 +14882,7 @@ Object tomato
 editor_folder items/organic
 name tomato
 face tomato.101
-food 35
+food 100
 item_quality 100
 item_condition 100
 nrof 1
