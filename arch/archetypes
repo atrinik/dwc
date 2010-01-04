@@ -25807,20 +25807,6 @@ speed -0.048
 level 1
 weight 355000
 end
-Object spawn_point
-editor_folder mobs/mobs
-other_arch spawn_info
-face spawn_point.101
-type 81
-last_grace 8
-speed -0.00317
-no_teleport 1
-last_sp -1
-last_heal 9
-sys_object 1
-layer 0
-no_pick 1
-end
 Object golem
 editor_folder mobs/summoned
 race golem
@@ -26122,7 +26108,6 @@ anim_speed 4
 monster 1
 no_pick 1
 alive 1
-undead 1
 exp 102
 ac 12
 wc 4
@@ -26133,6 +26118,7 @@ maxhp 67
 level 1
 speed -0.054
 weight 200000
+undead 1
 end
 Object lost_soul
 editor_folder mobs/undead
@@ -26353,7 +26339,6 @@ anim_speed 4
 monster 1
 no_pick 1
 alive 1
-undead 1
 exp 102
 ac 12
 wc 4
@@ -26364,6 +26349,7 @@ maxhp 67
 level 1
 speed -0.047
 weight 200000
+undead 1
 end
 Object vampire_lord
 editor_folder mobs/undead
@@ -26389,7 +26375,6 @@ anim_speed 4
 monster 1
 no_pick 1
 alive 1
-undead 1
 exp 102
 ac 12
 wc 4
@@ -26400,6 +26385,7 @@ maxhp 67
 level 1
 speed -0.047
 weight 200000
+undead 1
 end
 Object wraith
 editor_folder mobs/undead
@@ -29127,6 +29113,20 @@ sys_object 1
 no_teleport 1
 no_pick 1
 no_drop 1
+end
+Object spawn_point
+editor_folder special/special
+other_arch spawn_info
+face spawn_point.101
+type 81
+last_grace 8
+speed -0.00317
+no_teleport 1
+last_sp -1
+last_heal 9
+sys_object 1
+layer 0
+no_pick 1
 end
 Object spinner
 editor_folder special/spinner
