@@ -21501,7 +21501,7 @@ exp 100
 wc_range 20
 item_race 255
 item_level 255
-speed -0.025
+speed -0.04
 weapon_speed 0.0375
 attack_acid 75
 ac 9
@@ -21536,7 +21536,7 @@ exp 102
 wc_range 20
 item_race 255
 item_level 255
-speed -0.025
+speed -0.04
 weapon_speed 0.0375
 attack_poison 76
 ac 9
@@ -21571,7 +21571,7 @@ wc_range 20
 exp 97
 item_race 255
 item_level 255
-speed -0.025
+speed -0.04
 weapon_speed 0.038
 attack_slash 100
 resist_paralyze 100
@@ -21609,7 +21609,7 @@ exp 90
 item_race 255
 item_level 255
 wc_range 20
-speed -0.025
+speed -0.03
 weapon_speed 0.040
 attack_pierce 75
 ac 8
@@ -21644,7 +21644,7 @@ exp 86
 wc_range 20
 item_race 255
 item_level 255
-speed -0.024
+speed -0.025
 weapon_speed 0.040
 attack_impact 75
 ac 10
@@ -21679,7 +21679,7 @@ exp 101
 item_race 255
 wc_range 20
 item_level 255
-speed -0.03
+speed -0.05
 weapon_speed 0.040
 attack_cold 75
 resist_poison 100
@@ -21716,7 +21716,7 @@ exp 105
 wc_range 20
 item_race 255
 item_level 255
-speed -0.03
+speed -0.05
 weapon_speed 0.038
 attack_cleave 65
 attack_acid 10
@@ -21752,7 +21752,7 @@ is_neutral 1
 weight 13250
 wc_range 20
 exp 111
-speed -0.032
+speed -0.05
 item_race 255
 item_level 255
 weapon_speed 0.0375
@@ -21789,7 +21789,7 @@ wc_range 20
 is_neutral 1
 weight 13250
 exp 101
-speed -0.03
+speed -0.05
 item_race 255
 item_level 255
 weapon_speed 0.038
@@ -21827,7 +21827,7 @@ is_neutral 1
 weight 13250
 exp 106
 wc_range 20
-speed -0.032
+speed -0.05
 weapon_speed 0.0375
 item_race 255
 item_level 255
@@ -21865,7 +21865,7 @@ is_neutral 1
 weight 16250
 wc_range 20
 exp 111
-speed -0.026
+speed -0.03
 weapon_speed 0.040
 item_race 255
 item_level 255
@@ -21900,7 +21900,7 @@ is_neutral 1
 weight 16250
 wc_range 20
 exp 104
-speed -0.026
+speed -0.03
 weapon_speed 0.040
 item_race 255
 item_level 255
@@ -21935,7 +21935,7 @@ is_neutral 1
 weight 16250
 exp 103
 wc_range 20
-speed -0.026
+speed -0.031
 weapon_speed 0.040
 attack_fire 80
 item_race 255
@@ -21970,7 +21970,7 @@ is_neutral 1
 weight 16250
 wc_range 20
 exp 108
-speed -0.026
+speed -0.031
 weapon_speed 0.040
 attack_poison 80
 ac 10
@@ -22005,7 +22005,7 @@ is_neutral 1
 weight 16250
 exp 109
 wc_range 20
-speed -0.026
+speed -0.031
 weapon_speed 0.040
 attack_fire 40
 attack_acid 40
@@ -22041,7 +22041,7 @@ is_neutral 1
 wc_range 20
 weight 12250
 exp 94
-speed -0.024
+speed -0.029
 weapon_speed 0.040
 attack_impact 75
 ac 10
@@ -22100,7 +22100,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 225000
 end
 Object cat_black
@@ -22136,7 +22136,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 7000
 end
 Object chicken_large
@@ -22171,7 +22171,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 2000
 end
 Object crocodile
@@ -22207,7 +22207,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 75000
 end
 Object deer
@@ -22242,7 +22242,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 70000
 end
 Object horse_white
@@ -22277,7 +22277,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 90000
 end
 Object rooster
@@ -22312,7 +22312,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 3000
 end
 Object snake
@@ -22348,7 +22348,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 7000
 end
 Object tiger
@@ -22384,7 +22384,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 30000
 end
 Object wolf
@@ -22419,7 +22419,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.06
 weight 20000
 end
 Object beholder_dread
@@ -22656,7 +22656,7 @@ dam 58
 hp -1
 maxhp 62
 level 1
-speed -0.041
+speed -0.061
 weight 95500
 end
 Object goblin
@@ -22693,7 +22693,7 @@ dam 51
 hp -1
 maxhp 55
 level 1
-speed -0.041
+speed -0.061
 weight 52500
 end
 Object hobgoblin
@@ -22730,7 +22730,7 @@ dam 54
 hp -1
 maxhp 62
 level 1
-speed -0.041
+speed -0.061
 weight 62500
 end
 Object kobold
@@ -22767,7 +22767,7 @@ dam 51
 hp -1
 maxhp 50
 level 1
-speed -0.041
+speed -0.061
 weight 42500
 end
 Object kobold_big
@@ -22804,7 +22804,7 @@ dam 51
 hp -1
 maxhp 54
 level 1
-speed -0.041
+speed -0.061
 weight 49750
 end
 Object kobold_fighter
@@ -22841,7 +22841,7 @@ dam 51
 hp -1
 maxhp 54
 level 1
-speed -0.041
+speed -0.060
 weight 43500
 end
 Object kobold_guard
@@ -22878,7 +22878,7 @@ dam 52
 hp -1
 maxhp 55
 level 1
-speed -0.041
+speed -0.061
 weight 45500
 end
 Object kobold_shaman
@@ -22921,7 +22921,7 @@ dam 50
 hp -1
 maxhp 50
 level 1
-speed -0.041
+speed -0.061
 weight 39500
 end
 Object demon_fire
@@ -22957,7 +22957,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.060
 weight 200000
 end
 Object lom_lobon
@@ -23083,7 +23083,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.061
 weight 200000
 end
 More
@@ -23157,7 +23157,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.061
 weight 200000
 end
 More
@@ -23231,7 +23231,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.061
 weight 200000
 end
 More
@@ -23305,7 +23305,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.061
 weight 200000
 end
 More
@@ -23354,7 +23354,7 @@ layer 6
 randomitems mob_dragon_skeletal
 face dragon_skeletal.131
 direction 5
-speed -0.06
+speed -0.061
 corpse 1
 wc_range 20
 will_apply 8
@@ -23500,7 +23500,7 @@ wc 1
 dam 52
 hp -1
 maxhp 66
-speed -0.0325
+speed -0.061
 level 1
 weight 35500
 end
@@ -23543,7 +23543,7 @@ maxsp 10
 Pow 2
 magic 5
 level 1
-speed -0.041
+speed -0.061
 weight 62500
 end
 Object drow_captain
@@ -23580,7 +23580,7 @@ dam 62
 hp -1
 maxhp 71
 level 1
-speed -0.041
+speed -0.061
 weight 772500
 end
 Object drow_fighter
@@ -23617,7 +23617,7 @@ dam 54
 hp -1
 maxhp 69
 level 1
-speed -0.041
+speed -0.059
 weight 72500
 end
 Object drow_guard
@@ -23654,7 +23654,7 @@ dam 51
 hp -1
 maxhp 69
 level 1
-speed -0.041
+speed -0.058
 weight 72500
 end
 Object drow_sorcerer
@@ -23696,7 +23696,7 @@ maxsp 6
 Pow 2
 magic 5
 level 1
-speed -0.041
+speed -0.061
 weight 62500
 end
 Object ettin
@@ -23733,7 +23733,7 @@ dam 62
 hp -1
 maxhp 72
 level 1
-speed -0.041
+speed -0.058
 weight 522500
 end
 Object giant_fire
@@ -23769,7 +23769,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.054
 weight 200000
 end
 Object giant_hill
@@ -23785,7 +23785,7 @@ weight 473250
 item_race 255
 item_level 255
 exp 102
-speed -0.035
+speed -0.055
 weapon_speed 0.042
 attack_impact 90
 protect_acid 25
@@ -23842,7 +23842,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.054
 weight 200000
 end
 Object giant_stone
@@ -23858,7 +23858,7 @@ weight 732500
 exp 105
 item_race 255
 item_level 255
-speed -0.045
+speed -0.054
 weapon_speed 0.042
 attack_impact 90
 protect_acid 25
@@ -23895,7 +23895,7 @@ wc_range 20
 exp 105
 item_race 255
 item_level 255
-speed -0.0275
+speed -0.053
 weapon_speed 0.04
 attack_impact 80
 protect_poison 25
@@ -23941,7 +23941,7 @@ face archer.131
 animation _archer
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.049
 alive 1
 monster 1
 Wis 7
@@ -23989,7 +23989,7 @@ face guard.131
 animation _guard
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.048
 alive 1
 monster 1
 Wis 7
@@ -24037,7 +24037,7 @@ face guard_female.131
 animation _guard_female
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.048
 alive 1
 monster 1
 Wis 7
@@ -24085,7 +24085,7 @@ face guard_pole.131
 animation _guard_pole
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.048
 alive 1
 monster 1
 Wis 7
@@ -24133,7 +24133,7 @@ face guard_royal.131
 animation _guard_royal
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.0485
 alive 1
 monster 1
 Wis 7
@@ -24181,7 +24181,7 @@ face mage_old.131
 animation _mage_old
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24230,7 +24230,7 @@ face monk.131
 animation _monk
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.049
 alive 1
 monster 1
 Wis 7
@@ -24278,7 +24278,7 @@ face king.131
 animation _king
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24326,7 +24326,7 @@ face king1.131
 animation _king1
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24374,7 +24374,7 @@ face queen.131
 animation _queen
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24422,7 +24422,7 @@ face peasant.131
 animation _peasant
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24470,7 +24470,7 @@ face tailor.131
 animation _tailor
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24518,7 +24518,7 @@ face traveller_parka.131
 animation _traveller_parka
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24566,7 +24566,7 @@ face traveller_wife.131
 animation _traveller_wife
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24614,7 +24614,7 @@ face priest_church.131
 animation _priest_church
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.048
 alive 1
 monster 1
 Wis 7
@@ -24662,7 +24662,7 @@ face priest_green.131
 animation _priest_green
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.048
 alive 1
 monster 1
 Wis 7
@@ -24711,7 +24711,7 @@ face priest_sad.121
 animation _priest_sad
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.048
 alive 1
 monster 1
 Wis 7
@@ -24760,7 +24760,7 @@ face ranger.131
 animation _ranger
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.0495
 alive 1
 monster 1
 Wis 7
@@ -24808,7 +24808,7 @@ face smith.141
 animation _smith
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.048
 alive 1
 monster 1
 Wis 7
@@ -24857,7 +24857,7 @@ face barmaid.131
 animation _barmaid
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24905,7 +24905,7 @@ face bartender.131
 animation _bartender
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -24953,7 +24953,7 @@ face chef.131
 animation _chef
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -25001,7 +25001,7 @@ face female1.131
 animation _female1
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -25049,7 +25049,7 @@ face female2.131
 animation _female2
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -25097,7 +25097,7 @@ face woman_old.131
 animation _woman_old
 is_animated 1
 anim_speed 4
-speed -0.025
+speed -0.047
 alive 1
 monster 1
 Wis 7
@@ -25158,7 +25158,7 @@ dam 50
 hp -1
 maxhp 70
 level 1
-speed -0.03
+speed -0.053
 weight 72500
 end
 Object ant_red
@@ -25196,7 +25196,7 @@ dam 50
 hp -1
 maxhp 60
 level 1
-speed -0.0275
+speed -0.053
 weight 22500
 end
 Object ant_soldier
@@ -25231,7 +25231,7 @@ wc 1
 dam 50
 hp -1
 maxhp 65
-speed -0.0325
+speed -0.053
 level 1
 weight 25500
 end
@@ -25269,7 +25269,7 @@ dam 50
 hp -1
 maxhp 60
 level 1
-speed -0.0275
+speed -0.053
 weight 32500
 end
 Object wasp_giant
@@ -25306,7 +25306,7 @@ dam 51
 hp -1
 maxhp 61
 level 1
-speed -0.0275
+speed -0.053
 weight 31500
 end
 Object slug_giant
@@ -25318,7 +25318,7 @@ wc_range 20
 is_neutral 1
 weight 23250
 exp 98
-speed -0.03
+speed -0.040
 item_race 255
 item_level 255
 weapon_speed 0.038
@@ -25360,7 +25360,7 @@ direction 5
 wc_range 20
 item_race 255
 item_level 255
-speed -0.06
+speed -0.0611
 corpse 1
 type 80
 is_male 1
@@ -25465,7 +25465,7 @@ dam 56
 hp -1
 maxhp 63
 level 1
-speed -0.041
+speed -0.048
 weight 122500
 end
 Object orc_captain
@@ -25502,7 +25502,7 @@ dam 61
 hp -1
 maxhp 71
 level 1
-speed -0.041
+speed -0.0485
 weight 72500
 end
 Object orc_fighter
@@ -25539,7 +25539,7 @@ dam 58
 hp -1
 maxhp 69
 level 1
-speed -0.041
+speed -0.048
 weight 72500
 end
 Object orc_outlaw
@@ -25576,7 +25576,7 @@ dam 61
 hp -1
 maxhp 69
 level 1
-speed -0.041
+speed -0.0486
 weight 76500
 end
 Object orc_priest
@@ -25618,7 +25618,7 @@ maxsp 7
 Pow 2
 magic 5
 level 1
-speed -0.041
+speed -0.047
 weight 52500
 end
 Object orc_sorcerer
@@ -25660,7 +25660,7 @@ maxsp 6
 Pow 2
 magic 5
 level 1
-speed -0.041
+speed -0.047
 weight 52500
 end
 Object orc_warlord
@@ -25697,7 +25697,7 @@ dam 61
 hp -1
 maxhp 71
 level 1
-speed -0.041
+speed -0.049
 weight 82500
 end
 Object orc_warrior
@@ -25734,7 +25734,7 @@ dam 62
 hp -1
 maxhp 67
 level 1
-speed -0.041
+speed -0.048
 weight 76500
 end
 Object quickwood
@@ -25768,7 +25768,7 @@ wc 3
 dam 52
 hp -1
 maxhp 66
-speed -0.0325
+speed -0.048
 level 1
 weight 355000
 end
@@ -25803,7 +25803,7 @@ wc 5
 dam 52
 hp -1
 maxhp 71
-speed -0.036
+speed -0.048
 level 1
 weight 355000
 end
@@ -25851,7 +25851,7 @@ dam 48
 hp -1
 maxhp 66
 level 1
-speed -0.035
+speed -0.046
 no_pick 1
 weight 120000
 end
@@ -25890,7 +25890,7 @@ dam 55
 hp -1
 maxhp 66
 level 1
-speed -0.032
+speed -0.045
 weight 225000
 end
 Object lavagolem
@@ -25929,7 +25929,7 @@ dam 55
 hp -1
 maxhp 66
 level 1
-speed -0.032
+speed -0.045
 weight 225000
 end
 Object troll
@@ -25942,7 +25942,7 @@ randomitems mob_troll
 face troll.131
 wc_range 20
 direction 5
-speed -0.06
+speed -0.061
 will_apply 8
 corpse 1
 item_race 255
@@ -26055,7 +26055,7 @@ maxhp 77
 sp -1
 maxsp 30
 level 1
-speed -0.0275
+speed -0.054
 weight 22500
 end
 Object ghoul
@@ -26093,7 +26093,7 @@ dam 53
 hp -1
 maxhp 65
 level 1
-speed -0.04
+speed -0.047
 weight 122500
 end
 Object lich_lord
@@ -26129,7 +26129,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.054
 weight 200000
 end
 Object lost_soul
@@ -26166,7 +26166,7 @@ dam 52
 hp -1
 maxhp 62
 level 1
-speed -0.04
+speed -0.048
 weight 32500
 end
 Object skel_fighter1
@@ -26203,7 +26203,7 @@ dam 51
 hp -1
 maxhp 62
 level 1
-speed -0.04
+speed -0.048
 weight 49500
 end
 Object skel_fighter2
@@ -26240,7 +26240,7 @@ dam 52
 hp -1
 maxhp 64
 level 1
-speed -0.035
+speed -0.048
 weight 57500
 end
 Object skel_fighter3
@@ -26277,7 +26277,7 @@ dam 53
 hp -1
 maxhp 63
 level 1
-speed -0.04
+speed -0.048
 weight 52500
 end
 Object skel_mage
@@ -26319,7 +26319,7 @@ dam 53
 hp -1
 maxhp 63
 level 1
-speed -0.034
+speed -0.048
 weight 42500
 end
 Object vampire
@@ -26355,7 +26355,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.047
 weight 200000
 end
 Object vampire_lord
@@ -26391,7 +26391,7 @@ dam 52
 hp -1
 maxhp 67
 level 1
-speed -0.03
+speed -0.047
 weight 200000
 end
 Object wraith
@@ -26429,7 +26429,7 @@ dam 53
 hp -1
 maxhp 63
 level 1
-speed -0.04
+speed -0.048
 weight 22500
 end
 Object wyvern
