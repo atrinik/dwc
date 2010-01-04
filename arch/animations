@@ -1,4 +1,4 @@
-anim _Moroch
+anim Moroch
 facings 25
 trans.101
 trans.101
@@ -26,7 +26,7 @@ trans.101
 trans.101
 trans.101
 mina
-anim _Tabernacle
+anim Tabernacle
 facings 25
 trans.101
 trans.101
@@ -54,7 +54,7 @@ trans.101
 trans.101
 trans.101
 mina
-anim _altar
+anim altar
 facings 9
 dummy.111
 dummy.111
@@ -75,7 +75,7 @@ altar.131
 altar.131
 altar.131
 mina
-anim _altar_moroch
+anim altar_moroch
 facings 9
 dummy.111
 altar_default.111
@@ -87,7 +87,7 @@ altar_default.111
 altar_default.131
 altar_default.131
 mina
-anim _altar_normal
+anim altar_normal
 facings 9
 dummy.111
 altar_default.111
@@ -99,7 +99,7 @@ altar_default.111
 altar_default.131
 altar_default.131
 mina
-anim _altar_tabernacle
+anim altar_tabernacle
 facings 9
 dummy.111
 altar_default.111
@@ -111,7 +111,7 @@ altar_default.111
 altar_default.131
 altar_default.131
 mina
-anim _altar_trigger
+anim altar_trigger
 facings 9
 dummy.111
 dummy.111
@@ -132,7 +132,7 @@ altar.131
 altar.131
 altar.131
 mina
-anim _ant_queen
+anim ant_queen
 facings 25
 trans.101
 trans.101
@@ -185,7 +185,7 @@ ant_queen.252
 ant_queen.151
 ant_queen.252
 mina
-anim _ant_red
+anim ant_red
 facings 25
 trans.101
 trans.101
@@ -238,7 +238,7 @@ ant_red.252
 ant_red.151
 ant_red.252
 mina
-anim _ant_soldier
+anim ant_soldier
 facings 25
 trans.101
 trans.101
@@ -291,7 +291,7 @@ ant_soldier.152
 ant_soldier.151
 ant_soldier.152
 mina
-anim _anvil_111
+anim anvil_111
 facings 9
 dummy.111
 anvil.111
@@ -303,7 +303,7 @@ anvil.131
 anvil.131
 anvil.111
 mina
-anim _anvil_big_111
+anim anvil_big_111
 facings 9
 dummy.111
 anvil_big.111
@@ -315,7 +315,7 @@ anvil_big.131
 anvil_big.131
 anvil_big.111
 mina
-anim _archer
+anim archer
 facings 25
 trans.101
 trans.101
@@ -368,7 +368,7 @@ archer.152
 archer.151
 archer.152
 mina
-anim _arrow
+anim arrow
 facings 9
 arrow.101
 arrow.111
@@ -380,7 +380,7 @@ arrow.161
 arrow.171
 arrow.181
 mina
-anim _arrow_elven
+anim arrow_elven
 facings 9
 arrow_elven.101
 arrow_elven.111
@@ -392,7 +392,7 @@ arrow_elven.161
 arrow_elven.171
 arrow_elven.181
 mina
-anim _arrow_fey
+anim arrow_fey
 facings 9
 arrow_fey.101
 arrow_fey.111
@@ -404,7 +404,7 @@ arrow_fey.161
 arrow_fey.171
 arrow_fey.181
 mina
-anim _arrow_woodlanders
+anim arrow_woodlanders
 facings 9
 arrow_woodlanders.101
 arrow_woodlanders.111
@@ -416,7 +416,7 @@ arrow_woodlanders.161
 arrow_woodlanders.171
 arrow_woodlanders.181
 mina
-anim _ball_winter
+anim ball_winter
 facings 9
 ball_winter.101
 ball_winter.101
@@ -428,7 +428,7 @@ ball_winter.101
 ball_winter.101
 ball_winter.101
 mina
-anim _bank1.111
+anim bank1.111
 facings 9
 dummy.111
 bank1.111
@@ -440,7 +440,7 @@ bank1.171
 bank1.171
 bank1.111
 mina
-anim _bank2a
+anim bank2a
 facings 9
 dummy.111
 bank2a.111
@@ -452,7 +452,7 @@ bank2a.171
 bank2a.171
 bank2a.111
 mina
-anim _bank2b
+anim bank2b
 facings 9
 dummy.111
 bank2b.111
@@ -464,7 +464,7 @@ bank2b.171
 bank2b.171
 bank2b.111
 mina
-anim _bank2c
+anim bank2c
 facings 9
 dummy.111
 bank2c.111
@@ -476,7 +476,7 @@ bank2c.171
 bank2c.171
 bank2c.111
 mina
-anim _bar1
+anim bar1
 facings 9
 dummy.111
 bar1.111
@@ -488,7 +488,7 @@ bar1.161
 bar1.171
 bar1.181
 mina
-anim _barmaid
+anim barmaid
 facings 25
 trans.101
 trans.101
@@ -591,7 +591,7 @@ barmaid.132
 barmaid.133
 barmaid.134
 mina
-anim _bartender
+anim bartender
 facings 25
 trans.101
 trans.101
@@ -644,7 +644,7 @@ bartender.152
 bartender.151
 bartender.152
 mina
-anim _bear_grey
+anim bear_grey
 facings 25
 trans.101
 trans.101
@@ -847,7 +847,7 @@ bear_grey.286
 bear_grey.287
 bear_grey.288
 mina
-anim _bed_1a.111
+anim bed_1a.111
 facings 9
 dummy.111
 bed_1a.111
@@ -859,7 +859,7 @@ bed_1a.171
 bed_1a.171
 bed_1a.111
 mina
-anim _bed_1b.111
+anim bed_1b.111
 facings 9
 dummy.111
 bed_1b.111
@@ -871,7 +871,7 @@ bed_1b.171
 bed_1b.171
 bed_1b.111
 mina
-anim _bed_2a.111
+anim bed_2a.111
 facings 9
 dummy.111
 bed_2a.111
@@ -883,7 +883,7 @@ bed_2a.171
 bed_2a.171
 bed_2a.111
 mina
-anim _bed_2b.111
+anim bed_2b.111
 facings 9
 dummy.111
 bed_2b.111
@@ -895,7 +895,7 @@ bed_2b.171
 bed_2b.171
 bed_2b.111
 mina
-anim _bee_killer
+anim bee_killer
 facings 25
 trans.101
 trans.101
@@ -948,7 +948,7 @@ bee_killer.152
 bee_killer.251
 bee_killer.152
 mina
-anim _beholder_dread
+anim beholder_dread
 facings 25
 trans.101
 trans.101
@@ -1026,7 +1026,7 @@ beholder_dread.151
 beholder_dread.152
 beholder_dread.251
 mina
-anim _bench1a.111
+anim bench1a.111
 facings 9
 dummy.111
 bench1a.111
@@ -1038,7 +1038,7 @@ bench1a.171
 bench1a.171
 bench1a.111
 mina
-anim _bench1b.111
+anim bench1b.111
 facings 9
 dummy.111
 bench1b.111
@@ -1050,7 +1050,7 @@ bench1b.171
 bench1b.171
 bench1b.111
 mina
-anim _bench2.111
+anim bench2.111
 facings 9
 dummy.111
 bench2.111
@@ -1062,7 +1062,7 @@ bench2.171
 bench2.171
 bench2.111
 mina
-anim _blob_acid
+anim blob_acid
 facings 25
 trans.101
 trans.101
@@ -1115,7 +1115,7 @@ blob_acid.112
 blob_acid.111
 blob_acid.112
 mina
-anim _blob_poison
+anim blob_poison
 facings 25
 trans.101
 trans.101
@@ -1168,7 +1168,7 @@ blob_poison.112
 blob_poison.111
 blob_poison.112
 mina
-anim _blob_quivering
+anim blob_quivering
 facings 25
 trans.101
 trans.101
@@ -1221,7 +1221,7 @@ quivering_blob.112
 quivering_blob.111
 quivering_blob.112
 mina
-anim _bolt
+anim bolt
 facings 9
 bolt.101
 bolt.111
@@ -1233,7 +1233,7 @@ bolt.161
 bolt.171
 bolt.181
 mina
-anim _bolt_dwarven
+anim bolt_dwarven
 facings 9
 bolt_dwarven.101
 bolt_dwarven.111
@@ -1245,7 +1245,7 @@ bolt_dwarven.161
 bolt_dwarven.171
 bolt_dwarven.181
 mina
-anim _bolt_fey
+anim bolt_fey
 facings 9
 bolt_fey.101
 bolt_fey.111
@@ -1257,7 +1257,7 @@ bolt_fey.161
 bolt_fey.171
 bolt_fey.181
 mina
-anim _bolt_woodlanders
+anim bolt_woodlanders
 facings 9
 bolt_woodlanders.101
 bolt_woodlanders.111
@@ -1269,7 +1269,7 @@ bolt_woodlanders.161
 bolt_woodlanders.171
 bolt_woodlanders.181
 mina
-anim _bomb
+anim bomb
 bomb.101
 bomb.101
 bomb.102
@@ -1278,7 +1278,7 @@ bomb.103
 bomb.103
 bomb.104
 mina
-anim _broom.111
+anim broom.111
 facings 9
 dummy.111
 broom.111
@@ -1290,7 +1290,7 @@ broom.171
 broom.171
 broom.111
 mina
-anim _bullet
+anim bullet
 facings 9
 bullet.101
 bullet.111
@@ -1302,7 +1302,7 @@ bullet.161
 bullet.171
 bullet.181
 mina
-anim _burnout
+anim burnout
 burnout.101
 burnout.101
 burnout.102
@@ -1345,19 +1345,19 @@ burnout.10P
 burnout.10Q
 burnout.10R
 mina
-anim _button_plate
+anim button_plate
 button_big.101
 button_big.102
 mina
-anim _button_small
+anim button_small
 button_small.101
 button_small.102
 mina
-anim _button_trigger
+anim button_trigger
 button_small.101
 button_small.102
 mina
-anim _cat_black
+anim cat_black
 facings 25
 trans.101
 trans.101
@@ -1435,12 +1435,12 @@ cat_black.381
 cat_black.381
 cat_black.381
 mina
-anim _cause_wounds
+anim cause_wounds
 wounds.101
 wounds.102
 wounds.103
 mina
-anim _cave_deco1
+anim cave_deco1
 facings 9
 dummy.111
 cave_deco1.111
@@ -1452,7 +1452,7 @@ cave_deco1.131
 cave_deco1.131
 cave_deco1.131
 mina
-anim _cave_deco2
+anim cave_deco2
 facings 9
 dummy.111
 cave_deco2.111
@@ -1464,7 +1464,7 @@ cave_deco2.131
 cave_deco2.131
 cave_deco2.131
 mina
-anim _cave_deco3
+anim cave_deco3
 facings 9
 dummy.111
 cave_deco3.111
@@ -1476,7 +1476,7 @@ cave_deco3.131
 cave_deco3.131
 cave_deco3.131
 mina
-anim _cave_deco_full
+anim cave_deco_full
 facings 9
 dummy.111
 cave_deco_full.u.111
@@ -1488,7 +1488,7 @@ cave_deco_full.u.131
 cave_deco_full.u.131
 cave_deco_full.u.131
 mina
-anim _cave_deco_wall1
+anim cave_deco_wall1
 facings 9
 dummy.111
 cave_deco_w1.u.151
@@ -1500,7 +1500,7 @@ cave_deco_w1.u.131
 cave_deco_w1.u.131
 cave_deco_w1.u.151
 mina
-anim _cave_deco_wall2
+anim cave_deco_wall2
 facings 9
 dummy.111
 cave_deco_w2.u.151
@@ -1512,7 +1512,7 @@ cave_deco_w2.u.131
 cave_deco_w2.u.131
 cave_deco_w2.u.151
 mina
-anim _cave_deco_wall3
+anim cave_deco_wall3
 facings 9
 dummy.111
 cave_deco_w3.u.151
@@ -1524,7 +1524,7 @@ cave_deco_w3.u.131
 cave_deco_w3.u.131
 cave_deco_w3.u.151
 mina
-anim _cave_deco_wall4
+anim cave_deco_wall4
 facings 9
 dummy.111
 cave_deco_w4.u.151
@@ -1536,7 +1536,7 @@ cave_deco_w4.u.131
 cave_deco_w4.u.131
 cave_deco_w4.u.151
 mina
-anim _cave_deco_wall5
+anim cave_deco_wall5
 facings 9
 dummy.111
 cave_deco_w5.u.151
@@ -1548,7 +1548,7 @@ cave_deco_w5.u.131
 cave_deco_w5.u.131
 cave_deco_w5.u.151
 mina
-anim _chained_skel.111
+anim chained_skel.111
 facings 9
 dummy.111
 chained_skel.111
@@ -1560,7 +1560,7 @@ chained_skel.171
 chained_skel.171
 chained_skel.111
 mina
-anim _chains1.151
+anim chains1.151
 facings 9
 dummy.111
 chains1.u.151
@@ -1572,7 +1572,7 @@ chains1.u.131
 chains1.u.131
 chains1.u.151
 mina
-anim _chains2.151
+anim chains2.151
 facings 9
 dummy.111
 chains2.u.151
@@ -1584,7 +1584,7 @@ chains2.u.131
 chains2.u.131
 chains2.u.151
 mina
-anim _chains3.151
+anim chains3.151
 facings 9
 dummy.111
 chains3.u.151
@@ -1596,7 +1596,7 @@ chains3.u.131
 chains3.u.131
 chains3.u.151
 mina
-anim _chair1_111
+anim chair1_111
 facings 9
 dummy.111
 chair1.111
@@ -1608,7 +1608,7 @@ chair1.171
 chair1.171
 chair1.111
 mina
-anim _chair2_111
+anim chair2_111
 facings 9
 dummy.111
 chair2.111
@@ -1620,7 +1620,7 @@ chair2.171
 chair2.171
 chair2.111
 mina
-anim _chair3
+anim chair3
 facings 9
 dummy.111
 chair3.111
@@ -1632,7 +1632,7 @@ chair3.171
 chair3.171
 chair3.111
 mina
-anim _check_inv
+anim check_inv
 facings 9
 dummy.111
 dummy.111
@@ -1653,7 +1653,7 @@ pedestal.132
 pedestal.131
 pedestal.132
 mina
-anim _chef
+anim chef
 facings 25
 trans.101
 trans.101
@@ -1706,7 +1706,7 @@ chef.132
 chef.131
 chef.132
 mina
-anim _chest
+anim chest
 facings 9
 dummy.111
 chest_mm_closed.111
@@ -1718,7 +1718,7 @@ chest_mm_closed.171
 chest_mm_closed.171
 chest_mm_closed.111
 mina
-anim _chest7_111
+anim chest7_111
 facings 9
 dummy.111
 chest_mm2_closed.111
@@ -1730,7 +1730,7 @@ chest_mm2_closed.171
 chest_mm2_closed.171
 chest_mm2_closed.111
 mina
-anim _chest_4.111
+anim chest_4.111
 facings 9
 dummy.111
 chest_mw_closed.111
@@ -1742,7 +1742,7 @@ chest_mw_closed.171
 chest_mw_closed.171
 chest_mw_closed.111
 mina
-anim _chest_m
+anim chest_m
 facings 9
 dummy.111
 chest_lm_closed.111
@@ -1754,7 +1754,7 @@ chest_lm_closed.171
 chest_lm_closed.171
 chest_lm_closed.111
 mina
-anim _chest_sm_1
+anim chest_sm_1
 facings 9
 dummy.111
 chest_sm_closed.111
@@ -1766,7 +1766,7 @@ chest_sm_closed.171
 chest_sm_closed.171
 chest_sm_closed.111
 mina
-anim _chest_sw_1
+anim chest_sw_1
 facings 9
 dummy.111
 chest_sw_closed.111
@@ -1778,7 +1778,7 @@ chest_sw_closed.171
 chest_sw_closed.171
 chest_sw_closed.111
 mina
-anim _chest_w1
+anim chest_w1
 facings 9
 dummy.111
 chest_lw_closed.111
@@ -1790,7 +1790,7 @@ chest_lw_closed.171
 chest_lw_closed.171
 chest_lw_closed.111
 mina
-anim _chicken_large
+anim chicken_large
 facings 25
 trans.101
 trans.101
@@ -1868,7 +1868,7 @@ chicken_large.281
 chicken_large.182
 chicken_large.283
 mina
-anim _close_chest1_111
+anim close_chest1_111
 facings 9
 dummy.111
 chest_mm_open.111
@@ -1880,7 +1880,7 @@ chest_mm_open.171
 chest_mm_open.171
 chest_mm_open.111
 mina
-anim _close_chest7_111
+anim close_chest7_111
 facings 9
 dummy.111
 chest_mm2_open.111
@@ -1892,7 +1892,7 @@ chest_mm2_open.171
 chest_mm2_open.171
 chest_mm2_open.111
 mina
-anim _close_chest_4.111
+anim close_chest_4.111
 facings 9
 dummy.111
 chest_mw_open.111
@@ -1904,7 +1904,7 @@ chest_mw_open.171
 chest_mw_open.171
 chest_mw_open.111
 mina
-anim _close_chest_m1_1
+anim close_chest_m1_1
 facings 9
 dummy.111
 chest_lm_open.111
@@ -1916,7 +1916,7 @@ chest_lm_open.171
 chest_lm_open.171
 chest_lm_open.111
 mina
-anim _close_chest_sm_1
+anim close_chest_sm_1
 facings 9
 dummy.111
 chest_sm_open.111
@@ -1928,7 +1928,7 @@ chest_sm_open.171
 chest_sm_open.171
 chest_sm_open.111
 mina
-anim _close_chest_sw_1
+anim close_chest_sw_1
 facings 9
 dummy.111
 chest_sw_open.111
@@ -1940,7 +1940,7 @@ chest_sw_open.171
 chest_sw_open.171
 chest_sw_open.111
 mina
-anim _close_chest_w1_1
+anim close_chest_w1_1
 facings 9
 dummy.111
 chest_lw_open.111
@@ -1952,7 +1952,7 @@ chest_lw_open.171
 chest_lw_open.171
 chest_lw_open.111
 mina
-anim _close_desk1
+anim close_desk1
 facings 9
 dummy.111
 desk1.112
@@ -1964,7 +1964,7 @@ desk1.172
 desk1.172
 desk1.112
 mina
-anim _close_desk2
+anim close_desk2
 facings 9
 dummy.111
 desk2.112
@@ -1976,7 +1976,7 @@ desk2.172
 desk2.172
 desk2.112
 mina
-anim _close_drawers1
+anim close_drawers1
 facings 9
 dummy.111
 drawers1.211
@@ -1988,7 +1988,7 @@ drawers1.271
 drawers1.271
 drawers1.211
 mina
-anim _close_locker1
+anim close_locker1
 facings 9
 dummy.111
 locker1.112
@@ -2000,7 +2000,7 @@ locker1.172
 locker1.172
 locker1.112
 mina
-anim _close_locker2
+anim close_locker2
 facings 9
 dummy.111
 locker2.112
@@ -2012,7 +2012,7 @@ locker2.172
 locker2.172
 locker2.112
 mina
-anim _close_locker3
+anim close_locker3
 facings 9
 dummy.111
 locker3.112
@@ -2024,7 +2024,7 @@ locker3.172
 locker3.172
 locker3.112
 mina
-anim _close_locker4
+anim close_locker4
 facings 9
 dummy.111
 locker4.112
@@ -2036,7 +2036,7 @@ locker4.172
 locker4.172
 locker4.112
 mina
-anim _close_locker5
+anim close_locker5
 facings 9
 dummy.111
 locker5.112
@@ -2048,7 +2048,7 @@ locker5.172
 locker5.172
 locker5.112
 mina
-anim _coffin_stone.111
+anim coffin_stone.111
 facings 9
 dummy.111
 coffin_stone.111
@@ -2060,7 +2060,7 @@ coffin_stone.131
 coffin_stone.131
 coffin_stone.111
 mina
-anim _coffin_wood.111
+anim coffin_wood.111
 facings 9
 dummy.111
 coffin_wood.111
@@ -2072,7 +2072,7 @@ coffin_wood.131
 coffin_wood.131
 coffin_wood.111
 mina
-anim _couch1a
+anim couch1a
 facings 9
 dummy.111
 couch1a.111
@@ -2084,7 +2084,7 @@ couch1a.171
 couch1a.171
 couch1a.111
 mina
-anim _couch1b
+anim couch1b
 facings 9
 dummy.111
 couch1b.111
@@ -2096,7 +2096,7 @@ couch1b.171
 couch1b.171
 couch1b.111
 mina
-anim _crocodile
+anim crocodile
 facings 25
 trans.101
 trans.101
@@ -2149,11 +2149,11 @@ crocodile.152
 crocodile.153
 crocodile.152
 mina
-anim _crystal_light
+anim crystal_light
 lcrystal_lit1.101
 lcrystal_lit1.102
 mina
-anim _cube_gel
+anim cube_gel
 facings 25
 trans.101
 trans.101
@@ -2206,7 +2206,7 @@ gel_cube.112
 gel_cube.111
 gel_cube.112
 mina
-anim _curtain1
+anim curtain1
 facings 9
 dummy.111
 dummy.111
@@ -2227,7 +2227,7 @@ curtain1.132
 curtain1.131
 curtain1.132
 mina
-anim _deer
+anim deer
 facings 25
 trans.101
 trans.101
@@ -2305,7 +2305,7 @@ deer.161
 deer.162
 deer.161
 mina
-anim _demilich
+anim demilich
 facings 25
 trans.101
 trans.101
@@ -2383,7 +2383,7 @@ demilich.151
 demilich.152
 demilich.251
 mina
-anim _demon_fire
+anim demon_fire
 facings 25
 trans.101
 trans.101
@@ -2461,7 +2461,7 @@ demon_fire.381
 demon_fire.382
 demon_fire.383
 mina
-anim _desk1.111
+anim desk1.111
 facings 9
 dummy.111
 desk1.111
@@ -2473,7 +2473,7 @@ desk1.171
 desk1.171
 desk1.111
 mina
-anim _desk2
+anim desk2
 facings 9
 dummy.111
 desk2.111
@@ -2485,7 +2485,7 @@ desk2.171
 desk2.171
 desk2.111
 mina
-anim _detector
+anim detector
 facings 9
 dummy.111
 dummy.111
@@ -2506,7 +2506,7 @@ pedestal.132
 pedestal.131
 pedestal.132
 mina
-anim _dir_sign
+anim dir_sign
 facings 9
 dummy.111
 dir_signs.111
@@ -2518,7 +2518,7 @@ dir_signs.131
 dir_signs.131
 dir_signs.111
 mina
-anim _director
+anim director
 facings 9
 dummy.111
 director.111
@@ -2530,7 +2530,7 @@ director.161
 director.171
 director.181
 mina
-anim _door1_locked
+anim door1_locked
 facings 9
 dummy.111
 dummy.111
@@ -2551,7 +2551,7 @@ door_lock1.172
 door_lock1.171
 door_lock1.172
 mina
-anim _door_bar1
+anim door_bar1
 facings 9
 dummy.111
 dummy.111
@@ -2572,7 +2572,7 @@ door_bar1.172
 door_bar1.171
 door_bar1.172
 mina
-anim _door_wood1
+anim door_wood1
 facings 9
 dummy.111
 dummy.111
@@ -2593,7 +2593,7 @@ door_wood1.132
 door_wood1.131
 door_wood1.132
 mina
-anim _door_wood2
+anim door_wood2
 facings 9
 dummy.111
 dummy.111
@@ -2614,7 +2614,7 @@ door_wood2.132
 door_wood2.131
 door_wood2.132
 mina
-anim _doorway_wood1_1
+anim doorway_wood1_1
 facings 9
 dummy.111
 doorway_wood1.111
@@ -2626,7 +2626,7 @@ doorway_wood1.131
 doorway_wood1.131
 doorway_wood1.111
 mina
-anim _dragon_black
+anim dragon_black
 facings 25
 trans.101
 trans.101
@@ -2679,7 +2679,7 @@ dragon_black.152
 dragon_black.351
 dragon_black.152
 mina
-anim _dragon_blue
+anim dragon_blue
 facings 25
 trans.101
 trans.101
@@ -2757,7 +2757,7 @@ dragon_blue.281
 dragon_blue.282
 dragon_blue.283
 mina
-anim _dragon_fire
+anim dragon_fire
 facings 25
 trans.101
 trans.101
@@ -2835,7 +2835,7 @@ dragon_fire.381
 dragon_fire.382
 dragon_fire.383
 mina
-anim _dragon_green
+anim dragon_green
 facings 25
 trans.101
 trans.101
@@ -2913,7 +2913,7 @@ dragon_green.381
 dragon_green.382
 dragon_green.383
 mina
-anim _dragon_skeletal
+anim dragon_skeletal
 facings 25
 trans.101
 trans.101
@@ -2966,7 +2966,7 @@ dragon_skeletal.152
 dragon_skeletal.251
 dragon_skeletal.152
 mina
-anim _dragon_water_small
+anim dragon_water_small
 facings 25
 trans.101
 dragon_water.131
@@ -2994,7 +2994,7 @@ dragon_water.151
 dragon_water.151
 dragon_water.151
 mina
-anim _drawers1.111
+anim drawers1.111
 facings 9
 dummy.111
 drawers1.111
@@ -3006,7 +3006,7 @@ drawers1.171
 drawers1.171
 drawers1.111
 mina
-anim _drow_annihilator
+anim drow_annihilator
 facings 25
 trans.101
 trans.101
@@ -3084,7 +3084,7 @@ drow_annihilator.151
 drow_annihilator.251
 drow_annihilator.151
 mina
-anim _drow_captain
+anim drow_captain
 facings 25
 trans.101
 trans.101
@@ -3162,7 +3162,7 @@ drow_captain.151
 drow_captain.251
 drow_captain.151
 mina
-anim _drow_fighter
+anim drow_fighter
 facings 25
 trans.101
 trans.101
@@ -3240,7 +3240,7 @@ drow_fighter.151
 drow_fighter.251
 drow_fighter.151
 mina
-anim _drow_guard
+anim drow_guard
 facings 25
 trans.101
 trans.101
@@ -3318,7 +3318,7 @@ drow_guard.151
 drow_guard.251
 drow_guard.151
 mina
-anim _drow_sorcerer
+anim drow_sorcerer
 facings 25
 trans.101
 trans.101
@@ -3396,17 +3396,17 @@ drow_sorcerer.151
 drow_sorcerer.251
 drow_sorcerer.151
 mina
-anim _dwarf_wheel
+anim dwarf_wheel
 dwarf_wheel.101
 dwarf_wheel.102
 dwarf_wheel.103
 mina
-anim _dwarf_wheel_2
+anim dwarf_wheel_2
 dwarf_wheel_2.101
 dwarf_wheel_2.102
 dwarf_wheel_2.103
 mina
-anim _ettin
+anim ettin
 facings 25
 trans.101
 trans.101
@@ -3484,20 +3484,20 @@ ettin.151
 ettin.251
 ettin.151
 mina
-anim _exit
+anim exit
 exit.101
 exit.102
 mina
-anim _exit_green
+anim exit_green
 exit_green.101
 exit_green.102
 mina
-anim _explosion
+anim explosion
 explosion.101
 explosion.102
 explosion.103
 mina
-anim _female1
+anim female1
 facings 25
 trans.101
 trans.101
@@ -3550,7 +3550,7 @@ female1.152
 female1.151
 female1.152
 mina
-anim _female2
+anim female2
 facings 25
 trans.101
 trans.101
@@ -3603,7 +3603,7 @@ female2.152
 female2.151
 female2.152
 mina
-anim _fire_cauld.131
+anim fire_cauld.131
 facings 9
 dummy.111
 fire_cauld.131
@@ -3615,7 +3615,7 @@ fire_cauld.151
 fire_cauld.151
 fire_cauld.131
 mina
-anim _fire_trail
+anim fire_trail
 burnout.101
 burnout.102
 burnout.103
@@ -3626,22 +3626,22 @@ burnout.107
 burnout.108
 burnout.109
 mina
-anim _firebreath
+anim firebreath
 fire.101
 fire.102
 fire.103
 mina
-anim _fireplace_left
+anim fireplace_left
 fireplace_left.101
 fireplace_left.102
 fireplace_left.103
 mina
-anim _fireplace_right
+anim fireplace_right
 fireplace_right.101
 fireplace_right.102
 fireplace_right.103
 mina
-anim _flag_01
+anim flag_01
 facings 9
 dummy.111
 flag_01.u.151
@@ -3653,7 +3653,7 @@ flag_01.u.131
 flag_01.u.131
 flag_01.u.151
 mina
-anim _flag_02
+anim flag_02
 facings 9
 dummy.111
 flag_02.u.151
@@ -3665,7 +3665,7 @@ flag_02.u.131
 flag_02.u.131
 flag_02.u.151
 mina
-anim _flag_03
+anim flag_03
 facings 9
 dummy.111
 flag_03.u.151
@@ -3677,7 +3677,7 @@ flag_03.u.131
 flag_03.u.131
 flag_03.u.151
 mina
-anim _flag_04
+anim flag_04
 facings 9
 dummy.111
 flag_04.u.151
@@ -3689,7 +3689,7 @@ flag_04.u.131
 flag_04.u.131
 flag_04.u.151
 mina
-anim _flag_05
+anim flag_05
 facings 9
 dummy.111
 flag_05.u.151
@@ -3701,7 +3701,7 @@ flag_05.u.131
 flag_05.u.131
 flag_05.u.151
 mina
-anim _fmask_ruin1a.111
+anim fmask_ruin1a.111
 facings 9
 dummy.111
 fmask_ruin1a.111
@@ -3713,7 +3713,7 @@ fmask_ruin1a.131
 fmask_ruin1a.131
 fmask_ruin1a.111
 mina
-anim _fog
+anim fog
 fog.111
 fog.112
 fog.111
@@ -3724,7 +3724,7 @@ fog.111
 fog.112
 fog.111
 mina
-anim _fog_glow1
+anim fog_glow1
 fog.111
 fog.112
 fog.111
@@ -3735,7 +3735,7 @@ fog.111
 fog.112
 fog.111
 mina
-anim _fog_glow2
+anim fog_glow2
 fog.111
 fog.112
 fog.111
@@ -3746,7 +3746,7 @@ fog.111
 fog.112
 fog.111
 mina
-anim _forge_111
+anim forge_111
 facings 9
 dummy.111
 forge.111
@@ -3758,7 +3758,7 @@ forge.171
 forge.171
 forge.111
 mina
-anim _gate1_locked
+anim gate1_locked
 facings 9
 dummy.111
 dummy.111
@@ -3779,7 +3779,7 @@ gate_lock1.132
 gate_lock1.131
 gate_lock1.132
 mina
-anim _gateTrg1
+anim gateTrg1
 facings 9
 dummy.111
 dummy.111
@@ -3854,7 +3854,7 @@ gate_door1.132
 gate_door1.131
 gate_door1.131
 mina
-anim _gateTrg1_open
+anim gateTrg1_open
 facings 9
 dummy.111
 dummy.111
@@ -3929,7 +3929,7 @@ gate_door1.133
 gate_door1.134
 gate_door1.134
 mina
-anim _gate_closed
+anim gate_closed
 facings 9
 dummy.111
 dummy.111
@@ -4004,7 +4004,7 @@ gate_door1.132
 gate_door1.131
 gate_door1.131
 mina
-anim _gate_open
+anim gate_open
 facings 9
 dummy.111
 dummy.111
@@ -4079,7 +4079,7 @@ gate_door1.132
 gate_door1.131
 gate_door1.131
 mina
-anim _ghoul
+anim ghoul
 facings 25
 trans.101
 trans.101
@@ -4157,7 +4157,7 @@ ghoul.151
 ghoul.152
 ghoul.251
 mina
-anim _giant_fire
+anim giant_fire
 facings 25
 trans.101
 giant_fire.111
@@ -4185,7 +4185,7 @@ giant_fire.161
 giant_fire.171
 giant_fire.181
 mina
-anim _giant_hill
+anim giant_hill
 facings 25
 trans.101
 trans.101
@@ -4263,7 +4263,7 @@ giant_hill.152
 giant_hill.153
 giant_hill.251
 mina
-anim _giant_ice
+anim giant_ice
 facings 25
 trans.101
 trans.101
@@ -4341,7 +4341,7 @@ giant_ice.381
 giant_ice.382
 giant_ice.383
 mina
-anim _giant_stone
+anim giant_stone
 facings 25
 trans.101
 trans.101
@@ -4394,11 +4394,11 @@ giant_stone.153
 giant_stone.151
 giant_stone.153
 mina
-anim _glue
+anim glue
 glue.101
 glue.102
 mina
-anim _gnoll
+anim gnoll
 facings 25
 trans.101
 trans.101
@@ -4476,7 +4476,7 @@ gnoll.151
 gnoll.251
 gnoll.152
 mina
-anim _goblin
+anim goblin
 facings 25
 trans.101
 trans.101
@@ -4554,7 +4554,7 @@ goblin.151
 goblin.251
 goblin.152
 mina
-anim _god_hammer
+anim god_hammer
 god_hammer.101
 god_hammer.102
 god_hammer.103
@@ -4564,7 +4564,7 @@ god_hammer.106
 god_hammer.107
 god_hammer.108
 mina
-anim _golem
+anim golem
 facings 25
 trans.101
 trans.101
@@ -4617,7 +4617,7 @@ golem.252
 golem.151
 golem.252
 mina
-anim _grateTrg1
+anim grateTrg1
 facings 9
 dummy.111
 dummy.111
@@ -4692,7 +4692,7 @@ grate_door1.132
 grate_door1.131
 grate_door1.131
 mina
-anim _grateTrg1_open
+anim grateTrg1_open
 facings 9
 dummy.111
 dummy.111
@@ -4767,7 +4767,7 @@ grate_door1.133
 grate_door1.134
 grate_door1.134
 mina
-anim _grate_closed
+anim grate_closed
 facings 9
 dummy.111
 dummy.111
@@ -4842,7 +4842,7 @@ grate_door1.132
 grate_door1.131
 grate_door1.131
 mina
-anim _grate_open
+anim grate_open
 facings 9
 dummy.111
 dummy.111
@@ -4917,7 +4917,7 @@ grate_door1.132
 grate_door1.131
 grate_door1.131
 mina
-anim _grave1.111
+anim grave1.111
 facings 9
 dummy.111
 grave1.111
@@ -4929,7 +4929,7 @@ grave1.131
 grave1.131
 grave1.111
 mina
-anim _grave2.111
+anim grave2.111
 facings 9
 dummy.111
 grave2.111
@@ -4941,7 +4941,7 @@ grave2.131
 grave2.131
 grave2.111
 mina
-anim _grave_cross1.111
+anim grave_cross1.111
 facings 9
 dummy.111
 grave_cross1.111
@@ -4953,7 +4953,7 @@ grave_cross1.131
 grave_cross1.131
 grave_cross1.111
 mina
-anim _grave_cross2.111
+anim grave_cross2.111
 facings 9
 dummy.111
 grave_cross2.111
@@ -4965,11 +4965,11 @@ grave_cross2.131
 grave_cross2.131
 grave_cross2.111
 mina
-anim _grave_fire.101
+anim grave_fire.101
 grave_fire_on.101
 grave_fire_on.102
 mina
-anim _grave_open.111
+anim grave_open.111
 facings 9
 dummy.111
 grave_open.111
@@ -4981,7 +4981,7 @@ grave_open.131
 grave_open.131
 grave_open.111
 mina
-anim _gray_ooze
+anim gray_ooze
 facings 25
 trans.101
 trans.101
@@ -5034,7 +5034,7 @@ gray_ooze.112
 gray_ooze.111
 gray_ooze.112
 mina
-anim _guard
+anim guard
 facings 25
 trans.101
 trans.101
@@ -5112,7 +5112,7 @@ guard.152
 guard.153
 guard.251
 mina
-anim _guard_female
+anim guard_female
 facings 25
 trans.101
 trans.101
@@ -5190,7 +5190,7 @@ guard_female.381
 guard_female.382
 guard_female.383
 mina
-anim _guard_pole
+anim guard_pole
 facings 25
 trans.101
 trans.101
@@ -5268,7 +5268,7 @@ guard_pole.151
 guard_pole.152
 guard_pole.153
 mina
-anim _guard_royal
+anim guard_royal
 facings 25
 trans.101
 trans.101
@@ -5346,7 +5346,7 @@ guard_royal.152
 guard_royal.153
 guard_royal.251
 mina
-anim _half_elf_female
+anim half_elf_female
 facings 25
 trans.101
 trans.101
@@ -5449,7 +5449,7 @@ halfelf_f.fn.112
 halfelf_f.fn.113
 halfelf_f.fn.113
 mina
-anim _half_elf_male
+anim half_elf_male
 facings 25
 trans.101
 trans.101
@@ -5552,7 +5552,7 @@ human_m.fn.112
 human_m.fn.113
 human_m.fn.113
 mina
-anim _handle_lever
+anim handle_lever
 facings 9
 dummy.111
 dummy.111
@@ -5573,7 +5573,7 @@ lever.132
 lever.131
 lever.132
 mina
-anim _hobgoblin
+anim hobgoblin
 facings 25
 trans.101
 trans.101
@@ -5651,13 +5651,13 @@ hobgoblin.151
 hobgoblin.251
 hobgoblin.152
 mina
-anim _horn
+anim horn
 horn.101
 horn.102
 horn.103
 horn.104
 mina
-anim _horse_white
+anim horse_white
 facings 25
 trans.101
 trans.101
@@ -5710,7 +5710,7 @@ horse_white.152
 horse_white.151
 horse_white.152
 mina
-anim _human_female
+anim human_female
 facings 25
 trans.101
 trans.101
@@ -5813,7 +5813,7 @@ human_f.fn.112
 human_f.fn.113
 human_f.fn.113
 mina
-anim _human_male
+anim human_male
 facings 25
 trans.101
 trans.101
@@ -5916,7 +5916,7 @@ human_m.fn.112
 human_m.fn.113
 human_m.fn.113
 mina
-anim _icegolem
+anim icegolem
 facings 25
 trans.101
 trans.101
@@ -6069,11 +6069,11 @@ icegolem.284
 icegolem.285
 icegolem.286
 mina
-anim _icestorm
+anim icestorm
 icestorm.101
 icestorm.102
 mina
-anim _jelly_blue
+anim jelly_blue
 facings 25
 trans.101
 trans.101
@@ -6126,7 +6126,7 @@ blue_jelly.112
 blue_jelly.111
 blue_jelly.112
 mina
-anim _jelly_green
+anim jelly_green
 facings 25
 trans.101
 trans.101
@@ -6179,7 +6179,7 @@ green_jelly.112
 green_jelly.111
 green_jelly.112
 mina
-anim _jelly_ochre
+anim jelly_ochre
 facings 25
 trans.101
 trans.101
@@ -6232,7 +6232,7 @@ ochre_jelly.112
 ochre_jelly.111
 ochre_jelly.112
 mina
-anim _jelly_red
+anim jelly_red
 facings 25
 trans.101
 trans.101
@@ -6285,7 +6285,7 @@ jelly_red.112
 jelly_red.111
 jelly_red.112
 mina
-anim _jelly_spotted
+anim jelly_spotted
 facings 25
 trans.101
 trans.101
@@ -6338,19 +6338,19 @@ spotted_jelly.112
 spotted_jelly.111
 spotted_jelly.112
 mina
-anim _kettle
+anim kettle
 kettle.101
 kettle.102
 kettle.103
 kettle.104
 mina
-anim _kettle_table
+anim kettle_table
 table_round_kettle.101
 table_round_kettle.102
 table_round_kettle.103
 table_round_kettle.104
 mina
-anim _king
+anim king
 facings 25
 trans.101
 trans.101
@@ -6428,7 +6428,7 @@ king.171
 king.171
 king.171
 mina
-anim _king1
+anim king1
 facings 25
 trans.101
 trans.101
@@ -6506,7 +6506,7 @@ king1.151
 king1.251
 king1.151
 mina
-anim _kobold
+anim kobold
 facings 25
 trans.101
 trans.101
@@ -6559,7 +6559,7 @@ kobold.153
 kobold.152
 kobold.153
 mina
-anim _kobold_big
+anim kobold_big
 facings 25
 trans.101
 trans.101
@@ -6612,7 +6612,7 @@ kobold_big.153
 kobold_big.152
 kobold_big.153
 mina
-anim _kobold_fighter
+anim kobold_fighter
 facings 25
 trans.101
 trans.101
@@ -6690,7 +6690,7 @@ kobold_fighter.151
 kobold_fighter.251
 kobold_fighter.151
 mina
-anim _kobold_guard
+anim kobold_guard
 facings 25
 trans.101
 trans.101
@@ -6768,7 +6768,7 @@ kobold_guard.151
 kobold_guard.251
 kobold_guard.151
 mina
-anim _kobold_shaman
+anim kobold_shaman
 facings 25
 trans.101
 trans.101
@@ -6821,7 +6821,7 @@ kobold_shaman.251
 kobold_shaman.151
 kobold_shaman.251
 mina
-anim _ladder_down2
+anim ladder_down2
 facings 9
 dummy.111
 ladder_down_01.101
@@ -6833,7 +6833,7 @@ ladder_down_02.101
 ladder_down_02.101
 ladder_down_01.101
 mina
-anim _ladder_down3
+anim ladder_down3
 facings 9
 dummy.111
 ladder_round_down_01.101
@@ -6845,11 +6845,11 @@ ladder_round_down_02.101
 ladder_round_down_02.101
 ladder_round_down_01.101
 mina
-anim _lamp
+anim lamp
 lamp_lit1.101
 lamp_lit1.102
 mina
-anim _lamp_wall
+anim lamp_wall
 facings 9
 dummy.111
 lamp_wall.111
@@ -6861,7 +6861,7 @@ lamp_wall.171
 lamp_wall.171
 lamp_wall.111
 mina
-anim _lamp_wall_1_unlit
+anim lamp_wall_1_unlit
 facings 9
 dummy.111
 lamp_wall.110
@@ -6873,7 +6873,7 @@ lamp_wall.170
 lamp_wall.170
 lamp_wall.110
 mina
-anim _lantern2_magic.131
+anim lantern2_magic.131
 facings 9
 dummy.111
 lantern2_magic.131
@@ -6885,7 +6885,7 @@ lantern2_magic.151
 lantern2_magic.151
 lantern2_magic.131
 mina
-anim _lantern_magic.131
+anim lantern_magic.131
 facings 9
 dummy.111
 lantern_magic.111
@@ -6897,7 +6897,7 @@ lantern_magic.151
 lantern_magic.171
 lantern_magic.171
 mina
-anim _lavagolem
+anim lavagolem
 facings 25
 trans.101
 trans.101
@@ -7050,14 +7050,14 @@ lavagolem.284
 lavagolem.285
 lavagolem.286
 mina
-anim _level_up
+anim level_up
 sparkle_lup.101
 sparkle_lup.102
 sparkle_lup.103
 sparkle_lup.104
 sparkle_lup.105
 mina
-anim _lich_lord
+anim lich_lord
 facings 25
 trans.101
 trans.101
@@ -7135,7 +7135,7 @@ lich_lord.381
 lich_lord.382
 lich_lord.383
 mina
-anim _locker1.111
+anim locker1.111
 facings 9
 dummy.111
 locker1.111
@@ -7147,7 +7147,7 @@ locker1.171
 locker1.171
 locker1.111
 mina
-anim _locker2.111
+anim locker2.111
 facings 9
 dummy.111
 locker2.111
@@ -7159,7 +7159,7 @@ locker2.171
 locker2.171
 locker2.111
 mina
-anim _locker3.111
+anim locker3.111
 facings 9
 dummy.111
 locker3.111
@@ -7171,7 +7171,7 @@ locker3.171
 locker3.171
 locker3.111
 mina
-anim _locker4
+anim locker4
 facings 9
 dummy.111
 locker4.111
@@ -7183,7 +7183,7 @@ locker4.171
 locker4.171
 locker4.111
 mina
-anim _locker5
+anim locker5
 facings 9
 dummy.111
 locker5.111
@@ -7195,7 +7195,7 @@ locker5.171
 locker5.171
 locker5.111
 mina
-anim _lom_lobon
+anim lom_lobon
 facings 25
 trans.101
 trans.101
@@ -7273,7 +7273,7 @@ lom_lobon.151
 lom_lobon.251
 lom_lobon.151
 mina
-anim _lost_soul
+anim lost_soul
 facings 25
 trans.101
 trans.101
@@ -7351,7 +7351,7 @@ lost_soul.151
 lost_soul.152
 lost_soul.251
 mina
-anim _mage_old
+anim mage_old
 facings 25
 trans.101
 trans.101
@@ -7404,7 +7404,7 @@ mage_old.152
 mage_old.151
 mage_old.152
 mina
-anim _magic_portal
+anim magic_portal
 magic_portal.11K
 magic_portal.11J
 magic_portal.11I
@@ -7466,7 +7466,7 @@ magic_portal.11K
 magic_portal.11L
 magic_portal.11M
 mina
-anim _magic_wall
+anim magic_wall
 facings 9
 magic_wall.101
 dummy.111
@@ -7487,7 +7487,7 @@ dummy.111
 magic_wall.181
 dummy.111
 mina
-anim _marker0
+anim marker0
 facings 9
 dummy.111
 marker.111
@@ -7499,7 +7499,7 @@ marker.171
 marker.171
 marker.111
 mina
-anim _marker1
+anim marker1
 facings 9
 dummy.111
 marker1.111
@@ -7511,7 +7511,7 @@ marker1.151
 marker1.171
 marker1.171
 mina
-anim _marker2
+anim marker2
 facings 9
 dummy.111
 marker2.121
@@ -7523,7 +7523,7 @@ marker2.161
 marker2.181
 marker2.181
 mina
-anim _marker3
+anim marker3
 facings 9
 dummy.111
 marker3.111
@@ -7535,37 +7535,37 @@ marker3.151
 marker3.171
 marker3.171
 mina
-anim _meffect_blue
+anim meffect_blue
 effect1_blue.101
 effect1_blue.102
 effect1_blue.103
 effect1_blue.104
 mina
-anim _meffect_green
+anim meffect_green
 effect1_green.101
 effect1_green.102
 effect1_green.103
 effect1_green.104
 mina
-anim _meffect_pink
+anim meffect_pink
 effect1_pink.101
 effect1_pink.102
 effect1_pink.103
 effect1_pink.104
 mina
-anim _meffect_purple
+anim meffect_purple
 effect1_purble.101
 effect1_purble.102
 effect1_purble.103
 effect1_purble.104
 mina
-anim _meffect_yellow
+anim meffect_yellow
 effect1_yellow.101
 effect1_yellow.102
 effect1_yellow.103
 effect1_yellow.104
 mina
-anim _mirror_big.111
+anim mirror_big.111
 facings 9
 dummy.111
 mirror_big.111
@@ -7577,10 +7577,10 @@ mirror_big.171
 mirror_big.171
 mirror_big.111
 mina
-anim _mithril_lamp
+anim mithril_lamp
 lamp_mithril_lit.101
 mina
-anim _monk
+anim monk
 facings 25
 trans.101
 trans.101
@@ -7633,7 +7633,7 @@ monk.152
 monk.151
 monk.152
 mina
-anim _moroch_avatar
+anim moroch_avatar
 facings 25
 trans.101
 trans.101
@@ -7661,7 +7661,7 @@ trans.101
 trans.101
 trans.101
 mina
-anim _mover
+anim mover
 facings 9
 dummy.111
 mover.111
@@ -7673,7 +7673,7 @@ mover.161
 mover.171
 mover.181
 mina
-anim _mud_hand
+anim mud_hand
 facings 25
 trans.101
 trans.101
@@ -7776,12 +7776,12 @@ mud_hand.103
 mud_hand.201
 mud_hand.202
 mina
-anim _mushroom_medium
+anim mushroom_medium
 mushroom_medium.101
 mushroom_medium.102
 mushroom_medium.103
 mina
-anim _ogre
+anim ogre
 facings 25
 trans.101
 trans.101
@@ -7859,7 +7859,7 @@ ogre.151
 ogre.251
 ogre.252
 mina
-anim _orc_berserker
+anim orc_berserker
 facings 25
 trans.101
 trans.101
@@ -7937,7 +7937,7 @@ orc_berserker.151
 orc_berserker.251
 orc_berserker.151
 mina
-anim _orc_captain
+anim orc_captain
 facings 25
 trans.101
 trans.101
@@ -8015,7 +8015,7 @@ orc_captain.151
 orc_captain.251
 orc_captain.151
 mina
-anim _orc_fighter
+anim orc_fighter
 facings 25
 trans.101
 trans.101
@@ -8093,7 +8093,7 @@ orc_fighter.151
 orc_fighter.251
 orc_fighter.151
 mina
-anim _orc_outlaw
+anim orc_outlaw
 facings 25
 trans.101
 trans.101
@@ -8171,7 +8171,7 @@ orc_outlaw.151
 orc_outlaw.251
 orc_outlaw.151
 mina
-anim _orc_priest
+anim orc_priest
 facings 25
 trans.101
 trans.101
@@ -8249,7 +8249,7 @@ orc_priest.151
 orc_priest.251
 orc_priest.151
 mina
-anim _orc_sorcerer
+anim orc_sorcerer
 facings 25
 trans.101
 trans.101
@@ -8327,7 +8327,7 @@ orc_sorcerer.151
 orc_sorcerer.251
 orc_sorcerer.151
 mina
-anim _orc_warlord
+anim orc_warlord
 facings 25
 trans.101
 trans.101
@@ -8405,7 +8405,7 @@ orc_warlord.151
 orc_warlord.251
 orc_warlord.151
 mina
-anim _orc_warrior
+anim orc_warrior
 facings 25
 trans.101
 trans.101
@@ -8483,7 +8483,7 @@ orc_warrior.151
 orc_warrior.251
 orc_warrior.151
 mina
-anim _peasant
+anim peasant
 facings 25
 trans.101
 trans.101
@@ -8536,7 +8536,7 @@ peasant.152
 peasant.151
 peasant.152
 mina
-anim _ped_black
+anim ped_black
 facings 9
 dummy.111
 ped_black.111
@@ -8548,7 +8548,7 @@ ped_black.131
 ped_black.131
 ped_black.111
 mina
-anim _ped_black_h1
+anim ped_black_h1
 facings 9
 dummy.111
 ped_black_h1.111
@@ -8560,7 +8560,7 @@ ped_black_h1.131
 ped_black_h1.131
 ped_black_h1.111
 mina
-anim _ped_black_hs1
+anim ped_black_hs1
 facings 9
 dummy.111
 ped_black_hs1.111
@@ -8572,7 +8572,7 @@ ped_black_hs1.131
 ped_black_hs1.131
 ped_black_hs1.111
 mina
-anim _ped_black_hw1
+anim ped_black_hw1
 facings 9
 dummy.111
 ped_black_hw1.111
@@ -8584,7 +8584,7 @@ ped_black_hw1.131
 ped_black_hw1.131
 ped_black_hw1.111
 mina
-anim _ped_black_hws1
+anim ped_black_hws1
 facings 9
 dummy.111
 ped_black_hws1.111
@@ -8596,7 +8596,7 @@ ped_black_hws1.131
 ped_black_hws1.131
 ped_black_hws1.111
 mina
-anim _ped_white
+anim ped_white
 facings 9
 dummy.111
 ped_white.111
@@ -8608,7 +8608,7 @@ ped_white.131
 ped_white.131
 ped_white.111
 mina
-anim _ped_white_h1
+anim ped_white_h1
 facings 9
 dummy.111
 ped_white_h1.111
@@ -8620,7 +8620,7 @@ ped_white_h1.131
 ped_white_h1.131
 ped_white_h1.111
 mina
-anim _ped_white_hs1
+anim ped_white_hs1
 facings 9
 dummy.111
 ped_white_hs1.111
@@ -8632,7 +8632,7 @@ ped_white_hs1.131
 ped_white_hs1.131
 ped_white_hs1.111
 mina
-anim _ped_white_hw1
+anim ped_white_hw1
 facings 9
 dummy.111
 ped_white_hw1.111
@@ -8644,7 +8644,7 @@ ped_white_hw1.131
 ped_white_hw1.131
 ped_white_hw1.111
 mina
-anim _ped_white_hws1
+anim ped_white_hws1
 facings 9
 dummy.111
 ped_white_hws1.111
@@ -8656,28 +8656,7 @@ ped_white_hws1.131
 ped_white_hws1.131
 ped_white_hws1.111
 mina
-anim _pedestal
-facings 9
-dummy.111
-dummy.111
-pedestal.111
-pedestal.112
-pedestal.111
-pedestal.112
-pedestal.131
-pedestal.132
-pedestal.131
-pedestal.132
-pedestal.111
-pedestal.112
-pedestal.111
-pedestal.112
-pedestal.131
-pedestal.132
-pedestal.131
-pedestal.132
-mina
-anim _pedestal_trigger
+anim pedestal
 facings 9
 dummy.111
 dummy.111
@@ -8698,11 +8677,32 @@ pedestal.132
 pedestal.131
 pedestal.132
 mina
-anim _perm_magic_portal
+anim pedestal_trigger
+facings 9
+dummy.111
+dummy.111
+pedestal.111
+pedestal.112
+pedestal.111
+pedestal.112
+pedestal.131
+pedestal.132
+pedestal.131
+pedestal.132
+pedestal.111
+pedestal.112
+pedestal.111
+pedestal.112
+pedestal.131
+pedestal.132
+pedestal.131
+pedestal.132
+mina
+anim perm_magic_portal
 magic_portal.111
 magic_portal.112
 mina
-anim _picture1.151
+anim picture1.151
 facings 9
 dummy.111
 picture1.u.151
@@ -8714,7 +8714,7 @@ picture1.u.131
 picture1.u.131
 picture1.u.151
 mina
-anim _picture10
+anim picture10
 facings 9
 dummy.111
 picture10.u.151
@@ -8726,7 +8726,7 @@ picture10.u.131
 picture10.u.131
 picture10.u.151
 mina
-anim _picture11
+anim picture11
 facings 9
 dummy.111
 picture11.u.151
@@ -8738,7 +8738,7 @@ picture11.u.131
 picture11.u.131
 picture11.u.151
 mina
-anim _picture12
+anim picture12
 facings 9
 dummy.111
 picture12.u.151
@@ -8750,7 +8750,7 @@ picture12.u.131
 picture12.u.131
 picture12.u.151
 mina
-anim _picture13
+anim picture13
 facings 9
 dummy.111
 picture13.u.151
@@ -8762,7 +8762,7 @@ picture13.u.131
 picture13.u.131
 picture13.u.151
 mina
-anim _picture14
+anim picture14
 facings 9
 dummy.111
 picture14.u.151
@@ -8774,7 +8774,7 @@ picture14.u.131
 picture14.u.131
 picture14.u.151
 mina
-anim _picture15
+anim picture15
 facings 9
 dummy.111
 picture15.u.151
@@ -8786,7 +8786,7 @@ picture15.u.131
 picture15.u.131
 picture15.u.151
 mina
-anim _picture2.151
+anim picture2.151
 facings 9
 dummy.111
 picture2.u.151
@@ -8798,7 +8798,7 @@ picture2.u.131
 picture2.u.131
 picture2.u.151
 mina
-anim _picture3.151
+anim picture3.151
 facings 9
 dummy.111
 picture3.u.151
@@ -8810,7 +8810,7 @@ picture3.u.131
 picture3.u.131
 picture3.u.151
 mina
-anim _picture4.151
+anim picture4.151
 facings 9
 dummy.111
 picture4.u.151
@@ -8822,7 +8822,7 @@ picture4.u.131
 picture4.u.131
 picture4.u.151
 mina
-anim _picture5.151
+anim picture5.151
 facings 9
 dummy.111
 picture5.u.151
@@ -8834,7 +8834,7 @@ picture5.u.131
 picture5.u.131
 picture5.u.151
 mina
-anim _picture6.151
+anim picture6.151
 facings 9
 dummy.111
 picture6.u.151
@@ -8846,7 +8846,7 @@ picture6.u.131
 picture6.u.131
 picture6.u.151
 mina
-anim _picture7
+anim picture7
 facings 9
 dummy.111
 picture7.u.151
@@ -8858,7 +8858,7 @@ picture7.u.131
 picture7.u.131
 picture7.u.151
 mina
-anim _picture8
+anim picture8
 facings 9
 dummy.111
 picture8.u.151
@@ -8870,7 +8870,7 @@ picture8.u.131
 picture8.u.131
 picture8.u.151
 mina
-anim _picture9
+anim picture9
 facings 9
 dummy.111
 picture9.u.151
@@ -8882,7 +8882,7 @@ picture9.u.131
 picture9.u.131
 picture9.u.151
 mina
-anim _pillar_black1c
+anim pillar_black1c
 facings 9
 dummy.111
 pillar_black1c.111
@@ -8894,7 +8894,7 @@ pillar_black1c.131
 pillar_black1c.131
 pillar_black1c.111
 mina
-anim _pillar_black1d
+anim pillar_black1d
 facings 9
 dummy.111
 pillar_black1d.111
@@ -8906,7 +8906,7 @@ pillar_black1d.131
 pillar_black1d.131
 pillar_black1d.111
 mina
-anim _pillar_black2c
+anim pillar_black2c
 facings 9
 dummy.111
 pillar_black2c.111
@@ -8918,7 +8918,7 @@ pillar_black2c.131
 pillar_black2c.131
 pillar_black2c.111
 mina
-anim _pillar_black2d
+anim pillar_black2d
 facings 9
 dummy.111
 pillar_black2d.111
@@ -8930,7 +8930,7 @@ pillar_black2d.131
 pillar_black2d.131
 pillar_black2d.111
 mina
-anim _pillar_white1c
+anim pillar_white1c
 facings 9
 dummy.111
 pillar_white1c.111
@@ -8942,7 +8942,7 @@ pillar_white1c.131
 pillar_white1c.131
 pillar_white1c.111
 mina
-anim _pillar_white1d
+anim pillar_white1d
 facings 9
 dummy.111
 pillar_white1d.111
@@ -8954,7 +8954,7 @@ pillar_white1d.131
 pillar_white1d.131
 pillar_white1d.111
 mina
-anim _pillar_white2c
+anim pillar_white2c
 facings 9
 dummy.111
 pillar_white2c.111
@@ -8966,7 +8966,7 @@ pillar_white2c.131
 pillar_white2c.131
 pillar_white2c.111
 mina
-anim _pillar_white2d
+anim pillar_white2d
 facings 9
 dummy.111
 pillar_white2d.111
@@ -8978,7 +8978,7 @@ pillar_white2d.131
 pillar_white2d.131
 pillar_white2d.111
 mina
-anim _pit_closed
+anim pit_closed
 hole.101
 hole.102
 hole.103
@@ -8988,7 +8988,7 @@ hole.106
 hole.107
 hole.108
 mina
-anim _pit_open
+anim pit_open
 hole.101
 hole.102
 hole.103
@@ -8998,7 +8998,7 @@ hole.106
 hole.107
 hole.108
 mina
-anim _plant1_wall.151
+anim plant1_wall.151
 facings 9
 dummy.111
 plant1_wall.151
@@ -9010,7 +9010,7 @@ plant1_wall.131
 plant1_wall.131
 plant1_wall.151
 mina
-anim _plant2_wall.151
+anim plant2_wall.151
 facings 9
 dummy.111
 plant2_wall.151
@@ -9022,12 +9022,12 @@ plant2_wall.131
 plant2_wall.131
 plant2_wall.151
 mina
-anim _pool_magic
+anim pool_magic
 pool_magic.101
 pool_magic.102
 pool_magic.103
 mina
-anim _portal_azure
+anim portal_azure
 portal_azure.101
 portal_azure.102
 portal_azure.103
@@ -9036,7 +9036,7 @@ portal_azure.105
 portal_azure.106
 portal_azure.107
 mina
-anim _portal_big
+anim portal_big
 portal_big.101
 portal_big.102
 portal_big.103
@@ -9045,7 +9045,7 @@ portal_big.105
 portal_big.106
 portal_big.107
 mina
-anim _portal_green
+anim portal_green
 portal_green.211
 portal_green.221
 portal_green.231
@@ -9055,7 +9055,7 @@ portal_green.261
 portal_green.271
 portal_green.281
 mina
-anim _portal_red
+anim portal_red
 portal_red.101
 portal_red.102
 portal_red.103
@@ -9064,7 +9064,7 @@ portal_red.105
 portal_red.106
 portal_red.107
 mina
-anim _portal_yellow
+anim portal_yellow
 portal_yellow.101
 portal_yellow.102
 portal_yellow.103
@@ -9073,7 +9073,7 @@ portal_yellow.105
 portal_yellow.106
 portal_yellow.107
 mina
-anim _pot_wall.131
+anim pot_wall.131
 facings 9
 dummy.111
 pot_wall.u.151
@@ -9085,13 +9085,13 @@ pot_wall.u.131
 pot_wall.u.131
 pot_wall.u.151
 mina
-anim _power_crystal
+anim power_crystal
 power_crystal.101
 power_crystal.102
 power_crystal.103
 power_crystal.104
 mina
-anim _priest_church
+anim priest_church
 facings 25
 trans.101
 trans.101
@@ -9169,7 +9169,7 @@ priest_church.151
 priest_church.152
 priest_church.153
 mina
-anim _priest_green
+anim priest_green
 facings 25
 trans.101
 trans.101
@@ -9247,7 +9247,7 @@ priest_green.151
 priest_green.152
 priest_green.153
 mina
-anim _priest_sad
+anim priest_sad
 facings 25
 trans.101
 trans.101
@@ -9300,7 +9300,7 @@ priest_sad.161
 priest_sad.161
 priest_sad.161
 mina
-anim _prison_deco1.131
+anim prison_deco1.131
 facings 9
 dummy.111
 prison_deco1.131
@@ -9312,7 +9312,7 @@ prison_deco1.151
 prison_deco1.151
 prison_deco1.131
 mina
-anim _prison_deco2.131
+anim prison_deco2.131
 facings 9
 dummy.111
 prison_deco2.131
@@ -9324,7 +9324,7 @@ prison_deco2.151
 prison_deco2.151
 prison_deco2.131
 mina
-anim _prison_deco3.131
+anim prison_deco3.131
 facings 9
 dummy.111
 prison_deco3.131
@@ -9336,12 +9336,12 @@ prison_deco3.151
 prison_deco3.151
 prison_deco3.131
 mina
-anim _probebullet
+anim probebullet
 probe.101
 probe.102
 probe.103
 mina
-anim _pudding_black
+anim pudding_black
 facings 25
 trans.101
 trans.101
@@ -9394,7 +9394,7 @@ pudding_black.112
 pudding_black.111
 pudding_black.112
 mina
-anim _pudding_blue
+anim pudding_blue
 facings 25
 trans.101
 trans.101
@@ -9447,7 +9447,7 @@ pudding_blue.112
 pudding_blue.111
 pudding_blue.112
 mina
-anim _pudding_brown
+anim pudding_brown
 facings 25
 trans.101
 trans.101
@@ -9500,7 +9500,7 @@ pudding_brown.112
 pudding_brown.111
 pudding_brown.112
 mina
-anim _pudding_green
+anim pudding_green
 facings 25
 trans.101
 trans.101
@@ -9553,7 +9553,7 @@ pudding_green.112
 pudding_green.111
 pudding_green.112
 mina
-anim _pudding_red
+anim pudding_red
 facings 25
 trans.101
 trans.101
@@ -9606,7 +9606,7 @@ pudding_red.112
 pudding_red.111
 pudding_red.112
 mina
-anim _queen
+anim queen
 facings 25
 trans.101
 trans.101
@@ -9659,7 +9659,7 @@ queen.152
 queen.151
 queen.152
 mina
-anim _quickwood
+anim quickwood
 facings 25
 trans.101
 trans.101
@@ -9712,7 +9712,7 @@ quickwood.251
 quickwood.151
 quickwood.251
 mina
-anim _raas
+anim raas
 facings 25
 trans.101
 trans.101
@@ -9790,7 +9790,7 @@ raas.151
 raas.251
 raas.151
 mina
-anim _rack.111
+anim rack.111
 facings 9
 dummy.111
 rack.111
@@ -9802,7 +9802,7 @@ rack.171
 rack.171
 rack.111
 mina
-anim _rack2
+anim rack2
 facings 9
 dummy.111
 rack2.111
@@ -9814,7 +9814,7 @@ rack2.171
 rack2.171
 rack2.111
 mina
-anim _rack3
+anim rack3
 facings 9
 dummy.111
 rack3.111
@@ -9826,7 +9826,7 @@ rack3.171
 rack3.171
 rack3.111
 mina
-anim _random_chest_black
+anim random_chest_black
 facings 9
 dummy.111
 chest_black_s.111
@@ -9838,7 +9838,7 @@ chest_black_s.171
 chest_black_s.171
 chest_black_s.111
 mina
-anim _random_chest_metal
+anim random_chest_metal
 facings 9
 dummy.111
 chest_metal_s.111
@@ -9850,7 +9850,7 @@ chest_metal_s.171
 chest_metal_s.171
 chest_metal_s.111
 mina
-anim _random_chest_wood
+anim random_chest_wood
 facings 9
 dummy.111
 chest_wood_s.111
@@ -9862,7 +9862,7 @@ chest_wood_s.171
 chest_wood_s.171
 chest_wood_s.111
 mina
-anim _ranger
+anim ranger
 facings 25
 trans.101
 trans.101
@@ -9915,7 +9915,7 @@ ranger.152
 ranger.151
 ranger.152
 mina
-anim _ring_wall.151
+anim ring_wall.151
 facings 9
 dummy.111
 ring_wall.151
@@ -9927,27 +9927,27 @@ ring_wall.131
 ring_wall.131
 ring_wall.151
 mina
-anim _rock_big2_waterfall
+anim rock_big2_waterfall
 rock_big2_waterfall.131
 rock_big2_waterfall.132
 rock_big2_waterfall.133
 mina
-anim _rock_big2_waterfall2
+anim rock_big2_waterfall2
 rock_big2_waterfall.151
 rock_big2_waterfall.152
 rock_big2_waterfall.153
 mina
-anim _rod_heavy
+anim rod_heavy
 rod_heavy.101
 rod_heavy.102
 rod_heavy.103
 mina
-anim _rod_light
+anim rod_light
 rod_light.101
 rod_light.102
 rod_light.103
 mina
-anim _rooster
+anim rooster
 facings 25
 trans.101
 trans.101
@@ -10000,11 +10000,11 @@ rooster.162
 rooster.161
 rooster.162
 mina
-anim _rune_fire
+anim rune_fire
 rune_fire.101
 fire.101
 mina
-anim _scarecrow.111
+anim scarecrow.111
 facings 9
 dummy.111
 scarecrow.111
@@ -10016,7 +10016,7 @@ scarecrow.131
 scarecrow.131
 scarecrow.111
 mina
-anim _sewer_wall
+anim sewer_wall
 facings 9
 dummy.111
 sewer_wall.151
@@ -10028,7 +10028,7 @@ sewer_wall.131
 sewer_wall.131
 sewer_wall.151
 mina
-anim _shelf1.111
+anim shelf1.111
 facings 9
 dummy.111
 shelf1.111
@@ -10040,7 +10040,7 @@ shelf1.171
 shelf1.171
 shelf1.111
 mina
-anim _shelf1_wall.111
+anim shelf1_wall.111
 facings 9
 dummy.111
 shelf1_wall.111
@@ -10052,7 +10052,7 @@ shelf1_wall.171
 shelf1_wall.171
 shelf1_wall.111
 mina
-anim _shelf2.111
+anim shelf2.111
 facings 9
 dummy.111
 shelf2.111
@@ -10064,7 +10064,7 @@ shelf2.171
 shelf2.171
 shelf2.111
 mina
-anim _shelf2_wall.111
+anim shelf2_wall.111
 facings 9
 dummy.111
 shelf2_wall.111
@@ -10076,7 +10076,7 @@ shelf2_wall.171
 shelf2_wall.171
 shelf2_wall.111
 mina
-anim _shelf3.111
+anim shelf3.111
 facings 9
 dummy.111
 shelf3.111
@@ -10088,7 +10088,7 @@ shelf3.171
 shelf3.171
 shelf3.111
 mina
-anim _shelf3_dem1.111
+anim shelf3_dem1.111
 facings 9
 dummy.111
 shelf3_dem1.111
@@ -10100,7 +10100,7 @@ shelf3_dem1.171
 shelf3_dem1.171
 shelf3_dem1.111
 mina
-anim _shelf3_dem2.111
+anim shelf3_dem2.111
 facings 9
 dummy.111
 shelf3_dem2.111
@@ -10112,7 +10112,7 @@ shelf3_dem2.171
 shelf3_dem2.171
 shelf3_dem2.111
 mina
-anim _shelf3_dem3.111
+anim shelf3_dem3.111
 facings 9
 dummy.111
 shelf3_dem3.111
@@ -10124,7 +10124,7 @@ shelf3_dem3.171
 shelf3_dem3.171
 shelf3_dem3.111
 mina
-anim _shelf3_wall.111
+anim shelf3_wall.111
 facings 9
 dummy.111
 shelf3_wall.111
@@ -10136,7 +10136,7 @@ shelf3_wall.171
 shelf3_wall.171
 shelf3_wall.111
 mina
-anim _shelf3a.111
+anim shelf3a.111
 facings 9
 dummy.111
 shelf3a.111
@@ -10148,7 +10148,7 @@ shelf3a.171
 shelf3a.171
 shelf3a.111
 mina
-anim _shelf3b.111
+anim shelf3b.111
 facings 9
 dummy.111
 shelf3b.111
@@ -10160,7 +10160,7 @@ shelf3b.171
 shelf3b.171
 shelf3b.111
 mina
-anim _shelf3c.111
+anim shelf3c.111
 facings 9
 dummy.111
 shelf3c.111
@@ -10172,7 +10172,7 @@ shelf3c.171
 shelf3c.171
 shelf3c.111
 mina
-anim _shelf4_wall.111
+anim shelf4_wall.111
 facings 9
 dummy.111
 shelf4_wall.111
@@ -10184,7 +10184,7 @@ shelf4_wall.171
 shelf4_wall.171
 shelf4_wall.111
 mina
-anim _shelf5_wall.111
+anim shelf5_wall.111
 facings 9
 dummy.111
 shelf5_wall.111
@@ -10196,7 +10196,7 @@ shelf5_wall.171
 shelf5_wall.171
 shelf5_wall.111
 mina
-anim _shelf6_wall.111
+anim shelf6_wall.111
 facings 9
 dummy.111
 shelf6_wall.111
@@ -10208,7 +10208,7 @@ shelf6_wall.171
 shelf6_wall.171
 shelf6_wall.111
 mina
-anim _shelf_wall.111
+anim shelf_wall.111
 facings 9
 dummy.111
 shelf_wall.111
@@ -10220,7 +10220,7 @@ shelf_wall.171
 shelf_wall.171
 shelf_wall.111
 mina
-anim _shelf_wall_dem1.111
+anim shelf_wall_dem1.111
 facings 9
 dummy.111
 shelf_wall_dem1.111
@@ -10232,7 +10232,7 @@ shelf_wall_dem1.171
 shelf_wall_dem1.171
 shelf_wall_dem1.111
 mina
-anim _shelf_wall_dem2.111
+anim shelf_wall_dem2.111
 facings 9
 dummy.111
 shelf_wall_dem2.111
@@ -10244,7 +10244,7 @@ shelf_wall_dem2.171
 shelf_wall_dem2.171
 shelf_wall_dem2.111
 mina
-anim _shelf_wall_dem3.111
+anim shelf_wall_dem3.111
 facings 9
 dummy.111
 shelf_wall_dem3.111
@@ -10256,11 +10256,11 @@ shelf_wall_dem3.171
 shelf_wall_dem3.171
 shelf_wall_dem3.111
 mina
-anim _shop_mat
+anim shop_mat
 exit.101
 exit.102
 mina
-anim _shrine1.111
+anim shrine1.111
 facings 9
 dummy.111
 shrine1.111
@@ -10272,7 +10272,7 @@ shrine1.171
 shrine1.171
 shrine1.111
 mina
-anim _skel_fighter1
+anim skel_fighter1
 facings 25
 trans.101
 trans.101
@@ -10325,7 +10325,7 @@ skel_fighter1.251
 skel_fighter1.152
 skel_fighter1.251
 mina
-anim _skel_fighter2
+anim skel_fighter2
 facings 25
 trans.101
 trans.101
@@ -10378,7 +10378,7 @@ skel_fighter2.251
 skel_fighter2.152
 skel_fighter2.251
 mina
-anim _skel_fighter3
+anim skel_fighter3
 facings 25
 trans.101
 trans.101
@@ -10431,7 +10431,7 @@ skel_fighter3.251
 skel_fighter3.152
 skel_fighter3.251
 mina
-anim _skel_mage
+anim skel_mage
 facings 25
 trans.101
 trans.101
@@ -10484,7 +10484,7 @@ skel_mage.251
 skel_mage.152
 skel_mage.251
 mina
-anim _slime
+anim slime
 facings 25
 trans.101
 trans.101
@@ -10537,7 +10537,7 @@ slime.112
 slime.111
 slime.112
 mina
-anim _slug_giant
+anim slug_giant
 facings 25
 trans.101
 trans.101
@@ -10615,7 +10615,7 @@ slug_giant.151
 slug_giant.152
 slug_giant.251
 mina
-anim _smith
+anim smith
 facings 25
 trans.101
 trans.101
@@ -10668,7 +10668,7 @@ smith.142
 smith.141
 smith.142
 mina
-anim _snake
+anim snake
 facings 25
 trans.101
 trans.101
@@ -10721,7 +10721,7 @@ snake.152
 snake.153
 snake.152
 mina
-anim _snowball
+anim snowball
 facings 9
 snowball.101
 snowball.101
@@ -10733,7 +10733,7 @@ snowball.101
 snowball.101
 snowball.101
 mina
-anim _snowball2
+anim snowball2
 facings 9
 snowball2.101
 snowball2.101
@@ -10745,11 +10745,11 @@ snowball2.101
 snowball2.101
 snowball2.101
 mina
-anim _spider_web
+anim spider_web
 spider_web.111
 spider_web.112
 mina
-anim _spinner
+anim spinner
 facings 9
 spinner.101
 spinner.111
@@ -10761,7 +10761,7 @@ spinner.161
 spinner.171
 spinner.181
 mina
-anim _sstone
+anim sstone
 facings 9
 sstone.101
 sstone.111
@@ -10773,7 +10773,7 @@ sstone.111
 sstone.111
 sstone.111
 mina
-anim _stairs_red_down
+anim stairs_red_down
 facings 9
 dummy.111
 stairs_red_down.111
@@ -10785,7 +10785,7 @@ stairs_red_down.151
 stairs_red_down.171
 stairs_red_down.171
 mina
-anim _stairs_red_up
+anim stairs_red_up
 facings 9
 dummy.111
 stairs_red_up.111
@@ -10797,7 +10797,7 @@ stairs_red_up.151
 stairs_red_up.171
 stairs_red_up.171
 mina
-anim _stairs_stone_down
+anim stairs_stone_down
 facings 9
 dummy.111
 stairs_stone_down.111
@@ -10809,7 +10809,7 @@ stairs_stone_down.151
 stairs_stone_down.171
 stairs_stone_down.171
 mina
-anim _stairs_stone_up
+anim stairs_stone_up
 facings 9
 dummy.111
 stairs_stone_up.111
@@ -10821,7 +10821,7 @@ stairs_stone_up.151
 stairs_stone_up.171
 stairs_stone_up.171
 mina
-anim _stairs_wood_down
+anim stairs_wood_down
 facings 9
 dummy.111
 stairs_wood_down.111
@@ -10833,7 +10833,7 @@ stairs_wood_down.151
 stairs_wood_down.171
 stairs_wood_down.171
 mina
-anim _stairs_wood_up
+anim stairs_wood_up
 facings 9
 dummy.111
 stairs_wood_up.111
@@ -10845,7 +10845,7 @@ stairs_wood_up.151
 stairs_wood_up.171
 stairs_wood_up.171
 mina
-anim _starsdavid
+anim starsdavid
 facings 9
 starsdavid.101
 starsdavid.111
@@ -10857,7 +10857,7 @@ starsdavid.111
 starsdavid.111
 starsdavid.111
 mina
-anim _starsdavid2
+anim starsdavid2
 facings 9
 starsofdavid.101
 starsofdavid.111
@@ -10869,12 +10869,12 @@ starsofdavid.111
 starsofdavid.111
 starsofdavid.111
 mina
-anim _statue_fire
+anim statue_fire
 statue_fire.111
 statue_fire.112
 statue_fire.113
 mina
-anim _statue_white2
+anim statue_white2
 facings 9
 dummy.111
 statue_white2.131
@@ -10886,7 +10886,7 @@ statue_white2.151
 statue_white2.151
 statue_white2.131
 mina
-anim _statue_white3
+anim statue_white3
 facings 9
 dummy.111
 statue_white3.131
@@ -10898,7 +10898,7 @@ statue_white3.151
 statue_white3.151
 statue_white3.131
 mina
-anim _stone_throne
+anim stone_throne
 facings 9
 dummy.111
 throne_stone.111
@@ -10910,7 +10910,7 @@ throne_stone.131
 throne_stone.131
 throne_stone.111
 mina
-anim _stonehenge
+anim stonehenge
 facings 9
 dummy.111
 stonehenge.111
@@ -10922,7 +10922,7 @@ stonehenge.161
 stonehenge.171
 stonehenge.181
 mina
-anim _straw2.111
+anim straw2.111
 facings 9
 dummy.111
 straw2.131
@@ -10934,7 +10934,7 @@ straw2.111
 straw2.111
 straw2.131
 mina
-anim _switch_wall
+anim switch_wall
 facings 9
 dummy.111
 dummy.111
@@ -10955,7 +10955,7 @@ switch_wall.172
 switch_wall.111
 switch_wall.112
 mina
-anim _t_axe
+anim t_axe
 facings 9
 t_axe.101
 t_axe.111
@@ -10967,7 +10967,7 @@ t_axe.111
 t_axe.111
 t_axe.111
 mina
-anim _t_boulder
+anim t_boulder
 facings 9
 t_boulder.101
 t_boulder.101
@@ -10979,7 +10979,7 @@ t_boulder.101
 t_boulder.101
 t_boulder.101
 mina
-anim _t_dagger
+anim t_dagger
 facings 9
 t_dagger.101
 t_dagger.111
@@ -10991,7 +10991,7 @@ t_dagger.161
 t_dagger.171
 t_dagger.181
 mina
-anim _t_hammer
+anim t_hammer
 facings 9
 hammer_2.101
 hammer_2.111
@@ -11003,7 +11003,7 @@ hammer_2.161
 hammer_2.171
 hammer_2.181
 mina
-anim _t_lboulder
+anim t_lboulder
 facings 9
 t_lboulder.101
 t_lboulder.101
@@ -11015,7 +11015,7 @@ t_lboulder.101
 t_lboulder.101
 t_lboulder.101
 mina
-anim _t_rock
+anim t_rock
 facings 9
 t_rock.101
 t_rock.101
@@ -11027,7 +11027,7 @@ t_rock.101
 t_rock.101
 t_rock.101
 mina
-anim _t_star
+anim t_star
 facings 9
 t_star.101
 t_star.111
@@ -11039,7 +11039,7 @@ t_star.111
 t_star.111
 t_star.111
 mina
-anim _tabernacle_avatar
+anim tabernacle_avatar
 facings 25
 trans.101
 trans.101
@@ -11067,7 +11067,7 @@ trans.101
 trans.101
 trans.101
 mina
-anim _table_lab1.111
+anim table_lab1.111
 facings 9
 dummy.111
 table_lab1.111
@@ -11079,7 +11079,7 @@ table_lab1.171
 table_lab1.171
 table_lab1.111
 mina
-anim _table_lab2.111
+anim table_lab2.111
 facings 9
 dummy.111
 table_lab2.111
@@ -11091,7 +11091,7 @@ table_lab2.171
 table_lab2.171
 table_lab2.111
 mina
-anim _table_lab3.111
+anim table_lab3.111
 facings 9
 dummy.111
 table_lab3.111
@@ -11103,7 +11103,7 @@ table_lab3.171
 table_lab3.171
 table_lab3.111
 mina
-anim _table_wood1.111
+anim table_wood1.111
 facings 9
 dummy.111
 table_wood1.111
@@ -11115,7 +11115,7 @@ table_wood1.171
 table_wood1.171
 table_wood1.111
 mina
-anim _table_wood5
+anim table_wood5
 facings 9
 dummy.111
 table_wood5.111
@@ -11127,7 +11127,7 @@ table_wood5.171
 table_wood5.171
 table_wood5.111
 mina
-anim _table_wood6
+anim table_wood6
 facings 9
 dummy.111
 table_wood6.111
@@ -11139,7 +11139,7 @@ table_wood6.171
 table_wood6.171
 table_wood6.111
 mina
-anim _tailor
+anim tailor
 facings 25
 trans.101
 trans.101
@@ -11242,7 +11242,7 @@ tailor.132
 tailor.133
 tailor.134
 mina
-anim _target.111
+anim target.111
 facings 9
 dummy.111
 target.111
@@ -11254,11 +11254,11 @@ target.131
 target.131
 target.111
 mina
-anim _teleporter
+anim teleporter
 exit.101
 exit.102
 mina
-anim _temp_fog
+anim temp_fog
 fog.111
 fog.112
 fog.111
@@ -11269,7 +11269,7 @@ fog.111
 fog.112
 fog.111
 mina
-anim _throne.111
+anim throne.111
 facings 9
 dummy.111
 throne.111
@@ -11281,7 +11281,7 @@ throne.131
 throne.131
 throne.111
 mina
-anim _tiger
+anim tiger
 facings 25
 trans.101
 trans.101
@@ -11334,7 +11334,7 @@ tiger.152
 tiger.153
 tiger.152
 mina
-anim _tipper
+anim tipper
 facings 9
 dummy.111
 tipper.111
@@ -11346,11 +11346,11 @@ tipper.131
 tipper.131
 tipper.111
 mina
-anim _torch
+anim torch
 torch_lit1.101
 torch_lit1.102
 mina
-anim _torch_wall_1
+anim torch_wall_1
 facings 9
 dummy.111
 dummy.111
@@ -11389,7 +11389,7 @@ torch_wall.112
 torch_wall.113
 torch_wall.114
 mina
-anim _torch_wall_1_unlit
+anim torch_wall_1_unlit
 facings 9
 dummy.111
 torch_wall.110
@@ -11401,39 +11401,39 @@ torch_wall.170
 torch_wall.170
 torch_wall.110
 mina
-anim _town_portal_magic
+anim town_portal_magic
 magic_portal.111
 magic_portal.112
 mina
-anim _trap_bear_trap
+anim trap_bear_trap
 tspikes.101
 tspikes.101
 mina
-anim _trap_blades
+anim trap_blades
 blades.101
 blades.101
 mina
-anim _trap_diseased_needle
+anim trap_diseased_needle
 needle.101
 needle.101
 mina
-anim _trap_needle
+anim trap_needle
 needle.101
 needle.101
 mina
-anim _trap_rocks
+anim trap_rocks
 falling_rocks.101
 falling_rocks.101
 mina
-anim _trap_spike_pit
+anim trap_spike_pit
 spiked_pit.101
 spiked_pit.101
 mina
-anim _trapdoor
+anim trapdoor
 trapdoor_1.101
 hole.101
 mina
-anim _traveller_parka
+anim traveller_parka
 facings 25
 trans.101
 trans.101
@@ -11486,7 +11486,7 @@ traveller_parka.152
 traveller_parka.151
 traveller_parka.152
 mina
-anim _traveller_wife
+anim traveller_wife
 facings 25
 trans.101
 trans.101
@@ -11539,7 +11539,7 @@ traveller_wife.151
 traveller_wife.131
 traveller_wife.151
 mina
-anim _treant_evil
+anim treant_evil
 facings 25
 trans.101
 trans.101
@@ -11592,7 +11592,7 @@ treant_evil.251
 treant_evil.151
 treant_evil.251
 mina
-anim _trigger_lever
+anim trigger_lever
 facings 9
 dummy.111
 dummy.111
@@ -11613,7 +11613,7 @@ lever.132
 lever.131
 lever.132
 mina
-anim _troll
+anim troll
 facings 25
 trans.101
 trans.101
@@ -11666,7 +11666,7 @@ troll.152
 troll.151
 troll.152
 mina
-anim _vampire
+anim vampire
 facings 25
 trans.101
 trans.101
@@ -11744,7 +11744,7 @@ vampire.181
 vampire.182
 vampire.183
 mina
-anim _vampire_lord
+anim vampire_lord
 facings 25
 trans.101
 trans.101
@@ -11822,7 +11822,7 @@ vampire_lord.181
 vampire_lord.182
 vampire_lord.183
 mina
-anim _wagon_big
+anim wagon_big
 facings 9
 dummy.111
 wagon_big.131
@@ -11834,7 +11834,7 @@ wagon_big.151
 wagon_big.151
 wagon_big.131
 mina
-anim _wagon_small.111
+anim wagon_small.111
 facings 9
 dummy.111
 wagon_small.111
@@ -11846,7 +11846,7 @@ wagon_small.131
 wagon_small.131
 wagon_small.111
 mina
-anim _wall_blood1
+anim wall_blood1
 facings 9
 dummy.111
 wall_blood1.u.151
@@ -11858,7 +11858,7 @@ wall_blood1.u.131
 wall_blood1.u.131
 wall_blood1.u.151
 mina
-anim _wall_blood2
+anim wall_blood2
 facings 9
 dummy.111
 wall_blood2.u.151
@@ -11870,7 +11870,7 @@ wall_blood2.u.131
 wall_blood2.u.131
 wall_blood2.u.151
 mina
-anim _wall_blood3
+anim wall_blood3
 facings 9
 dummy.111
 wall_blood3.u.151
@@ -11882,7 +11882,7 @@ wall_blood3.u.131
 wall_blood3.u.131
 wall_blood3.u.151
 mina
-anim _wall_blood4
+anim wall_blood4
 facings 9
 dummy.111
 wall_blood4.u.151
@@ -11894,7 +11894,7 @@ wall_blood4.u.131
 wall_blood4.u.131
 wall_blood4.u.151
 mina
-anim _wall_drain1
+anim wall_drain1
 facings 9
 dummy.111
 wall_drain1.151
@@ -11906,7 +11906,7 @@ wall_drain1.131
 wall_drain1.131
 wall_drain1.151
 mina
-anim _wall_drain2
+anim wall_drain2
 facings 9
 dummy.111
 wall_drain2.151
@@ -11918,7 +11918,7 @@ wall_drain2.131
 wall_drain2.131
 wall_drain2.151
 mina
-anim _wall_drain3
+anim wall_drain3
 facings 9
 dummy.111
 wall_drain3.151
@@ -11930,7 +11930,7 @@ wall_drain3.131
 wall_drain3.131
 wall_drain3.151
 mina
-anim _wall_drain4
+anim wall_drain4
 facings 9
 dummy.111
 wall_drain4.151
@@ -11942,7 +11942,7 @@ wall_drain4.131
 wall_drain4.131
 wall_drain4.151
 mina
-anim _wall_well.131
+anim wall_well.131
 facings 9
 dummy.111
 wall_well.131
@@ -11954,12 +11954,12 @@ wall_well.151
 wall_well.151
 wall_well.131
 mina
-anim _wand
+anim wand
 wand.101
 wand.102
 wand.103
 mina
-anim _wasp_giant
+anim wasp_giant
 facings 25
 trans.101
 trans.101
@@ -12012,18 +12012,18 @@ wasp_giant.251
 wasp_giant.151
 wasp_giant.251
 mina
-anim _water_still
+anim water_still
 lake.101
 lake.102
 lake.103
 lake.104
 mina
-anim _waterfall_huge
+anim waterfall_huge
 waterfall_huge.101
 waterfall_huge.102
 waterfall_huge.103
 mina
-anim _wmask_bflag_brown_1
+anim wmask_bflag_brown_1
 facings 9
 dummy.111
 wmask_bflag_brown.u.151
@@ -12035,7 +12035,7 @@ wmask_bflag_brown.u.131
 wmask_bflag_brown.u.131
 wmask_bflag_brown.u.151
 mina
-anim _wmask_bflag_fire1_1
+anim wmask_bflag_fire1_1
 facings 9
 dummy.111
 wmask_bflag_fire1.u.151
@@ -12047,7 +12047,7 @@ wmask_bflag_fire1.u.131
 wmask_bflag_fire1.u.131
 wmask_bflag_fire1.u.151
 mina
-anim _wmask_fire_off_1
+anim wmask_fire_off_1
 facings 9
 dummy.111
 wmask_fire_off.u.151
@@ -12059,7 +12059,7 @@ wmask_fire_off.u.131
 wmask_fire_off.u.131
 wmask_fire_off.u.151
 mina
-anim _wmask_fire_on_1
+anim wmask_fire_on_1
 facings 9
 dummy.111
 wmask_fire_on.u.151
@@ -12071,7 +12071,7 @@ wmask_fire_on.u.131
 wmask_fire_on.u.131
 wmask_fire_on.u.151
 mina
-anim _wmask_ruin1a.111
+anim wmask_ruin1a.111
 facings 9
 dummy.111
 wmask_ruin1a.111
@@ -12083,7 +12083,7 @@ wmask_ruin1a.131
 wmask_ruin1a.131
 wmask_ruin1a.111
 mina
-anim _wmask_ruin1b.111
+anim wmask_ruin1b.111
 facings 9
 dummy.111
 wmask_ruin1b.111
@@ -12095,7 +12095,7 @@ wmask_ruin1b.131
 wmask_ruin1b.131
 wmask_ruin1b.111
 mina
-anim _wmask_wanted.151
+anim wmask_wanted.151
 facings 9
 dummy.111
 wmask_wanted.u.151
@@ -12107,7 +12107,7 @@ wmask_wanted.u.131
 wmask_wanted.u.131
 wmask_wanted.u.151
 mina
-anim _wolf
+anim wolf
 facings 25
 trans.101
 trans.101
@@ -12185,7 +12185,7 @@ wolf.151
 wolf.153
 wolf.151
 mina
-anim _woman_old
+anim woman_old
 facings 25
 trans.101
 trans.101
@@ -12238,7 +12238,7 @@ woman_old.252
 woman_old.251
 woman_old.252
 mina
-anim _worm_purple
+anim worm_purple
 facings 25
 trans.101
 trans.101
@@ -12291,7 +12291,7 @@ worm_purple.251
 worm_purple.151
 worm_purple.251
 mina
-anim _wraith
+anim wraith
 facings 25
 trans.101
 trans.101
@@ -12369,7 +12369,7 @@ wraith.151
 wraith.152
 wraith.251
 mina
-anim _wyvern
+anim wyvern
 facings 25
 trans.101
 trans.101
