@@ -26057,6 +26057,7 @@ maxsp 30
 level 1
 speed -0.054
 weight 22500
+undead 1
 end
 Object ghoul
 editor_folder mobs/undead
@@ -26095,6 +26096,7 @@ maxhp 65
 level 1
 speed -0.047
 weight 122500
+undead 1
 end
 Object lich_lord
 editor_folder mobs/undead
@@ -26168,6 +26170,7 @@ maxhp 62
 level 1
 speed -0.048
 weight 32500
+undead 1
 end
 Object skel_fighter1
 editor_folder mobs/undead
@@ -26205,6 +26208,7 @@ maxhp 62
 level 1
 speed -0.048
 weight 49500
+undead 1
 end
 Object skel_fighter2
 editor_folder mobs/undead
@@ -26242,6 +26246,7 @@ maxhp 64
 level 1
 speed -0.048
 weight 57500
+undead 1
 end
 Object skel_fighter3
 editor_folder mobs/undead
@@ -26279,6 +26284,7 @@ maxhp 63
 level 1
 speed -0.048
 weight 52500
+undead 1
 end
 Object skel_mage
 editor_folder mobs/undead
@@ -26321,6 +26327,7 @@ maxhp 63
 level 1
 speed -0.048
 weight 42500
+undead 1
 end
 Object vampire
 editor_folder mobs/undead
@@ -26431,6 +26438,7 @@ maxhp 63
 level 1
 speed -0.048
 weight 22500
+undead 1
 end
 Object wyvern
 mpart_id 3
