@@ -21499,8 +21499,6 @@ is_neutral 1
 weight 13250
 exp 100
 wc_range 20
-item_race 255
-item_level 255
 speed -0.04
 weapon_speed 0.0375
 attack_acid 75
@@ -21534,8 +21532,6 @@ is_neutral 1
 weight 13250
 exp 102
 wc_range 20
-item_race 255
-item_level 255
 speed -0.04
 weapon_speed 0.0375
 attack_poison 76
@@ -21569,8 +21565,6 @@ is_neutral 1
 weight 13250
 wc_range 20
 exp 97
-item_race 255
-item_level 255
 speed -0.04
 weapon_speed 0.038
 attack_slash 100
@@ -21606,8 +21600,6 @@ randomitems mob_slime
 is_neutral 1
 weight 8250
 exp 90
-item_race 255
-item_level 255
 wc_range 20
 speed -0.03
 weapon_speed 0.040
@@ -21641,9 +21633,7 @@ randomitems mob_slime
 is_neutral 1
 weight 13250
 exp 101
-item_race 255
 wc_range 20
-item_level 255
 speed -0.05
 weapon_speed 0.040
 attack_cold 75
@@ -21679,8 +21669,6 @@ is_neutral 1
 weight 13250
 exp 105
 wc_range 20
-item_race 255
-item_level 255
 speed -0.05
 weapon_speed 0.038
 attack_cleave 65
@@ -21718,8 +21706,6 @@ weight 13250
 wc_range 20
 exp 111
 speed -0.05
-item_race 255
-item_level 255
 weapon_speed 0.0375
 attack_acid 55
 attack_poison 40
@@ -21755,8 +21741,6 @@ is_neutral 1
 weight 13250
 exp 101
 speed -0.05
-item_race 255
-item_level 255
 weapon_speed 0.038
 attack_poison 65
 attack_acid 10
@@ -21794,8 +21778,6 @@ exp 106
 wc_range 20
 speed -0.05
 weapon_speed 0.0375
-item_race 255
-item_level 255
 attack_poison 40
 attack_cold 40
 resist_poison 100
@@ -21830,8 +21812,6 @@ is_neutral 1
 weight 12250
 exp 86
 wc_range 20
-item_race 255
-item_level 255
 speed -0.025
 weapon_speed 0.040
 attack_impact 75
@@ -21867,8 +21847,6 @@ wc_range 20
 exp 111
 speed -0.03
 weapon_speed 0.040
-item_race 255
-item_level 255
 attack_acid 80
 ac 10
 wc 3
@@ -21902,8 +21880,6 @@ wc_range 20
 exp 104
 speed -0.03
 weapon_speed 0.040
-item_race 255
-item_level 255
 attack_cold 80
 ac 10
 wc 3
@@ -21938,8 +21914,6 @@ wc_range 20
 speed -0.031
 weapon_speed 0.040
 attack_fire 80
-item_race 255
-item_level 255
 ac 10
 wc 3
 dam 53
@@ -21974,8 +21948,6 @@ speed -0.031
 weapon_speed 0.040
 attack_poison 80
 ac 10
-item_race 255
-item_level 255
 wc 3
 dam 51
 hp -1
@@ -22009,8 +21981,6 @@ speed -0.031
 weapon_speed 0.040
 attack_fire 40
 attack_acid 40
-item_race 255
-item_level 255
 ac 10
 wc 3
 dam 51
@@ -22045,8 +22015,6 @@ speed -0.029
 weapon_speed 0.040
 attack_impact 75
 ac 10
-item_race 255
-item_level 255
 wc 2
 dam 41
 hp -1
@@ -22080,8 +22048,6 @@ speed -0.029
 weapon_speed 0.040
 attack_impact 75
 ac 10
-item_race 255
-item_level 255
 wc 2
 dam 41
 hp -1
@@ -22111,8 +22077,6 @@ randomitems mob_default
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -22148,8 +22112,6 @@ randomitems mob_default
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -22184,8 +22146,6 @@ randomitems mob_cat_black
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -22220,8 +22180,6 @@ randomitems mob_chicken_large
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -22255,8 +22213,6 @@ randomitems mob_crocodile
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -22291,8 +22247,6 @@ randomitems mob_deer
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -22326,8 +22280,6 @@ randomitems mob_default
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -22363,8 +22315,6 @@ randomitems mob_horse_white
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -22398,8 +22348,6 @@ randomitems mob_rooster
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -22433,8 +22381,6 @@ randomitems mob_snake
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -22469,8 +22415,6 @@ randomitems mob_tiger
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -22505,8 +22449,6 @@ randomitems mob_wolf
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -22546,8 +22488,6 @@ speed -0.06
 corpse 1
 wc_range 20
 will_apply 8
-item_race 255
-item_level 255
 type 80
 is_male 1
 is_evil 1
@@ -22743,8 +22683,6 @@ will_apply 8
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -22780,8 +22718,6 @@ layer 6
 will_apply 8
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -22817,8 +22753,6 @@ layer 6
 will_apply 8
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -22853,8 +22787,6 @@ corpse 1
 wc_range 20
 layer 6
 direction 5
-item_race 255
-item_level 255
 is_evil 1
 terrain_flag 1
 weapon_speed 0.035
@@ -22891,8 +22823,6 @@ layer 6
 will_apply 8
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -22927,8 +22857,6 @@ wc_range 20
 will_apply 8
 layer 6
 direction 5
-item_race 255
-item_level 255
 is_evil 1
 terrain_flag 1
 weapon_speed 0.035
@@ -22966,8 +22894,6 @@ direction 5
 will_apply 8
 is_evil 1
 terrain_flag 1
-item_race 255
-item_level 255
 weapon_speed 0.035
 attack_slash 75
 type 80
@@ -23006,8 +22932,6 @@ maxsp 6
 Pow 2
 magic 5
 wc_range 20
-item_race 255
-item_level 255
 direction 5
 is_evil 1
 terrain_flag 1
@@ -23043,8 +22967,6 @@ is_female 1
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -23079,8 +23001,6 @@ randomitems mob_demon_fire
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -23116,8 +23036,6 @@ is_female 1
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -23152,8 +23070,6 @@ randomitems mob_lom_lobon
 type 80
 layer 6
 direction 5
-item_race 255
-item_level 255
 corpse 1
 alive 1
 monster 1
@@ -23197,8 +23113,6 @@ is_female 1
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -23233,8 +23147,6 @@ randomitems mob_raas
 type 80
 layer 6
 direction 5
-item_race 255
-item_level 255
 corpse 1
 alive 1
 monster 1
@@ -23278,8 +23190,6 @@ randomitems mob_dragon_black
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -23353,8 +23263,6 @@ randomitems mob_dragon_blue
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -23427,8 +23335,6 @@ randomitems mob_dragon_fire
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -23501,8 +23407,6 @@ randomitems mob_dragon_green
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -23578,8 +23482,6 @@ speed -0.061
 corpse 1
 wc_range 20
 will_apply 8
-item_race 255
-item_level 255
 type 80
 is_male 1
 is_evil 1
@@ -23661,9 +23563,7 @@ layer 6
 race dragon
 corpse 1
 will_apply 8
-item_race 255
 wc_range 20
-item_level 255
 weapon_speed 0.035
 attack_cleave 80
 is_male 1
@@ -23697,8 +23597,6 @@ face mud_hand.101
 layer 6
 race elemental
 corpse 1
-item_race 255
-item_level 255
 wc_range 20
 weapon_speed 0.035
 attack_cleave 80
@@ -23736,8 +23634,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
@@ -23778,8 +23674,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -23815,8 +23709,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -23852,8 +23744,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -23889,8 +23779,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
@@ -23931,8 +23819,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_impact 75
@@ -23965,8 +23851,6 @@ randomitems mob_fire
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -24002,8 +23886,6 @@ is_evil 1
 wc_range 20
 is_male 1
 weight 473250
-item_race 255
-item_level 255
 exp 102
 speed -0.055
 weapon_speed 0.042
@@ -24038,8 +23920,6 @@ randomitems mob_ice
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -24076,8 +23956,6 @@ is_male 1
 wc_range 20
 weight 732500
 exp 105
-item_race 255
-item_level 255
 speed -0.054
 weapon_speed 0.042
 attack_impact 90
@@ -24113,8 +23991,6 @@ will_apply 8
 weight 153250
 wc_range 20
 exp 105
-item_race 255
-item_level 255
 speed -0.053
 weapon_speed 0.04
 attack_impact 80
@@ -24147,9 +24023,7 @@ race human
 type 80
 layer 6
 will_apply 8
-item_race 255
 wc_range 20
-item_level 255
 direction 5
 is_male 1
 is_good 1
@@ -24196,8 +24070,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 is_male 1
 wc_range 20
 is_good 1
@@ -24244,8 +24116,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 is_female 1
 wc_range 20
 is_good 1
@@ -24290,8 +24160,6 @@ name guard
 race human
 type 80
 layer 6
-item_race 255
-item_level 255
 will_apply 8
 direction 5
 is_male 1
@@ -24340,8 +24208,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 is_male 1
 wc_range 20
 is_good 1
@@ -24387,8 +24253,6 @@ race human
 type 80
 layer 6
 will_apply 8
-item_race 255
-item_level 255
 wc_range 20
 direction 5
 is_male 1
@@ -24437,8 +24301,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -24485,8 +24347,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -24533,8 +24393,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -24581,8 +24439,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -24629,8 +24485,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -24677,8 +24531,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -24725,8 +24577,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -24773,8 +24623,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_female 1
 is_good 1
@@ -24824,8 +24672,6 @@ wc_range 20
 will_apply 8
 is_male 1
 is_good 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.040
 corpse 1
@@ -24873,8 +24719,6 @@ will_apply 8
 is_female 1
 is_good 1
 terrain_flag 1
-item_race 255
-item_level 255
 weapon_speed 0.040
 corpse 1
 attack_weaponmagic 100
@@ -24922,8 +24766,6 @@ will_apply 8
 is_female 1
 is_good 1
 terrain_flag 1
-item_race 255
-item_level 255
 weapon_speed 0.040
 corpse 1
 attack_weaponmagic 100
@@ -24969,8 +24811,6 @@ will_apply 8
 wc_range 20
 direction 5
 is_male 1
-item_race 255
-item_level 255
 is_good 1
 terrain_flag 1
 weapon_speed 0.045
@@ -25019,8 +24859,6 @@ wc_range 20
 is_male 1
 is_good 1
 terrain_flag 1
-item_race 255
-item_level 255
 weapon_speed 0.040
 corpse 1
 attack_weaponmagic 100
@@ -25064,8 +24902,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -25112,8 +24948,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -25160,8 +24994,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -25208,8 +25040,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -25256,8 +25086,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -25304,8 +25132,6 @@ type 80
 layer 6
 will_apply 8
 direction 5
-item_race 255
-item_level 255
 wc_range 20
 is_male 1
 is_good 1
@@ -25352,8 +25178,6 @@ race ants
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -25392,8 +25216,6 @@ layer 6
 direction 5
 wc_range 20
 is_neutral 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_cleave 75
@@ -25428,8 +25250,6 @@ layer 6
 race ants
 wc_range 20
 corpse 1
-item_race 255
-item_level 255
 weapon_speed 0.035
 attack_cleave 80
 is_male 1
@@ -25466,8 +25286,6 @@ layer 6
 wc_range 20
 direction 5
 is_neutral 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_cleave 75
@@ -25503,8 +25321,6 @@ layer 6
 wc_range 20
 direction 5
 is_neutral 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_cleave 75
@@ -25538,8 +25354,6 @@ randomitems mob_default
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -25575,8 +25389,6 @@ is_neutral 1
 weight 23250
 exp 98
 speed -0.040
-item_race 255
-item_level 255
 weapon_speed 0.038
 attack_cleave 65
 attack_acid 10
@@ -25614,8 +25426,6 @@ is_female 1
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -25651,8 +25461,6 @@ is_female 1
 is_male 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 is_neutral 1
@@ -25688,8 +25496,6 @@ randomitems mob_worm_purple
 face worm_purple.131
 direction 5
 wc_range 20
-item_race 255
-item_level 255
 speed -0.0611
 corpse 1
 type 80
@@ -25773,8 +25579,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_impact 75
@@ -25810,8 +25614,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -25847,8 +25649,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
@@ -25884,8 +25684,6 @@ will_apply 8
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_impact 75
@@ -25921,8 +25719,6 @@ layer 6
 will_apply 8
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
@@ -25963,8 +25759,6 @@ layer 6
 will_apply 8
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_cleave 75
@@ -26005,8 +25799,6 @@ will_apply 8
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -26042,8 +25834,6 @@ will_apply 8
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
@@ -26076,8 +25866,6 @@ layer 6
 race tree
 wc_range 20
 corpse 1
-item_race 255
-item_level 255
 weapon_speed 0.035
 attack_cleave 80
 is_evil 1
@@ -26111,8 +25899,6 @@ layer 6
 race tree
 wc_range 20
 corpse 1
-item_race 255
-item_level 255
 weapon_speed 0.035
 attack_impact 80
 is_evil 1
@@ -26146,9 +25932,7 @@ direction 5
 is_neutral 1
 corpse 1
 will_apply 8
-item_race 255
 wc_range 20
-item_level 255
 terrain_flag 1
 weapon_speed 0.039
 face golem.131
@@ -26180,8 +25964,6 @@ corpse 1
 layer 6
 is_neutral 1
 will_apply 8
-item_race 255
-item_level 255
 wc_range 20
 direction 5
 terrain_flag 1
@@ -26219,8 +26001,6 @@ corpse 1
 layer 6
 will_apply 8
 is_neutral 1
-item_race 255
-item_level 255
 wc_range 20
 direction 5
 terrain_flag 1
@@ -26261,8 +26041,6 @@ direction 5
 speed -0.061
 will_apply 8
 corpse 1
-item_race 255
-item_level 255
 type 80
 is_male 1
 is_evil 1
@@ -26343,8 +26121,6 @@ will_apply 8
 glow_radius 2
 wc_range 20
 layer 6
-item_race 255
-item_level 255
 direction 5
 terrain_flag 1
 weapon_speed 0.035
@@ -26387,8 +26163,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 43
@@ -26423,8 +26197,6 @@ randomitems mob_lich_lord
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -26461,8 +26233,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 40
@@ -26501,8 +26271,6 @@ wc_range 20
 direction 5
 is_evil 1
 terrain_flag 1
-item_race 255
-item_level 255
 weapon_speed 0.035
 attack_slash 80
 type 80
@@ -26539,8 +26307,6 @@ layer 6
 direction 5
 is_evil 1
 terrain_flag 1
-item_race 255
-item_level 255
 weapon_speed 0.035
 attack_slash 80
 type 80
@@ -26577,8 +26343,6 @@ wc_range 20
 direction 5
 is_evil 1
 terrain_flag 1
-item_race 255
-item_level 255
 weapon_speed 0.035
 attack_slash 80
 type 80
@@ -26620,8 +26384,6 @@ layer 6
 direction 5
 is_evil 1
 terrain_flag 1
-item_race 255
-item_level 255
 weapon_speed 0.035
 attack_slash 80
 type 80
@@ -26654,8 +26416,6 @@ randomitems mob_vampire
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -26690,8 +26450,6 @@ randomitems mob_vampire_lord
 is_female 1
 corpse 1
 will_apply 8
-item_race 255
-item_level 255
 layer 6
 direction 5
 terrain_flag 1
@@ -26729,8 +26487,6 @@ corpse 1
 layer 6
 direction 5
 is_evil 1
-item_race 255
-item_level 255
 terrain_flag 1
 weapon_speed 0.035
 attack_slash 40
@@ -26769,8 +26525,6 @@ will_apply 8
 speed -0.06
 corpse 1
 wc_range 20
-item_race 255
-item_level 255
 type 80
 is_male 1
 is_neutral 1
