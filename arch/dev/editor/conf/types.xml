@@ -353,6 +353,9 @@
 		A godgiven item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
+	<attribute arch="speed" editor="speed" type="float">
+		The object's speed.
+	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
 		This text may describe the object.
 	</attribute>
