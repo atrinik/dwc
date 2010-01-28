@@ -1519,6 +1519,17 @@
 	<attribute arch="other_arch" editor="create arch" type="string">
 		This string defines the object that will be created. You can
 		choose any of the existing arches.
+
+		If you leave this empty, the creator will clone any non-system objects
+		from its inventory instead (sort of like the spawn point).
+
+		Creators can't create mobs, use spawn points for that.
+	</attribute>
+	<attribute arch="splitting" editor="random clone" type="bool">
+		Setting this will make the creator clone a single, randomly picked,
+		non-system object from its inventory instead of all of them.
+
+		(Only used if "create arch" is unset)
 	</attribute>
 	<attribute arch="connected" editor="connection" type="int">
 		Whenever the connection value is activated, the creator gets
@@ -1527,6 +1538,10 @@
 	<attribute arch="lifesave" editor="infinite uses" type="bool">
 		If &lt;infinite uses&gt; is set, the creator will work
 		infinitely, regardless of the value in &lt;number of uses&gt;.
+	</attribute>
+	<attribute arch="one_drop" editor="check before creation" type="bool">
+		Makes the creator check for already existing objects on top of it before
+		creating. Avoids creating lots of duplicates if no-one picks the items up.
 	</attribute>
 	<attribute arch="hp" editor="number of uses" type="int">
 		The creator can be triggered &lt;number of uses&gt; times, thus
@@ -1538,10 +1553,14 @@
 		The created object will bear the name specified in
 		&lt;name creation&gt;. If nothing is set, the standard name of
 		the archetype is used.
+
+		(Only used if "create arch" is set)
 	</attribute>
 	<attribute arch="level" editor="level of creation" type="int">
 		The created object will be of that level. If zero/unset, the
 		standard level of the archetype is used.
+
+		(Only used if "create arch" is set)
 	</attribute>
 </type>
 
