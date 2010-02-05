@@ -2025,6 +2025,9 @@
 		the light source value. This value can be negative (shadow) and
 		is directly added to a tile light value.
 	</attribute>
+	<attribute arch="z" editor="height" type="int">
+		Height of this tile.
+	</attribute>
 	<section name="terrain">
 		<attribute arch="terrain_type" editor="terrain type" type="bitmask_terrain">
 			The &lt;terrain type&gt; defines what kind of environment
