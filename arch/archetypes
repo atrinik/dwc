@@ -30250,7 +30250,6 @@ layer 5
 type 79
 no_pass 1
 no_pick 1
-blocksview 1
 end
 More
 Object pillar_ruin1a_b
@@ -30271,7 +30270,6 @@ layer 5
 type 79
 no_pass 1
 no_pick 1
-blocksview 1
 y 2
 end
 Object pillar_ruin1a_a1
@@ -30284,7 +30282,6 @@ layer 5
 type 79
 no_pass 1
 no_pick 1
-blocksview 1
 end
 More
 Object pillar_ruin1a_b1
@@ -30305,7 +30302,6 @@ layer 5
 type 79
 no_pass 1
 no_pick 1
-blocksview 1
 x 2
 end
 Object pillar_ruin1b.101
