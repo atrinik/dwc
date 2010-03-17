@@ -521,7 +521,7 @@
 	]]>
 	</use>
 	<attribute arch="no_drop" value="1" type="fixed" />
-	<attribute arch="sp" editor="short range spell" type="spell">
+	<attribute arch="sp" editor="short range spell" type="nz_spell">
 		The monster will use the specified &lt;short range spell&gt; when
 		the player is within 6-square radius (of the monster's head).
 	</attribute>
