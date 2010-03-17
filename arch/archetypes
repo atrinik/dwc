@@ -10217,7 +10217,7 @@ editor_folder intern/player
 race half-elf
 randomitems player_half_elf_female
 layer 6
-will_apply 8
+behavior 2
 no_pick 1
 is_female 1
 is_neutral 1
@@ -10253,7 +10253,7 @@ race half-elf
 face human_m.isw.111
 randomitems player_half_elf_male
 layer 6
-will_apply 8
+behavior 2
 is_male 1
 no_pick 1
 direction 4
@@ -10287,7 +10287,7 @@ editor_folder intern/player
 race human
 randomitems player_human_female
 layer 6
-will_apply 8
+behavior 2
 no_pick 1
 is_female 1
 is_neutral 1
@@ -10323,7 +10323,7 @@ race human
 face human_m.isw.111
 randomitems player_human_male
 layer 6
-will_apply 8
+behavior 2
 is_male 1
 no_pick 1
 direction 4
@@ -22075,7 +22075,7 @@ race animal
 randomitems mob_default
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -22110,7 +22110,7 @@ race bear
 randomitems mob_default
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -22144,7 +22144,7 @@ race cat
 randomitems mob_cat_black
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -22178,7 +22178,7 @@ race chicken
 randomitems mob_chicken_large
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -22211,7 +22211,7 @@ race reptile
 randomitems mob_crocodile
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -22245,7 +22245,7 @@ race deer
 randomitems mob_deer
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -22278,7 +22278,7 @@ race animal
 randomitems mob_default
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -22313,7 +22313,7 @@ race horse
 randomitems mob_horse_white
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -22346,7 +22346,7 @@ race chicken
 randomitems mob_rooster
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -22379,7 +22379,7 @@ race reptile
 randomitems mob_snake
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -22413,7 +22413,7 @@ race cat
 randomitems mob_tiger
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -22447,7 +22447,7 @@ race dog
 randomitems mob_wolf
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -22486,7 +22486,7 @@ direction 5
 speed -0.06
 corpse 1
 wc_range 20
-will_apply 8
+behavior 2
 type 80
 is_male 1
 is_evil 1
@@ -22678,7 +22678,7 @@ race gnoll
 is_male 1
 wc_range 20
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_evil 1
@@ -22714,7 +22714,7 @@ is_male 1
 wc_range 20
 corpse 1
 layer 6
-will_apply 8
+behavior 2
 direction 5
 is_evil 1
 terrain_flag 1
@@ -22749,7 +22749,7 @@ is_male 1
 wc_range 20
 corpse 1
 layer 6
-will_apply 8
+behavior 2
 direction 5
 is_evil 1
 terrain_flag 1
@@ -22781,7 +22781,7 @@ name kobold
 face kobold.131
 race kobold
 is_male 1
-will_apply 8
+behavior 2
 corpse 1
 wc_range 20
 layer 6
@@ -22819,7 +22819,7 @@ is_male 1
 wc_range 20
 corpse 1
 layer 6
-will_apply 8
+behavior 2
 direction 5
 is_evil 1
 terrain_flag 1
@@ -22853,7 +22853,7 @@ race kobold
 is_male 1
 corpse 1
 wc_range 20
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_evil 1
@@ -22890,7 +22890,7 @@ wc_range 20
 corpse 1
 layer 6
 direction 5
-will_apply 8
+behavior 2
 is_evil 1
 terrain_flag 1
 weapon_speed 0.035
@@ -22925,7 +22925,7 @@ corpse 1
 layer 6
 Dex 13
 can_cast_spell 1
-will_apply 8
+behavior 2
 sp -1
 maxsp 6
 Pow 2
@@ -22965,7 +22965,7 @@ randomitems mob_default
 is_female 1
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -22999,7 +22999,7 @@ race demon
 randomitems mob_demon_fire
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -23034,7 +23034,7 @@ randomitems mob_default
 is_female 1
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -23111,7 +23111,7 @@ randomitems mob_default
 is_female 1
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -23188,7 +23188,7 @@ race dragon
 randomitems mob_dragon_black
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -23261,7 +23261,7 @@ race dragon
 randomitems mob_dragon_blue
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -23333,7 +23333,7 @@ race dragon
 randomitems mob_dragon_fire
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -23405,7 +23405,7 @@ race dragon
 randomitems mob_dragon_green
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -23480,7 +23480,7 @@ direction 5
 speed -0.061
 corpse 1
 wc_range 20
-will_apply 8
+behavior 2
 type 80
 is_male 1
 is_evil 1
@@ -23561,7 +23561,7 @@ face dragon_water.131
 layer 6
 race dragon
 corpse 1
-will_apply 8
+behavior 2
 wc_range 20
 weapon_speed 0.035
 attack_cleave 80
@@ -23628,7 +23628,7 @@ face drow_annihilator.131
 race drows
 is_male 1
 wc_range 20
-will_apply 8
+behavior 2
 corpse 1
 layer 6
 direction 5
@@ -23668,7 +23668,7 @@ face drow_captain.131
 race drows
 is_male 1
 wc_range 20
-will_apply 8
+behavior 2
 corpse 1
 layer 6
 direction 5
@@ -23702,7 +23702,7 @@ name drow fighter
 face drow_fighter.131
 race drows
 is_male 1
-will_apply 8
+behavior 2
 wc_range 20
 corpse 1
 layer 6
@@ -23738,7 +23738,7 @@ face drow_guard.131
 race drows
 is_male 1
 wc_range 20
-will_apply 8
+behavior 2
 corpse 1
 layer 6
 direction 5
@@ -23770,7 +23770,7 @@ Object drow_sorcerer
 editor_folder mobs/elves
 name drow sorcerer
 face drow_sorcerer.131
-will_apply 8
+behavior 2
 race drows
 is_female 1
 wc_range 20
@@ -23813,7 +23813,7 @@ face ettin.131
 race giant
 is_male 1
 wc_range 20
-will_apply 8
+behavior 2
 corpse 1
 layer 6
 direction 5
@@ -23849,7 +23849,7 @@ race giant
 randomitems mob_fire
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -23880,7 +23880,7 @@ editor_folder mobs/giants
 name hill giant
 race giant
 randomitems mob_giant_hill
-will_apply 8
+behavior 2
 is_evil 1
 wc_range 20
 is_male 1
@@ -23918,7 +23918,7 @@ race giant
 randomitems mob_ice
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -23949,7 +23949,7 @@ editor_folder mobs/giants
 name stone giant
 race giant
 randomitems mob_giant_stone
-will_apply 8
+behavior 2
 is_evil 1
 is_male 1
 wc_range 20
@@ -23986,7 +23986,7 @@ race giant
 randomitems mob_ogre
 is_evil 1
 is_male 1
-will_apply 8
+behavior 2
 weight 153250
 wc_range 20
 exp 105
@@ -24021,7 +24021,7 @@ name archer
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 wc_range 20
 direction 5
 is_male 1
@@ -24067,7 +24067,7 @@ name guard
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 is_male 1
 wc_range 20
@@ -24113,7 +24113,7 @@ name female guard
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 is_female 1
 wc_range 20
@@ -24159,7 +24159,7 @@ name guard
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 is_male 1
 wc_range 20
@@ -24205,7 +24205,7 @@ name royal guard
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 is_male 1
 wc_range 20
@@ -24251,7 +24251,7 @@ name old mage
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 wc_range 20
 direction 5
 is_male 1
@@ -24298,7 +24298,7 @@ name monk
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -24344,7 +24344,7 @@ name king
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -24390,7 +24390,7 @@ name king
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -24436,7 +24436,7 @@ name queen
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -24482,7 +24482,7 @@ name peasant
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -24528,7 +24528,7 @@ name tailor
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -24574,7 +24574,7 @@ name traveller
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -24620,7 +24620,7 @@ name traveller's wife
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_female 1
@@ -24668,7 +24668,7 @@ type 80
 layer 6
 direction 5
 wc_range 20
-will_apply 8
+behavior 2
 is_male 1
 is_good 1
 terrain_flag 1
@@ -24714,7 +24714,7 @@ type 80
 layer 6
 direction 5
 wc_range 20
-will_apply 8
+behavior 2
 is_female 1
 is_good 1
 terrain_flag 1
@@ -24761,7 +24761,7 @@ type 80
 layer 6
 direction 5
 wc_range 20
-will_apply 8
+behavior 2
 is_female 1
 is_good 1
 terrain_flag 1
@@ -24806,7 +24806,7 @@ name ranger
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 wc_range 20
 direction 5
 is_male 1
@@ -24853,7 +24853,7 @@ race human
 type 80
 layer 6
 direction 5
-will_apply 8
+behavior 2
 wc_range 20
 is_male 1
 is_good 1
@@ -24899,7 +24899,7 @@ name barmaid
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -24945,7 +24945,7 @@ name bartender
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -24991,7 +24991,7 @@ name chef
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -25037,7 +25037,7 @@ name woman
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -25083,7 +25083,7 @@ name woman
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -25129,7 +25129,7 @@ name old woman
 race human
 type 80
 layer 6
-will_apply 8
+behavior 2
 direction 5
 wc_range 20
 is_male 1
@@ -25176,7 +25176,7 @@ face ant_queen.131
 race ants
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -25352,7 +25352,7 @@ race human
 randomitems mob_default
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -25424,7 +25424,7 @@ randomitems mob_default
 is_female 1
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -25459,7 +25459,7 @@ randomitems mob_default
 is_female 1
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_neutral 1
@@ -25572,7 +25572,7 @@ name orc berserker
 face orc_berserker.131
 race orc
 is_male 1
-will_apply 8
+behavior 2
 wc_range 20
 corpse 1
 layer 6
@@ -25608,7 +25608,7 @@ face orc_captain.131
 race orc
 is_male 1
 wc_range 20
-will_apply 8
+behavior 2
 corpse 1
 layer 6
 direction 5
@@ -25643,7 +25643,7 @@ face orc_fighter.131
 race orc
 is_male 1
 wc_range 20
-will_apply 8
+behavior 2
 corpse 1
 layer 6
 direction 5
@@ -25679,7 +25679,7 @@ race orc
 is_male 1
 wc_range 20
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_evil 1
@@ -25715,7 +25715,7 @@ is_male 1
 wc_range 20
 corpse 1
 layer 6
-will_apply 8
+behavior 2
 direction 5
 is_evil 1
 terrain_flag 1
@@ -25755,7 +25755,7 @@ is_male 1
 wc_range 20
 corpse 1
 layer 6
-will_apply 8
+behavior 2
 direction 5
 is_evil 1
 terrain_flag 1
@@ -25794,7 +25794,7 @@ race orc
 is_male 1
 wc_range 20
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_evil 1
@@ -25829,7 +25829,7 @@ race orc
 is_male 1
 wc_range 20
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 is_evil 1
@@ -25930,7 +25930,7 @@ layer 6
 direction 5
 is_neutral 1
 corpse 1
-will_apply 8
+behavior 2
 wc_range 20
 terrain_flag 1
 weapon_speed 0.039
@@ -25962,7 +25962,7 @@ race golem
 corpse 1
 layer 6
 is_neutral 1
-will_apply 8
+behavior 2
 wc_range 20
 direction 5
 terrain_flag 1
@@ -25998,7 +25998,7 @@ race golem
 is_male 1
 corpse 1
 layer 6
-will_apply 8
+behavior 2
 is_neutral 1
 wc_range 20
 direction 5
@@ -26038,7 +26038,7 @@ face troll.131
 wc_range 20
 direction 5
 speed -0.061
-will_apply 8
+behavior 2
 corpse 1
 type 80
 is_male 1
@@ -26116,7 +26116,7 @@ face demilich.131
 race undead
 is_evil 1
 corpse 1
-will_apply 8
+behavior 2
 glow_radius 2
 wc_range 20
 layer 6
@@ -26157,7 +26157,7 @@ face ghoul.131
 race undead
 is_male 1
 wc_range 20
-will_apply 8
+behavior 2
 corpse 1
 layer 6
 direction 5
@@ -26195,7 +26195,7 @@ race undead
 randomitems mob_lich_lord
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -26263,7 +26263,7 @@ name skeleton fighter
 face skel_fighter1.131
 race undead
 is_male 1
-will_apply 8
+behavior 2
 corpse 1
 layer 6
 wc_range 20
@@ -26300,7 +26300,7 @@ face skel_fighter2.131
 race undead
 is_male 1
 corpse 1
-will_apply 8
+behavior 2
 wc_range 20
 layer 6
 direction 5
@@ -26337,7 +26337,7 @@ race undead
 is_male 1
 corpse 1
 layer 6
-will_apply 8
+behavior 2
 wc_range 20
 direction 5
 is_evil 1
@@ -26373,7 +26373,7 @@ race undead
 is_male 1
 can_cast_spell 1
 maxsp 6
-will_apply 8
+behavior 2
 Pow 2
 Dex 13
 magic 5
@@ -26414,7 +26414,7 @@ race undead
 randomitems mob_vampire
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -26448,7 +26448,7 @@ race undead
 randomitems mob_vampire_lord
 is_female 1
 corpse 1
-will_apply 8
+behavior 2
 layer 6
 direction 5
 terrain_flag 1
@@ -26520,7 +26520,7 @@ layer 6
 randomitems mob_wyvern
 face wyvern.141
 direction 5
-will_apply 8
+behavior 2
 speed -0.06
 corpse 1
 wc_range 20
