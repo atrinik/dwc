@@ -518,6 +518,14 @@
 		better resistance. You can turn off the magic part to make the
 		spells more dangerous. However, this really should not be
 		necessary unless you work on very high level maps.
+		<br><br>
+		It is possible to create monsters that will heal other friends.
+		To accomplish this, simply go to the monster's <b>Behave</b> tab,
+		<b>behavior</b> select box and check <b>Find friends for friendly
+		spells</b>. Then create an ability in the monster with <b>short range
+		spell</b> set as minor (or greater) healing. If you want this monster
+		to also heal itself when it takes damage and has a valid enemy, set
+		<b>long range spell</b> to the same spell.
 	]]>
 	</use>
 	<attribute arch="no_drop" value="1" type="fixed" />
