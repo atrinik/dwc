@@ -6281,6 +6281,7 @@ sys_object 1
 no_drop 1
 no_pick 1
 sp 11
+hp 11
 end
 Object ability_dragon
 editor_folder forces/ability
@@ -6318,6 +6319,7 @@ no_drop 1
 last_grace 10
 no_pick 1
 sp 1
+hp 1
 end
 Object ability_mbullet
 editor_folder forces/ability
@@ -6331,6 +6333,7 @@ last_grace 10
 no_drop 1
 no_pick 1
 sp 13
+hp 13
 end
 Object ability_stone_throw
 editor_folder forces/ability
