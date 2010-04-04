@@ -3141,6 +3141,9 @@
 		and also how much experience the player gains for killing the
 		monster.
 	</attribute>
+	<attribute arch="item_condition" editor="relative level" type="list_relative_level">
+		Level of the monster relative to map difficulty.
+	</attribute>
 	<attribute arch="race" editor="race" type="string">
 		Every monster should have a race set to categorize it. The
 		monster's &lt;race&gt; can have different effects: Slaying
