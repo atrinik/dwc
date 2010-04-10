@@ -4812,6 +4812,37 @@
 		&lt;counter&gt; zero/unset for infinite use (that is the
 		default).
 	</attribute>
+	<attribute arch="slaying" editor="match key string" type="string">
+		This string specifies the object we are looking for: We have a
+		match if the player does/don't carry a key object or a mark with
+		identical &lt;key string&gt;. This string is compared to the name
+		of an object. If the "match = slaying field" is set, the text is
+		compared to the slaying field of the object we search for. This
+		can make sense if we really want avoid any problems with user set
+		names of objects.
+	</attribute>
+	<attribute arch="sp" editor="match = slaying field" type="bool">
+		Enabled means key text is compared to the slaying field of an
+		object and NOT to the name.
+	</attribute>
+	<attribute arch="race" editor="match arch name" type="string">
+		This string specifies the object we are looking for: We have a
+		match if the player does/don't carry an object of archetype
+		&lt;match arch name&gt;.
+	</attribute>
+	<attribute arch="hp" editor="match type" type="int">
+		This value specifies the object we are looking for: We have a
+		match if the player does/don't carry an object that is of type
+		&lt;match type&gt;.
+	</attribute>
+	<attribute arch="last_sp" editor="match = having" type="bool">
+		Enabled means having that object is a match. Disabled means not
+		having that object is a match.
+	</attribute>
+	<attribute arch="splitting" editor="adjacent direction" type="bool">
+		If direction is set and this is set as well, two adjacent directions
+		will be considered instead of just the one direction.
+	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="message" type="text">
 		This text will be displayed to the player.
 	</attribute>

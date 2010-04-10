@@ -13799,15 +13799,16 @@ end
 Object key2
 editor_folder items/keys
 name strange key
+layer 3
 race keys
 item_quality 100
 item_condition 100
 slaying set_individual_value
-layer 3
 face key2.111
 type 21
 value 100
 weight 100
+identified 1
 end
 Object key_blue
 editor_folder items/keys
@@ -13821,11 +13822,12 @@ face key_blue.111
 type 21
 value 100
 weight 100
+identified 1
 end
 Object key_brown
 editor_folder items/keys
-layer 3
 name strange key
+layer 3
 race keys
 item_quality 100
 item_condition 100
@@ -13834,6 +13836,21 @@ face key_brown.111
 type 21
 value 100
 weight 100
+identified 1
+end
+Object key_skull
+editor_folder items/keys
+name strange key
+layer 3
+race keys
+item_quality 100
+item_condition 100
+slaying set_individual_value
+face key_skull.111
+type 21
+value 100
+weight 100
+identified 1
 end
 Object crystal_light
 editor_folder items/light
@@ -14305,7 +14322,7 @@ end
 Object drink_generic
 editor_folder items/organic
 name water
-face water.101
+face drink_generic.101
 food 50
 layer 3
 nrof 1
@@ -29147,6 +29164,8 @@ Object magic_mouth
 editor_folder special/special
 face magicmouth.111
 type 98
+animation magic_mouth
+is_turnable 1
 walk_on 1
 fly_on 1
 no_teleport 1
