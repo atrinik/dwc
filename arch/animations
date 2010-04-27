@@ -11493,6 +11493,42 @@ sstone.111
 sstone.111
 sstone.111
 mina
+anim sstone_fey
+facings 9
+sstone_fey.101
+sstone_fey.111
+sstone_fey.111
+sstone_fey.111
+sstone_fey.111
+sstone_fey.111
+sstone_fey.111
+sstone_fey.111
+sstone_fey.111
+mina
+anim sstone_iron
+facings 9
+sstone_iron.101
+sstone_iron.111
+sstone_iron.111
+sstone_iron.111
+sstone_iron.111
+sstone_iron.111
+sstone_iron.111
+sstone_iron.111
+sstone_iron.111
+mina
+anim sstone_woodlanders
+facings 9
+sstone_woodlanders.101
+sstone_woodlanders.111
+sstone_woodlanders.111
+sstone_woodlanders.111
+sstone_woodlanders.111
+sstone_woodlanders.111
+sstone_woodlanders.111
+sstone_woodlanders.111
+sstone_woodlanders.111
+mina
 anim stairs_red_down
 facings 9
 dummy.111
