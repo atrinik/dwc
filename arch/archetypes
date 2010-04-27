@@ -17282,7 +17282,7 @@ face arrow_elven.101
 wc_range 20
 last_grace 7
 dam 3
-wc 0
+wc 1
 last_sp 5
 attack_pierce 100
 type 13
@@ -17308,7 +17308,7 @@ wc_range 20
 last_grace 7
 dam 3
 wc 0
-last_sp 5
+last_sp 6
 attack_pierce 100
 type 13
 sub_type 1
@@ -17342,7 +17342,7 @@ anim_speed 1
 is_animated 0
 is_turnable 1
 nrof 1
-weight 75
+weight 70
 value 20
 material 16
 material_real 257
@@ -17381,7 +17381,7 @@ race crossbow bolts
 attack_cleave 100
 last_grace 8
 dam 4
-wc 0
+wc 1
 wc_range 20
 last_sp 4
 type 13
@@ -17408,7 +17408,7 @@ last_grace 8
 dam 4
 wc 0
 wc_range 20
-last_sp 4
+last_sp 5
 type 13
 sub_type 2
 face bolt_fey.101
@@ -17442,7 +17442,7 @@ anim_speed 1
 is_animated 0
 is_turnable 1
 nrof 1
-weight 95
+weight 90
 value 20
 material 2
 material_real 65
@@ -17557,12 +17557,13 @@ name bow
 layer 3
 race arrows
 type 14
-wc 5
-wc_range 20
-last_sp 4
-sub_type 0
 item_level 7
 item_skill 1
+wc 5
+wc_range 20
+dam 1
+last_sp 4
+sub_type 0
 material 16
 material_real 258
 face bow.101
@@ -17576,10 +17577,11 @@ name long bow
 layer 3
 race arrows
 type 14
-wc 6
 item_level 19
 item_skill 1
+wc 6
 wc_range 25
+dam 2
 last_sp 5
 sub_type 0
 material 16
@@ -17622,6 +17624,7 @@ weight 2500
 sp 7
 wc 5
 wc_range 20
+dam 1
 last_sp 5
 value 450
 end
@@ -17641,6 +17644,7 @@ weight 4250
 sp 8
 wc 6
 wc_range 25
+dam 2
 last_sp 5
 value 1450
 end
@@ -17675,6 +17679,7 @@ item_skill 1
 face sling.101
 wc 5
 wc_range 20
+dam 1
 last_sp 4
 weight 300
 value 350
@@ -17687,13 +17692,14 @@ layer 3
 race sling stones
 type 14
 sub_type 2
-item_level 19
-item_skill 1
 material 8
 material_real 193
+item_level 19
+item_skill 1
 face sling_heavy.101
 wc 6
 wc_range 25
+dam 2
 last_sp 5
 weight 400
 value 850
