@@ -259,12 +259,9 @@
 		it.
 	</attribute>
 	<attribute arch="one_drop" editor="one drop" type="bool">
-		In the moment a player gets or applies this item, it will be
-		flagged as godgiven and vanish when dropped to the ground.
-
 		If this flag is set for an item inside monster's quest_container
-		with the quest being quest item type, the player will be able to
-		find the item again, should he lose it.
+		with the quest being quest item type, the player will only be able
+		to get this item once.
 	</attribute>
 	<attribute arch="identified" editor="identified" type="bool">
 		If an item is identified, the player has full knowledge about it.
@@ -349,8 +346,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="speed" editor="speed" type="float">
@@ -477,8 +474,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -778,8 +775,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="applied" editor="is applied" type="bool">
@@ -1317,8 +1314,8 @@
 		quest. However, keep the book's level at least below 15 because
 		it is quite difficult to gain high mental levels.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="unique" editor="unique item" type="bool">
@@ -1446,8 +1443,8 @@
 
 		All contents of a unique container are unique as well.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="other_arch" editor="animation arch" type="string">
@@ -1959,8 +1956,8 @@
 		Dragon players always search for flesh of highest level possible,
 		because it bears the best chance to gain high resistances.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<section name="resistance">
@@ -2150,8 +2147,8 @@
 		gets created from food effects. Only used when food has effects
 		and then copied to force speed.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<section name="Force Effects">
@@ -2526,8 +2523,8 @@
 		transparent. He can move through walls and doors which have the
 		PASS_THRU flag set (like ghosts and other non physical monsters).
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -2588,8 +2585,8 @@
 		transparent. He can move through walls and doors which have the
 		PASS_THRU flag set (like ghosts and other non physical monsters).
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -4126,8 +4123,8 @@
 		This value is supposed to be the base &lt;throw range&gt;.
 		The value is only valid for potions which can be thrown.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<section name="stats">
@@ -4287,8 +4284,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="no_drop" editor="don't drop" type="bool">
@@ -4577,8 +4574,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<section name="stats">
@@ -4644,8 +4641,8 @@
 		&lt;spell&gt; will be cast (once). This should work for any given
 		spell.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 </type>
@@ -4873,8 +4870,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -4907,8 +4904,8 @@
 		above), but here you write the spell's name directly.
 		Setting both &lt;spell&gt; and &lt;spell name&gt; makes no sense.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -5230,8 +5227,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<section name="attack">
@@ -5465,8 +5462,8 @@
 		before the player can fire it again. The value is in ticks.
 		8 ticks are a second.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -5584,10 +5581,9 @@
 		One drop quest is a quest which doesn't have a quest giver, but is only located
 		inside a monster. This is used to create quest items that will only drop once for
 		each player, like King Rhun's Cloak. Item to be dropped for the player is inserted
-		inside the quest container. If the item has "one_drop 1" set and the player drops
-		it somewhere, it will be given back to him when he kills the monster which has the
-		item. Such behavior is typical for dungeon monsters that drop keys, so player can
-		get the key again should he lose it.
+		inside the quest container. If the item has "one_drop 1" set, the player will never
+		be able to find the item again a second time. This means it should be set for special
+		drops like Rhun's Cloak, but not for keys.
 
 		<h2>Kill quest</h2>
 		This kind of quest requires the player to kill X monsters before the quest is
