@@ -15129,54 +15129,6 @@ level 1
 exp 10
 no_pick 0
 end
-Object card
-editor_folder items/readable
-face card.101
-layer 3
-identified 1
-type 8
-material 1
-value 8
-weight 20
-level 1
-exp 10
-end
-Object diploma
-editor_folder items/readable
-face diploma.101
-layer 3
-identified 1
-type 8
-material 1
-value 25
-weight 50
-level 1
-exp 10
-end
-Object letter
-editor_folder items/readable
-face letter.101
-layer 3
-identified 1
-type 8
-material 1
-value 2
-weight 60
-level 1
-exp 10
-end
-Object note
-editor_folder items/readable
-face note.101
-layer 3
-identified 1
-type 8
-material 1
-value 8
-weight 75
-level 1
-exp 10
-end
 Object tome
 editor_folder items/readable
 name tome
@@ -15246,6 +15198,67 @@ weight 1250
 level 1
 exp 10
 no_pick 0
+end
+Object card
+editor_folder items/readable
+face card.101
+layer 3
+identified 1
+type 8
+material 1
+value 8
+weight 20
+level 1
+exp 10
+end
+Object diploma
+editor_folder items/readable
+face diploma.101
+layer 3
+identified 1
+type 8
+material 1
+value 25
+weight 50
+level 1
+exp 10
+end
+Object letter
+editor_folder items/readable
+face letter.101
+layer 3
+identified 1
+type 8
+material 1
+value 2
+weight 60
+level 1
+exp 10
+end
+Object note
+editor_folder items/readable
+face note.101
+layer 3
+identified 1
+type 8
+material 1
+value 8
+weight 75
+level 1
+exp 10
+end
+Object announcement
+editor_folder items/readable
+name announcement
+face announcement.111
+animation announcement
+is_animated 0
+anim_speed 0
+is_turnable 1
+direction 1
+type 98
+layer 4
+no_pick 1
 end
 Object balm_generic
 editor_folder items/spells
