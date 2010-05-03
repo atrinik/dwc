@@ -21695,7 +21695,7 @@ dam 40
 hp -1
 maxhp 55
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face blob_acid.111
 animation blob_acid
@@ -21728,7 +21728,7 @@ dam 42
 hp -1
 maxhp 55
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face blob_poison.111
 animation blob_poison
@@ -21764,7 +21764,7 @@ dam 44
 hp -1
 maxhp 52
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face quivering_blob.111
 animation blob_quivering
@@ -21832,7 +21832,7 @@ dam 60
 hp -1
 maxhp 60
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face blue_jelly.111
 animation jelly_blue
@@ -21868,7 +21868,7 @@ dam 61
 hp -1
 maxhp 60
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face green_jelly.111
 animation jelly_green
@@ -21903,7 +21903,7 @@ dam 60
 hp -1
 maxhp 61
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face ochre_jelly.111
 animation jelly_ochre
@@ -21939,7 +21939,7 @@ dam 60
 hp -1
 maxhp 60
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face jelly_red.111
 animation jelly_red
@@ -21975,7 +21975,7 @@ dam 62
 hp -1
 maxhp 62
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face spotted_jelly.111
 animation jelly_spotted
@@ -22008,7 +22008,7 @@ dam 39
 hp -1
 maxhp 50
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face gray_ooze.111
 animation gray_ooze
@@ -22041,7 +22041,7 @@ dam 51
 hp -1
 maxhp 57
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_black.111
 animation pudding_black
@@ -22074,7 +22074,7 @@ dam 51
 hp -1
 maxhp 56
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_blue.111
 animation pudding_blue
@@ -22107,7 +22107,7 @@ dam 53
 hp -1
 maxhp 57
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_brown.111
 animation pudding_brown
@@ -22140,7 +22140,7 @@ dam 51
 hp -1
 maxhp 58
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_green.111
 animation pudding_green
@@ -22174,7 +22174,7 @@ dam 51
 hp -1
 maxhp 58
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_red.111
 animation pudding_red
@@ -22207,7 +22207,7 @@ dam 41
 hp -1
 maxhp 50
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face slime.111
 animation slime
@@ -22240,7 +22240,7 @@ dam 41
 hp -1
 maxhp 50
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face slime_blue.111
 animation slime_blue
@@ -22272,7 +22272,7 @@ flying 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation bat_brown
 is_animated 1
 anim_speed 4
@@ -22306,7 +22306,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation bear_grey
 is_animated 1
 anim_speed 4
@@ -22340,7 +22340,7 @@ weapon_speed 0.038
 attack_slash 80
 attack_pierce 20
 type 80
-Wis 6
+Wis 3
 animation cat_black
 is_animated 1
 anim_speed 4
@@ -22373,7 +22373,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_pierce 80
 type 80
-Wis 6
+Wis 3
 animation chicken_large
 is_animated 1
 anim_speed 4
@@ -22407,7 +22407,7 @@ weapon_speed 0.038
 attack_slash 35
 attack_pierce 65
 type 80
-Wis 6
+Wis 3
 animation crocodile
 is_animated 1
 anim_speed 4
@@ -22440,7 +22440,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 80
 type 80
-Wis 6
+Wis 3
 animation deer
 is_animated 1
 anim_speed 4
@@ -22475,7 +22475,7 @@ flying 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation dog_brown
 is_animated 1
 anim_speed 4
@@ -22508,7 +22508,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 80
 type 80
-Wis 6
+Wis 3
 animation horse_white
 is_animated 1
 anim_speed 4
@@ -22541,7 +22541,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_pierce 80
 type 80
-Wis 6
+Wis 3
 animation rooster
 is_animated 1
 anim_speed 4
@@ -22575,7 +22575,7 @@ weapon_speed 0.038
 attack_poison 80
 attack_slash 20
 type 80
-Wis 6
+Wis 3
 animation snake
 is_animated 1
 anim_speed 4
@@ -22609,7 +22609,7 @@ weapon_speed 0.038
 attack_slash 80
 attack_pierce 20
 type 80
-Wis 6
+Wis 3
 animation tiger
 is_animated 1
 anim_speed 4
@@ -22642,7 +22642,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 animation wolf
 is_animated 1
 anim_speed 4
@@ -22678,7 +22678,7 @@ behavior 2
 type 80
 is_male 1
 is_evil 1
-Wis 7
+Wis 4
 Dex 13
 terrain_flag 1
 animation beholder_dread
@@ -22763,7 +22763,7 @@ behavior 2
 type 80
 is_male 1
 is_evil 1
-Wis 7
+Wis 4
 Dex 13
 terrain_flag 1
 animation oclunus
@@ -22959,7 +22959,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_gnoll
 animation gnoll
 is_animated 1
@@ -22994,7 +22994,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_goblin
 animation goblin
 is_animated 1
@@ -23029,7 +23029,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_hobgoblin
 animation hobgoblin
 is_animated 1
@@ -23064,7 +23064,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold
 animation kobold
 is_animated 1
@@ -23099,7 +23099,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold_big
 animation kobold_big
 is_animated 1
@@ -23134,7 +23134,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold
 animation kobold_fighter
 is_animated 1
@@ -23169,7 +23169,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold
 animation kobold_guard
 is_animated 1
@@ -23210,7 +23210,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold
 animation kobold_shaman
 is_animated 1
@@ -23246,7 +23246,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation bone_devil
 is_animated 1
 anim_speed 4
@@ -23280,7 +23280,7 @@ weapon_speed 0.038
 attack_fire 70
 attack_cleave 30
 type 80
-Wis 6
+Wis 3
 animation demon_fire
 is_animated 1
 anim_speed 4
@@ -23315,7 +23315,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation demon_green
 is_animated 1
 anim_speed 4
@@ -23352,7 +23352,7 @@ can_see_in_dark 1
 can_use_weapon 1
 can_use_armour 1
 Int 10
-Wis 6
+Wis 3
 Dex 3
 Con 15
 exp 115
@@ -23392,7 +23392,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation oty
 is_animated 1
 anim_speed 4
@@ -23429,7 +23429,7 @@ can_see_in_dark 1
 can_use_weapon 1
 can_use_armour 1
 Int 10
-Wis 6
+Wis 3
 Dex 3
 Con 15
 exp 115
@@ -23470,7 +23470,7 @@ attack_fire 30
 attack_cold 30
 attack_cleave 40
 type 80
-Wis 6
+Wis 3
 animation dragon_black
 is_animated 1
 anim_speed 4
@@ -23542,7 +23542,7 @@ weapon_speed 0.038
 attack_cold 60
 attack_cleave 40
 type 80
-Wis 6
+Wis 3
 animation dragon_blue
 is_animated 1
 anim_speed 4
@@ -23614,7 +23614,7 @@ weapon_speed 0.038
 attack_fire 60
 attack_cleave 40
 type 80
-Wis 6
+Wis 3
 animation dragon_fire
 is_animated 1
 anim_speed 4
@@ -23686,7 +23686,7 @@ weapon_speed 0.038
 attack_poison 60
 attack_impact 40
 type 80
-Wis 6
+Wis 3
 animation dragon_green
 is_animated 1
 anim_speed 4
@@ -23757,7 +23757,7 @@ behavior 2
 type 80
 is_male 1
 is_evil 1
-Wis 7
+Wis 4
 Dex 13
 terrain_flag 1
 animation dragon_skeletal
@@ -23843,7 +23843,7 @@ is_neutral 1
 direction 5
 terrain_flag 2
 randomitems mob_dragon_water
-Wis 6
+Wis 3
 animation dragon_water_small
 is_animated 1
 anim_speed 4
@@ -23876,7 +23876,7 @@ is_neutral 1
 direction 5
 terrain_flag 1
 randomitems mob_mud_hand
-Wis 6
+Wis 3
 animation mud_hand
 is_animated 1
 anim_speed 4
@@ -23910,7 +23910,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow_mage
 animation drow_annihilator
 is_animated 1
@@ -23950,7 +23950,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow
 animation drow_captain
 is_animated 1
@@ -23985,7 +23985,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow
 animation drow_fighter
 is_animated 1
@@ -24020,7 +24020,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow
 animation drow_guard
 is_animated 1
@@ -24055,7 +24055,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow_mage
 animation drow_sorcerer
 is_animated 1
@@ -24095,7 +24095,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_impact 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_ettin
 animation ettin
 is_animated 1
@@ -24130,7 +24130,7 @@ weapon_speed 0.038
 attack_fire 60
 attack_cleave 40
 type 80
-Wis 6
+Wis 3
 animation giant_fire
 is_animated 1
 anim_speed 4
@@ -24169,7 +24169,7 @@ dam 62
 hp -1
 maxhp 72
 terrain_flag 1
-Wis 6
+Wis 3
 face giant_hill.131
 animation giant_hill
 is_animated 1
@@ -24199,7 +24199,7 @@ weapon_speed 0.038
 attack_cold 60
 attack_cleave 40
 type 80
-Wis 6
+Wis 3
 animation giant_ice
 is_animated 1
 anim_speed 4
@@ -24238,7 +24238,7 @@ dam 64
 hp -1
 maxhp 74
 terrain_flag 1
-Wis 6
+Wis 3
 face giant_stone.131
 animation giant_stone
 is_animated 1
@@ -24274,7 +24274,7 @@ dam 50
 hp -1
 maxhp 50
 terrain_flag 1
-Wis 6
+Wis 3
 face ogre.131
 animation ogre
 is_animated 1
@@ -24310,7 +24310,7 @@ anim_speed 4
 speed -0.049
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24356,7 +24356,7 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24402,7 +24402,7 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24448,7 +24448,7 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24494,7 +24494,7 @@ anim_speed 4
 speed -0.0485
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24540,7 +24540,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24587,7 +24587,7 @@ anim_speed 4
 speed -0.049
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24633,7 +24633,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24679,7 +24679,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24725,7 +24725,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24771,7 +24771,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24817,7 +24817,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24863,7 +24863,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24909,7 +24909,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -24955,7 +24955,7 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25001,7 +25001,7 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25048,7 +25048,7 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25095,7 +25095,7 @@ anim_speed 4
 speed -0.0495
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25141,7 +25141,7 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25188,7 +25188,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25234,7 +25234,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25280,7 +25280,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25326,7 +25326,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25372,7 +25372,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25418,7 +25418,7 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
 resist_impact 75
 resist_cleave 75
@@ -25457,7 +25457,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_ant_queen
 animation ant_queen
 is_animated 1
@@ -25494,7 +25494,7 @@ attack_cleave 75
 unaggressive 1
 random_move 1
 type 80
-Wis 6
+Wis 3
 randomitems mob_ant
 animation ant_red
 is_animated 1
@@ -25529,7 +25529,7 @@ is_neutral 1
 direction 5
 terrain_flag 1
 randomitems mob_ant
-Wis 6
+Wis 3
 animation ant_soldier
 is_animated 1
 anim_speed 4
@@ -25563,7 +25563,7 @@ weapon_speed 0.035
 attack_cleave 75
 random_move 1
 type 80
-Wis 6
+Wis 3
 randomitems mob_insect
 animation bee_killer
 is_animated 1
@@ -25598,7 +25598,7 @@ weapon_speed 0.035
 attack_cleave 75
 random_move 1
 type 80
-Wis 6
+Wis 3
 randomitems mob_insect
 animation wasp_giant
 is_animated 1
@@ -25633,7 +25633,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation santa
 is_animated 1
 anim_speed 4
@@ -25673,7 +25673,7 @@ dam 58
 hp -1
 maxhp 56
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face slug_giant.131
 animation slug_giant
@@ -25705,7 +25705,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation snowman_evil
 is_animated 1
 anim_speed 4
@@ -25740,7 +25740,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation snowman_evil2
 is_animated 1
 anim_speed 4
@@ -25773,7 +25773,7 @@ corpse 1
 type 80
 is_male 1
 is_neutral 1
-Wis 7
+Wis 4
 terrain_flag 1
 animation worm_purple
 is_animated 1
@@ -25855,7 +25855,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_impact 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_berserker
 is_animated 1
@@ -25890,7 +25890,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_captain
 is_animated 1
@@ -25925,7 +25925,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_fighter
 is_animated 1
@@ -25960,7 +25960,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_impact 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_outlaw
 is_animated 1
@@ -25995,7 +25995,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc_mage
 animation orc_priest
 is_animated 1
@@ -26035,7 +26035,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_cleave 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc_mage
 animation orc_sorcerer
 is_animated 1
@@ -26075,7 +26075,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_warlord
 is_animated 1
@@ -26110,7 +26110,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_warrior
 is_animated 1
@@ -26144,7 +26144,7 @@ is_evil 1
 direction 5
 terrain_flag 1
 randomitems mob_quickwood
-Wis 6
+Wis 3
 animation quickwood
 is_animated 1
 anim_speed 4
@@ -26177,7 +26177,7 @@ is_evil 1
 direction 5
 terrain_flag 1
 randomitems mob_treant
-Wis 6
+Wis 3
 animation treant_evil
 is_animated 1
 anim_speed 4
@@ -26208,7 +26208,7 @@ wc_range 20
 terrain_flag 1
 weapon_speed 0.039
 face golem.131
-Wis 6
+Wis 3
 animation golem
 is_animated 1
 anim_speed 4
@@ -26244,7 +26244,7 @@ attack_cold 80
 resist_fire -35
 resist_cold 100
 type 80
-Wis 6
+Wis 3
 randomitems mob_ice
 animation icegolem
 is_animated 1
@@ -26281,7 +26281,7 @@ attack_fire 80
 resist_cold -35
 resist_fire 100
 type 80
-Wis 6
+Wis 3
 randomitems mob_fire
 animation lavagolem
 is_animated 1
@@ -26316,7 +26316,7 @@ corpse 1
 type 80
 is_male 1
 is_evil 1
-Wis 7
+Wis 4
 terrain_flag 1
 animation troll
 is_animated 1
@@ -26398,7 +26398,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_cleave 75
 type 80
-Wis 6
+Wis 3
 Dex 3
 Pow 2
 randomitems mob_demilich
@@ -26440,7 +26440,7 @@ weapon_speed 0.035
 attack_slash 43
 attack_drain 43
 type 80
-Wis 6
+Wis 3
 randomitems mob_ghoul
 animation ghoul
 is_animated 1
@@ -26475,7 +26475,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 90
 type 80
-Wis 6
+Wis 3
 animation lich_lord
 is_animated 1
 anim_speed 4
@@ -26510,7 +26510,7 @@ weapon_speed 0.035
 attack_slash 40
 attack_drain 50
 type 80
-Wis 6
+Wis 3
 randomitems mob_lost_soul
 animation lost_soul
 is_animated 1
@@ -26546,7 +26546,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_skeleton1
 animation skel_fighter1
 is_animated 1
@@ -26582,7 +26582,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_skeleton2
 animation skel_fighter2
 is_animated 1
@@ -26618,7 +26618,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_skeleton2
 animation skel_fighter3
 is_animated 1
@@ -26659,7 +26659,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_skeleton_mage
 animation skel_mage
 is_animated 1
@@ -26694,7 +26694,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 80
 type 80
-Wis 6
+Wis 3
 animation vampire
 is_animated 1
 anim_speed 4
@@ -26728,7 +26728,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 80
 type 80
-Wis 6
+Wis 3
 animation vampire_lord
 is_animated 1
 anim_speed 4
@@ -26764,7 +26764,7 @@ weapon_speed 0.035
 attack_slash 40
 attack_drain 50
 type 80
-Wis 6
+Wis 3
 randomitems mob_wraith
 animation wraith
 is_animated 1
@@ -26800,7 +26800,7 @@ wc_range 20
 type 80
 is_male 1
 is_neutral 1
-Wis 7
+Wis 4
 Dex 13
 terrain_flag 1
 animation wyvern
