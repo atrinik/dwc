@@ -428,6 +428,18 @@ arrow_woodlanders.161
 arrow_woodlanders.171
 arrow_woodlanders.181
 mina
+anim asteroid
+facings 9
+asteroid.101
+asteroid.111
+asteroid.121
+asteroid.131
+asteroid.141
+asteroid.151
+asteroid.161
+asteroid.171
+asteroid.181
+mina
 anim ball_winter
 facings 9
 ball_winter.101
