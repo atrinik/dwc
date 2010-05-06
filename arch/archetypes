@@ -10427,7 +10427,7 @@ end
 Object wizard_female
 editor_folder intern/player
 race wizard
-face wizard.151
+face wizard_f.151
 randomitems player_wizard_female
 layer 6
 behavior 2
@@ -10462,7 +10462,7 @@ end
 Object wizard_male
 editor_folder intern/player
 race wizard
-face wizard.151
+face wizard_m.151
 randomitems player_wizard_male
 layer 6
 behavior 2
