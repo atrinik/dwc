@@ -10519,6 +10519,18 @@ level 1
 exp 0
 sp 2
 end
+Object skill_construction
+editor_folder intern/skills
+name construction
+type 43
+sub_type 1
+face skill.101
+sys_object 1
+no_drop 1
+sp 3
+level 1
+exp 0
+end
 Object experience_agility
 editor_folder intern/skills
 name agility
@@ -10601,19 +10613,6 @@ face skill.101
 sys_object 1
 no_drop 1
 sp 10
-level 1
-exp 0
-end
-Object skill_inscription
-editor_folder intern/skills
-name inscription
-type 43
-sub_type 2
-face skill.101
-sys_object 1
-no_drop 1
-sp 3
-last_eat 1
 level 1
 exp 0
 end
