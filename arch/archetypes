@@ -5184,6 +5184,66 @@ type 68
 auto_apply 1
 randomitems empty
 end
+Object snow1
+editor_folder floors/snow
+name snow
+face snow.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow2
+editor_folder floors/snow
+name snow
+face snow.102
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow3
+editor_folder floors/snow
+name snow
+face snow.103
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow4
+editor_folder floors/snow
+name snow
+face snow.104
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow5
+editor_folder floors/snow
+name snow
+face snow.105
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow6
+editor_folder floors/snow
+name snow
+face snow.106
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
 Object snow_fmask.101
 editor_folder floors/snow
 name snow
@@ -5299,6 +5359,216 @@ face snow_fmask.121
 no_teleport 1
 layer 2
 type 28
+no_pick 1
+end
+Object snow_path.111
+editor_folder floors/snow
+name snow path
+face snow_path.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path.131
+editor_folder floors/snow
+name snow path
+face snow_path.131
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_cross.101
+editor_folder floors/snow
+name snow path
+face snow_path_cross.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_ne.101
+editor_folder floors/snow
+name snow path
+face snow_path_ne.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_nt.101
+editor_folder floors/snow
+name snow path
+face snow_path_nt.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_nw.101
+editor_folder floors/snow
+name snow path
+face snow_path_nw.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_se.101
+editor_folder floors/snow
+name snow path
+face snow_path_se.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_st.101
+editor_folder floors/snow
+name snow path
+face snow_path_st.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_sw.101
+editor_folder floors/snow
+name snow path
+face snow_path_sw.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide.112
+editor_folder floors/snow
+name snow path
+face snow_path_wide.112
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide.131
+editor_folder floors/snow
+name snow path
+face snow_path_wide.131
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide.132
+editor_folder floors/snow
+name snow path
+face snow_path_wide.132
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_el.101
+editor_folder floors/snow
+name snow path
+face snow_path_wide_el.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_ne.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide_ne.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_nl.101
+editor_folder floors/snow
+name snow path
+face snow_path_wide_nl.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_nw.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide_nw.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_se.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide_se.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_sl.101
+editor_folder floors/snow
+name snow path
+face snow_path_wide_sl.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_sw.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide_sw.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_wl.101
+editor_folder floors/snow
+name snow path
+face snow_path_wide_wl.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
 no_pick 1
 end
 Object floor_nstone1
@@ -10424,11 +10694,11 @@ is_player 1
 weight 70000
 food 750
 end
-Object wizard_female
+Object thelra_female
 editor_folder intern/player
-race wizard
-face wizard_f.151
-randomitems player_wizard_female
+race thelra
+face thelra_f.151
+randomitems player_thelra_female
 layer 6
 behavior 2
 is_female 1
@@ -10439,7 +10709,7 @@ is_neutral 1
 weapon_speed 0.0125
 speed 0.85
 terrain_flag 1
-animation wizard_female
+animation thelra_female
 is_animated 1
 anim_speed 3
 type 1
@@ -10459,11 +10729,11 @@ is_player 1
 weight 70000
 food 750
 end
-Object wizard_male
+Object thelra_male
 editor_folder intern/player
-race wizard
-face wizard_m.151
-randomitems player_wizard_male
+race thelra
+face thelra_m.151
+randomitems player_thelra_male
 layer 6
 behavior 2
 is_male 1
@@ -10474,7 +10744,7 @@ is_neutral 1
 weapon_speed 0.0125
 speed 0.85
 terrain_flag 1
-animation wizard_male
+animation thelra_male
 is_animated 1
 anim_speed 3
 type 1
