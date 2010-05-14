@@ -338,7 +338,9 @@
 	<attribute arch="can_roll" editor="moveable" type="bool">
 		If set, the object is able to "roll", so it can be pushed around
 		with the /push command. This setting is used for boulders and
-		barrels.
+		barrels. If you're setting this attribute, make sure to check
+		"can move on" as well, in order to set relevant terrain types
+		the object can be pushed to.
 
 		Useful for puzzles and mazes.
 	</attribute>
@@ -352,6 +354,9 @@
 	</attribute>
 	<attribute arch="speed" editor="speed" type="float">
 		The object's speed.
+	</attribute>
+	<attribute arch="terrain_flag" editor="can move on" type="bitmask_terrain">
+		What terrain can this object move on.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
 		This text may describe the object.
