@@ -2062,6 +2062,10 @@
 
 		Useful for maps like guild storage.
 	</attribute>
+	<attribute arch="xrays" editor="no push" type="bool">
+		It's not possible to push objects onto this tile with the
+		/push command.
+	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
 		This text may describe the object.
 	</attribute>
