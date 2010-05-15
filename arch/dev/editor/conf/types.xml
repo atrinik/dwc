@@ -680,11 +680,12 @@
 		work).
 	</attribute>
 	<attribute arch="exp" editor="reset time" type="int">
-		Being activated, the altar will reset after &lt;reset time&gt;
+		Being activated, the altar will reset after "reset time"
 		ticks. After reset, the altar is ready to be activated once
-		again.
+		again. If 0, the altar will never reset and won't be possible
+		to trigger again.
 
-		The default &lt;reset time&gt; is 30.
+		The default reset time is 30.
 	</attribute>
 	<attribute arch="connected" editor="connection" type="int">
 		If a connection value is set, the altar will trigger all objects
@@ -2342,6 +2343,14 @@
 		solution.
 	]]>
 	</use>
+	<attribute arch="exp" editor="reset time" type="int">
+		Being activated, the handle will reset after "reset time"
+		ticks. After reset, the handle is ready to be activated once
+		again. If 0, the handle will never reset and won't be possible
+		to trigger again.
+
+		The default reset time is 30.
+	</attribute>
 </type>
 
 <type number="88" name="Hazard Floor">
@@ -3646,6 +3655,12 @@
 		point itself is. Increasing the value will start a search around
 		the spot, starting in the south. value 2 searches spot 0, -1,
 		value 3 spot 1, -1, 4 = 0, -1, etc.
+	</attribute>
+	<attribute arch="connected" editor="connection" type="int">
+		If a connection value is set, the spawn point will try to spawn
+		whenever the connection is triggered.
+		If you set this, you should also set "speed" and "spawn chance"
+		to 0.
 	</attribute>
 </type>
 
