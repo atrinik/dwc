@@ -7849,6 +7849,7 @@ is_animated 1
 anim_speed 1
 speed 1
 no_pick 1
+no_pass 1
 end
 More
 Object fireplace_rightb
@@ -7858,6 +7859,7 @@ name fireplace
 layer 5
 type 79
 no_pick 1
+no_pass 1
 x 1
 end
 Object fireplace_right_off
@@ -7868,6 +7870,7 @@ face fireplace_right_off.101
 type 79
 layer 5
 no_pick 1
+no_pass 1
 end
 More
 Object fireplace_right_offb
@@ -7878,6 +7881,7 @@ face fireplace_right_off.101
 type 79
 layer 5
 no_pick 1
+no_pass 1
 x 1
 end
 Object fireplace_left
@@ -7892,6 +7896,7 @@ is_animated 1
 anim_speed 1
 speed 1
 no_pick 1
+no_pass 1
 end
 More
 Object fireplace_leftb
@@ -7901,6 +7906,7 @@ name fireplace
 layer 5
 type 79
 no_pick 1
+no_pass 1
 y 1
 end
 Object fireplace_left_off
@@ -7911,6 +7917,7 @@ face fireplace_left_off.101
 type 79
 layer 5
 no_pick 1
+no_pass 1
 end
 More
 Object fireplace_left_offb
@@ -7921,6 +7928,7 @@ face fireplace_left_off.101
 type 79
 layer 5
 no_pick 1
+no_pass 1
 y 1
 end
 Object glower.101
