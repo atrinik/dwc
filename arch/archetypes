@@ -21806,23 +21806,6 @@ slaying /city/city
 hp 15
 sp 19
 end
-Object magic_portal
-editor_folder magic/town_portal
-face magic_portal.11L
-slaying /city/city
-layer 3
-hp 15
-sp 19
-speed 0.3
-type 66
-no_pick 1
-is_used_up 1
-food 59
-changing 1
-anim_speed 4
-is_animated 1
-animation magic_portal
-end
 Object town_portal
 editor_folder magic/town_portal
 name Town portal destination
@@ -21842,21 +21825,6 @@ no_drop 1
 hp 0
 slaying Existing town portal
 sys_object 1
-end
-Object town_portal_magic
-editor_folder magic/town_portal
-name magic portal
-face magic_portal.111
-hp 15
-sp 19
-type 66
-no_pick 1
-exp 1
-layer 0
-sys_object 1
-animation town_portal_magic
-is_animated 0
-anim_speed 4
 end
 Object cause_wounds
 editor_folder magic/wounds
