@@ -812,7 +812,7 @@
 		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="protect_nether" editor="nether protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
@@ -1840,7 +1840,7 @@
 		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
@@ -1986,7 +1986,7 @@
 		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="protect_nether" editor="nether protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
@@ -2184,7 +2184,7 @@
 		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="protect_nether" editor="nether protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
@@ -2412,7 +2412,7 @@
 		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
@@ -2632,7 +2632,7 @@
 		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="protect_nether" editor="nether protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
@@ -2998,7 +2998,7 @@
 		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="protect_nether" editor="nether protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
@@ -3302,7 +3302,7 @@
 		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
@@ -3537,7 +3537,7 @@
 		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="protect_nether" editor="nether protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
@@ -4029,7 +4029,7 @@
 		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="protect_nether" editor="nether protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
@@ -4126,7 +4126,7 @@
 		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
@@ -4261,7 +4261,7 @@
 		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
@@ -4338,7 +4338,7 @@
 		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
@@ -5191,7 +5191,7 @@
 		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
 
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
