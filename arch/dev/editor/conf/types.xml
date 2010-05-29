@@ -615,7 +615,7 @@
 		work infinitely in this way. Don't set both &lt;spell&gt; and
 		&lt;connection&gt; for one altar.
 	</attribute>
-	<attribute arch="level" editor="spell level" type="int" min="0" max="110">
+	<attribute arch="level" editor="spell level" type="int" min="0" max="115">
 		Set the power level of the spell.
 	</attribute>
 	<attribute arch="last_sp" editor="cast to direction" type="list_direction">
@@ -2502,7 +2502,7 @@
 		Horns with heal/restoration/protection spells, IF available, MUST
 		be very very VERY difficult to get!
 	</attribute>
-	<attribute arch="level" editor="casting level" type="int" min="0" max="110">
+	<attribute arch="level" editor="casting level" type="int" min="0" max="115">
 		The casting level of the &lt;spell&gt; determines it's power. For
 		attack spells, level should not be set too high.
 	</attribute>
@@ -2929,9 +2929,9 @@
 	<attribute arch="dam" editor="spell" type="spell">
 		The magic wall will cast this &lt;spell&gt;.
 	</attribute>
-	<attribute arch="level" editor="spell level" type="int" min="0" max="110">
+	<attribute arch="level" editor="spell level" type="int" min="0" max="115">
 		The wall will cast it's spells at level &lt;spell level&gt;.
-		"level 1" walls cast spells at minimal strength. "level 110"
+		"level 1" walls cast spells at minimal strength. "level 115"
 		walls cast deadly spells. Arch default is level 1 - you should
 		always set this value to meet the overall difficulty of your map.
 	</attribute>
@@ -3981,7 +3981,7 @@
 		A poison with a positive &lt;damage&gt; value will hit the player
 		all ticks with it adjusted by level.
 	</attribute>
-	<attribute arch="level" editor="poison level" type="int" min="0" max="110">
+	<attribute arch="level" editor="poison level" type="int" min="0" max="115">
 		Set the power level of the poison.
 	</attribute>
 	<attribute arch="last_heal" editor="# of DOT ticks" type="int">
@@ -4295,7 +4295,7 @@
 	</description>
 	<attribute arch="no_pick" value="1" type="fixed" />
 	<attribute arch="walk_on" value="1" type="fixed" />
-	<attribute arch="level" editor="rune level" type="int" min="0" max="110">
+	<attribute arch="level" editor="rune level" type="int" min="0" max="115">
 		This value sets the level the rune will cast the spell it
 		contains at, if applicable. A level 99 rune casts a very, very
 		mean spell of whatever. (&lt;rune level&gt; 0 runes won't
