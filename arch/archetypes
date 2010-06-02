@@ -28397,7 +28397,6 @@ face bollard.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_n_1
 editor_folder ship/misc
@@ -28406,7 +28405,6 @@ face bollard_tied_n_1.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_n_2
 editor_folder ship/misc
@@ -28415,7 +28413,6 @@ face bollard_tied_n_2.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_n_3
 editor_folder ship/misc
@@ -28432,7 +28429,6 @@ face bollard_tied_e_1.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_e_2
 editor_folder ship/misc
@@ -28441,7 +28437,6 @@ face bollard_tied_e_2.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_e_3
 editor_folder ship/misc
@@ -28458,7 +28453,6 @@ face bollard_tied_w_1.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_w_2
 editor_folder ship/misc
@@ -28467,7 +28461,6 @@ face bollard_tied_w_2.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_w_3
 editor_folder ship/misc
@@ -28484,7 +28477,6 @@ face bollard_tied_s_1.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_s_2
 editor_folder ship/misc
@@ -28493,7 +28485,6 @@ face bollard_tied_s_2.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_s_3
 editor_folder ship/misc
