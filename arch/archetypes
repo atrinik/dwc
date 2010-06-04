@@ -9803,6 +9803,75 @@ sys_object 1
 face info.101
 no_drop 1
 end
+Object class_paladin
+editor_folder intern/class
+name paladin
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+hp 10
+grace 10
+Str 1
+Wis 2
+end
+Object class_priest
+editor_folder intern/class
+name priest
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+grace 20
+Wis 3
+Int 2
+end
+Object class_sorcerer
+editor_folder intern/class
+name sorcerer
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+sp 20
+Pow 3
+Int 2
+end
+Object class_warlock
+editor_folder intern/class
+name warlock
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+hp 10
+sp 10
+Str 1
+Pow 2
+end
+Object class_warrior
+editor_folder intern/class
+name warrior
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+hp 20
+ac 2
+Str 2
+Dex 1
+Con 1
+end
 Object empty_archetype
 editor_folder intern/intern
 layer 1
