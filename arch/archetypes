@@ -6972,14 +6972,6 @@ no_drop 1
 speed 0.002
 speed_left -1
 end
-Object luck
-editor_folder forces/forces
-sys_object 1
-face force.101
-identified 1
-type 114
-no_drop 1
-end
 Object poisoning
 editor_folder forces/forces
 name applied poison
