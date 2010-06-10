@@ -266,11 +266,11 @@
 	<attribute arch="identified" editor="identified" type="bool">
 		If an item is identified, the player has full knowledge about it.
 	</attribute>
-	<attribute arch="can_reflect_spell" editor="can reflect spells" type="bool">
-		Object can reflect spells. See reflect spells.
+	<attribute arch="reflect_spell" editor="reflect spells" type="bool">
+		Object will reflect spells.
 	</attribute>
-	<attribute arch="can_reflect_missile" editor="can reflect missiles" type="bool">
-		Object can reflect missiles. See reflect missiles.
+	<attribute arch="reflect_missile" editor="reflect missiles" type="bool">
+		Object will reflect missiles.
 	</attribute>
 	<attribute arch="is_magical" editor="magical" type="bool">
 		If set, this object counts as "magical". Detect magic or identify
