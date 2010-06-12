@@ -4175,6 +4175,59 @@ forge.171
 forge.171
 forge.111
 mina
+anim frog
+facings 25
+dummy.111
+dummy.111
+frog_giant.131
+frog_giant.132
+frog_giant.131
+frog_giant.132
+frog_giant.131
+frog_giant.132
+frog_giant.131
+frog_giant.132
+frog_giant.151
+frog_giant.152
+frog_giant.151
+frog_giant.152
+frog_giant.151
+frog_giant.152
+frog_giant.151
+frog_giant.152
+frog_giant.131
+frog_giant.132
+frog_giant.131
+frog_giant.132
+frog_giant.131
+frog_giant.132
+frog_giant.131
+frog_giant.132
+frog_giant.151
+frog_giant.152
+frog_giant.151
+frog_giant.152
+frog_giant.151
+frog_giant.152
+frog_giant.151
+frog_giant.152
+frog_giant.133
+frog_giant.132
+frog_giant.133
+frog_giant.132
+frog_giant.133
+frog_giant.132
+frog_giant.133
+frog_giant.132
+frog_giant.153
+frog_giant.152
+frog_giant.153
+frog_giant.152
+frog_giant.153
+frog_giant.152
+frog_giant.153
+frog_giant.152
+mina
 anim gate1_locked
 facings 9
 dummy.111
@@ -10413,6 +10466,118 @@ ranger.152
 ranger.151
 ranger.152
 mina
+anim rat_a
+facings 25
+dummy.111
+rat_a.131
+rat_a.131
+rat_a.131
+rat_a.131
+rat_a.151
+rat_a.151
+rat_a.151
+rat_a.151
+rat_a.131
+rat_a.131
+rat_a.131
+rat_a.131
+rat_a.151
+rat_a.151
+rat_a.151
+rat_a.151
+rat_a.131
+rat_a.131
+rat_a.131
+rat_a.131
+rat_a.151
+rat_a.151
+rat_a.151
+rat_a.151
+mina
+anim rat_b
+facings 25
+dummy.111
+rat_b.131
+rat_b.131
+rat_b.131
+rat_b.131
+rat_b.151
+rat_b.151
+rat_b.151
+rat_b.151
+rat_b.131
+rat_b.131
+rat_b.131
+rat_b.131
+rat_b.151
+rat_b.151
+rat_b.151
+rat_b.151
+rat_b.131
+rat_b.131
+rat_b.131
+rat_b.131
+rat_b.151
+rat_b.151
+rat_b.151
+rat_b.151
+mina
+anim rat_c
+facings 25
+dummy.111
+rat_c.131
+rat_c.131
+rat_c.131
+rat_c.131
+rat_c.151
+rat_c.151
+rat_c.151
+rat_c.151
+rat_c.131
+rat_c.131
+rat_c.131
+rat_c.131
+rat_c.151
+rat_c.151
+rat_c.151
+rat_c.151
+rat_c.131
+rat_c.131
+rat_c.131
+rat_c.131
+rat_c.151
+rat_c.151
+rat_c.151
+rat_c.151
+mina
+anim rat_d
+facings 25
+dummy.111
+rat_d.131
+rat_d.131
+rat_d.131
+rat_d.131
+rat_d.151
+rat_d.151
+rat_d.151
+rat_d.151
+rat_d.131
+rat_d.131
+rat_d.131
+rat_d.131
+rat_d.151
+rat_d.151
+rat_d.151
+rat_d.151
+rat_d.131
+rat_d.131
+rat_d.131
+rat_d.131
+rat_d.151
+rat_d.151
+rat_d.151
+rat_d.151
+mina
 anim ring_wall.151
 facings 9
 dummy.111
@@ -13034,6 +13199,66 @@ wasp_giant.151
 wasp_giant.251
 wasp_giant.151
 wasp_giant.251
+mina
+anim water_lt2_m
+facings 9
+water_lt2_m.101
+water_lt2_m.111
+water_lt2_m.121
+water_lt2_m.131
+water_lt2_m.141
+water_lt2_m.151
+water_lt2_m.161
+water_lt2_m.171
+water_lt2_m.181
+mina
+anim water_lt3_m
+facings 9
+water_lt3_m.101
+water_lt3_m.111
+water_lt3_m.121
+water_lt3_m.131
+water_lt3_m.141
+water_lt3_m.151
+water_lt3_m.161
+water_lt3_m.171
+water_lt3_m.181
+mina
+anim water_lt4_m
+facings 9
+water_lt4_m.101
+water_lt4_m.111
+water_lt4_m.121
+water_lt4_m.131
+water_lt4_m.141
+water_lt4_m.151
+water_lt4_m.161
+water_lt4_m.171
+water_lt4_m.181
+mina
+anim water_lt5_m
+facings 9
+water_lt5_m.101
+water_lt5_m.111
+water_lt5_m.121
+water_lt5_m.131
+water_lt5_m.141
+water_lt5_m.151
+water_lt5_m.161
+water_lt5_m.171
+water_lt5_m.181
+mina
+anim water_lt_m
+facings 9
+water_lt_m.101
+water_lt_m.111
+water_lt_m.121
+water_lt_m.131
+water_lt_m.141
+water_lt_m.151
+water_lt_m.161
+water_lt_m.171
+water_lt_m.181
 mina
 anim water_still
 lake.101

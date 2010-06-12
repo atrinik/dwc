@@ -2564,6 +2564,61 @@ layer 2
 type 79
 no_pick 1
 end
+Object water_lt_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt_m.101
+animation water_lt_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
+Object water_lt2_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt2_m.101
+animation water_lt2_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
+Object water_lt3_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt3_m.101
+animation water_lt3_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
+Object water_lt4_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt4_m.101
+animation water_lt4_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
+Object water_lt5_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt5_m.101
+animation water_lt5_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
 Object grass1
 editor_folder floors/grass
 name grass
@@ -6114,6 +6169,50 @@ face floor_volcano_4.101
 layer 1
 terrain_type 1
 type 71
+no_pick 1
+is_floor 1
+end
+Object water_lt
+editor_folder floors/water
+type 71
+layer 1
+name floor
+face water_lt.101
+terrain_type 2
+no_teleport 1
+no_pick 1
+is_floor 1
+end
+Object water_lt2
+editor_folder floors/water
+type 71
+layer 1
+name floor
+face water_lt2.101
+terrain_type 2
+no_teleport 1
+no_pick 1
+is_floor 1
+end
+Object water_lt3
+editor_folder floors/water
+type 71
+layer 1
+name floor
+face water_lt3.101
+terrain_type 2
+no_teleport 1
+no_pick 1
+is_floor 1
+end
+Object water_lt4
+editor_folder floors/water
+type 71
+layer 1
+name floor
+face water_lt4.101
+terrain_type 2
+no_teleport 1
 no_pick 1
 is_floor 1
 end
@@ -15260,7 +15359,6 @@ item_condition 100
 nrof 1
 layer 3
 type 6
-speed_left 0.002
 material 32
 value 10
 weight 400
@@ -15296,6 +15394,21 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
+end
+Object pipeweed
+editor_folder items/organic
+name pipeweed
+face pipeweed.101
+food 5
+item_quality 100
+item_condition 100
+nrof 1
+layer 3
+type 6
+material 32
+value 100
+weight 32
 can_stack 1
 end
 Object carrot
@@ -15668,6 +15781,19 @@ direction 1
 type 98
 layer 4
 no_pick 1
+end
+Object smoking_pipe
+editor_folder items/items
+name smoking pipe
+face smoking_pipe.101
+type 79
+layer 3
+value 500
+weight 250
+identified 1
+item_quality 80
+item_condition 80
+is_magical 1
 end
 Object balm_generic
 editor_folder items/spells
@@ -22895,6 +23021,40 @@ level 1
 speed -0.06
 weight 225000
 end
+Object frog
+editor_folder mobs/animals
+name giant frog
+type 80
+face frog_giant.131
+layer 6
+race frog
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_frog
+Wis 3
+animation frog
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 95
+ac 9
+wc 0
+dam 45
+hp -1
+maxhp 60
+speed -0.053
+level 1
+weight 25500
+end
 Object horse_white
 editor_folder mobs/animals
 name white horse
@@ -22927,6 +23087,142 @@ maxhp 67
 level 1
 speed -0.06
 weight 90000
+end
+Object rat_a
+editor_folder mobs/animals
+name big rat
+type 80
+face rat_a.151
+layer 6
+race rat
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_rat
+Wis 3
+animation rat_a
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 102
+ac 9
+wc 0
+dam 40
+hp -1
+maxhp 55
+speed -0.053
+level 1
+weight 25500
+end
+Object rat_b
+editor_folder mobs/animals
+name big rat
+type 80
+face rat_b.151
+layer 6
+race rat
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_rat
+Wis 3
+animation rat_b
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 102
+ac 9
+wc 0
+dam 40
+hp -1
+maxhp 55
+speed -0.053
+level 1
+weight 25500
+end
+Object rat_c
+editor_folder mobs/animals
+name big rat
+type 80
+face rat_c.151
+layer 6
+race rat
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_rat
+Wis 3
+animation rat_c
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 102
+ac 9
+wc 0
+dam 40
+hp -1
+maxhp 55
+speed -0.053
+level 1
+weight 25500
+end
+Object rat_d
+editor_folder mobs/animals
+name big rat
+type 80
+face rat_d.151
+layer 6
+race rat
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_rat
+Wis 3
+animation rat_d
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 102
+ac 9
+wc 0
+dam 40
+hp -1
+maxhp 55
+speed -0.053
+level 1
+weight 25500
 end
 Object rooster
 editor_folder mobs/animals
