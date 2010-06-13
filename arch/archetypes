@@ -11338,10 +11338,6 @@ protect_pierce 8
 protect_impact 10
 protect_cleave 8
 protect_slash 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 type 99
@@ -11359,10 +11355,6 @@ protect_pierce 8
 protect_impact 8
 protect_cleave 8
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 last_heal 4
 material_real 193
 material 8
@@ -11381,10 +11373,6 @@ protect_pierce 8
 protect_impact 8
 protect_cleave 10
 protect_slash 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 last_heal 4
 material_real 193
 material 8
@@ -11403,10 +11391,6 @@ protect_impact 8
 protect_slash 8
 protect_pierce 8
 protect_cleave 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material_real 193
 material 8
@@ -11424,10 +11408,6 @@ protect_pierce 10
 protect_impact 8
 protect_cleave 8
 protect_slash 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 last_heal 4
 material_real 193
 material 8
@@ -11447,10 +11427,6 @@ protect_impact 8
 protect_slash 8
 protect_pierce 8
 protect_cleave 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material 2
 material_real 65
@@ -11469,10 +11445,6 @@ protect_impact 6
 protect_slash 8
 protect_pierce 8
 protect_cleave 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material_real 193
 material 8
@@ -11491,10 +11463,6 @@ protect_impact 8
 protect_slash 10
 protect_pierce 8
 protect_cleave 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material 2
 material_real 65
@@ -11510,10 +11478,6 @@ protect_pierce 6
 protect_impact 6
 protect_cleave 6
 protect_slash 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 last_heal 1
 material_real 193
 material 8
@@ -11531,10 +11495,6 @@ protect_pierce 4
 protect_impact 4
 protect_cleave 4
 protect_slash 4
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material_real 193
 material 8
@@ -11551,10 +11511,6 @@ protect_impact 6
 protect_slash 6
 protect_pierce 6
 protect_cleave 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 value 75
 material_real 65
 material 2
@@ -11572,10 +11528,6 @@ protect_impact 3
 protect_slash 3
 protect_pierce 3
 protect_cleave 3
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 449
 material 128
 end
@@ -11593,10 +11545,6 @@ protect_impact 8
 protect_slash 8
 protect_pierce 8
 protect_cleave 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 end
@@ -11612,10 +11560,6 @@ protect_impact 3
 protect_slash 3
 protect_pierce 3
 protect_cleave 3
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 449
 material 128
 end
@@ -11632,10 +11576,6 @@ protect_impact 8
 protect_cleave 8
 protect_slash 8
 protect_pierce 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 value 75
@@ -11652,10 +11592,6 @@ protect_impact 6
 protect_cleave 6
 protect_slash 6
 protect_pierce 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 value 50
@@ -11674,10 +11610,6 @@ protect_impact 10
 protect_cleave 10
 protect_slash 10
 protect_pierce 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 value 90
@@ -11693,10 +11625,6 @@ protect_impact 4
 protect_cleave 4
 protect_slash 4
 protect_pierce 4
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 value 15
@@ -11716,10 +11644,6 @@ ac 1
 item_level 10
 weight 2000
 value 200
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11735,10 +11659,6 @@ protect_cleave 2
 protect_slash 2
 weight 200
 value 20
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 end
@@ -11757,10 +11677,6 @@ protect_cleave 10
 protect_slash 8
 protect_pierce 10
 value 35
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11779,10 +11695,6 @@ protect_cleave 8
 protect_slash 10
 protect_pierce 8
 value 38
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11799,10 +11711,6 @@ protect_cleave 3
 protect_pierce 3
 weight 2100
 value 1700
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 1024
 material_real 643
 end
@@ -11818,10 +11726,6 @@ protect_cleave 1
 protect_slash 1
 protect_pierce 1
 value 25
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 128
 material_real 450
 end
@@ -11837,10 +11741,6 @@ protect_cleave 1
 protect_slash 1
 protect_pierce 1
 value 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 128
 material_real 450
 end
@@ -11859,10 +11759,6 @@ protect_slash 8
 protect_pierce 8
 weight 1000
 value 220
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11881,10 +11777,6 @@ protect_slash 6
 protect_pierce 6
 weight 1000
 value 220
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11903,10 +11795,6 @@ protect_slash 6
 protect_pierce 6
 weight 1200
 value 750
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11925,10 +11813,6 @@ protect_slash 6
 protect_pierce 6
 weight 1000
 value 220
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11946,10 +11830,6 @@ protect_slash 5
 protect_pierce 8
 weight 900
 value 25
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11967,10 +11847,6 @@ protect_cleave 5
 protect_slash 8
 protect_pierce 5
 value 30
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11988,10 +11864,6 @@ protect_cleave 4
 protect_slash 4
 protect_pierce 4
 value 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 end
@@ -12010,10 +11882,6 @@ protect_slash 10
 protect_pierce 6
 weight 1100
 value 400
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -12032,10 +11900,6 @@ protect_slash 6
 protect_pierce 10
 weight 1140
 value 800
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -12056,10 +11920,6 @@ protect_impact 35
 protect_slash 17
 protect_cleave 17
 protect_pierce 17
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 20500
 value 2600
 end
@@ -12080,10 +11940,6 @@ protect_impact 12
 protect_cleave 30
 protect_slash 20
 protect_pierce 16
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 13000
 value 1800
 end
@@ -12104,10 +11960,6 @@ protect_impact 38
 protect_slash 18
 protect_cleave 18
 protect_pierce 18
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 29500
 value 2600
 end
@@ -12124,10 +11976,6 @@ last_sp 6
 material 2
 material_real 65
 ac 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 protect_impact 20
 protect_slash 20
 protect_cleave 20
@@ -12152,10 +12000,6 @@ protect_impact 15
 protect_cleave 15
 protect_slash 15
 protect_pierce 30
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 13500
 value 1420
 end
@@ -12176,10 +12020,6 @@ protect_impact 17
 protect_slash 35
 protect_cleave 17
 protect_pierce 17
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 21500
 value 2650
 end
@@ -12200,10 +12040,6 @@ protect_impact 15
 protect_cleave 15
 protect_slash 30
 protect_pierce 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 11000
 value 1400
 end
@@ -12224,10 +12060,6 @@ protect_cleave 20
 protect_pierce 20
 material 32
 material_real 323
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 18500
 value 2850
 end
@@ -12248,8 +12080,6 @@ protect_impact 45
 protect_slash 30
 protect_cleave 30
 protect_pierce 30
-is_vul_physical 1
-is_vul_sphere 1
 weight 34500
 value 252600
 end
@@ -12266,10 +12096,6 @@ protect_cleave 4
 protect_pierce 4
 weight 500
 value 20
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 128
 material_real 450
 end
@@ -12286,10 +12112,6 @@ protect_cleave 4
 protect_pierce 4
 weight 900
 value 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 128
 material_real 450
 end
@@ -12310,10 +12132,6 @@ protect_impact 30
 protect_slash 15
 protect_cleave 15
 protect_pierce 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 14000
 value 1400
 end
@@ -12331,10 +12149,6 @@ protect_slash 15
 protect_pierce 10
 weight 3450
 value 30
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 194
 material 8
 end
@@ -12355,10 +12169,6 @@ protect_slash 15
 protect_pierce 15
 weight 8450
 value 1400
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 194
 material 8
 end
@@ -12376,10 +12186,6 @@ protect_cleave 10
 protect_pierce 8
 weight 2200
 value 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 8
 material_real 193
 end
@@ -12398,10 +12204,6 @@ protect_slash 12
 protect_pierce 20
 weight 5550
 value 60
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 194
 material 8
 end
@@ -12422,10 +12224,6 @@ protect_slash 12
 protect_pierce 25
 weight 6450
 value 120
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 194
 material 8
 end
@@ -12446,10 +12244,6 @@ protect_impact 25
 protect_cleave 15
 protect_slash 25
 protect_pierce 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 12000
 value 125
 end
@@ -12468,8 +12262,6 @@ protect_impact 28
 protect_slash 40
 protect_cleave 28
 protect_pierce 28
-is_vul_magic 1
-is_vul_sphere 1
 weight 5100
 value 152500
 end
@@ -12488,8 +12280,6 @@ protect_impact 30
 protect_slash 45
 protect_cleave 30
 protect_pierce 30
-is_vul_magic 1
-is_vul_sphere 1
 weight 7500
 value 252500
 end
@@ -12508,8 +12298,6 @@ protect_impact 22
 protect_slash 30
 protect_cleave 22
 protect_pierce 22
-is_vul_magic 1
-is_vul_sphere 1
 weight 6100
 value 12500
 end
@@ -12526,10 +12314,6 @@ last_sp 6
 material 2
 material_real 65
 ac 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 protect_impact 20
 protect_slash 20
 protect_cleave 40
@@ -12550,10 +12334,6 @@ last_sp 6
 material 2
 material_real 65
 ac 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 protect_impact 20
 protect_slash 40
 protect_cleave 20
@@ -12574,10 +12354,6 @@ last_sp 6
 material 2
 material_real 65
 ac 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 protect_impact 40
 protect_slash 20
 protect_cleave 20
@@ -12602,10 +12378,6 @@ protect_impact 12
 protect_cleave 20
 protect_slash 30
 protect_pierce 16
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 13000
 value 1800
 end
@@ -12626,10 +12398,6 @@ protect_impact 17
 protect_slash 17
 protect_cleave 17
 protect_pierce 35
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 19500
 value 2550
 end
@@ -12650,10 +12418,6 @@ protect_impact 17
 protect_slash 17
 protect_cleave 35
 protect_pierce 17
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 21500
 value 2650
 end
@@ -12672,10 +12436,6 @@ protect_impact 5
 protect_cleave 10
 protect_pierce 5
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12695,10 +12455,6 @@ protect_impact 12
 protect_cleave 6
 protect_pierce 12
 protect_slash 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1350
@@ -12716,10 +12472,6 @@ protect_impact 5
 protect_cleave 5
 protect_pierce 5
 protect_slash 5
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 258
 material 16
 weight 1500
@@ -12739,10 +12491,6 @@ protect_impact 10
 protect_cleave 5
 protect_pierce 5
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12762,10 +12510,6 @@ protect_impact 6
 protect_cleave 12
 protect_pierce 6
 protect_slash 12
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12785,10 +12529,6 @@ protect_impact 10
 protect_cleave 4
 protect_pierce 10
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 2048
 material_real 705
 weight 1100
@@ -12808,10 +12548,6 @@ protect_impact 4
 protect_cleave 10
 protect_pierce 10
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 32
 material_real 323
 weight 1100
@@ -12831,10 +12567,6 @@ protect_impact 12
 protect_cleave 6
 protect_pierce 6
 protect_slash 12
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12855,10 +12587,6 @@ protect_cleave 10
 protect_pierce 10
 protect_slash 5
 cha -1
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12878,10 +12606,6 @@ protect_impact 5
 protect_cleave 5
 protect_pierce 10
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12901,10 +12625,6 @@ protect_impact 5
 protect_cleave 10
 protect_pierce 10
 protect_slash 5
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1250
@@ -12924,10 +12644,6 @@ protect_impact 12
 protect_cleave 12
 protect_pierce 6
 protect_slash 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1300
@@ -12947,10 +12663,6 @@ protect_impact 10
 protect_cleave 5
 protect_pierce 10
 protect_slash 5
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1350
@@ -12970,10 +12682,6 @@ protect_impact 6
 protect_cleave 12
 protect_pierce 6
 protect_slash 12
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1600
@@ -12993,10 +12701,6 @@ protect_impact 5
 protect_cleave 5
 protect_pierce 10
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 258
 material 16
 weight 1600
@@ -13016,10 +12720,6 @@ protect_impact 10
 protect_cleave 10
 protect_pierce 4
 protect_slash 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 32
 material_real 324
 weight 1300
@@ -13039,10 +12739,6 @@ protect_impact 5
 protect_cleave 10
 protect_pierce 10
 protect_slash 5
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1550
@@ -13055,10 +12751,6 @@ face small_shie.101
 type 33
 layer 3
 ac 2
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 protect_impact 6

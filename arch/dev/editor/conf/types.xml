@@ -848,23 +848,6 @@
 			affecting the item's stats. Lower quality than 100% means
 			effects like protection/damage etc are reduced.
 		</attribute>
-		<attribute arch="is_vul_physical" editor="susceptible to physical" type="bool">
-			Physical attacks are able to reduce the quality of the item
-			and eventually destroy it.
-		</attribute>
-		<attribute arch="is_vul_elemental" editor="susceptible to elements" type="bool">
-			Elemental attacks (fire, cold, elec, poison and acid) are
-			able to reduce the quality of the item and eventually destroy
-			it.
-		</attribute>
-		<attribute arch="is_vul_magic" editor="susceptible to magic" type="bool">
-			All forms of magical attacks are able to reduce the quality
-			of the item and eventually destroy it.
-		</attribute>
-		<attribute arch="is_vul_sphere" editor="susceptible to sphere" type="bool">
-			All forms of spherical attacks are able to reduce the quality
-			of the item and eventually destroy it.
-		</attribute>
 		<attribute arch="is_indestructible" editor="indestructible" type="bool">
 			This item can't be damaged in any way (this includes special
 			magic and also attacks).
