@@ -3391,19 +3391,6 @@
 		<attribute arch="can_use_armour" editor="can use armour" type="bool">
 			The monster will look for an armour to use.
 		</attribute>
-		<attribute arch="can_use_ring" editor="can use rings" type="bool">
-			The monster will look for rings to use.
-		</attribute>
-		<attribute arch="can_use_range" editor="can use rods/wands" type="bool">
-			If set, this creature can use range weapons like
-			rods, wands, staves and horns.
-		</attribute>
-		<attribute arch="can_use_scroll" editor="can use scrolls" type="bool">
-			The monster will use scrolls.
-		</attribute>
-		<attribute arch="can_use_skill" editor="can use skills" type="bool">
-			The monster can use skills.
-		</attribute>
 	</section>
 
 	<section name="behave">
@@ -4874,7 +4861,6 @@
 	</description>
 	<attribute arch="walk_on" value="1" type="fixed" />
 	<attribute arch="is_floor" value="1" type="fixed" />
-	<attribute arch="is_wooded" value="1" type="fixed" />
 	<attribute arch="speed" editor="drowning speed" type="float">
 		The higher the &lt;drowning speed&gt;, the faster will players
 		and items sink into the swamp. Swamp with very high

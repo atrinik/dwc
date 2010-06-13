@@ -18356,7 +18356,6 @@ name cactus
 layer 4
 face cactus.101
 slow_move 1
-is_wooded 1
 no_pick 1
 type 79
 end
@@ -18368,7 +18367,6 @@ face cactus1.101
 no_pick 1
 type 79
 no_pass 1
-is_wooded 1
 end
 Object cactus2
 editor_folder landscape/plants
@@ -18378,7 +18376,6 @@ face cactus2.101
 no_pick 1
 type 79
 no_pass 1
-is_wooded 1
 end
 Object cactus3
 editor_folder landscape/plants
@@ -18388,7 +18385,6 @@ face cactus3.101
 no_pick 1
 type 79
 no_pass 1
-is_wooded 1
 end
 Object cactus4
 editor_folder landscape/plants
@@ -18398,7 +18394,6 @@ face cactus4.101
 no_pick 1
 type 79
 no_pass 1
-is_wooded 1
 end
 Object cactus5
 editor_folder landscape/plants
@@ -18408,7 +18403,6 @@ face cactus5.101
 no_pick 1
 type 79
 no_pass 1
-is_wooded 1
 end
 Object plant_flower1
 editor_folder landscape/plants
@@ -18889,7 +18883,6 @@ wc -1
 food 1
 no_pick 1
 walk_on 1
-is_wooded 1
 slow_move 3
 attack_pierce 1
 speed 0.2
@@ -18906,7 +18899,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object au_tree2
 editor_folder landscape/plants
@@ -18917,7 +18909,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object au_tree3
 editor_folder landscape/plants
@@ -18928,7 +18919,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree1
 editor_folder landscape/plants
@@ -18939,7 +18929,6 @@ face lo_tree1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree2
 editor_folder landscape/plants
@@ -18950,7 +18939,6 @@ face lo_tree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree3
 editor_folder landscape/plants
@@ -18961,7 +18949,6 @@ face lo_tree3.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree4
 editor_folder landscape/plants
@@ -18972,7 +18959,6 @@ face lo_tree4.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree5
 editor_folder landscape/plants
@@ -18983,7 +18969,6 @@ face lo_tree5.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree6
 mpart_id 3
@@ -19221,7 +19206,6 @@ face apple_tree.101
 no_pick 1
 type 79
 no_pass 1
-is_wooded 1
 end
 Object tree_cuta
 editor_folder landscape/plants
@@ -19229,7 +19213,6 @@ name old tree
 layer 4
 face tree_cut1.101
 slow_move 1
-is_wooded 1
 no_pick 1
 type 79
 end
@@ -19241,7 +19224,6 @@ face orange_tree.101
 no_pick 1
 type 79
 no_pass 1
-is_wooded 1
 end
 Object tree_branch1
 editor_folder landscape/plants
@@ -19299,7 +19281,6 @@ layer 4
 type 79
 no_pick 1
 slow_move 1
-is_wooded 1
 end
 Object tree_small_dead
 editor_folder landscape/plants
@@ -19309,7 +19290,6 @@ layer 4
 type 79
 no_pick 1
 slow_move 1
-is_wooded 1
 end
 Object woods_2
 editor_folder landscape/plants
@@ -19320,7 +19300,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object woods_tree
 editor_folder landscape/plants
@@ -19330,7 +19309,6 @@ type 79
 face tree_c.101
 no_pick 1
 no_pass 1
-is_wooded 1
 end
 Object tree_big
 editor_folder landscape/plants
@@ -19342,7 +19320,6 @@ no_pick 1
 no_pass 1
 blocksview 1
 slow_move 1
-is_wooded 1
 end
 Object tree_big2
 editor_folder landscape/plants
@@ -19353,7 +19330,6 @@ face tree_big2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big3
 editor_folder landscape/plants
@@ -19364,7 +19340,6 @@ face tree_big3.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big4
 editor_folder landscape/plants
@@ -19375,7 +19350,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big5
 editor_folder landscape/plants
@@ -19386,7 +19360,6 @@ face tree_big5.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big4b
 editor_folder landscape/plants
@@ -19397,7 +19370,6 @@ face tree_big4b.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big5b
 editor_folder landscape/plants
@@ -19408,7 +19380,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big6
 editor_folder landscape/plants
@@ -19419,7 +19390,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big7
 editor_folder landscape/plants
@@ -19430,7 +19400,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big7b
 editor_folder landscape/plants
@@ -19441,7 +19410,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_huge
 editor_folder landscape/plants
@@ -19452,7 +19420,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_huge2
 editor_folder landscape/plants
@@ -19463,7 +19430,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_huge3
 editor_folder landscape/plants
@@ -19474,7 +19440,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree20
 editor_folder landscape/plants
@@ -19485,7 +19450,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree21
 editor_folder landscape/plants
@@ -19496,7 +19460,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree22
 editor_folder landscape/plants
@@ -19507,7 +19470,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree23
 editor_folder landscape/plants
@@ -19518,7 +19480,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree24
 editor_folder landscape/plants
@@ -19529,7 +19490,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree25
 editor_folder landscape/plants
@@ -19540,7 +19500,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree26
 editor_folder landscape/plants
@@ -19551,7 +19510,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree27
 editor_folder landscape/plants
@@ -19562,7 +19520,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree28
 editor_folder landscape/plants
@@ -19573,7 +19530,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree29
 editor_folder landscape/plants
@@ -19584,7 +19540,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree30
 editor_folder landscape/plants
@@ -19595,7 +19550,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree31
 editor_folder landscape/plants
@@ -19606,7 +19560,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree32
 editor_folder landscape/plants
@@ -19617,7 +19570,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree33
 editor_folder landscape/plants
@@ -19628,7 +19580,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree34
 editor_folder landscape/plants
@@ -19639,7 +19590,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree35
 editor_folder landscape/plants
@@ -19650,7 +19600,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree36
 editor_folder landscape/plants
@@ -19661,7 +19610,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree37
 editor_folder landscape/plants
@@ -19672,7 +19620,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree38
 editor_folder landscape/plants
@@ -19683,7 +19630,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree39
 editor_folder landscape/plants
@@ -19694,7 +19640,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree40
 editor_folder landscape/plants
@@ -19705,7 +19650,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree41
 editor_folder landscape/plants
@@ -19716,7 +19660,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree42
 editor_folder landscape/plants
@@ -19727,7 +19670,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree43
 editor_folder landscape/plants
@@ -19738,7 +19680,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree44
 editor_folder landscape/plants
@@ -19749,7 +19690,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree45
 editor_folder landscape/plants
@@ -19760,7 +19700,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree46
 editor_folder landscape/plants
@@ -19771,7 +19710,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree47
 editor_folder landscape/plants
@@ -19782,7 +19720,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree48
 editor_folder landscape/plants
@@ -19793,7 +19730,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree49
 editor_folder landscape/plants
@@ -19804,7 +19740,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree50
 editor_folder landscape/plants
@@ -19815,7 +19750,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree51
 editor_folder landscape/plants
@@ -19826,7 +19760,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_burned1
 editor_folder landscape/plants
@@ -19837,7 +19770,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_burned2
 editor_folder landscape/plants
@@ -19848,7 +19780,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_burned3
 editor_folder landscape/plants
@@ -19859,7 +19790,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_burned4
 editor_folder landscape/plants
@@ -19870,7 +19800,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_pinetree1
 editor_folder landscape/plants
@@ -19881,7 +19810,6 @@ face snowy_pinetree1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_pinetree2
 editor_folder landscape/plants
@@ -19892,7 +19820,6 @@ face snowy_pinetree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big5_winter
 editor_folder landscape/plants
@@ -19903,7 +19830,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_autree2
 editor_folder landscape/plants
@@ -19914,7 +19840,6 @@ face snowy_autree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_burnedtree1
 editor_folder landscape/plants
@@ -19925,7 +19850,6 @@ face snowy_burnedtree1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_burnedtree2
 editor_folder landscape/plants
@@ -19936,7 +19860,6 @@ face snowy_burnedtree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree1
 editor_folder landscape/plants
@@ -19947,7 +19870,6 @@ face snowy_tree1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree2
 editor_folder landscape/plants
@@ -19958,7 +19880,6 @@ face snowy_tree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree_big1
 editor_folder landscape/plants
@@ -19969,7 +19890,6 @@ face snowy_tree_big1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree_big2
 editor_folder landscape/plants
@@ -19980,7 +19900,6 @@ face snowy_tree_big2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree_bigb1
 editor_folder landscape/plants
@@ -19991,7 +19910,6 @@ face snowy_tree_bigb1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree_bigb2
 editor_folder landscape/plants
@@ -20002,7 +19920,6 @@ face snowy_tree_bigb2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_treeb1
 editor_folder landscape/plants
@@ -20013,7 +19930,6 @@ face snowy_treeb1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object water_lily
 editor_folder landscape/plants
