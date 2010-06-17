@@ -2856,6 +2856,10 @@
 		The magic ear will trigger all objects with the same connection
 		value, every time it is activated.
 	</attribute>
+	<attribute arch="xrays" editor="all players in range" type="bool">
+		If on, all players in range will receive the magic ear's message,
+		instead of just the player who activated it.
+	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="keyword-matching" type="text">
 		This textfield contains the keyword-matching-syntax. The text
 		should have the following format:
