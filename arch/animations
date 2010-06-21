@@ -4043,6 +4043,18 @@ burnout.107
 burnout.108
 burnout.109
 mina
+anim firebolt
+facings 9
+firebolt.111
+firebolt.111
+firebolt.121
+firebolt.131
+firebolt.141
+firebolt.151
+firebolt.161
+firebolt.171
+firebolt.181
+mina
 anim firebreath
 fire.101
 fire.102
@@ -4227,6 +4239,18 @@ frog_giant.153
 frog_giant.152
 frog_giant.153
 frog_giant.152
+mina
+anim frostbolt
+facings 9
+frostbolt.111
+frostbolt.111
+frostbolt.121
+frostbolt.131
+frostbolt.141
+frostbolt.151
+frostbolt.161
+frostbolt.171
+frostbolt.181
 mina
 anim gate1_locked
 facings 9
@@ -7605,6 +7629,18 @@ lich_lord.381
 lich_lord.382
 lich_lord.383
 mina
+anim lightning
+facings 9
+lightning.111
+lightning.111
+lightning.121
+lightning.131
+lightning.141
+lightning.151
+lightning.161
+lightning.171
+lightning.181
+mina
 anim locker1.111
 facings 9
 dummy.111
@@ -8212,6 +8248,18 @@ anim mushroom_medium
 mushroom_medium.101
 mushroom_medium.102
 mushroom_medium.103
+mina
+anim negabolt
+facings 9
+negabolt.111
+negabolt.111
+negabolt.121
+negabolt.131
+negabolt.141
+negabolt.151
+negabolt.161
+negabolt.171
+negabolt.181
 mina
 anim oclunus
 facings 25
