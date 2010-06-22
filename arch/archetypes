@@ -21261,7 +21261,7 @@ fly_on 1
 speed 1
 wc 200
 wc_range 20
-dam 6
+dam 3
 flying 1
 end
 Object frostbolt
@@ -21287,7 +21287,7 @@ fly_on 1
 speed 1
 wc 200
 wc_range 20
-dam 6
+dam 3
 flying 1
 end
 Object forked_lightning
@@ -21314,7 +21314,7 @@ reflecting 1
 speed 1
 wc 200
 wc_range 20
-dam 6
+dam 3
 flying 1
 Dex 30
 Con 50
@@ -21343,7 +21343,7 @@ reflecting 1
 speed 1
 wc 200
 wc_range 20
-dam 6
+dam 3
 flying 1
 end
 Object negabolt
