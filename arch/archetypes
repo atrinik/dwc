@@ -2564,6 +2564,61 @@ layer 2
 type 79
 no_pick 1
 end
+Object water_lt_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt_m.101
+animation water_lt_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
+Object water_lt2_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt2_m.101
+animation water_lt2_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
+Object water_lt3_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt3_m.101
+animation water_lt3_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
+Object water_lt4_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt4_m.101
+animation water_lt4_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
+Object water_lt5_m
+editor_folder floors/fmasks
+type 79
+layer 2
+name fmask
+face water_lt5_m.101
+animation water_lt5_m
+is_turnable 1
+no_teleport 1
+no_pick 1
+end
 Object grass1
 editor_folder floors/grass
 name grass
@@ -5184,6 +5239,66 @@ type 68
 auto_apply 1
 randomitems empty
 end
+Object snow1
+editor_folder floors/snow
+name snow
+face snow.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow2
+editor_folder floors/snow
+name snow
+face snow.102
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow3
+editor_folder floors/snow
+name snow
+face snow.103
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow4
+editor_folder floors/snow
+name snow
+face snow.104
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow5
+editor_folder floors/snow
+name snow
+face snow.105
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow6
+editor_folder floors/snow
+name snow
+face snow.106
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
 Object snow_fmask.101
 editor_folder floors/snow
 name snow
@@ -5299,6 +5414,216 @@ face snow_fmask.121
 no_teleport 1
 layer 2
 type 28
+no_pick 1
+end
+Object snow_path.111
+editor_folder floors/snow
+name snow path
+face snow_path.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path.131
+editor_folder floors/snow
+name snow path
+face snow_path.131
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_cross.101
+editor_folder floors/snow
+name snow path
+face snow_path_cross.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_ne.101
+editor_folder floors/snow
+name snow path
+face snow_path_ne.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_nt.101
+editor_folder floors/snow
+name snow path
+face snow_path_nt.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_nw.101
+editor_folder floors/snow
+name snow path
+face snow_path_nw.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_se.101
+editor_folder floors/snow
+name snow path
+face snow_path_se.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_st.101
+editor_folder floors/snow
+name snow path
+face snow_path_st.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_sw.101
+editor_folder floors/snow
+name snow path
+face snow_path_sw.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide.112
+editor_folder floors/snow
+name snow path
+face snow_path_wide.112
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide.131
+editor_folder floors/snow
+name snow path
+face snow_path_wide.131
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide.132
+editor_folder floors/snow
+name snow path
+face snow_path_wide.132
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_el.101
+editor_folder floors/snow
+name snow path
+face snow_path_wide_el.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_ne.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide_ne.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_nl.101
+editor_folder floors/snow
+name snow path
+face snow_path_wide_nl.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_nw.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide_nw.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_se.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide_se.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_sl.101
+editor_folder floors/snow
+name snow path
+face snow_path_wide_sl.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_sw.111
+editor_folder floors/snow
+name snow path
+face snow_path_wide_sw.111
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
+no_pick 1
+end
+Object snow_path_wide_wl.101
+editor_folder floors/snow
+name snow path
+face snow_path_wide_wl.101
+layer 1
+terrain_type 1
+type 71
+no_teleport 1
 no_pick 1
 end
 Object floor_nstone1
@@ -5844,6 +6169,50 @@ face floor_volcano_4.101
 layer 1
 terrain_type 1
 type 71
+no_pick 1
+is_floor 1
+end
+Object water_lt
+editor_folder floors/water
+type 71
+layer 1
+name floor
+face water_lt.101
+terrain_type 2
+no_teleport 1
+no_pick 1
+is_floor 1
+end
+Object water_lt2
+editor_folder floors/water
+type 71
+layer 1
+name floor
+face water_lt2.101
+terrain_type 2
+no_teleport 1
+no_pick 1
+is_floor 1
+end
+Object water_lt3
+editor_folder floors/water
+type 71
+layer 1
+name floor
+face water_lt3.101
+terrain_type 2
+no_teleport 1
+no_pick 1
+is_floor 1
+end
+Object water_lt4
+editor_folder floors/water
+type 71
+layer 1
+name floor
+face water_lt4.101
+terrain_type 2
+no_teleport 1
 no_pick 1
 is_floor 1
 end
@@ -6702,14 +7071,6 @@ no_drop 1
 speed 0.002
 speed_left -1
 end
-Object luck
-editor_folder forces/forces
-sys_object 1
-face force.101
-identified 1
-type 114
-no_drop 1
-end
 Object poisoning
 editor_folder forces/forces
 name applied poison
@@ -6846,8 +7207,8 @@ monster 1
 alive 1
 attack_cleave 50
 attack_cold 50
-resist_cold 100
-resist_slash 40
+protect_cold 100
+protect_slash 40
 path_attuned 131096
 path_repelled 256
 path_denied 66561
@@ -6947,8 +7308,8 @@ monster 1
 alive 1
 attack_slash 50
 attack_electricity 50
-resist_electricity 100
-resist_impact 40
+protect_electricity 100
+protect_impact 40
 path_attuned 131096
 path_repelled 256
 path_denied 66561
@@ -7471,7 +7832,6 @@ name barrel
 face barrel2.101
 no_pick 1
 no_pass 1
-can_roll 1
 type 79
 layer 4
 end
@@ -7580,6 +7940,7 @@ is_animated 1
 anim_speed 1
 speed 1
 no_pick 1
+no_pass 1
 end
 More
 Object fireplace_rightb
@@ -7589,6 +7950,7 @@ name fireplace
 layer 5
 type 79
 no_pick 1
+no_pass 1
 x 1
 end
 Object fireplace_right_off
@@ -7599,6 +7961,7 @@ face fireplace_right_off.101
 type 79
 layer 5
 no_pick 1
+no_pass 1
 end
 More
 Object fireplace_right_offb
@@ -7609,6 +7972,7 @@ face fireplace_right_off.101
 type 79
 layer 5
 no_pick 1
+no_pass 1
 x 1
 end
 Object fireplace_left
@@ -7623,6 +7987,7 @@ is_animated 1
 anim_speed 1
 speed 1
 no_pick 1
+no_pass 1
 end
 More
 Object fireplace_leftb
@@ -7632,6 +7997,7 @@ name fireplace
 layer 5
 type 79
 no_pick 1
+no_pass 1
 y 1
 end
 Object fireplace_left_off
@@ -7642,6 +8008,7 @@ face fireplace_left_off.101
 type 79
 layer 5
 no_pick 1
+no_pass 1
 end
 More
 Object fireplace_left_offb
@@ -7652,6 +8019,7 @@ face fireplace_left_off.101
 type 79
 layer 5
 no_pick 1
+no_pass 1
 y 1
 end
 Object glower.101
@@ -9526,6 +9894,75 @@ sys_object 1
 face info.101
 no_drop 1
 end
+Object class_paladin
+editor_folder intern/class
+name paladin
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+hp 10
+grace 10
+Str 1
+Wis 2
+end
+Object class_priest
+editor_folder intern/class
+name priest
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+grace 20
+Wis 3
+Int 2
+end
+Object class_sorcerer
+editor_folder intern/class
+name sorcerer
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+sp 20
+Pow 3
+Int 2
+end
+Object class_warlock
+editor_folder intern/class
+name warlock
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+hp 10
+sp 10
+Str 1
+Pow 2
+end
+Object class_warrior
+editor_folder intern/class
+name warrior
+type 37
+layer 0
+sys_object 1
+face info.101
+no_drop 1
+applied 1
+hp 20
+ac 2
+Str 2
+Dex 1
+Con 1
+end
 Object empty_archetype
 editor_folder intern/intern
 layer 1
@@ -10215,6 +10652,76 @@ weight 60000
 no_pick 1
 invulnerable 1
 end
+Object dwarf_female
+editor_folder intern/player
+race dwarf
+face dwarf.151
+randomitems player_dwarf_female
+layer 6
+behavior 2
+is_female 1
+no_pick 1
+direction 4
+identified 1
+is_neutral 1
+weapon_speed 0.0125
+speed 0.85
+terrain_flag 1
+animation dwarf_female
+is_animated 1
+anim_speed 3
+type 1
+level 1
+ac 0
+wc 0
+wc_range 20
+hp -1
+maxhp 8
+sp -1
+maxsp 3
+grace -1
+maxgrace 3
+can_use_armour 1
+can_use_weapon 1
+is_player 1
+weight 70000
+food 750
+end
+Object dwarf_male
+editor_folder intern/player
+race dwarf
+face dwarf.151
+randomitems player_dwarf_male
+layer 6
+behavior 2
+is_male 1
+no_pick 1
+direction 4
+identified 1
+is_neutral 1
+weapon_speed 0.0125
+speed 0.85
+terrain_flag 1
+animation dwarf_male
+is_animated 1
+anim_speed 3
+type 1
+level 1
+ac 0
+wc 0
+wc_range 20
+hp -1
+maxhp 8
+sp -1
+maxsp 3
+grace -1
+maxgrace 3
+can_use_armour 1
+can_use_weapon 1
+is_player 1
+weight 70000
+food 750
+end
 Object half_elf_female
 editor_folder intern/player
 race half-elf
@@ -10355,6 +10862,76 @@ is_player 1
 weight 70000
 food 750
 end
+Object thelra_female
+editor_folder intern/player
+race thelra
+face thelra_f.151
+randomitems player_thelra_female
+layer 6
+behavior 2
+is_female 1
+no_pick 1
+direction 4
+identified 1
+is_neutral 1
+weapon_speed 0.0125
+speed 0.85
+terrain_flag 1
+animation thelra_female
+is_animated 1
+anim_speed 3
+type 1
+level 1
+ac 0
+wc 0
+wc_range 20
+hp -1
+maxhp 8
+sp -1
+maxsp 3
+grace -1
+maxgrace 3
+can_use_armour 1
+can_use_weapon 1
+is_player 1
+weight 70000
+food 750
+end
+Object thelra_male
+editor_folder intern/player
+race thelra
+face thelra_m.151
+randomitems player_thelra_male
+layer 6
+behavior 2
+is_male 1
+no_pick 1
+direction 4
+identified 1
+is_neutral 1
+weapon_speed 0.0125
+speed 0.85
+terrain_flag 1
+animation thelra_male
+is_animated 1
+anim_speed 3
+type 1
+level 1
+ac 0
+wc 0
+wc_range 20
+hp -1
+maxhp 8
+sp -1
+maxsp 3
+grace -1
+maxgrace 3
+can_use_armour 1
+can_use_weapon 1
+is_player 1
+weight 70000
+food 750
+end
 Object skill_alchemy
 editor_folder intern/skills
 name alchemy
@@ -10379,6 +10956,18 @@ no_drop 1
 level 1
 exp 0
 sp 2
+end
+Object skill_construction
+editor_folder intern/skills
+name construction
+type 43
+sub_type 1
+face skill.101
+sys_object 1
+no_drop 1
+sp 3
+level 1
+exp 0
 end
 Object experience_agility
 editor_folder intern/skills
@@ -10460,22 +11049,8 @@ type 43
 sub_type 1
 face skill.101
 sys_object 1
-last_eat 1
 no_drop 1
 sp 10
-level 1
-exp 0
-end
-Object skill_inscription
-editor_folder intern/skills
-name inscription
-type 43
-sub_type 2
-face skill.101
-sys_object 1
-no_drop 1
-sp 3
-last_eat 1
 level 1
 exp 0
 end
@@ -10595,7 +11170,6 @@ face skill.101
 sys_object 1
 no_drop 1
 sp 11
-last_eat 1
 level 1
 exp 0
 end
@@ -10764,10 +11338,6 @@ protect_pierce 8
 protect_impact 10
 protect_cleave 8
 protect_slash 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 type 99
@@ -10785,10 +11355,6 @@ protect_pierce 8
 protect_impact 8
 protect_cleave 8
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 last_heal 4
 material_real 193
 material 8
@@ -10807,10 +11373,6 @@ protect_pierce 8
 protect_impact 8
 protect_cleave 10
 protect_slash 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 last_heal 4
 material_real 193
 material 8
@@ -10829,10 +11391,6 @@ protect_impact 8
 protect_slash 8
 protect_pierce 8
 protect_cleave 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material_real 193
 material 8
@@ -10850,10 +11408,6 @@ protect_pierce 10
 protect_impact 8
 protect_cleave 8
 protect_slash 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 last_heal 4
 material_real 193
 material 8
@@ -10873,10 +11427,6 @@ protect_impact 8
 protect_slash 8
 protect_pierce 8
 protect_cleave 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material 2
 material_real 65
@@ -10895,10 +11445,6 @@ protect_impact 6
 protect_slash 8
 protect_pierce 8
 protect_cleave 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material_real 193
 material 8
@@ -10917,10 +11463,6 @@ protect_impact 8
 protect_slash 10
 protect_pierce 8
 protect_cleave 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material 2
 material_real 65
@@ -10936,10 +11478,6 @@ protect_pierce 6
 protect_impact 6
 protect_cleave 6
 protect_slash 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 last_heal 1
 material_real 193
 material 8
@@ -10957,10 +11495,6 @@ protect_pierce 4
 protect_impact 4
 protect_cleave 4
 protect_slash 4
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 type 99
 material_real 193
 material 8
@@ -10977,10 +11511,6 @@ protect_impact 6
 protect_slash 6
 protect_pierce 6
 protect_cleave 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 value 75
 material_real 65
 material 2
@@ -10998,10 +11528,6 @@ protect_impact 3
 protect_slash 3
 protect_pierce 3
 protect_cleave 3
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 449
 material 128
 end
@@ -11019,10 +11545,6 @@ protect_impact 8
 protect_slash 8
 protect_pierce 8
 protect_cleave 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 end
@@ -11038,10 +11560,6 @@ protect_impact 3
 protect_slash 3
 protect_pierce 3
 protect_cleave 3
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 449
 material 128
 end
@@ -11058,10 +11576,6 @@ protect_impact 8
 protect_cleave 8
 protect_slash 8
 protect_pierce 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 value 75
@@ -11078,10 +11592,6 @@ protect_impact 6
 protect_cleave 6
 protect_slash 6
 protect_pierce 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 value 50
@@ -11100,10 +11610,6 @@ protect_impact 10
 protect_cleave 10
 protect_slash 10
 protect_pierce 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 value 90
@@ -11119,10 +11625,6 @@ protect_impact 4
 protect_cleave 4
 protect_slash 4
 protect_pierce 4
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 value 15
@@ -11142,10 +11644,6 @@ ac 1
 item_level 10
 weight 2000
 value 200
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11161,10 +11659,6 @@ protect_cleave 2
 protect_slash 2
 weight 200
 value 20
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 end
@@ -11183,10 +11677,6 @@ protect_cleave 10
 protect_slash 8
 protect_pierce 10
 value 35
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11205,10 +11695,6 @@ protect_cleave 8
 protect_slash 10
 protect_pierce 8
 value 38
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11225,10 +11711,6 @@ protect_cleave 3
 protect_pierce 3
 weight 2100
 value 1700
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 1024
 material_real 643
 end
@@ -11244,10 +11726,6 @@ protect_cleave 1
 protect_slash 1
 protect_pierce 1
 value 25
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 128
 material_real 450
 end
@@ -11263,10 +11741,6 @@ protect_cleave 1
 protect_slash 1
 protect_pierce 1
 value 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 128
 material_real 450
 end
@@ -11285,10 +11759,6 @@ protect_slash 8
 protect_pierce 8
 weight 1000
 value 220
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11307,10 +11777,6 @@ protect_slash 6
 protect_pierce 6
 weight 1000
 value 220
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11329,10 +11795,6 @@ protect_slash 6
 protect_pierce 6
 weight 1200
 value 750
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11351,10 +11813,6 @@ protect_slash 6
 protect_pierce 6
 weight 1000
 value 220
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11372,10 +11830,6 @@ protect_slash 5
 protect_pierce 8
 weight 900
 value 25
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11393,10 +11847,6 @@ protect_cleave 5
 protect_slash 8
 protect_pierce 5
 value 30
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11414,10 +11864,6 @@ protect_cleave 4
 protect_slash 4
 protect_pierce 4
 value 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 193
 material 8
 end
@@ -11436,10 +11882,6 @@ protect_slash 10
 protect_pierce 6
 weight 1100
 value 400
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11458,10 +11900,6 @@ protect_slash 6
 protect_pierce 10
 weight 1140
 value 800
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 end
@@ -11482,10 +11920,6 @@ protect_impact 35
 protect_slash 17
 protect_cleave 17
 protect_pierce 17
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 20500
 value 2600
 end
@@ -11506,10 +11940,6 @@ protect_impact 12
 protect_cleave 30
 protect_slash 20
 protect_pierce 16
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 13000
 value 1800
 end
@@ -11530,10 +11960,6 @@ protect_impact 38
 protect_slash 18
 protect_cleave 18
 protect_pierce 18
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 29500
 value 2600
 end
@@ -11550,10 +11976,6 @@ last_sp 6
 material 2
 material_real 65
 ac 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 protect_impact 20
 protect_slash 20
 protect_cleave 20
@@ -11578,10 +12000,6 @@ protect_impact 15
 protect_cleave 15
 protect_slash 15
 protect_pierce 30
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 13500
 value 1420
 end
@@ -11602,10 +12020,6 @@ protect_impact 17
 protect_slash 35
 protect_cleave 17
 protect_pierce 17
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 21500
 value 2650
 end
@@ -11626,10 +12040,6 @@ protect_impact 15
 protect_cleave 15
 protect_slash 30
 protect_pierce 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 11000
 value 1400
 end
@@ -11650,10 +12060,6 @@ protect_cleave 20
 protect_pierce 20
 material 32
 material_real 323
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 18500
 value 2850
 end
@@ -11674,8 +12080,6 @@ protect_impact 45
 protect_slash 30
 protect_cleave 30
 protect_pierce 30
-is_vul_physical 1
-is_vul_sphere 1
 weight 34500
 value 252600
 end
@@ -11692,10 +12096,6 @@ protect_cleave 4
 protect_pierce 4
 weight 500
 value 20
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 128
 material_real 450
 end
@@ -11712,10 +12112,6 @@ protect_cleave 4
 protect_pierce 4
 weight 900
 value 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 128
 material_real 450
 end
@@ -11736,10 +12132,6 @@ protect_impact 30
 protect_slash 15
 protect_cleave 15
 protect_pierce 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 14000
 value 1400
 end
@@ -11757,10 +12149,6 @@ protect_slash 15
 protect_pierce 10
 weight 3450
 value 30
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 194
 material 8
 end
@@ -11781,10 +12169,6 @@ protect_slash 15
 protect_pierce 15
 weight 8450
 value 1400
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 194
 material 8
 end
@@ -11802,10 +12186,6 @@ protect_cleave 10
 protect_pierce 8
 weight 2200
 value 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 8
 material_real 193
 end
@@ -11824,10 +12204,6 @@ protect_slash 12
 protect_pierce 20
 weight 5550
 value 60
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 194
 material 8
 end
@@ -11848,10 +12224,6 @@ protect_slash 12
 protect_pierce 25
 weight 6450
 value 120
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 194
 material 8
 end
@@ -11872,10 +12244,6 @@ protect_impact 25
 protect_cleave 15
 protect_slash 25
 protect_pierce 15
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 12000
 value 125
 end
@@ -11894,8 +12262,6 @@ protect_impact 28
 protect_slash 40
 protect_cleave 28
 protect_pierce 28
-is_vul_magic 1
-is_vul_sphere 1
 weight 5100
 value 152500
 end
@@ -11914,8 +12280,6 @@ protect_impact 30
 protect_slash 45
 protect_cleave 30
 protect_pierce 30
-is_vul_magic 1
-is_vul_sphere 1
 weight 7500
 value 252500
 end
@@ -11934,8 +12298,6 @@ protect_impact 22
 protect_slash 30
 protect_cleave 22
 protect_pierce 22
-is_vul_magic 1
-is_vul_sphere 1
 weight 6100
 value 12500
 end
@@ -11952,10 +12314,6 @@ last_sp 6
 material 2
 material_real 65
 ac 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 protect_impact 20
 protect_slash 20
 protect_cleave 40
@@ -11976,10 +12334,6 @@ last_sp 6
 material 2
 material_real 65
 ac 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 protect_impact 20
 protect_slash 40
 protect_cleave 20
@@ -12000,10 +12354,6 @@ last_sp 6
 material 2
 material_real 65
 ac 8
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 protect_impact 40
 protect_slash 20
 protect_cleave 20
@@ -12028,10 +12378,6 @@ protect_impact 12
 protect_cleave 20
 protect_slash 30
 protect_pierce 16
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 13000
 value 1800
 end
@@ -12052,10 +12398,6 @@ protect_impact 17
 protect_slash 17
 protect_cleave 17
 protect_pierce 35
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 19500
 value 2550
 end
@@ -12076,10 +12418,6 @@ protect_impact 17
 protect_slash 17
 protect_cleave 35
 protect_pierce 17
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 weight 21500
 value 2650
 end
@@ -12098,10 +12436,6 @@ protect_impact 5
 protect_cleave 10
 protect_pierce 5
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12121,10 +12455,6 @@ protect_impact 12
 protect_cleave 6
 protect_pierce 12
 protect_slash 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1350
@@ -12142,10 +12472,6 @@ protect_impact 5
 protect_cleave 5
 protect_pierce 5
 protect_slash 5
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 258
 material 16
 weight 1500
@@ -12165,10 +12491,6 @@ protect_impact 10
 protect_cleave 5
 protect_pierce 5
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12188,10 +12510,6 @@ protect_impact 6
 protect_cleave 12
 protect_pierce 6
 protect_slash 12
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12211,10 +12529,6 @@ protect_impact 10
 protect_cleave 4
 protect_pierce 10
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 2048
 material_real 705
 weight 1100
@@ -12234,10 +12548,6 @@ protect_impact 4
 protect_cleave 10
 protect_pierce 10
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 32
 material_real 323
 weight 1100
@@ -12257,10 +12567,6 @@ protect_impact 12
 protect_cleave 6
 protect_pierce 6
 protect_slash 12
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12281,10 +12587,6 @@ protect_cleave 10
 protect_pierce 10
 protect_slash 5
 cha -1
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12304,10 +12606,6 @@ protect_impact 5
 protect_cleave 5
 protect_pierce 10
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1500
@@ -12327,10 +12625,6 @@ protect_impact 5
 protect_cleave 10
 protect_pierce 10
 protect_slash 5
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1250
@@ -12350,10 +12644,6 @@ protect_impact 12
 protect_cleave 12
 protect_pierce 6
 protect_slash 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1300
@@ -12373,10 +12663,6 @@ protect_impact 10
 protect_cleave 5
 protect_pierce 10
 protect_slash 5
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1350
@@ -12396,10 +12682,6 @@ protect_impact 6
 protect_cleave 12
 protect_pierce 6
 protect_slash 12
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1600
@@ -12419,10 +12701,6 @@ protect_impact 5
 protect_cleave 5
 protect_pierce 10
 protect_slash 10
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 258
 material 16
 weight 1600
@@ -12442,10 +12720,6 @@ protect_impact 10
 protect_cleave 10
 protect_pierce 4
 protect_slash 6
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material 32
 material_real 324
 weight 1300
@@ -12465,10 +12739,6 @@ protect_impact 5
 protect_cleave 10
 protect_pierce 10
 protect_slash 5
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 weight 1550
@@ -12481,10 +12751,6 @@ face small_shie.101
 type 33
 layer 3
 ac 2
-is_vul_physical 1
-is_vul_elemental 1
-is_vul_magic 1
-is_vul_sphere 1
 material_real 65
 material 2
 protect_impact 6
@@ -13807,8 +14073,9 @@ slaying set_individual_value
 face key2.111
 type 21
 value 100
-weight 100
+weight 5
 identified 1
+no_drop 1
 end
 Object key_blue
 editor_folder items/keys
@@ -13821,8 +14088,9 @@ slaying set_individual_value
 face key_blue.111
 type 21
 value 100
-weight 100
+weight 5
 identified 1
+no_drop 1
 end
 Object key_brown
 editor_folder items/keys
@@ -13835,8 +14103,9 @@ slaying set_individual_value
 face key_brown.111
 type 21
 value 100
-weight 100
+weight 5
 identified 1
+no_drop 1
 end
 Object key_skull
 editor_folder items/keys
@@ -13849,8 +14118,9 @@ slaying set_individual_value
 face key_skull.111
 type 21
 value 100
-weight 100
+weight 5
 identified 1
+no_drop 1
 end
 Object crystal_light
 editor_folder items/light
@@ -14781,7 +15051,6 @@ item_condition 100
 nrof 1
 layer 3
 type 6
-speed_left 0.002
 material 32
 value 10
 weight 400
@@ -14817,6 +15086,21 @@ speed_left 0.002
 material 32
 value 10
 weight 400
+can_stack 1
+end
+Object pipeweed
+editor_folder items/organic
+name pipeweed
+face pipeweed.101
+food 5
+item_quality 100
+item_condition 100
+nrof 1
+layer 3
+type 6
+material 32
+value 100
+weight 32
 can_stack 1
 end
 Object carrot
@@ -15059,54 +15343,6 @@ level 1
 exp 10
 no_pick 0
 end
-Object card
-editor_folder items/readable
-face card.101
-layer 3
-identified 1
-type 8
-material 1
-value 8
-weight 20
-level 1
-exp 10
-end
-Object diploma
-editor_folder items/readable
-face diploma.101
-layer 3
-identified 1
-type 8
-material 1
-value 25
-weight 50
-level 1
-exp 10
-end
-Object letter
-editor_folder items/readable
-face letter.101
-layer 3
-identified 1
-type 8
-material 1
-value 2
-weight 60
-level 1
-exp 10
-end
-Object note
-editor_folder items/readable
-face note.101
-layer 3
-identified 1
-type 8
-material 1
-value 8
-weight 75
-level 1
-exp 10
-end
 Object tome
 editor_folder items/readable
 name tome
@@ -15176,6 +15412,80 @@ weight 1250
 level 1
 exp 10
 no_pick 0
+end
+Object card
+editor_folder items/readable
+face card.101
+layer 3
+identified 1
+type 8
+material 1
+value 8
+weight 20
+level 1
+exp 10
+end
+Object diploma
+editor_folder items/readable
+face diploma.101
+layer 3
+identified 1
+type 8
+material 1
+value 25
+weight 50
+level 1
+exp 10
+end
+Object letter
+editor_folder items/readable
+face letter.101
+layer 3
+identified 1
+type 8
+material 1
+value 2
+weight 60
+level 1
+exp 10
+end
+Object note
+editor_folder items/readable
+face note.101
+layer 3
+identified 1
+type 8
+material 1
+value 8
+weight 75
+level 1
+exp 10
+end
+Object announcement
+editor_folder items/readable
+name announcement
+face announcement.111
+animation announcement
+is_animated 0
+anim_speed 0
+is_turnable 1
+direction 1
+type 98
+layer 4
+no_pick 1
+end
+Object smoking_pipe
+editor_folder items/items
+name smoking pipe
+face smoking_pipe.101
+type 79
+layer 3
+value 500
+weight 250
+identified 1
+item_quality 80
+item_condition 80
+is_magical 1
 end
 Object balm_generic
 editor_folder items/spells
@@ -17212,7 +17522,7 @@ face arrow_elven.101
 wc_range 20
 last_grace 7
 dam 3
-wc 0
+wc 1
 last_sp 5
 attack_pierce 100
 type 13
@@ -17238,7 +17548,7 @@ wc_range 20
 last_grace 7
 dam 3
 wc 0
-last_sp 5
+last_sp 6
 attack_pierce 100
 type 13
 sub_type 1
@@ -17272,7 +17582,7 @@ anim_speed 1
 is_animated 0
 is_turnable 1
 nrof 1
-weight 75
+weight 70
 value 20
 material 16
 material_real 257
@@ -17311,7 +17621,7 @@ race crossbow bolts
 attack_cleave 100
 last_grace 8
 dam 4
-wc 0
+wc 1
 wc_range 20
 last_sp 4
 type 13
@@ -17338,7 +17648,7 @@ last_grace 8
 dam 4
 wc 0
 wc_range 20
-last_sp 4
+last_sp 5
 type 13
 sub_type 2
 face bolt_fey.101
@@ -17372,7 +17682,7 @@ anim_speed 1
 is_animated 0
 is_turnable 1
 nrof 1
-weight 95
+weight 90
 value 20
 material 2
 material_real 65
@@ -17403,18 +17713,97 @@ material 64
 material_real 385
 can_stack 1
 end
+Object sstone_fey
+editor_folder items/weapon
+name fey sling stone
+race sling stones
+layer 3
+face sstone_fey.101
+last_grace 7
+dam 3
+wc 0
+wc_range 20
+last_sp 4
+attack_impact 100
+animation sstone_fey
+anim_speed 10
+is_animated 0
+is_turnable 1
+type 13
+sub_type 3
+nrof 1
+weight 85
+value 15
+material 64
+material_real 385
+can_stack 1
+is_named 1
+end
+Object sstone_iron
+editor_folder items/weapon
+name iron sling stone
+race sling stones
+layer 3
+face sstone_iron.101
+last_grace 7
+dam 3
+wc 0
+wc_range 20
+last_sp 4
+attack_impact 100
+animation sstone_iron
+anim_speed 10
+is_animated 0
+is_turnable 1
+type 13
+sub_type 3
+nrof 1
+weight 85
+value 15
+material 64
+material_real 385
+can_stack 1
+is_named 1
+end
+Object sstone_woodlanders
+editor_folder items/weapon
+name woodlander sling stone
+race sling stones
+layer 3
+face sstone_woodlanders.101
+last_grace 7
+dam 3
+wc 0
+wc_range 20
+last_sp 4
+attack_impact 100
+animation sstone_woodlanders
+anim_speed 10
+is_animated 0
+is_turnable 1
+type 13
+sub_type 3
+nrof 1
+weight 85
+value 15
+material 64
+material_real 385
+can_stack 1
+is_named 1
+end
 Object bow
 editor_folder items/weapon
 name bow
 layer 3
 race arrows
 type 14
-wc 5
-wc_range 20
-last_sp 4
-sub_type 0
 item_level 7
 item_skill 1
+wc 5
+wc_range 20
+dam 1
+last_sp 4
+sub_type 0
 material 16
 material_real 258
 face bow.101
@@ -17428,10 +17817,11 @@ name long bow
 layer 3
 race arrows
 type 14
-wc 6
 item_level 19
 item_skill 1
+wc 6
 wc_range 25
+dam 2
 last_sp 5
 sub_type 0
 material 16
@@ -17474,6 +17864,7 @@ weight 2500
 sp 7
 wc 5
 wc_range 20
+dam 1
 last_sp 5
 value 450
 end
@@ -17493,6 +17884,7 @@ weight 4250
 sp 8
 wc 6
 wc_range 25
+dam 2
 last_sp 5
 value 1450
 end
@@ -17527,6 +17919,7 @@ item_skill 1
 face sling.101
 wc 5
 wc_range 20
+dam 1
 last_sp 4
 weight 300
 value 350
@@ -17539,13 +17932,14 @@ layer 3
 race sling stones
 type 14
 sub_type 2
-item_level 19
-item_skill 1
 material 8
 material_real 193
+item_level 19
+item_skill 1
 face sling_heavy.101
 wc 6
 wc_range 25
+dam 2
 last_sp 5
 weight 400
 value 850
@@ -17962,7 +18356,6 @@ name cactus
 layer 4
 face cactus.101
 slow_move 1
-is_wooded 1
 no_pick 1
 type 79
 end
@@ -17974,8 +18367,6 @@ face cactus1.101
 no_pick 1
 type 79
 no_pass 1
-blocksview 1
-is_wooded 1
 end
 Object cactus2
 editor_folder landscape/plants
@@ -17985,8 +18376,6 @@ face cactus2.101
 no_pick 1
 type 79
 no_pass 1
-blocksview 1
-is_wooded 1
 end
 Object cactus3
 editor_folder landscape/plants
@@ -17996,8 +18385,6 @@ face cactus3.101
 no_pick 1
 type 79
 no_pass 1
-blocksview 1
-is_wooded 1
 end
 Object cactus4
 editor_folder landscape/plants
@@ -18007,8 +18394,6 @@ face cactus4.101
 no_pick 1
 type 79
 no_pass 1
-blocksview 1
-is_wooded 1
 end
 Object cactus5
 editor_folder landscape/plants
@@ -18018,8 +18403,6 @@ face cactus5.101
 no_pick 1
 type 79
 no_pass 1
-blocksview 1
-is_wooded 1
 end
 Object plant_flower1
 editor_folder landscape/plants
@@ -18500,7 +18883,6 @@ wc -1
 food 1
 no_pick 1
 walk_on 1
-is_wooded 1
 slow_move 3
 attack_pierce 1
 speed 0.2
@@ -18517,7 +18899,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object au_tree2
 editor_folder landscape/plants
@@ -18528,7 +18909,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object au_tree3
 editor_folder landscape/plants
@@ -18539,7 +18919,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree1
 editor_folder landscape/plants
@@ -18550,7 +18929,6 @@ face lo_tree1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree2
 editor_folder landscape/plants
@@ -18561,7 +18939,6 @@ face lo_tree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree3
 editor_folder landscape/plants
@@ -18572,7 +18949,6 @@ face lo_tree3.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree4
 editor_folder landscape/plants
@@ -18583,7 +18959,6 @@ face lo_tree4.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree5
 editor_folder landscape/plants
@@ -18594,7 +18969,6 @@ face lo_tree5.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object lo_tree6
 mpart_id 3
@@ -18832,7 +19206,6 @@ face apple_tree.101
 no_pick 1
 type 79
 no_pass 1
-is_wooded 1
 end
 Object tree_cuta
 editor_folder landscape/plants
@@ -18840,7 +19213,6 @@ name old tree
 layer 4
 face tree_cut1.101
 slow_move 1
-is_wooded 1
 no_pick 1
 type 79
 end
@@ -18852,7 +19224,6 @@ face orange_tree.101
 no_pick 1
 type 79
 no_pass 1
-is_wooded 1
 end
 Object tree_branch1
 editor_folder landscape/plants
@@ -18910,7 +19281,6 @@ layer 4
 type 79
 no_pick 1
 slow_move 1
-is_wooded 1
 end
 Object tree_small_dead
 editor_folder landscape/plants
@@ -18920,7 +19290,6 @@ layer 4
 type 79
 no_pick 1
 slow_move 1
-is_wooded 1
 end
 Object woods_2
 editor_folder landscape/plants
@@ -18931,7 +19300,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object woods_tree
 editor_folder landscape/plants
@@ -18941,7 +19309,6 @@ type 79
 face tree_c.101
 no_pick 1
 no_pass 1
-is_wooded 1
 end
 Object tree_big
 editor_folder landscape/plants
@@ -18953,7 +19320,6 @@ no_pick 1
 no_pass 1
 blocksview 1
 slow_move 1
-is_wooded 1
 end
 Object tree_big2
 editor_folder landscape/plants
@@ -18964,7 +19330,6 @@ face tree_big2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big3
 editor_folder landscape/plants
@@ -18975,7 +19340,6 @@ face tree_big3.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big4
 editor_folder landscape/plants
@@ -18986,7 +19350,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big5
 editor_folder landscape/plants
@@ -18997,7 +19360,6 @@ face tree_big5.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big4b
 editor_folder landscape/plants
@@ -19008,7 +19370,6 @@ face tree_big4b.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big5b
 editor_folder landscape/plants
@@ -19019,7 +19380,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big6
 editor_folder landscape/plants
@@ -19030,7 +19390,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big7
 editor_folder landscape/plants
@@ -19041,7 +19400,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big7b
 editor_folder landscape/plants
@@ -19052,7 +19410,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_huge
 editor_folder landscape/plants
@@ -19063,7 +19420,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_huge2
 editor_folder landscape/plants
@@ -19074,7 +19430,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_huge3
 editor_folder landscape/plants
@@ -19085,7 +19440,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree20
 editor_folder landscape/plants
@@ -19096,7 +19450,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree21
 editor_folder landscape/plants
@@ -19107,7 +19460,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree22
 editor_folder landscape/plants
@@ -19118,7 +19470,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree23
 editor_folder landscape/plants
@@ -19129,7 +19480,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree24
 editor_folder landscape/plants
@@ -19140,7 +19490,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree25
 editor_folder landscape/plants
@@ -19151,7 +19500,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree26
 editor_folder landscape/plants
@@ -19162,7 +19510,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree27
 editor_folder landscape/plants
@@ -19173,7 +19520,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree28
 editor_folder landscape/plants
@@ -19184,7 +19530,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree29
 editor_folder landscape/plants
@@ -19195,7 +19540,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree30
 editor_folder landscape/plants
@@ -19206,7 +19550,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree31
 editor_folder landscape/plants
@@ -19217,7 +19560,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree32
 editor_folder landscape/plants
@@ -19228,7 +19570,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree33
 editor_folder landscape/plants
@@ -19239,7 +19580,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree34
 editor_folder landscape/plants
@@ -19250,7 +19590,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree35
 editor_folder landscape/plants
@@ -19261,7 +19600,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree36
 editor_folder landscape/plants
@@ -19272,7 +19610,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree37
 editor_folder landscape/plants
@@ -19283,7 +19620,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree38
 editor_folder landscape/plants
@@ -19294,7 +19630,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree39
 editor_folder landscape/plants
@@ -19305,7 +19640,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree40
 editor_folder landscape/plants
@@ -19316,7 +19650,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree41
 editor_folder landscape/plants
@@ -19327,7 +19660,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree42
 editor_folder landscape/plants
@@ -19338,7 +19670,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree43
 editor_folder landscape/plants
@@ -19349,7 +19680,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree44
 editor_folder landscape/plants
@@ -19360,7 +19690,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree45
 editor_folder landscape/plants
@@ -19371,7 +19700,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree46
 editor_folder landscape/plants
@@ -19382,7 +19710,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree47
 editor_folder landscape/plants
@@ -19393,7 +19720,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree48
 editor_folder landscape/plants
@@ -19404,7 +19730,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree49
 editor_folder landscape/plants
@@ -19415,7 +19740,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree50
 editor_folder landscape/plants
@@ -19426,7 +19750,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree51
 editor_folder landscape/plants
@@ -19437,7 +19760,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_burned1
 editor_folder landscape/plants
@@ -19448,7 +19770,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_burned2
 editor_folder landscape/plants
@@ -19459,7 +19780,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_burned3
 editor_folder landscape/plants
@@ -19470,7 +19790,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_burned4
 editor_folder landscape/plants
@@ -19481,7 +19800,6 @@ no_pick 1
 type 79
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_pinetree1
 editor_folder landscape/plants
@@ -19492,7 +19810,6 @@ face snowy_pinetree1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_pinetree2
 editor_folder landscape/plants
@@ -19503,7 +19820,6 @@ face snowy_pinetree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object tree_big5_winter
 editor_folder landscape/plants
@@ -19514,7 +19830,6 @@ type 79
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_autree2
 editor_folder landscape/plants
@@ -19525,7 +19840,6 @@ face snowy_autree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_burnedtree1
 editor_folder landscape/plants
@@ -19536,7 +19850,6 @@ face snowy_burnedtree1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_burnedtree2
 editor_folder landscape/plants
@@ -19547,7 +19860,6 @@ face snowy_burnedtree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree1
 editor_folder landscape/plants
@@ -19558,7 +19870,6 @@ face snowy_tree1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree2
 editor_folder landscape/plants
@@ -19569,7 +19880,6 @@ face snowy_tree2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree_big1
 editor_folder landscape/plants
@@ -19580,7 +19890,6 @@ face snowy_tree_big1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree_big2
 editor_folder landscape/plants
@@ -19591,7 +19900,6 @@ face snowy_tree_big2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree_bigb1
 editor_folder landscape/plants
@@ -19602,7 +19910,6 @@ face snowy_tree_bigb1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_tree_bigb2
 editor_folder landscape/plants
@@ -19613,7 +19920,6 @@ face snowy_tree_bigb2.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object snowy_treeb1
 editor_folder landscape/plants
@@ -19624,7 +19930,6 @@ face snowy_treeb1.101
 no_pick 1
 no_pass 1
 blocksview 1
-is_wooded 1
 end
 Object water_lily
 editor_folder landscape/plants
@@ -19714,7 +20019,6 @@ type 79
 layer 5
 weight 1000000
 no_pass 1
-can_roll 1
 no_pick 1
 end
 Object pillar_blue
@@ -20934,6 +21238,141 @@ type 79
 x 2
 y 2
 end
+Object firebolt
+editor_folder magic/bolt
+name firebolt
+type 12
+layer 7
+face firebolt.111
+level 1
+no_save 1
+attack_fire 100
+animation firebolt
+anim_speed 1
+terrain_flag 32767
+last_sp 12
+glow_radius 1
+is_animated 0
+is_turnable 1
+is_missile 1
+no_pick 1
+walk_on 1
+fly_on 1
+speed 1
+wc 200
+wc_range 20
+dam 3
+flying 1
+end
+Object frostbolt
+editor_folder magic/bolt
+name frostbolt
+type 12
+layer 7
+face frostbolt.111
+level 1
+no_save 1
+attack_cold 100
+animation frostbolt
+anim_speed 1
+terrain_flag 32767
+last_sp 12
+glow_radius 1
+is_animated 0
+is_turnable 1
+is_missile 1
+no_pick 1
+walk_on 1
+fly_on 1
+speed 1
+wc 200
+wc_range 20
+dam 3
+flying 1
+end
+Object forked_lightning
+editor_folder magic/bolt
+name lightning
+type 12
+layer 7
+face lightning.111
+level 1
+no_save 1
+attack_electricity 100
+animation lightning
+anim_speed 1
+terrain_flag 32767
+last_sp 12
+glow_radius 1
+is_animated 0
+is_turnable 1
+is_missile 1
+no_pick 1
+walk_on 1
+fly_on 1
+reflecting 1
+speed 1
+wc 200
+wc_range 20
+dam 3
+flying 1
+Dex 30
+Con 50
+end
+Object lightning
+editor_folder magic/bolt
+name lightning
+type 12
+layer 7
+face lightning.111
+level 1
+no_save 1
+attack_electricity 100
+animation lightning
+anim_speed 1
+terrain_flag 32767
+last_sp 12
+glow_radius 1
+is_animated 0
+is_turnable 1
+is_missile 1
+no_pick 1
+walk_on 1
+fly_on 1
+reflecting 1
+speed 1
+wc 200
+wc_range 20
+dam 3
+flying 1
+end
+Object negabolt
+editor_folder magic/bolt
+name negative energy bolt
+type 12
+layer 7
+face negabolt.111
+level 1
+no_save 1
+attack_electricity 100
+animation negabolt
+anim_speed 1
+terrain_flag 32767
+last_sp 12
+glow_radius 1
+is_animated 0
+is_turnable 1
+is_missile 1
+no_pick 1
+walk_on 1
+fly_on 1
+reflecting 1
+speed 1
+wc 200
+wc_range 20
+dam 12
+flying 1
+end
 Object bomb
 editor_folder magic/bomb
 name bomb
@@ -21048,6 +21487,32 @@ food 9
 is_used_up 1
 no_pick 1
 end
+Object asteroid
+editor_folder magic/cold
+name asteroid
+type 2
+no_save 1
+layer 7
+other_arch icestorm
+face asteroid.101
+is_animated 0
+animation asteroid
+anim_speed 1
+last_sp 12
+is_missile 1
+is_turnable 1
+no_pick 1
+walk_on 1
+fly_on 1
+speed 1
+wc 200
+wc_range 20
+dam 4
+level 1
+attack_cold 100
+terrain_flag 32767
+flying 1
+end
 Object icestorm
 editor_folder magic/cold
 name ice
@@ -21112,7 +21577,7 @@ fly_on 1
 speed 1
 wc 200
 wc_range 20
-dam 3
+dam 4
 level 1
 attack_fire 100
 terrain_flag 32767
@@ -21127,8 +21592,33 @@ layer 3
 type 79
 material 64
 weight 1500
-resist_cold 100
+protect_cold 100
 level 1
+end
+Object magic_missile
+editor_folder magic/magic_missile
+name magic missile
+type 2
+layer 7
+face magic_missile.111
+level 1
+no_save 1
+attack_weaponmagic 100
+animation magic_missile
+anim_speed 1
+terrain_flag 32767
+last_sp 12
+is_animated 0
+is_turnable 1
+is_missile 1
+no_pick 1
+walk_on 1
+fly_on 1
+speed 1
+wc 200
+wc_range 20
+dam 5
+flying 1
 end
 Object probebullet
 editor_folder magic/magic
@@ -21270,23 +21760,6 @@ slaying /city/city
 hp 15
 sp 19
 end
-Object magic_portal
-editor_folder magic/town_portal
-face magic_portal.11L
-slaying /city/city
-layer 3
-hp 15
-sp 19
-speed 0.3
-type 66
-no_pick 1
-is_used_up 1
-food 59
-changing 1
-anim_speed 4
-is_animated 1
-animation magic_portal
-end
 Object town_portal
 editor_folder magic/town_portal
 name Town portal destination
@@ -21306,21 +21779,6 @@ no_drop 1
 hp 0
 slaying Existing town portal
 sys_object 1
-end
-Object town_portal_magic
-editor_folder magic/town_portal
-name magic portal
-face magic_portal.111
-hp 15
-sp 19
-type 66
-no_pick 1
-exp 1
-layer 0
-sys_object 1
-animation town_portal_magic
-is_animated 0
-anim_speed 4
 end
 Object cause_wounds
 editor_folder magic/wounds
@@ -21528,7 +21986,7 @@ dam 40
 hp -1
 maxhp 55
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face blob_acid.111
 animation blob_acid
@@ -21561,7 +22019,7 @@ dam 42
 hp -1
 maxhp 55
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face blob_poison.111
 animation blob_poison
@@ -21588,16 +22046,16 @@ exp 97
 speed -0.04
 weapon_speed 0.038
 attack_slash 100
-resist_paralyze 100
-resist_poison 100
-resist_acid 100
+protect_paralyze 100
+protect_poison 100
+protect_acid 100
 ac 9
 wc 2
 dam 44
 hp -1
 maxhp 52
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face quivering_blob.111
 animation blob_quivering
@@ -21657,15 +22115,15 @@ wc_range 20
 speed -0.05
 weapon_speed 0.040
 attack_cold 75
-resist_poison 100
-resist_paralyze 100
+protect_poison 100
+protect_paralyze 100
 ac 10
 wc 2
 dam 60
 hp -1
 maxhp 60
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face blue_jelly.111
 animation jelly_blue
@@ -21693,15 +22151,15 @@ speed -0.05
 weapon_speed 0.038
 attack_cleave 65
 attack_acid 10
-resist_poison 100
-resist_paralyze 100
+protect_poison 100
+protect_paralyze 100
 ac 10
 wc 2
 dam 61
 hp -1
 maxhp 60
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face green_jelly.111
 animation jelly_green
@@ -21729,14 +22187,14 @@ speed -0.05
 weapon_speed 0.0375
 attack_acid 55
 attack_poison 40
-resist_poison 100
+protect_poison 100
 ac 9
 wc 2
 dam 60
 hp -1
 maxhp 61
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face ochre_jelly.111
 animation jelly_ochre
@@ -21764,15 +22222,15 @@ speed -0.05
 weapon_speed 0.038
 attack_poison 65
 attack_acid 10
-resist_poison 100
-resist_paralyze 100
+protect_poison 100
+protect_paralyze 100
 ac 10
 wc 2
 dam 60
 hp -1
 maxhp 60
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face jelly_red.111
 animation jelly_red
@@ -21800,15 +22258,15 @@ speed -0.05
 weapon_speed 0.0375
 attack_poison 40
 attack_cold 40
-resist_poison 100
-resist_paralyze 100
+protect_poison 100
+protect_paralyze 100
 ac 10
 wc 2
 dam 62
 hp -1
 maxhp 62
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face spotted_jelly.111
 animation jelly_spotted
@@ -21841,7 +22299,7 @@ dam 39
 hp -1
 maxhp 50
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face gray_ooze.111
 animation gray_ooze
@@ -21874,7 +22332,7 @@ dam 51
 hp -1
 maxhp 57
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_black.111
 animation pudding_black
@@ -21907,7 +22365,7 @@ dam 51
 hp -1
 maxhp 56
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_blue.111
 animation pudding_blue
@@ -21940,7 +22398,7 @@ dam 53
 hp -1
 maxhp 57
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_brown.111
 animation pudding_brown
@@ -21973,7 +22431,7 @@ dam 51
 hp -1
 maxhp 58
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_green.111
 animation pudding_green
@@ -22007,7 +22465,7 @@ dam 51
 hp -1
 maxhp 58
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face pudding_red.111
 animation pudding_red
@@ -22040,7 +22498,7 @@ dam 41
 hp -1
 maxhp 50
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face slime.111
 animation slime
@@ -22073,7 +22531,7 @@ dam 41
 hp -1
 maxhp 50
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face slime_blue.111
 animation slime_blue
@@ -22105,7 +22563,7 @@ flying 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation bat_brown
 is_animated 1
 anim_speed 4
@@ -22139,7 +22597,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation bear_grey
 is_animated 1
 anim_speed 4
@@ -22173,7 +22631,7 @@ weapon_speed 0.038
 attack_slash 80
 attack_pierce 20
 type 80
-Wis 6
+Wis 3
 animation cat_black
 is_animated 1
 anim_speed 4
@@ -22206,7 +22664,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_pierce 80
 type 80
-Wis 6
+Wis 3
 animation chicken_large
 is_animated 1
 anim_speed 4
@@ -22240,7 +22698,7 @@ weapon_speed 0.038
 attack_slash 35
 attack_pierce 65
 type 80
-Wis 6
+Wis 3
 animation crocodile
 is_animated 1
 anim_speed 4
@@ -22273,7 +22731,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 80
 type 80
-Wis 6
+Wis 3
 animation deer
 is_animated 1
 anim_speed 4
@@ -22308,7 +22766,7 @@ flying 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation dog_brown
 is_animated 1
 anim_speed 4
@@ -22326,6 +22784,40 @@ level 1
 speed -0.06
 weight 225000
 end
+Object frog
+editor_folder mobs/animals
+name giant frog
+type 80
+face frog_giant.131
+layer 6
+race frog
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_frog
+Wis 3
+animation frog
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 108
+ac 10
+wc 1
+dam 50
+hp -1
+maxhp 60
+speed -0.053
+level 1
+weight 25500
+end
 Object horse_white
 editor_folder mobs/animals
 name white horse
@@ -22341,7 +22833,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 80
 type 80
-Wis 6
+Wis 3
 animation horse_white
 is_animated 1
 anim_speed 4
@@ -22359,6 +22851,142 @@ level 1
 speed -0.06
 weight 90000
 end
+Object rat_a
+editor_folder mobs/animals
+name big rat
+type 80
+face rat_a.151
+layer 6
+race rat
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_rat
+Wis 3
+animation rat_a
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 102
+ac 10
+wc 1
+dam 45
+hp -1
+maxhp 55
+speed -0.053
+level 1
+weight 25500
+end
+Object rat_b
+editor_folder mobs/animals
+name big rat
+type 80
+face rat_b.151
+layer 6
+race rat
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_rat
+Wis 3
+animation rat_b
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 102
+ac 10
+wc 1
+dam 45
+hp -1
+maxhp 55
+speed -0.053
+level 1
+weight 25500
+end
+Object rat_c
+editor_folder mobs/animals
+name big rat
+type 80
+face rat_c.151
+layer 6
+race rat
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_rat
+Wis 3
+animation rat_c
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 102
+ac 10
+wc 1
+dam 45
+hp -1
+maxhp 55
+speed -0.053
+level 1
+weight 25500
+end
+Object rat_d
+editor_folder mobs/animals
+name big rat
+type 80
+face rat_d.151
+layer 6
+race rat
+wc_range 20
+corpse 1
+weapon_speed 0.035
+attack_cleave 80
+is_male 1
+is_neutral 1
+direction 5
+terrain_flag 1
+randomitems mob_rat
+Wis 3
+animation rat_d
+is_animated 1
+anim_speed 4
+monster 1
+no_pick 1
+alive 1
+can_see_in_dark 1
+exp 102
+ac 10
+wc 1
+dam 45
+hp -1
+maxhp 55
+speed -0.053
+level 1
+weight 25500
+end
 Object rooster
 editor_folder mobs/animals
 name rooster
@@ -22374,7 +23002,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_pierce 80
 type 80
-Wis 6
+Wis 3
 animation rooster
 is_animated 1
 anim_speed 4
@@ -22408,7 +23036,7 @@ weapon_speed 0.038
 attack_poison 80
 attack_slash 20
 type 80
-Wis 6
+Wis 3
 animation snake
 is_animated 1
 anim_speed 4
@@ -22442,7 +23070,7 @@ weapon_speed 0.038
 attack_slash 80
 attack_pierce 20
 type 80
-Wis 6
+Wis 3
 animation tiger
 is_animated 1
 anim_speed 4
@@ -22475,7 +23103,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 animation wolf
 is_animated 1
 anim_speed 4
@@ -22511,7 +23139,7 @@ behavior 2
 type 80
 is_male 1
 is_evil 1
-Wis 7
+Wis 4
 Dex 13
 terrain_flag 1
 animation beholder_dread
@@ -22530,11 +23158,10 @@ maxhp 78
 sp -1
 maxsp 10
 weapon_speed 0.040
-resist_pierce 25
-resist_slash 25
-resist_impact 25
-resist_cleave 25
-resist_fear 100
+protect_pierce 25
+protect_slash 25
+protect_impact 25
+protect_cleave 25
 attack_pierce 90
 alive 1
 no_pick 1
@@ -22570,6 +23197,90 @@ Object beholder_d_d
 mpart_id 3
 mpart_nr 3
 name dread beholder
+layer 6
+terrain_flag 1
+monster 1
+alive 1
+no_pick 1
+x 1
+y 1
+end
+Object oclunus
+mpart_id 3
+editor_folder mobs/beholder
+name oclunus
+race beholder
+layer 6
+randomitems mob_beholder_dread
+face oclunus.151
+can_see_in_dark 1
+can_cast_spell 1
+direction 5
+speed -0.06
+corpse 1
+wc_range 20
+behavior 2
+type 80
+is_male 1
+is_evil 1
+Wis 4
+Dex 13
+terrain_flag 1
+animation oclunus
+is_animated 1
+anim_speed 5
+monster 1
+level 1
+Con 2
+Pow 2
+exp 132
+ac 11
+wc 8
+dam 69
+hp -1
+maxhp 78
+sp -1
+maxsp 10
+weapon_speed 0.040
+protect_pierce 25
+protect_slash 25
+protect_impact 25
+protect_cleave 25
+attack_pierce 90
+alive 1
+no_pick 1
+weight 1350000
+run_away 6
+end
+More
+Object oclunus_d_b
+mpart_id 3
+mpart_nr 1
+name oclunus
+layer 6
+terrain_flag 1
+monster 1
+alive 1
+no_pick 1
+x 1
+end
+More
+Object oclunus_d_c
+mpart_id 3
+mpart_nr 2
+name oclunus
+layer 6
+terrain_flag 1
+monster 1
+alive 1
+no_pick 1
+y 1
+end
+More
+Object oclunus_d_d
+mpart_id 3
+mpart_nr 3
+name oclunus
 layer 6
 terrain_flag 1
 monster 1
@@ -22707,7 +23418,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_gnoll
 animation gnoll
 is_animated 1
@@ -22742,7 +23453,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_goblin
 animation goblin
 is_animated 1
@@ -22777,7 +23488,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_hobgoblin
 animation hobgoblin
 is_animated 1
@@ -22812,7 +23523,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold
 animation kobold
 is_animated 1
@@ -22847,7 +23558,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold_big
 animation kobold_big
 is_animated 1
@@ -22882,7 +23593,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold
 animation kobold_fighter
 is_animated 1
@@ -22917,7 +23628,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold
 animation kobold_guard
 is_animated 1
@@ -22958,7 +23669,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_kobold
 animation kobold_shaman
 is_animated 1
@@ -22994,7 +23705,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation bone_devil
 is_animated 1
 anim_speed 4
@@ -23017,7 +23728,7 @@ editor_folder mobs/demon
 name fire demon
 face demon_fire.151
 race demon
-randomitems mob_demon_fire
+randomitems mob_fire
 is_female 1
 corpse 1
 behavior 2
@@ -23027,8 +23738,10 @@ terrain_flag 1
 weapon_speed 0.038
 attack_fire 70
 attack_cleave 30
+protect_fire 100
+protect_cold -40
 type 80
-Wis 6
+Wis 3
 animation demon_fire
 is_animated 1
 anim_speed 4
@@ -23036,12 +23749,12 @@ monster 1
 no_pick 1
 alive 1
 exp 102
-ac 12
-wc 4
+ac 9
+wc 3
 wc_range 20
 dam 52
 hp -1
-maxhp 67
+maxhp 63
 level 1
 speed -0.060
 weight 200000
@@ -23063,7 +23776,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation demon_green
 is_animated 1
 anim_speed 4
@@ -23100,7 +23813,7 @@ can_see_in_dark 1
 can_use_weapon 1
 can_use_armour 1
 Int 10
-Wis 6
+Wis 3
 Dex 3
 Con 15
 exp 115
@@ -23140,7 +23853,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation oty
 is_animated 1
 anim_speed 4
@@ -23177,7 +23890,7 @@ can_see_in_dark 1
 can_use_weapon 1
 can_use_armour 1
 Int 10
-Wis 6
+Wis 3
 Dex 3
 Con 15
 exp 115
@@ -23214,11 +23927,17 @@ layer 6
 direction 5
 terrain_flag 1
 weapon_speed 0.038
-attack_fire 30
-attack_cold 30
-attack_cleave 40
+attack_fire 35
+attack_cold 35
+attack_cleave 30
+protect_impact 5
+protect_cleave 5
+protect_slash 5
+protect_pierce 5
+protect_fire 75
+protect_cold 75
 type 80
-Wis 6
+Wis 3
 animation dragon_black
 is_animated 1
 anim_speed 4
@@ -23287,10 +24006,16 @@ layer 6
 direction 5
 terrain_flag 1
 weapon_speed 0.038
-attack_cold 60
-attack_cleave 40
+attack_cold 80
+attack_cleave 20
+protect_impact 5
+protect_cleave 5
+protect_slash 5
+protect_pierce 5
+protect_fire -20
+protect_cold 100
 type 80
-Wis 6
+Wis 3
 animation dragon_blue
 is_animated 1
 anim_speed 4
@@ -23359,10 +24084,16 @@ layer 6
 direction 5
 terrain_flag 1
 weapon_speed 0.038
-attack_fire 60
-attack_cleave 40
+attack_fire 80
+attack_cleave 20
+protect_impact 5
+protect_cleave 5
+protect_slash 5
+protect_pierce 5
+protect_fire 100
+protect_cold -20
 type 80
-Wis 6
+Wis 3
 animation dragon_fire
 is_animated 1
 anim_speed 4
@@ -23433,8 +24164,14 @@ terrain_flag 1
 weapon_speed 0.038
 attack_poison 60
 attack_impact 40
+protect_impact 10
+protect_cleave 10
+protect_slash 10
+protect_pierce 10
+protect_fire 10
+protect_cold 10
 type 80
-Wis 6
+Wis 3
 animation dragon_green
 is_animated 1
 anim_speed 4
@@ -23505,7 +24242,7 @@ behavior 2
 type 80
 is_male 1
 is_evil 1
-Wis 7
+Wis 4
 Dex 13
 terrain_flag 1
 animation dragon_skeletal
@@ -23524,18 +24261,18 @@ maxhp 85
 sp -1
 maxsp 10
 weapon_speed 0.040
-resist_fire 100
-resist_pierce 25
-resist_slash 25
-resist_impact 25
-resist_cleave 25
-resist_fear 100
-resist_cold -30
+protect_fire 100
+protect_pierce 25
+protect_slash 25
+protect_impact 25
+protect_cleave 25
+protect_cold -30
 attack_pierce 90
 alive 1
 no_pick 1
 weight 850000
 run_away 6
+undead 1
 end
 More
 Object dragon_skeletal_b
@@ -23591,7 +24328,7 @@ is_neutral 1
 direction 5
 terrain_flag 2
 randomitems mob_dragon_water
-Wis 6
+Wis 3
 animation dragon_water_small
 is_animated 1
 anim_speed 4
@@ -23624,7 +24361,7 @@ is_neutral 1
 direction 5
 terrain_flag 1
 randomitems mob_mud_hand
-Wis 6
+Wis 3
 animation mud_hand
 is_animated 1
 anim_speed 4
@@ -23658,7 +24395,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow_mage
 animation drow_annihilator
 is_animated 1
@@ -23698,7 +24435,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow
 animation drow_captain
 is_animated 1
@@ -23733,7 +24470,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow
 animation drow_fighter
 is_animated 1
@@ -23768,7 +24505,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow
 animation drow_guard
 is_animated 1
@@ -23803,7 +24540,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_drow_mage
 animation drow_sorcerer
 is_animated 1
@@ -23843,7 +24580,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_impact 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_ettin
 animation ettin
 is_animated 1
@@ -23878,7 +24615,7 @@ weapon_speed 0.038
 attack_fire 60
 attack_cleave 40
 type 80
-Wis 6
+Wis 3
 animation giant_fire
 is_animated 1
 anim_speed 4
@@ -23917,7 +24654,7 @@ dam 62
 hp -1
 maxhp 72
 terrain_flag 1
-Wis 6
+Wis 3
 face giant_hill.131
 animation giant_hill
 is_animated 1
@@ -23947,7 +24684,7 @@ weapon_speed 0.038
 attack_cold 60
 attack_cleave 40
 type 80
-Wis 6
+Wis 3
 animation giant_ice
 is_animated 1
 anim_speed 4
@@ -23986,7 +24723,7 @@ dam 64
 hp -1
 maxhp 74
 terrain_flag 1
-Wis 6
+Wis 3
 face giant_stone.131
 animation giant_stone
 is_animated 1
@@ -24022,7 +24759,7 @@ dam 50
 hp -1
 maxhp 50
 terrain_flag 1
-Wis 6
+Wis 3
 face ogre.131
 animation ogre
 is_animated 1
@@ -24058,16 +24795,16 @@ anim_speed 4
 speed -0.049
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24078,7 +24815,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24104,16 +24841,16 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24124,7 +24861,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24150,16 +24887,16 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24170,7 +24907,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24196,16 +24933,16 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24216,7 +24953,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24242,16 +24979,16 @@ anim_speed 4
 speed -0.0485
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24262,7 +24999,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24288,30 +25025,28 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
 maxhp 100
-Pow 3
 ac 8
 wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
-can_cast_spell 1
 end
 Object monk
 editor_folder mobs/human
@@ -24335,16 +25070,16 @@ anim_speed 4
 speed -0.049
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24355,7 +25090,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24381,16 +25116,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24401,7 +25136,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24427,16 +25162,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24447,7 +25182,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24473,16 +25208,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24493,7 +25228,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24519,16 +25254,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24539,7 +25274,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24565,16 +25300,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24585,7 +25320,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24611,16 +25346,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24631,7 +25366,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24657,16 +25392,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24677,7 +25412,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24703,16 +25438,16 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24723,7 +25458,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24749,30 +25484,28 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
 maxhp 100
-Pow 3
 ac 9
 wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
-can_cast_spell 1
 end
 Object priest_sad
 editor_folder mobs/human
@@ -24796,30 +25529,28 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
 maxhp 100
-Pow 3
 ac 9
 wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
-can_cast_spell 1
 end
 Object ranger
 editor_folder mobs/human
@@ -24843,16 +25574,16 @@ anim_speed 4
 speed -0.0495
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24863,7 +25594,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24889,30 +25620,28 @@ anim_speed 4
 speed -0.048
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
 maxhp 100
-Pow 3
 ac 8
 wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
-can_cast_spell 1
 end
 Object barmaid
 editor_folder mobs/human
@@ -24936,16 +25665,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -24956,7 +25685,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -24982,16 +25711,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -25002,7 +25731,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -25028,16 +25757,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -25048,7 +25777,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -25074,16 +25803,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -25094,7 +25823,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -25120,16 +25849,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -25140,7 +25869,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -25166,16 +25895,16 @@ anim_speed 4
 speed -0.047
 alive 1
 monster 1
-Wis 7
+Wis 4
 see_invisible 1
-resist_impact 75
-resist_cleave 75
-resist_pierce 75
-resist_slash 75
-resist_magic 100
+protect_impact 75
+protect_cleave 75
+protect_pierce 75
+protect_slash 75
+protect_magic 100
 no_pick 1
-can_reflect_missile 1
-can_reflect_spell 1
+reflect_missile 1
+reflect_spell 1
 Con 15
 exp 100
 hp -1
@@ -25186,7 +25915,7 @@ wc 6
 dam 100
 level 1
 weight 85000
-stand_still 1
+friendly 1
 unaggressive 1
 Str 25
 end
@@ -25205,7 +25934,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_ant_queen
 animation ant_queen
 is_animated 1
@@ -25242,7 +25971,7 @@ attack_cleave 75
 unaggressive 1
 random_move 1
 type 80
-Wis 6
+Wis 3
 randomitems mob_ant
 animation ant_red
 is_animated 1
@@ -25277,7 +26006,7 @@ is_neutral 1
 direction 5
 terrain_flag 1
 randomitems mob_ant
-Wis 6
+Wis 3
 animation ant_soldier
 is_animated 1
 anim_speed 4
@@ -25311,7 +26040,7 @@ weapon_speed 0.035
 attack_cleave 75
 random_move 1
 type 80
-Wis 6
+Wis 3
 randomitems mob_insect
 animation bee_killer
 is_animated 1
@@ -25346,7 +26075,7 @@ weapon_speed 0.035
 attack_cleave 75
 random_move 1
 type 80
-Wis 6
+Wis 3
 randomitems mob_insect
 animation wasp_giant
 is_animated 1
@@ -25381,7 +26110,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation santa
 is_animated 1
 anim_speed 4
@@ -25412,16 +26141,16 @@ speed -0.040
 weapon_speed 0.038
 attack_cleave 65
 attack_acid 10
-resist_acid 100
-resist_poison 100
-resist_paralyze 100
+protect_acid 100
+protect_poison 100
+protect_paralyze 100
 ac 10
 wc 2
 dam 58
 hp -1
 maxhp 56
 terrain_flag 1
-Wis 6
+Wis 3
 can_see_in_dark 1
 face slug_giant.131
 animation slug_giant
@@ -25453,7 +26182,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation snowman_evil
 is_animated 1
 anim_speed 4
@@ -25488,7 +26217,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_cleave 80
 type 80
-Wis 6
+Wis 3
 animation snowman_evil2
 is_animated 1
 anim_speed 4
@@ -25521,7 +26250,7 @@ corpse 1
 type 80
 is_male 1
 is_neutral 1
-Wis 7
+Wis 4
 terrain_flag 1
 animation worm_purple
 is_animated 1
@@ -25537,13 +26266,12 @@ dam 56
 hp -1
 maxhp 66
 weapon_speed 0.040
-resist_fire 100
-resist_pierce 25
-resist_slash 25
-resist_impact 25
-resist_cleave 25
-resist_fear 100
-resist_cold -30
+protect_fire 100
+protect_pierce 25
+protect_slash 25
+protect_impact 25
+protect_cleave 25
+protect_cold -30
 attack_pierce 90
 alive 1
 no_pick 1
@@ -25603,7 +26331,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_impact 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_berserker
 is_animated 1
@@ -25638,7 +26366,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_captain
 is_animated 1
@@ -25673,7 +26401,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_fighter
 is_animated 1
@@ -25708,7 +26436,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_impact 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_outlaw
 is_animated 1
@@ -25743,7 +26471,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_pierce 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc_mage
 animation orc_priest
 is_animated 1
@@ -25783,7 +26511,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_cleave 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc_mage
 animation orc_sorcerer
 is_animated 1
@@ -25823,7 +26551,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_warlord
 is_animated 1
@@ -25858,7 +26586,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 75
 type 80
-Wis 6
+Wis 3
 randomitems mob_orc
 animation orc_warrior
 is_animated 1
@@ -25892,7 +26620,7 @@ is_evil 1
 direction 5
 terrain_flag 1
 randomitems mob_quickwood
-Wis 6
+Wis 3
 animation quickwood
 is_animated 1
 anim_speed 4
@@ -25925,7 +26653,7 @@ is_evil 1
 direction 5
 terrain_flag 1
 randomitems mob_treant
-Wis 6
+Wis 3
 animation treant_evil
 is_animated 1
 anim_speed 4
@@ -25956,7 +26684,7 @@ wc_range 20
 terrain_flag 1
 weapon_speed 0.039
 face golem.131
-Wis 6
+Wis 3
 animation golem
 is_animated 1
 anim_speed 4
@@ -25989,10 +26717,10 @@ direction 5
 terrain_flag 1
 weapon_speed 0.035
 attack_cold 80
-resist_fire -35
-resist_cold 100
+protect_fire -35
+protect_cold 100
 type 80
-Wis 6
+Wis 3
 randomitems mob_ice
 animation icegolem
 is_animated 1
@@ -26026,10 +26754,10 @@ direction 5
 terrain_flag 1
 weapon_speed 0.035
 attack_fire 80
-resist_cold -35
-resist_fire 100
+protect_cold -35
+protect_fire 100
 type 80
-Wis 6
+Wis 3
 randomitems mob_fire
 animation lavagolem
 is_animated 1
@@ -26064,7 +26792,7 @@ corpse 1
 type 80
 is_male 1
 is_evil 1
-Wis 7
+Wis 4
 terrain_flag 1
 animation troll
 is_animated 1
@@ -26080,13 +26808,12 @@ dam 61
 hp -1
 maxhp 66
 weapon_speed 0.040
-resist_cold 75
-resist_pierce 25
-resist_slash 25
-resist_impact 25
-resist_cleave 25
-resist_fear 100
-resist_fire -30
+protect_cold 75
+protect_pierce 25
+protect_slash 25
+protect_impact 25
+protect_cleave 25
+protect_fire -30
 attack_impact 90
 alive 1
 no_pick 1
@@ -26146,7 +26873,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_cleave 75
 type 80
-Wis 6
+Wis 3
 Dex 3
 Pow 2
 randomitems mob_demilich
@@ -26185,10 +26912,10 @@ direction 5
 is_evil 1
 terrain_flag 1
 weapon_speed 0.035
-attack_slash 43
-attack_drain 43
+attack_slash 70
+attack_drain 20
 type 80
-Wis 6
+Wis 3
 randomitems mob_ghoul
 animation ghoul
 is_animated 1
@@ -26223,7 +26950,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 90
 type 80
-Wis 6
+Wis 3
 animation lich_lord
 is_animated 1
 anim_speed 4
@@ -26255,10 +26982,10 @@ direction 5
 is_evil 1
 terrain_flag 1
 weapon_speed 0.035
-attack_slash 40
-attack_drain 50
+attack_slash 65
+attack_drain 25
 type 80
-Wis 6
+Wis 3
 randomitems mob_lost_soul
 animation lost_soul
 is_animated 1
@@ -26294,7 +27021,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_skeleton1
 animation skel_fighter1
 is_animated 1
@@ -26330,7 +27057,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_skeleton2
 animation skel_fighter2
 is_animated 1
@@ -26366,7 +27093,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_skeleton2
 animation skel_fighter3
 is_animated 1
@@ -26407,7 +27134,7 @@ terrain_flag 1
 weapon_speed 0.035
 attack_slash 80
 type 80
-Wis 6
+Wis 3
 randomitems mob_skeleton_mage
 animation skel_mage
 is_animated 1
@@ -26442,7 +27169,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 80
 type 80
-Wis 6
+Wis 3
 animation vampire
 is_animated 1
 anim_speed 4
@@ -26476,7 +27203,7 @@ terrain_flag 1
 weapon_speed 0.038
 attack_impact 80
 type 80
-Wis 6
+Wis 3
 animation vampire_lord
 is_animated 1
 anim_speed 4
@@ -26509,10 +27236,10 @@ direction 5
 is_evil 1
 terrain_flag 1
 weapon_speed 0.035
-attack_slash 40
-attack_drain 50
+attack_slash 65
+attack_drain 25
 type 80
-Wis 6
+Wis 3
 randomitems mob_wraith
 animation wraith
 is_animated 1
@@ -26548,7 +27275,7 @@ wc_range 20
 type 80
 is_male 1
 is_neutral 1
-Wis 7
+Wis 4
 Dex 13
 terrain_flag 1
 animation wyvern
@@ -26567,13 +27294,12 @@ maxhp 66
 sp -1
 maxsp 10
 weapon_speed 0.040
-resist_fire 100
-resist_pierce 25
-resist_slash 25
-resist_impact 25
-resist_cleave 25
-resist_fear 100
-resist_cold -30
+protect_fire 100
+protect_pierce 25
+protect_slash 25
+protect_impact 25
+protect_cleave 25
+protect_cold -30
 attack_pierce 90
 alive 1
 no_pick 1
@@ -27808,7 +28534,6 @@ face bollard.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_n_1
 editor_folder ship/misc
@@ -27817,7 +28542,6 @@ face bollard_tied_n_1.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_n_2
 editor_folder ship/misc
@@ -27826,7 +28550,6 @@ face bollard_tied_n_2.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_n_3
 editor_folder ship/misc
@@ -27843,7 +28566,6 @@ face bollard_tied_e_1.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_e_2
 editor_folder ship/misc
@@ -27852,7 +28574,6 @@ face bollard_tied_e_2.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_e_3
 editor_folder ship/misc
@@ -27869,7 +28590,6 @@ face bollard_tied_w_1.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_w_2
 editor_folder ship/misc
@@ -27878,7 +28598,6 @@ face bollard_tied_w_2.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_w_3
 editor_folder ship/misc
@@ -27895,7 +28614,6 @@ face bollard_tied_s_1.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_s_2
 editor_folder ship/misc
@@ -27904,7 +28622,6 @@ face bollard_tied_s_2.101
 type 79
 layer 5
 no_pick 1
-no_pass 1
 end
 Object bollard_tied_s_3
 editor_folder ship/misc
@@ -29131,33 +29848,10 @@ last_eat 1
 maxsp 1
 ac 3
 exp 50
-resist_magic 100
-resist_fire 100
-resist_electricity 100
-resist_cold 100
-resist_confusion 100
-resist_acid 100
-resist_drain 100
-resist_ghosthit 100
-resist_poison 100
-resist_slow 100
-resist_paralyze 100
-resist_time 100
-resist_fear 100
-resist_cancellation 100
-resist_depletion 100
-resist_death 100
-resist_chaos 100
-resist_counterspell 100
-resist_godpower 100
-resist_purity 100
-resist_blind 100
-resist_internal 100
-resist_life_steal 100
-resist_nether 100
-resist_sonic 100
-resist_demonic 100
-resist_psionic 100
+protect_magic 100
+protect_fire 100
+protect_electricity 100
+protect_cold 100
 blocksview 1
 end
 Object magic_mouth

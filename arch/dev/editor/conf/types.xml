@@ -259,21 +259,18 @@
 		it.
 	</attribute>
 	<attribute arch="one_drop" editor="one drop" type="bool">
-		In the moment a player gets or applies this item, it will be
-		flagged as godgiven and vanish when dropped to the ground.
-
 		If this flag is set for an item inside monster's quest_container
-		with the quest being quest item type, the player will be able to
-		find the item again, should he lose it.
+		with the quest being quest item type, the player will only be able
+		to get this item once.
 	</attribute>
 	<attribute arch="identified" editor="identified" type="bool">
 		If an item is identified, the player has full knowledge about it.
 	</attribute>
-	<attribute arch="can_reflect_spell" editor="can reflect spells" type="bool">
-		Object can reflect spells. See reflect spells.
+	<attribute arch="reflect_spell" editor="reflect spells" type="bool">
+		Object will reflect spells.
 	</attribute>
-	<attribute arch="can_reflect_missile" editor="can reflect missiles" type="bool">
-		Object can reflect missiles. See reflect missiles.
+	<attribute arch="reflect_missile" editor="reflect missiles" type="bool">
+		Object will reflect missiles.
 	</attribute>
 	<attribute arch="is_magical" editor="magical" type="bool">
 		If set, this object counts as "magical". Detect magic or identify
@@ -341,7 +338,9 @@
 	<attribute arch="can_roll" editor="moveable" type="bool">
 		If set, the object is able to "roll", so it can be pushed around
 		with the /push command. This setting is used for boulders and
-		barrels.
+		barrels. If you're setting this attribute, make sure to check
+		"can move on" as well, in order to set relevant terrain types
+		the object can be pushed to.
 
 		Useful for puzzles and mazes.
 	</attribute>
@@ -349,12 +348,15 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="speed" editor="speed" type="float">
 		The object's speed.
+	</attribute>
+	<attribute arch="terrain_flag" editor="can move on" type="bitmask_terrain">
+		What terrain can this object move on.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
 		This text may describe the object.
@@ -477,8 +479,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -613,7 +615,7 @@
 		work infinitely in this way. Don't set both &lt;spell&gt; and
 		&lt;connection&gt; for one altar.
 	</attribute>
-	<attribute arch="level" editor="spell level" type="int" min="0" max="110">
+	<attribute arch="level" editor="spell level" type="int" min="0" max="115">
 		Set the power level of the spell.
 	</attribute>
 	<attribute arch="last_sp" editor="cast to direction" type="list_direction">
@@ -678,11 +680,12 @@
 		work).
 	</attribute>
 	<attribute arch="exp" editor="reset time" type="int">
-		Being activated, the altar will reset after &lt;reset time&gt;
+		Being activated, the altar will reset after "reset time"
 		ticks. After reset, the altar is ready to be activated once
-		again.
+		again. If 0, the altar will never reset and won't be possible
+		to trigger again.
 
-		The default &lt;reset time&gt; is 30.
+		The default reset time is 30.
 	</attribute>
 	<attribute arch="connected" editor="connection" type="int">
 		If a connection value is set, the altar will trigger all objects
@@ -778,8 +781,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="applied" editor="is applied" type="bool">
@@ -790,27 +793,32 @@
 		Enabling this flag doesn't make any sense if the item is NOT in a
 		monster's inventory.
 	</attribute>
-	<section name="protect">
-		<attribute arch="protect_impact" editor="shield impact %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_slash" editor="shield slash %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_cleave" editor="shield cleave %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_pierce" editor="shield pierce %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_weapon_magic" editor="shield w.magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_fire" editor="shield fire %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_cold" editor="shield cold %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_electricity" editor="shield electricity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_poison" editor="shield poison %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_acid" editor="shield acid %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_magic" editor="shield magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_mind" editor="shield mind %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_body" editor="shield body %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_psionic" editor="shield psionic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_force" editor="shield force %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_nether" editor="shield nether %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_chaos" editor="shield chaos %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_death" editor="shield death %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_holy" editor="shield holy %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_corruption" editor="shield corruption %" length="15" type="int" min="-100" max="100" />
+	<section name="protections">
+		<attribute arch="protect_impact" editor="impact protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slash" editor="slash protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cleave" editor="cleave protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_pierce" editor="pierce protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_weaponmagic" editor="w.magic protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_fire" editor="fire protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cold" editor="cold protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_electricity" editor="electricity protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_poison" editor="poison protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_acid" editor="acid protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_magic" editor="magic protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_mind" editor="mind protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_blind" editor="blinding protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_confusion" editor="confusion protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_internal" editor="internal protect %" length="15" type="int" min="-100" max="100" />
 	</section>
 	<section name="stats">
 		<attribute arch="Str" editor="strength" type="int" min="-30" max="30" />
@@ -840,38 +848,12 @@
 			affecting the item's stats. Lower quality than 100% means
 			effects like protection/damage etc are reduced.
 		</attribute>
-		<attribute arch="is_vul_physical" editor="susceptible to physical" type="bool">
-			Physical attacks are able to reduce the quality of the item
-			and eventually destroy it.
-		</attribute>
-		<attribute arch="is_vul_elemental" editor="susceptible to elements" type="bool">
-			Elemental attacks (fire, cold, elec, poison and acid) are
-			able to reduce the quality of the item and eventually destroy
-			it.
-		</attribute>
-		<attribute arch="is_vul_magic" editor="susceptible to magic" type="bool">
-			All forms of magical attacks are able to reduce the quality
-			of the item and eventually destroy it.
-		</attribute>
-		<attribute arch="is_vul_sphere" editor="susceptible to sphere" type="bool">
-			All forms of spherical attacks are able to reduce the quality
-			of the item and eventually destroy it.
-		</attribute>
 		<attribute arch="is_indestructible" editor="indestructible" type="bool">
 			This item can't be damaged in any way (this includes special
 			magic and also attacks).
 		</attribute>
 	</section>
 	<section name="misc">
-		<attribute arch="luck" editor="luck bonus" type="int">
-			With positive luck bonus, the player is more likely to
-			succeed in all sorts of things (spellcasting, praying,...).
-
-			Unless the &lt;luck bonus&gt; is very high, the effect will
-			be barely visible in-game. Luck bonus on one piece of
-			equipment should never exceed 3, and such bonus should not be
-			too frequently available.
-		</attribute>
 		<attribute arch="exp" editor="speed bonus" type="int">
 			Divide by ten to get the player's speed bonus from wearing
 			this item.
@@ -1317,8 +1299,8 @@
 		quest. However, keep the book's level at least below 15 because
 		it is quite difficult to gain high mental levels.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="unique" editor="unique item" type="bool">
@@ -1446,8 +1428,8 @@
 
 		All contents of a unique container are unique as well.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="other_arch" editor="animation arch" type="string">
@@ -1819,30 +1801,26 @@
 		<attribute arch="attack_cleave" editor="cleave attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_pierce" editor="pierce attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_weaponmagic" editor="w.magic attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_fire" editor="fire attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_cold" editor="cold attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_poison" editor="poison attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_magic" editor="magic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_ghosthit" editor="ghosthit attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_time" editor="time attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_fear" editor="fear attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_depletion" editor="deplete attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_death" editor="death attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_purity" editor="purity attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_mind" editor="mind attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_blind" editor="blinding attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_life_steal" editor="leech life attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_sonic" editor="sonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_demonic" editor="demonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_psionic" editor="psionic attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_internal" editor="internal attack %" length="15" type="int" min="-100" max="100" />
 	</section>
 	<section name="disability">
 		<attribute arch="Str" editor="strength" type="int" min="-30" max="30" />
@@ -1959,40 +1937,36 @@
 		Dragon players always search for flesh of highest level possible,
 		because it bears the best chance to gain high resistances.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
-	<section name="resistance">
-		<attribute arch="resist_impact" editor="resist impact %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slash" editor="resist slash %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_pierce" editor="resist pierce %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cleave" editor="resist cleave %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_weaponmagic" editor="resist w.magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fire" editor="resist fire %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cold" editor="resist cold %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_electricity" editor="resist electricity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_acid" editor="resist acid %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_poison" editor="resist poison %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_magic" editor="resist magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_confusion" editor="resist confusion %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fear" editor="resist fear %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_drain" editor="resist drain %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_depletion" editor="resist deplete %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_death" editor="resist death %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_ghosthit" editor="resist ghosthit %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_life_steal" editor="resist life leech %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slow" editor="resist slow %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_paralyze" editor="resist paralyze %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_blind" editor="resist blinding %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_time" editor="resist time %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_chaos" editor="resist chaos %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_godpower" editor="resist godpower %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_purity" editor="resist purity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_nether" editor="resist nether %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_sonic" editor="resist sonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_demonic" editor="resist demonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_psionic" editor="resist psionic %" length="15" type="int" min="-100" max="100" />
+	<section name="protections">
+		<attribute arch="protect_impact" editor="impact protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slash" editor="slash protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cleave" editor="cleave protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_pierce" editor="pierce protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_weaponmagic" editor="w.magic protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_fire" editor="fire protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cold" editor="cold protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_electricity" editor="electricity protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_poison" editor="poison protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_acid" editor="acid protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_magic" editor="magic protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_mind" editor="mind protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_blind" editor="blinding protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_confusion" editor="confusion protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_internal" editor="internal protect %" length="15" type="int" min="-100" max="100" />
 	</section>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
 		This text may describe the item.
@@ -2059,6 +2033,16 @@
 		saved beyond map reset.
 
 		Useful for maps like guild storage.
+	</attribute>
+	<attribute arch="xrays" editor="no push" type="bool">
+		It's not possible to push objects onto this tile with the
+		/push command.
+	</attribute>
+	<attribute arch="no_pvp" editor="no PvP" type="bool">
+		This will disable PvP on the tile this floor is on. Use carefully on
+		maps with PvP enabled: it should not be possible to get on this floor
+		directly from the arena (escape route), but more like an area for
+		spectators.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
 		This text may describe the object.
@@ -2150,8 +2134,8 @@
 		gets created from food effects. Only used when food has effects
 		and then copied to force speed.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<section name="Force Effects">
@@ -2162,35 +2146,31 @@
 		<attribute arch="Pow" editor="power" type="int" min="-30" max="30" />
 		<attribute arch="Wis" editor="wisdom" type="int" min="-30" max="30" />
 		<attribute arch="Cha" editor="charisma" type="int" min="-30" max="30" />
-		<attribute arch="resist_impact" editor="resist impact %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slash" editor="resist slash %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_pierce" editor="resist pierce %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cleave" editor="resist cleave %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_weaponmagic" editor="resist w.magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fire" editor="resist fire %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cold" editor="resist cold %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_electricity" editor="resist electricity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_acid" editor="resist acid %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_poison" editor="resist poison %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_magic" editor="resist magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_confusion" editor="resist confusion %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fear" editor="resist fear %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_drain" editor="resist drain %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_depletion" editor="resist deplete %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_death" editor="resist death %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_ghosthit" editor="resist ghosthit %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_life_steal" editor="resist life leech %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slow" editor="resist slow %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_paralyze" editor="resist paralyze %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_blind" editor="resist blinding %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_time" editor="resist time %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_chaos" editor="resist chaos %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_godpower" editor="resist godpower %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_purity" editor="resist purity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_nether" editor="resist nether %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_sonic" editor="resist sonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_demonic" editor="resist demonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_psionic" editor="resist psionic %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_impact" editor="impact protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slash" editor="slash protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cleave" editor="cleave protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_pierce" editor="pierce protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_weaponmagic" editor="w.magic protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_fire" editor="fire protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cold" editor="cold protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_electricity" editor="electricity protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_poison" editor="poison protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_acid" editor="acid protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_magic" editor="magic protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_mind" editor="mind protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_blind" editor="blinding protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_confusion" editor="confusion protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_internal" editor="internal protect %" length="15" type="int" min="-100" max="100" />
 	</section>
 </type>
 
@@ -2336,6 +2316,14 @@
 		solution.
 	]]>
 	</use>
+	<attribute arch="exp" editor="reset time" type="int">
+		Being activated, the handle will reset after "reset time"
+		ticks. After reset, the handle is ready to be activated once
+		again. If 0, the handle will never reset and won't be possible
+		to trigger again.
+
+		The default reset time is 30.
+	</attribute>
 </type>
 
 <type number="88" name="Hazard Floor">
@@ -2391,30 +2379,26 @@
 		<attribute arch="attack_cleave" editor="cleave attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_pierce" editor="pierce attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_weaponmagic" editor="w.magic attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_fire" editor="fire attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_cold" editor="cold attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_poison" editor="poison attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_magic" editor="magic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_ghosthit" editor="ghosthit attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_time" editor="time attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_fear" editor="fear attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_depletion" editor="deplete attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_death" editor="death attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_purity" editor="purity attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_mind" editor="mind attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_blind" editor="blinding attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_life_steal" editor="leech life attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_sonic" editor="sonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_demonic" editor="demonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_psionic" editor="psionic attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_internal" editor="internal attack %" length="15" type="int" min="-100" max="100" />
 	</section>
 	<section name="terrain">
 		<attribute arch="slow_move" editor="slow movement" type="int">
@@ -2498,7 +2482,7 @@
 		Horns with heal/restoration/protection spells, IF available, MUST
 		be very very VERY difficult to get!
 	</attribute>
-	<attribute arch="level" editor="casting level" type="int" min="0" max="110">
+	<attribute arch="level" editor="casting level" type="int" min="0" max="115">
 		The casting level of the &lt;spell&gt; determines it's power. For
 		attack spells, level should not be set too high.
 	</attribute>
@@ -2526,8 +2510,8 @@
 		transparent. He can move through walls and doors which have the
 		PASS_THRU flag set (like ghosts and other non physical monsters).
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -2588,8 +2572,8 @@
 		transparent. He can move through walls and doors which have the
 		PASS_THRU flag set (like ghosts and other non physical monsters).
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -2609,36 +2593,32 @@
 	]]>
 	</description>
 	<attribute arch="is_dust" editor="is dust" type="bool" />
-	<section name="resistance">
-		<attribute arch="resist_impact" editor="resist impact %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slash" editor="resist slash %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_pierce" editor="resist pierce %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cleave" editor="resist cleave %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_weaponmagic" editor="resist w.magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fire" editor="resist fire %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cold" editor="resist cold %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_electricity" editor="resist electricity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_acid" editor="resist acid %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_poison" editor="resist poison %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_magic" editor="resist magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_confusion" editor="resist confusion %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fear" editor="resist fear %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_drain" editor="resist drain %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_depletion" editor="resist deplete %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_death" editor="resist death %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_ghosthit" editor="resist ghosthit %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_life_steal" editor="resist life leech %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slow" editor="resist slow %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_paralyze" editor="resist paralyze %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_blind" editor="resist blinding %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_time" editor="resist time %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_chaos" editor="resist chaos %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_godpower" editor="resist godpower %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_purity" editor="resist purity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_nether" editor="resist nether %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_sonic" editor="resist sonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_demonic" editor="resist demonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_psionic" editor="resist psionic %" length="15" type="int" min="-100" max="100" />
+	<section name="protections">
+		<attribute arch="protect_impact" editor="impact protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slash" editor="slash protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cleave" editor="cleave protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_pierce" editor="pierce protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_weaponmagic" editor="w.magic protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_fire" editor="fire protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cold" editor="cold protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_electricity" editor="electricity protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_poison" editor="poison protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_acid" editor="acid protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_magic" editor="magic protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_mind" editor="mind protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_blind" editor="blinding protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_confusion" editor="confusion protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_internal" editor="internal protect %" length="15" type="int" min="-100" max="100" />
 	</section>
 </type>
 
@@ -2876,6 +2856,10 @@
 		The magic ear will trigger all objects with the same connection
 		value, every time it is activated.
 	</attribute>
+	<attribute arch="xrays" editor="all players in range" type="bool">
+		If on, all players in range will receive the magic ear's message,
+		instead of just the player who activated it.
+	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="keyword-matching" type="text">
 		This textfield contains the keyword-matching-syntax. The text
 		should have the following format:
@@ -2929,9 +2913,9 @@
 	<attribute arch="dam" editor="spell" type="spell">
 		The magic wall will cast this &lt;spell&gt;.
 	</attribute>
-	<attribute arch="level" editor="spell level" type="int" min="0" max="110">
+	<attribute arch="level" editor="spell level" type="int" min="0" max="115">
 		The wall will cast it's spells at level &lt;spell level&gt;.
-		"level 1" walls cast spells at minimal strength. "level 110"
+		"level 1" walls cast spells at minimal strength. "level 115"
 		walls cast deadly spells. Arch default is level 1 - you should
 		always set this value to meet the overall difficulty of your map.
 	</attribute>
@@ -2979,36 +2963,32 @@
 			considered the "counterpiece" to &lt;weapon class&gt;.
 		</attribute>
 	</section>
-	<section name="resistance">
-		<attribute arch="resist_impact" editor="resist impact %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slash" editor="resist slash %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_pierce" editor="resist pierce %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cleave" editor="resist cleave %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_weaponmagic" editor="resist w.magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fire" editor="resist fire %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cold" editor="resist cold %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_electricity" editor="resist electricity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_acid" editor="resist acid %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_poison" editor="resist poison %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_magic" editor="resist magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_confusion" editor="resist confusion %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fear" editor="resist fear %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_drain" editor="resist drain %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_depletion" editor="resist deplete %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_death" editor="resist death %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_ghosthit" editor="resist ghosthit %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_life_steal" editor="resist life leech %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slow" editor="resist slow %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_paralyze" editor="resist paralyze %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_blind" editor="resist blinding %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_time" editor="resist time %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_chaos" editor="resist chaos %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_godpower" editor="resist godpower %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_purity" editor="resist purity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_nether" editor="resist nether %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_sonic" editor="resist sonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_demonic" editor="resist demonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_psionic" editor="resist psionic %" length="15" type="int" min="-100" max="100" />
+	<section name="protections">
+		<attribute arch="protect_impact" editor="impact protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slash" editor="slash protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cleave" editor="cleave protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_pierce" editor="pierce protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_weaponmagic" editor="w.magic protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_fire" editor="fire protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cold" editor="cold protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_electricity" editor="electricity protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_poison" editor="poison protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_acid" editor="acid protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_magic" editor="magic protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_mind" editor="mind protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_blind" editor="blinding protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_confusion" editor="confusion protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_internal" editor="internal protect %" length="15" type="int" min="-100" max="100" />
 	</section>
 </type>
 
@@ -3293,30 +3273,26 @@
 		<attribute arch="attack_cleave" editor="cleave attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_pierce" editor="pierce attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_weaponmagic" editor="w.magic attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_fire" editor="fire attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_cold" editor="cold attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_poison" editor="poison attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_magic" editor="magic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_ghosthit" editor="ghosthit attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_time" editor="time attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_fear" editor="fear attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_depletion" editor="deplete attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_death" editor="death attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_purity" editor="purity attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_mind" editor="mind attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_blind" editor="blinding attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_life_steal" editor="leech life attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_sonic" editor="sonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_demonic" editor="demonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_psionic" editor="psionic attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_internal" editor="internal attack %" length="15" type="int" min="-100" max="100" />
 	</section>
 
 	<section name="spellcraft">
@@ -3419,19 +3395,6 @@
 		<attribute arch="can_use_armour" editor="can use armour" type="bool">
 			The monster will look for an armour to use.
 		</attribute>
-		<attribute arch="can_use_ring" editor="can use rings" type="bool">
-			The monster will look for rings to use.
-		</attribute>
-		<attribute arch="can_use_range" editor="can use rods/wands" type="bool">
-			If set, this creature can use range weapons like
-			rods, wands, staves and horns.
-		</attribute>
-		<attribute arch="can_use_scroll" editor="can use scrolls" type="bool">
-			The monster will use scrolls.
-		</attribute>
-		<attribute arch="can_use_skill" editor="can use skills" type="bool">
-			The monster can use skills.
-		</attribute>
 	</section>
 
 	<section name="behave">
@@ -3526,58 +3489,32 @@
 			health points drops below this percentage of max health.
 		</attribute>
 	</section>
-	<section name="resistance">
-		<attribute arch="resist_impact" editor="resist impact %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slash" editor="resist slash %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_pierce" editor="resist pierce %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cleave" editor="resist cleave %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_weaponmagic" editor="resist w.magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fire" editor="resist fire %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cold" editor="resist cold %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_electricity" editor="resist electricity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_acid" editor="resist acid %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_poison" editor="resist poison %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_magic" editor="resist magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_confusion" editor="resist confusion %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fear" editor="resist fear %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_drain" editor="resist drain %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_depletion" editor="resist deplete %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_death" editor="resist death %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_ghosthit" editor="resist ghosthit %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_life_steal" editor="resist life leech %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slow" editor="resist slow %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_paralyze" editor="resist paralyze %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_blind" editor="resist blinding %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_time" editor="resist time %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_chaos" editor="resist chaos %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_godpower" editor="resist godpower %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_purity" editor="resist purity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_nether" editor="resist nether %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_sonic" editor="resist sonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_demonic" editor="resist demonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_psionic" editor="resist psionic %" length="15" type="int" min="-100" max="100" />
-	</section>
-	<section name="protect">
-		<attribute arch="protect_impact" editor="shield impact %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_slash" editor="shield slash %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_cleave" editor="shield cleave %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_pierce" editor="shield pierce %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_weapon_magic" editor="shield w.magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_fire" editor="shield fire %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_cold" editor="shield cold %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_electricity" editor="shield electricity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_poison" editor="shield poison %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_acid" editor="shield acid %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_magic" editor="shield magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_mind" editor="shield mind %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_body" editor="shield body %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_psionic" editor="shield psionic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_force" editor="shield force %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_nether" editor="shield nether %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_chaos" editor="shield chaos %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_death" editor="shield death %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_holy" editor="shield holy %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="protect_corruption" editor="shield corruption %" length="15" type="int" min="-100" max="100" />
+	<section name="protections">
+		<attribute arch="protect_impact" editor="impact protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slash" editor="slash protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cleave" editor="cleave protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_pierce" editor="pierce protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_weaponmagic" editor="w.magic protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_fire" editor="fire protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cold" editor="cold protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_electricity" editor="electricity protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_poison" editor="poison protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_acid" editor="acid protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_magic" editor="magic protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_mind" editor="mind protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_blind" editor="blinding protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_confusion" editor="confusion protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_internal" editor="internal protect %" length="15" type="int" min="-100" max="100" />
 	</section>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="NPC message" type="text">
 		This textfield contains the keyword-matching-syntax. The text
@@ -3640,6 +3577,12 @@
 		point itself is. Increasing the value will start a search around
 		the spot, starting in the south. value 2 searches spot 0, -1,
 		value 3 spot 1, -1, 4 = 0, -1, etc.
+	</attribute>
+	<attribute arch="connected" editor="connection" type="int">
+		If a connection value is set, the spawn point will try to spawn
+		whenever the connection is triggered.
+		If you set this, you should also set "speed" and "spawn chance"
+		to 0.
 	</attribute>
 </type>
 
@@ -4009,7 +3952,7 @@
 		A poison with a positive &lt;damage&gt; value will hit the player
 		all ticks with it adjusted by level.
 	</attribute>
-	<attribute arch="level" editor="poison level" type="int" min="0" max="110">
+	<attribute arch="level" editor="poison level" type="int" min="0" max="115">
 		Set the power level of the poison.
 	</attribute>
 	<attribute arch="last_heal" editor="# of DOT ticks" type="int">
@@ -4039,35 +3982,31 @@
 		<attribute arch="Pow" editor="power" type="int" min="-30" max="30" />
 		<attribute arch="Wis" editor="wisdom" type="int" min="-30" max="30" />
 		<attribute arch="Cha" editor="charisma" type="int" min="-30" max="30" />
-		<attribute arch="resist_impact" editor="resist impact %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slash" editor="resist slash %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_pierce" editor="resist pierce %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cleave" editor="resist cleave %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_weaponmagic" editor="resist w.magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fire" editor="resist fire %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cold" editor="resist cold %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_electricity" editor="resist electricity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_acid" editor="resist acid %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_poison" editor="resist poison %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_magic" editor="resist magic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_confusion" editor="resist confusion %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fear" editor="resist fear %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_drain" editor="resist drain %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_depletion" editor="resist deplete %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_death" editor="resist death %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_ghosthit" editor="resist ghosthit %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_life_steal" editor="resist life leech %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slow" editor="resist slow %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_paralyze" editor="resist paralyze %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_blind" editor="resist blinding %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_time" editor="resist time %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_chaos" editor="resist chaos %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_godpower" editor="resist godpower %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_purity" editor="resist purity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_nether" editor="resist nether %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_sonic" editor="resist sonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_demonic" editor="resist demonic %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_psionic" editor="resist psionic %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_impact" editor="impact protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slash" editor="slash protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cleave" editor="cleave protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_pierce" editor="pierce protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_weaponmagic" editor="w.magic protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_fire" editor="fire protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_cold" editor="cold protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_electricity" editor="electricity protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_poison" editor="poison protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_acid" editor="acid protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_magic" editor="magic protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_mind" editor="mind protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_blind" editor="blinding protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_paralyze" editor="paralyze protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_force" editor="force protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_godpower" editor="godpower protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_chaos" editor="chaos protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_drain" editor="drain protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_slow" editor="slow protect %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="protect_confusion" editor="confusion protect %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="protect_internal" editor="internal protect %" length="15" type="int" min="-100" max="100" />
 	</section>
 </type>
 
@@ -4126,8 +4065,8 @@
 		This value is supposed to be the base &lt;throw range&gt;.
 		The value is only valid for potions which can be thrown.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<section name="stats">
@@ -4145,48 +4084,26 @@
 		<attribute arch="attack_cleave" editor="cleave attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_pierce" editor="pierce attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_weaponmagic" editor="w.magic attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_fire" editor="fire attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_cold" editor="cold attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_poison" editor="poison attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_magic" editor="magic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_ghosthit" editor="ghosthit attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_time" editor="time attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_fear" editor="fear attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_depletion" editor="deplete attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_death" editor="death attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_purity" editor="purity attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_mind" editor="mind attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_blind" editor="blinding attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_life_steal" editor="leech life attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_sonic" editor="sonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_demonic" editor="demonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_psionic" editor="psionic attack %" length="15" type="int" min="-100" max="100" />
-	</section>
-	<section name="resistance">
-		<attribute arch="resist_impact" editor="resist impact %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slash" editor="resist slash %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_pierce" editor="resist pierce %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cleave" editor="resist cleave %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fire" editor="resist fire %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_cold" editor="resist cold %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_electricity" editor="resist electricity %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_acid" editor="resist acid %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_poison" editor="resist poison %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_confusion" editor="resist confusion %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_fear" editor="resist fear %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_drain" editor="resist drain %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_depletion" editor="resist deplete %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_slow" editor="resist slow %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_paralyze" editor="resist paralyze %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="resist_blind" editor="resist blinding %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_internal" editor="internal attack %" length="15" type="int" min="-100" max="100" />
 	</section>
 </type>
 
@@ -4287,8 +4204,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch="no_drop" editor="don't drop" type="bool">
@@ -4302,30 +4219,26 @@
 		<attribute arch="attack_cleave" editor="cleave attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_pierce" editor="pierce attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_weaponmagic" editor="w.magic attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_fire" editor="fire attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_cold" editor="cold attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_poison" editor="poison attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_magic" editor="magic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_ghosthit" editor="ghosthit attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_time" editor="time attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_fear" editor="fear attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_depletion" editor="deplete attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_death" editor="death attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_purity" editor="purity attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_mind" editor="mind attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_blind" editor="blinding attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_life_steal" editor="leech life attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_sonic" editor="sonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_demonic" editor="demonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_psionic" editor="psionic attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_internal" editor="internal attack %" length="15" type="int" min="-100" max="100" />
 	</section>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
 		This text may describe the projectile. This could be nice for
@@ -4353,7 +4266,7 @@
 	</description>
 	<attribute arch="no_pick" value="1" type="fixed" />
 	<attribute arch="walk_on" value="1" type="fixed" />
-	<attribute arch="level" editor="rune level" type="int" min="0" max="110">
+	<attribute arch="level" editor="rune level" type="int" min="0" max="115">
 		This value sets the level the rune will cast the spell it
 		contains at, if applicable. A level 99 rune casts a very, very
 		mean spell of whatever. (&lt;rune level&gt; 0 runes won't
@@ -4383,30 +4296,26 @@
 		<attribute arch="attack_cleave" editor="cleave attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_pierce" editor="pierce attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_weaponmagic" editor="w.magic attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_fire" editor="fire attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_cold" editor="cold attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_poison" editor="poison attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_magic" editor="magic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_ghosthit" editor="ghosthit attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_time" editor="time attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_fear" editor="fear attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_depletion" editor="deplete attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_death" editor="death attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_purity" editor="purity attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_mind" editor="mind attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_blind" editor="blinding attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_life_steal" editor="leech life attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_sonic" editor="sonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_demonic" editor="demonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_psionic" editor="psionic attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_internal" editor="internal attack %" length="15" type="int" min="-100" max="100" />
 	</section>
 	<section name="spellcraft">
 		<attribute arch="sp" editor="spell" type="spell">
@@ -4577,8 +4486,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<section name="stats">
@@ -4591,14 +4500,6 @@
 		<attribute arch="Cha" editor="charisma" type="int" min="-30" max="30" />
 	</section>
 	<section name="bonus">
-		<attribute arch="luck" editor="luck bonus" type="int">
-			With positive luck bonus, the player is more likely to
-			succeed in all sorts of things (spellcasting, praying,...).
-			Unless the &lt;luck bonus&gt; is very high, the effect will
-			be barely visible in-game. Luck bonus on one piece of
-			equipment should never exceed 3, and such bonus should not be
-			too frequently available.
-		</attribute>
 		<attribute arch="magic" editor="magic bonus" type="int">
 			&lt;Magic bonus&gt; improves the quality of the shooting
 			weapon. I'm not sure what exactly is increased - maybe
@@ -4644,8 +4545,8 @@
 		&lt;spell&gt; will be cast (once). This should work for any given
 		spell.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 </type>
@@ -4873,8 +4774,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -4907,8 +4808,8 @@
 		above), but here you write the spell's name directly.
 		Setting both &lt;spell&gt; and &lt;spell name&gt; makes no sense.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -4964,7 +4865,6 @@
 	</description>
 	<attribute arch="walk_on" value="1" type="fixed" />
 	<attribute arch="is_floor" value="1" type="fixed" />
-	<attribute arch="is_wooded" value="1" type="fixed" />
 	<attribute arch="speed" editor="drowning speed" type="float">
 		The higher the &lt;drowning speed&gt;, the faster will players
 		and items sink into the swamp. Swamp with very high
@@ -5230,8 +5130,8 @@
 		Unique items exist only one time on a server. If the item is
 		taken, lost or destroyed - it's gone for good.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<section name="attack">
@@ -5240,30 +5140,26 @@
 		<attribute arch="attack_cleave" editor="cleave attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_pierce" editor="pierce attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_weaponmagic" editor="w.magic attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_fire" editor="fire attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_cold" editor="cold attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_electricity" editor="electricity attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_poison" editor="poison attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_acid" editor="acid attack %" length="15" type="int" min="-100" max="100" />
+
 		<attribute arch="attack_magic" editor="magic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_ghosthit" editor="ghosthit attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_time" editor="time attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_fear" editor="fear attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_depletion" editor="deplete attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_death" editor="death attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_purity" editor="purity attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_mind" editor="mind attack %" length="15" type="int" min="-100" max="100" />
 		<attribute arch="attack_blind" editor="blinding attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_life_steal" editor="leech life attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_nether" editor="nether attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_sonic" editor="sonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_demonic" editor="demonic attack %" length="15" type="int" min="-100" max="100" />
-		<attribute arch="attack_psionic" editor="psionic attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_paralyze" editor="paralyze attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_force" editor="force attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_godpower" editor="godpower attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_chaos" editor="chaos attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_drain" editor="drain attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_slow" editor="slow attack %" length="15" type="int" min="-100" max="100" />
+		<attribute arch="attack_confusion" editor="confusion attack %" length="15" type="int" min="-100" max="100" />
+
+		<attribute arch="attack_internal" editor="internal attack %" length="15" type="int" min="-100" max="100" />
 	</section>
 	<section name="stats">
 		<attribute arch="Str" editor="strength" type="int" min="-30" max="30" />
@@ -5275,15 +5171,6 @@
 		<attribute arch="Cha" editor="charisma" type="int" min="-30" max="30" />
 	</section>
 	<section name="misc">
-		<attribute arch="luck" editor="luck bonus" type="int">
-			With positive luck bonus, the player is more likely to
-			succeed in all sorts of things (spellcasting, praying,...).
-
-			Unless the &lt;luck bonus&gt; is very high, the effect will
-			be barely visible in-game. Luck bonus on one piece of
-			equipment should never exceed 3, and such bonus should not be
-			too frequently available.
-		</attribute>
 		<attribute arch="exp" editor="speed bonus" type="int">
 			Divide by ten to get the player's speed bonus from wearing
 			this item.
@@ -5465,8 +5352,8 @@
 		before the player can fire it again. The value is in ticks.
 		8 ticks are a second.
 	</attribute>
-	<attribute arch="startequip" editor="godgiven item" type="bool">
-		A godgiven item vanishes as soon as the player drops it to the
+	<attribute arch="startequip" editor="god-given item" type="bool">
+		A god-given item vanishes as soon as the player drops it to the
 		ground.
 	</attribute>
 	<attribute arch_begin="msg" arch_end="endmsg" editor="description" type="text">
@@ -5584,10 +5471,9 @@
 		One drop quest is a quest which doesn't have a quest giver, but is only located
 		inside a monster. This is used to create quest items that will only drop once for
 		each player, like King Rhun's Cloak. Item to be dropped for the player is inserted
-		inside the quest container. If the item has "one_drop 1" set and the player drops
-		it somewhere, it will be given back to him when he kills the monster which has the
-		item. Such behavior is typical for dungeon monsters that drop keys, so player can
-		get the key again should he lose it.
+		inside the quest container. If the item has "one_drop 1" set, the player will never
+		be able to find the item again a second time. This means it should be set for special
+		drops like Rhun's Cloak, but not for keys.
 
 		<h2>Kill quest</h2>
 		This kind of quest requires the player to kill X monsters before the quest is
